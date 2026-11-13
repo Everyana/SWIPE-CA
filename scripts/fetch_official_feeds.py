@@ -17,8 +17,14 @@ SOURCES = [
     {"name":"Government of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom", "hosts":["canada.ca","gc.ca"]},
     {"name":"Gouvernement du Canada", "jurisdiction":"Federal", "lang":"fr", "url":"https://api.io.canada.ca/io-server/gc/news/fr/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom", "hosts":["canada.ca","gc.ca"]},
     {"name":"BC Gov News", "jurisdiction":"British Columbia", "lang":"en", "url":"https://news.gov.bc.ca/feed", "hosts":["gov.bc.ca"]},
-    {"name":"Prime Minister of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://pm.gc.ca/en/news.rss", "hosts":["pm.gc.ca"]},
+    {"name":"Prime Minister of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://www.pm.gc.ca/en/rss.xml", "hosts":["pm.gc.ca"]},
     {"name":"Statistics Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://www150.statcan.gc.ca/n1/dai-quo/rss-eng.htm", "hosts":["statcan.gc.ca"]},
+    {"name":"Government of Alberta", "jurisdiction":"Alberta", "lang":"en", "url":"https://www.alberta.ca/NewsRoom/newsroom.cfm", "hosts":["alberta.ca"]},
+    {"name":"Government of Saskatchewan", "jurisdiction":"Saskatchewan", "lang":"en", "url":"https://www.saskatchewan.ca/Feeds/NewsFeed.ashx", "hosts":["saskatchewan.ca"]},
+    {"name":"Government of Ontario", "jurisdiction":"Ontario", "lang":"en", "url":"https://news.ontario.ca/newsroom/en/rss/allnews.rss", "hosts":["ontario.ca"]},
+    {"name":"Gouvernement du Québec", "jurisdiction":"Quebec", "lang":"fr", "url":"https://www.quebec.ca/fil-de-presse.rss", "hosts":["quebec.ca"]},
+    {"name":"Government of Prince Edward Island", "jurisdiction":"Prince Edward Island", "lang":"en", "url":"https://www.princeedwardisland.ca/en/news/top-news.xml", "hosts":["princeedwardisland.ca"]},
+    {"name":"Government of Newfoundland and Labrador", "jurisdiction":"Newfoundland and Labrador", "lang":"en", "url":"https://www.gov.nl.ca/releases/feed/", "hosts":["gov.nl.ca"]},
     {"name":"Manitoba Government", "jurisdiction":"Manitoba", "lang":"en", "url":"https://news.gov.mb.ca/news/index.rss", "hosts":["gov.mb.ca"]},
 ]
 NS = {"a":"http://www.w3.org/2005/Atom"}
@@ -82,9 +88,20 @@ def main():
     for item in all_items:
         key=item["url"].rstrip("/")
         if key not in dedup: dedup[key]=item
-    records=sorted(dedup.values(),key=lambda x:x["publishedAt"],reverse=True)[:160]
+    ranked=sorted(dedup.values(),key=lambda x:x["publishedAt"],reverse=True)
+    preferred=["British Columbia","Alberta","Saskatchewan","Manitoba","Ontario","Quebec","New Brunswick","Nova Scotia","Prince Edward Island","Newfoundland and Labrador","Yukon","Northwest Territories","Nunavut"]
+    records=[]; selected=set()
+    for jurisdiction in preferred:
+        item=next((x for x in ranked if x["jurisdiction"]==jurisdiction),None)
+        if item:
+            records.append(item); selected.add(item["id"])
+    for item in ranked:
+        if len(records)>=20: break
+        if item["id"] not in selected:
+            records.append(item); selected.add(item["id"])
+    records=sorted(records,key=lambda x:x["publishedAt"],reverse=True)
     path=Path("public/data/notices.json");path.parent.mkdir(parents=True,exist_ok=True)
-    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"notices":records}
+    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":13,"notices":records}
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
 if __name__=="__main__": main()
