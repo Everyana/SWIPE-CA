@@ -1,30 +1,13 @@
-# SWIPES — Canada Edition
+# Swipes Canada
 
-A GitHub-ready, mobile-first proof-of-concept for a bilingual public-information swipe reader.
+Swipes Canada is an independent reader for Canadian public notices and updates. Readers can search, filter, bookmark and open the issuing agency's original notice. The interface supports English and French. Curated summaries may be available in both languages, and notices imported from public feeds retain the source language.
 
-## Run locally
+## Build
 
-```bash
-npm install
-npm run dev
-```
+Run `npm install`, then `npm run build`. Vite writes the static site to `dist/`. Use `npm run dev` for local development.
 
-Open the local URL printed by Vite. Build with `npm run build`.
+## Feed and publishing
 
-## Included
+`public/data/notices.json` contains the public feed. The refresh script pulls from configured public feeds and keeps curated cards whose IDs start with `editorial-`. The published site displays the latest feed snapshot deployed to its host. See the source links on each card for current details and deadlines.
 
-- Responsive, full-height, snap-scrolling swipe cards
-- English/French interface and content toggle
-- Topic and jurisdiction filters
-- Search, bookmarking, sharing, keyboard navigation
-- Source links and clearly marked sample content
-- Installable PWA manifest and offline app shell (after first visit)
-- No external data collection or analytics in the demo
-
-## Important
-
-The included stories are **fictional interface examples**, not current public notices. This prototype does not claim live coverage, ingest government sources, publish news automatically, send alerts, or provide a production CMS. See `BLUEPRINT.md` for the full production design, implementation phases and acceptance criteria.
-
-## Production stack recommendation
-
-Next.js + TypeScript, PostgreSQL/PostGIS, Redis, background workers, object storage, OpenSearch, OAuth/OIDC, observability, GitHub Actions, IaC. See the blueprint for specifics.
+Production serves the built site at https://ca.everyana.com/ on Hostinger. A GitHub Pages deployment does not update that Hostinger installation.

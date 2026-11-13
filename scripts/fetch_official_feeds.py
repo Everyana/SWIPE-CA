@@ -101,7 +101,14 @@ def main():
             records.append(item); selected.add(item["id"])
     records=sorted(records,key=lambda x:x["publishedAt"],reverse=True)
     path=Path("public/data/notices.json");path.parent.mkdir(parents=True,exist_ok=True)
+    if path.exists():
+        previous = json.loads(path.read_text(encoding="utf-8"))
+        curated = [notice for notice in previous["notices"] if notice["id"].startswith("editorial-")]
+        curated_urls = {notice["url"].rstrip("/") for notice in curated}
+        records = curated + [notice for notice in records if notice["url"].rstrip("/") not in curated_urls]
     payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":13,"notices":records}
-    path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    temporary_path = path.with_suffix(".json.tmp")
+    temporary_path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    temporary_path.replace(path)
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
 if __name__=="__main__": main()
