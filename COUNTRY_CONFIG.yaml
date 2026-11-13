@@ -1,0 +1,29 @@
+platform:
+  name: SWIPES
+  mission: Official public information, one swipe at a time
+  editorial_scope: official_public_sector_only
+  source_evidence_required: true
+  no_private_promotions: true
+country:
+  code: CA
+  name: Canada
+  default_locale: en-CA
+  locales: [en-CA, fr-CA]
+  levels: [federal, provincial, territorial, regional, municipal, indigenous, special_purpose]
+  seed_registry: canada
+  official_affiliation: false
+  disclaimer_required: true
+reader:
+  format: vertical_swipe_cards
+  persistent_header: true
+  restore_position: true
+  continuous_loading: true
+  full_article_view: true
+  guest_access: true
+editorial:
+  primary_source_url: mandatory
+  translation_parity: mandatory
+  duplicate_check: mandatory
+  amendment_tracking: mandatory
+  human_review_for_high_risk: mandatory
+  expiry_monitoring: mandatory
