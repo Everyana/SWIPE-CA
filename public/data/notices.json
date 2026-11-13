@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T07:39:19.932390+00:00",
+  "updatedAt": "2026-11-13T13:14:22.517183+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -15,6 +15,39 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "4835c9b0a0f1a0fe64df",
+      "title": "Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage",
+      "summary": "The Provincial Government continues to experience impacts from the Microsoft global outage, which began yesterday, Thursday, November 12. At this time, there is no evidence of malicious activity associated with this outage. As of 8:00 a.m. today (November 13) incoming and outgoing... Read More about Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage The post Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1113n01/",
+      "publishedAt": "2026-11-13T12:10:20+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "670bda6ef1f2857c508e",
+      "title": "Reconnaissance de QS - « Le PQ ne peut pas empêcher Québec solidaire d'exister », dénonce Alexandre Leduc",
+      "summary": "QUEBEC , le 13 nov. 2026 /CNW/ -- Après une première rencontre de négociations avec ses homologues des autres partis, le leader parlementaire de Québec solidaire, Alexandre Leduc, dénonce la réticence du Parti québécois à accorder à QS le statut de groupe parlementaire. « En 2022, on a accordé la re",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/reconnaissance-de-qs-le-pq-ne-peut-pas-empecher-quebec-solidaire-dexister-denonce-alexandre-leduc-73020",
+      "publishedAt": "2026-11-13T07:26:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "03d6389efd3bdf56096f",
+      "title": "Vers un réseau international de diplomatie scientifique francophone : le Fonds de recherche du Québec et ses partenaires adoptent la Déclaration de Phnom Penh",
+      "summary": "PHNOM PENH, Cambodia , le 13 nov. 2026 /CNW/ -- En marge du 20 e Sommet de la Francophonie, le Fonds de recherche du Québec et ses partenaires ont adopté la Déclaration d'intention commune de Phnom Penh sur la diplomatie scientifique dans la francophonie en vue de se mobiliser conjointement et mettr",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/vers-un-reseau-international-de-diplomatie-scientifique-francophone-le-fonds-de-recherche-du-quebec-et-ses-partenaires-adoptent-la-declaration-de-phnom-penh-73019",
+      "publishedAt": "2026-11-13T05:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "d7b84f610c884523d008",
       "title": "Minister Fedeli to Hold a Press Conference",
@@ -38,17 +71,6 @@
       "category": "Public updates"
     },
     {
-      "id": "933d224b89dc030d2b25",
-      "title": "Marc-Antoine Côté reçoit le Prix du CALQ - Artiste de l'année au Centre-du-Québec",
-      "summary": "BÉCANCOUR, QC , le 12 nov. 2026 /CNW/ -- Le Conseil des arts et des lettres du Québec (CALQ), en collaboration avec Culture Centre-du-Québec et Le Devoir, est heureux de décerner le Prix du CALQ - Artiste de l'année au Centre-du-Québec à l'artiste Marc-Antoine Côté . Ce prix, assorti d'un montant de",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/marc-antoine-cote-recoit-le-prix-du-calq-artiste-de-lannee-au-centre-du-quebec-73018",
-      "publishedAt": "2026-11-12T22:00:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
       "id": "e004ad48da3130319c3f",
       "title": "Police and Crisis Teams to Expand in North Battleford",
       "summary": "The Government of Saskatchewan is providing more than $360,000 in funding for a second Police and Crisis Team (PACT) in North Battleford. PACTs pair mental health professionals with police...",
@@ -57,6 +79,17 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "933d224b89dc030d2b25",
+      "title": "Marc-Antoine Côté reçoit le Prix du CALQ - Artiste de l'année au Centre-du-Québec",
+      "summary": "BÉCANCOUR, QC , le 12 nov. 2026 /CNW/ -- Le Conseil des arts et des lettres du Québec (CALQ), en collaboration avec Culture Centre-du-Québec et Le Devoir, est heureux de décerner le Prix du CALQ - Artiste de l'année au Centre-du-Québec à l'artiste Marc-Antoine Côté . Ce prix, assorti d'un montant de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/marc-antoine-cote-recoit-le-prix-du-calq-artiste-de-lannee-au-centre-du-quebec-73018",
+      "publishedAt": "2026-11-12T22:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -159,6 +192,17 @@
       "category": "Public updates"
     },
     {
+      "id": "1d6899e30a254de7cd53",
+      "title": "Saturday, November 14, 2026",
+      "summary": "Saturday, November 14, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Thu, 11/12/2026 - 12:20",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/13/saturday-november-14-2026",
+      "publishedAt": "2026-11-12T17:20:55+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "da57ccdc511fc866dbdc",
       "title": "More complexity supports for rural students",
       "summary": "Students in rural communities will have better access to the resources they need as additional classroom complexity funding is rolled out.",
@@ -166,50 +210,6 @@
       "publishedAt": "2026-11-12T17:10:00+00:00",
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "f64ecf1b78bd109f5c64",
-      "title": "Mise en garde à la population - Présence non déclarée de blé et de soya dans du pâté de foie de porc préparé et vendu par l'entreprise Rendez-vous cochon",
-      "summary": "QUÉBEC , le 12 nov. 2026 /CNW/ -- Le ministère de l'Agriculture, des Pêcheries et de l'Alimentation (MAPAQ), en collaboration avec l'entreprise Rendez-vous cochon, située au 231, chemin Évangéline, à Sainte-Marie-Salomé, avise les personnes qui souffrent d'une allergie au blé ou au soya ou celles ay",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/mise-en-garde-a-la-population-presence-non-declaree-de-ble-et-de-soya-dans-du-pate-de-foie-de-porc-prepare-et-vendu-par-lentreprise-rendez-vous-cochon-73017",
-      "publishedAt": "2026-11-12T16:32:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "fdbb1483d389acda3d9f",
-      "title": "Expanding MRI access through AI innovation",
-      "summary": "Alberta is investing nearly $14 million in AI technology to increase MRI capacity by 20 per cent and deliver more than 41,000 additional scans annually.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98116250CD787-92AD-11AA-068959F42249C176",
-      "publishedAt": "2026-11-12T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ce8a6d2fbe60bffb9c5e",
-      "title": "Prime Minister Carney meets with President of Cyprus Nikos Christodoulides",
-      "summary": "Prime Minister Carney meets with President of Cyprus Nikos Christodoulides pm@pm.gc.ca (Premier ministre Mark Carney) Thu, 11/12/2026 - 11:04",
-      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/12/prime-minister-carney-meets-president-cyprus-nikos-christodoulides",
-      "publishedAt": "2026-11-12T16:04:46+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "241e6d601aa978de53da",
-      "title": "Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy",
-      "summary": "The Provincial Government wants to hear from people throughout Newfoundland and Labrador as it develops its Rural Revitalization Strategy. Residents, municipalities, Indigenous Governments and Organizations, businesses, community groups and local leaders are invited to share the opportunities, challenges and priorities... Read More about Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy The post Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1112n02/",
-      "publishedAt": "2026-11-12T14:30:33+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
