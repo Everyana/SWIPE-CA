@@ -1,6 +1,11 @@
 name: Refresh official Canadian notices
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_official_feeds.py'
+      - '.github/workflows/refresh-notices.yml'
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
