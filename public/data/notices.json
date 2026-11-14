@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T07:05:56.014123+00:00",
+  "updatedAt": "2026-11-14T12:56:08.945917+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -15,6 +15,17 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "746ffe9083451f09d188",
+      "title": "/R E P R I S E -- AVIS AUX MÉDIAS - France Charbonneau et Kim O'Bomsawin recevront un doctorat honorifique de l'Université TÉLUQ/",
+      "summary": "QUÉBEC , le 11 nov. 2026 /CNW/ -- À l'occasion de sa collation des grades, l'Université TÉLUQ décernera, le samedi 14 novembre prochain, un doctorat honoris causa à deux personnalités qui se sont distinguées par leur contribution remarquable à la société québécoise. Les représentantes et représentan",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-france-charbonneau-et-kim-obomsawin-recevront-un-doctorat-honorifique-de-luniversite-teluq-73032",
+      "publishedAt": "2026-11-14T06:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "9454345c47c0dbb1e299",
       "title": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
@@ -170,6 +181,17 @@
       "category": "Public updates"
     },
     {
+      "id": "914971d2aafd145d354c",
+      "title": "Sunday, November 15, 2026",
+      "summary": "Sunday, November 15, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/14/sunday-november-15-2026",
+      "publishedAt": "2026-11-13T18:56:42+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "739c99473b1629014c51",
       "title": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
       "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
@@ -203,17 +225,6 @@
       "category": "Public updates"
     },
     {
-      "id": "b45b2e27fe078b79ef13",
-      "title": "Expanding treatment options for cystic fibrosis",
-      "summary": "Albertans living with cystic fibrosis now have access to a new medication that can improve their health and quality of life.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9812659EF5EBC-A4D9-9233-E9E33974FFD66CDE",
-      "publishedAt": "2026-11-13T17:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "090b6f2041946d4f2ada",
       "title": "Nominations open for PEI Anti-Racism Recognition Award",
       "summary": "Island residents are invited to nominate individuals, community groups and organizations that are making a difference in addressing racism and…",
@@ -222,17 +233,6 @@
       "source": "Government of Prince Edward Island",
       "jurisdiction": "Prince Edward Island",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "beb5f2ab828e8346ab80",
-      "title": "Réaménagement au nord des ponts Pierre-Laporte et de Québec - Pont de Québec : une voie ouverte par direction du 16 au 20 novembre",
-      "summary": "QUÉBEC , le 13 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population que la voie centrale du pont de Québec sera fermée, en continu, du 16 au 20 novembre. Une voie sera disponible par direction. Cette entrave permettra de réaliser des tests du nouveau système",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/reamenagement-au-nord-des-ponts-pierre-laporte-et-de-quebec-pont-de-quebec-une-voie-ouverte-par-direction-du-16-au-20-novembre-73031",
-      "publishedAt": "2026-11-13T14:47:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Public updates"
     }
   ]
