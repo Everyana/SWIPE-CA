@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-14T01:06:22.486505+00:00",
+  "updatedAt": "2026-11-14T07:05:56.014123+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
     "Alberta",
     "British Columbia",
+    "Federal",
     "Manitoba",
     "Newfoundland and Labrador",
     "Ontario",
@@ -14,6 +15,17 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "9454345c47c0dbb1e299",
+      "title": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
+      "summary": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr. pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 00:24",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/14/prime-minister-carney-meets-president-philippines-ferdinand-marcos-jr",
+      "publishedAt": "2026-11-14T05:24:42+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "dab0d4a16e7ab648ba3a",
       "title": "Emmanuel Health Selected to Deliver New Long-Term Care Home in Estevan",
@@ -158,6 +170,28 @@
       "category": "Public updates"
     },
     {
+      "id": "739c99473b1629014c51",
+      "title": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
+      "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
+      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/14/prime-minister-carney-strengthens-canadas-partnerships-asean-and",
+      "publishedAt": "2026-11-13T18:56:36+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e497ce4cfb10ef72fb46",
+      "title": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
+      "summary": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:32",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements",
+      "publishedAt": "2026-11-13T18:32:46+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "38ab49e85f4c70cb911f",
       "title": "Ontario Launches Updated Design Manual to Build Long-Term Care Homes Faster",
       "summary": "New changes will cut red tape, streamline planning and construction to help build more long-term care homes across the province",
@@ -176,39 +210,6 @@
       "publishedAt": "2026-11-13T17:30:00+00:00",
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "0e2af2d6e36df38cfc42",
-      "title": "Ontario Supporting Professional Women’s Soccer League Championship",
-      "summary": "Northern Super League Final event in Ottawa will attract more than 10,000 people and generate $6 million in economic activity",
-      "url": "https://news.ontario.ca/en/release/1008283/ontario_supporting_professional_womens_soccer_league_championship",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "3a27f6b4cbe8a787bd50",
-      "title": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "summary": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76038",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "7dece6c65345e7c5d06c",
-      "title": "Breast Screening Access Expanded in Central Newfoundland",
-      "summary": "A new mammography unit is now operational at the Central Newfoundland Regional Health Centre in Grand Falls-Windsor. The Honourable Joedy Wall, Minister of Health and Community Services, made the announcement and toured the new mammography unit today. The Provincial Government... Read More about Breast Screening Access Expanded in Central Newfoundland The post Breast Screening Access Expanded in Central Newfoundland appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/health/1113n03/",
-      "publishedAt": "2026-11-13T16:40:11+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
