@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:56:08.945917+00:00",
+  "updatedAt": "2026-11-14T18:49:50.291209+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -15,6 +15,17 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "e8dcdb6ee93a84969921",
+      "title": "Statement by Prime Minister Carney on the 78 th birthday of His Majesty King Charles III",
+      "summary": "Statement by Prime Minister Carney on the 78<sup>th</sup> birthday of His Majesty King Charles III pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 07:49",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/14/statement-prime-minister-carney-78th-birthday-his-majesty-king-charles",
+      "publishedAt": "2026-11-14T12:49:57+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "746ffe9083451f09d188",
       "title": "/R E P R I S E -- AVIS AUX MÉDIAS - France Charbonneau et Kim O'Bomsawin recevront un doctorat honorifique de l'Université TÉLUQ/",
@@ -210,17 +221,6 @@
       "publishedAt": "2026-11-13T18:32:46+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "38ab49e85f4c70cb911f",
-      "title": "Ontario Launches Updated Design Manual to Build Long-Term Care Homes Faster",
-      "summary": "New changes will cut red tape, streamline planning and construction to help build more long-term care homes across the province",
-      "url": "https://news.ontario.ca/en/release/1008284/ontario_launches_updated_design_manual_to_build_long_term_care_homes_faster",
-      "publishedAt": "2026-11-13T18:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
       "language": "en",
       "category": "Public updates"
     },
