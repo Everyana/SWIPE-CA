@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:58:14.817357+00:00",
+  "updatedAt": "2026-11-14T01:06:22.486505+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -14,6 +14,17 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "dab0d4a16e7ab648ba3a",
+      "title": "Emmanuel Health Selected to Deliver New Long-Term Care Home in Estevan",
+      "summary": "New 135-Bed Home will be Located Next to St. Joseph's Hospital The Government of Saskatchewan is moving forward with a new long-term care home in Estevan, with Emmanuel Health selected as the...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/13/emmanuel-health-selected-to-deliver-new-long-term-care-home-in-estevan",
+      "publishedAt": "2026-11-14T01:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "dd7d48bff3dd5b8968b2",
       "title": "Saskatchewan Manufacturing Leads the Nation",
@@ -33,6 +44,116 @@
       "publishedAt": "2026-11-13T23:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "962bd2fd446806530512",
+      "title": "Fourth Session of the 43rd Manitoba Legislature to Open Tuesday, Nov. 17 With Speech from the Throne",
+      "summary": "Fourth Session of the 43rd Manitoba Legislature to Open Tuesday, Nov. 17 With Speech from the Throne",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76057",
+      "publishedAt": "2026-11-13T21:19:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "be94ed861cd4d695d365",
+      "title": "Traffic-pattern changes on Highway 1 at Mount Lehman Road",
+      "summary": "Drivers are advised of westbound off-ramp closures on Highway 1 at Fraser Highway and Mount Lehman Road starting at 9 p.m. on Friday, Nov. 13, 2026.",
+      "url": "https://news.gov.bc.ca/releases/2026TT0107-001139",
+      "publishedAt": "2026-11-13T21:10:00+00:00",
+      "source": "BC Gov News",
+      "jurisdiction": "British Columbia",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "21e13949c10e82862b21",
+      "title": "Group from Quebec Fined for Illegal Activity in an Ontario Provincial Park",
+      "summary": "Group from Quebec Fined for Illegal Activity in an Ontario Provincial Park",
+      "url": "https://news.ontario.ca/en/court/1008287/group_from_quebec_fined_for_illegal_activity_in_an_ontario_provincial_park",
+      "publishedAt": "2026-11-13T21:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ef596afb509e8d4abb24",
+      "title": "Inquest into the Death of Shawn Quehe Announced",
+      "summary": "Inquest into the Death of Shawn Quehe Announced",
+      "url": "https://news.ontario.ca/en/release/1008278/inquest_into_the_death_of_shawn_quehe_announced",
+      "publishedAt": "2026-11-13T20:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ee7f622598fa9746b8b6",
+      "title": "Ontario and Canada Select the University of Toronto as Host for Province’s First Fusion Energy Research Chair",
+      "summary": "New chair will help leverage Ontario’s nuclear advantage to advance clean energy innovation and strengthen the province’s global competitiveness",
+      "url": "https://news.ontario.ca/en/release/1008285/ontario_and_canada_select_the_university_of_toronto_as_host_for_provinces_first_fusion_energy_research_chair",
+      "publishedAt": "2026-11-13T20:06:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2854c6ea03439398bc71",
+      "title": "A new era of oil sands growth",
+      "summary": "The new Oil Sands Growth Program will attract new oil sands investment, increase production, fill new pipelines and drive economic growth.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=981275DC1AC17-BD32-E06C-F81BC3AE18865A02",
+      "publishedAt": "2026-11-13T20:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c1a955219082bf0c256d",
+      "title": "Minister Parsa to Hold a Press Conference",
+      "summary": "Minister Parsa to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008286/minister_parsa_to_hold_a_press_conference",
+      "publishedAt": "2026-11-13T19:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "4ae30284ebfdb194c104",
+      "title": "Environmental Assessment Bulletin",
+      "summary": "The Honourable Andrea Barbour, Minister of Environment, Conservation and Climate Change, has announced the following relative to Environmental Assessment – Part 10 – of the Environmental Protection Act. Undertaking Registered: Steady Brook Residential Development (Reg. 2440) Proponent: Darren WhalenThe proponent... Read More about Environmental Assessment Bulletin The post Environmental Assessment Bulletin appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/eccc/1113n06/",
+      "publishedAt": "2026-11-13T19:15:26+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "4f70958bc708af0ece49",
+      "title": "Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims",
+      "summary": "The annual World Day of Remembrance for Road Traffic Victims will be recognized by the Government of Newfoundland and Labrador with a public event at Confederation Building on Monday, November 16 at 11:00 a.m. The Honourable Lloyd Parrott, Minister of... Read More about Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims The post Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/government-services/1113n05/",
+      "publishedAt": "2026-11-13T19:10:21+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "013c849d711c49e55ea5",
+      "title": "Media Advisory: Premier Wakeham to Announce Affordability Measure for Families",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will announce the Provincial Government’s next affordability measure, focused on families, on Monday, November 16 at 9:30 a.m. The announcement will take place at the Froude Avenue Community Centre, 89 Froude Avenue,... Read More about Media Advisory: Premier Wakeham to Announce Affordability Measure for Families The post Media Advisory: Premier Wakeham to Announce Affordability Measure for Families appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1113n04/",
+      "publishedAt": "2026-11-13T19:00:49+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
@@ -59,17 +180,6 @@
       "category": "Public updates"
     },
     {
-      "id": "3a27f6b4cbe8a787bd50",
-      "title": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "summary": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76038",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "0e2af2d6e36df38cfc42",
       "title": "Ontario Supporting Professional Women’s Soccer League Championship",
       "summary": "Northern Super League Final event in Ottawa will attract more than 10,000 people and generate $6 million in economic activity",
@@ -77,6 +187,17 @@
       "publishedAt": "2026-11-13T17:00:00+00:00",
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "3a27f6b4cbe8a787bd50",
+      "title": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
+      "summary": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76038",
+      "publishedAt": "2026-11-13T17:00:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
       "language": "en",
       "category": "Public updates"
     },
@@ -92,50 +213,6 @@
       "category": "Public updates"
     },
     {
-      "id": "e695520e6ff2a4f027d4",
-      "title": "Standing Hearing for Inquest into Death of Tiana Obirek",
-      "summary": "Standing Hearing for Inquest into Death of Tiana Obirek",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76039",
-      "publishedAt": "2026-11-13T16:40:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "f6ffa6a8c1040ddc7c5a",
-      "title": "Company sentenced for workplace fatality",
-      "summary": "A crane and rigging company has been penalized $350,000 related to a workplace fatality.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98124576D6ED6-BDF9-73A7-42E5E2A0D03786D7",
-      "publishedAt": "2026-11-13T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "90cb96583962d9944c46",
-      "title": "Orders in Council",
-      "summary": "Orders Approved – November 10, 2026",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98123566D993E-A61B-E49A-FB9DE0A99E289E7D",
-      "publishedAt": "2026-11-13T16:15:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "5aa5399a4b56e4cb020f",
-      "title": "New high school graduation requirements",
-      "summary": "Alberta’s government will be updating high school graduation requirements to give students more choice and better prepare them for life after high school.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9812558C3D3A0-FF1B-B49F-6E19D782306A17D4",
-      "publishedAt": "2026-11-13T16:10:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "090b6f2041946d4f2ada",
       "title": "Nominations open for PEI Anti-Racism Recognition Award",
       "summary": "Island residents are invited to nominate individuals, community groups and organizations that are making a difference in addressing racism and…",
@@ -147,91 +224,14 @@
       "category": "Public updates"
     },
     {
-      "id": "74282732ef9a1a75965a",
-      "title": "Ontario and Canada Working Together to Protect Auto Workers from Tariffs",
-      "summary": "$8.7 billion trade action plan will strengthen tariff-impacted industries and deliver long-term economic growth",
-      "url": "https://news.ontario.ca/en/release/1008280/ontario_and_canada_working_together_to_protect_auto_workers_from_tariffs",
-      "publishedAt": "2026-11-13T15:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "3d872ceb9f8d50e17017",
-      "title": "Manitoba Government Celebrates Reopening of Modernized Thompson Courthouse",
-      "summary": "Manitoba Government Celebrates Reopening of Modernized Thompson Courthouse",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76037",
-      "publishedAt": "2026-11-13T15:18:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "0f576a10cda97d658bb8",
-      "title": "Ontario Increasing Access to Insulin Pump Therapy for Diabetics",
-      "summary": "Changes will help nearly 4,000 Ontarians qualify up to a year sooner for diabetes supports",
-      "url": "https://news.ontario.ca/en/release/1008282/ontario_increasing_access_to_insulin_pump_therapy_for_diabetics",
-      "publishedAt": "2026-11-13T14:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "026386a9ebf924362a3e",
-      "title": "House of Assembly Management Commission Meeting",
-      "summary": "The House of Assembly advises that a meeting of the Management Commission is scheduled for Monday, November 16 at 9 a.m. The meeting will be available live via the House of Assembly broadcast channel, website and social media channels (Facebook... Read More about House of Assembly Management Commission Meeting The post House of Assembly Management Commission Meeting appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/hoa/1113n02/",
-      "publishedAt": "2026-11-13T14:15:53+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "24136b5a3ee7906db3d7",
-      "title": "Ontario Begins Construction on New Bridges to Support Future Highway 413 Corridor",
-      "summary": "Province reducing gridlock and shortening travel times across Greater Toronto Area",
-      "url": "https://news.ontario.ca/en/release/1008281/ontario_begins_construction_on_new_bridges_to_support_future_highway_413_corridor",
-      "publishedAt": "2026-11-13T13:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "4835c9b0a0f1a0fe64df",
-      "title": "Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage",
-      "summary": "The Provincial Government continues to experience impacts from the Microsoft global outage, which began yesterday, Thursday, November 12. At this time, there is no evidence of malicious activity associated with this outage. As of 8:00 a.m. today (November 13) incoming and outgoing... Read More about Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage The post Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1113n01/",
-      "publishedAt": "2026-11-13T12:10:20+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "97032b0d36c49e94ff02",
-      "title": "Avis aux médias - Invitation à une prise d'images concernant la réouverture du pont D'Amours",
-      "summary": "RIVIÈRE-DU-LOUP, QC , le 13 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, au nom du ministre des Transports et de la Mobilité durable, M. Nicolas Girard, ainsi que",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-aux-medias-invitation-a-une-prise-dimages-concernant-la-reouverture-du-pont-damours-73029",
-      "publishedAt": "2026-11-13T10:33:00+00:00",
+      "id": "beb5f2ab828e8346ab80",
+      "title": "Réaménagement au nord des ponts Pierre-Laporte et de Québec - Pont de Québec : une voie ouverte par direction du 16 au 20 novembre",
+      "summary": "QUÉBEC , le 13 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population que la voie centrale du pont de Québec sera fermée, en continu, du 16 au 20 novembre. Une voie sera disponible par direction. Cette entrave permettra de réaliser des tests du nouveau système",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/reamenagement-au-nord-des-ponts-pierre-laporte-et-de-quebec-pont-de-quebec-une-voie-ouverte-par-direction-du-16-au-20-novembre-73031",
+      "publishedAt": "2026-11-13T14:47:00+00:00",
       "source": "Gouvernement du Québec",
       "jurisdiction": "Quebec",
       "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "b3114dd11bce0ca61bee",
-      "title": "People advised to plan for storm, possible flood conditions on South Coast highways",
-      "summary": "Drivers in the South Coast region, including the Lower Mainland, Sunshine Coast, Vancouver Island and Fraser Valley, are advised to prepare for winds, heavy rainfall and possible flooding through the region starting Tuesday, Nov. 10, 2026, and through the rest of the week.",
-      "url": "https://news.gov.bc.ca/releases/2026TT0106-001137",
-      "publishedAt": "2026-11-10T23:20:00+00:00",
-      "source": "BC Gov News",
-      "jurisdiction": "British Columbia",
-      "language": "en",
       "category": "Public updates"
     }
   ]
