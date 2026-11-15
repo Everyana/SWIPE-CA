@@ -96,7 +96,7 @@ def main():
         if item:
             records.append(item); selected.add(item["id"])
     for item in ranked:
-        if len(records)>=20: break
+        if len(records)>=40: break
         if item["id"] not in selected:
             records.append(item); selected.add(item["id"])
     records=sorted(records,key=lambda x:x["publishedAt"],reverse=True)
