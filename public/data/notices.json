@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T07:23:29.274183+00:00",
+  "updatedAt": "2026-11-15T12:58:20.531509+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -21,6 +21,17 @@
       "summary": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 23:57",
       "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/15/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
       "publishedAt": "2026-11-15T04:57:57+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "58d83941d599e6e0eab4",
+      "title": "Monday, November 16, 2026",
+      "summary": "Monday, November 16, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 22:11",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/15/monday-november-16-2026",
+      "publishedAt": "2026-11-15T03:11:30+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
       "language": "en",
@@ -441,17 +452,6 @@
       "publishedAt": "2026-11-13T13:30:00+00:00",
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "4835c9b0a0f1a0fe64df",
-      "title": "Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage",
-      "summary": "The Provincial Government continues to experience impacts from the Microsoft global outage, which began yesterday, Thursday, November 12. At this time, there is no evidence of malicious activity associated with this outage. As of 8:00 a.m. today (November 13) incoming and outgoing... Read More about Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage The post Public Advisory: Provincial Government Microsoft Applications Affected by Global Outage appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1113n01/",
-      "publishedAt": "2026-11-13T12:10:20+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     }
