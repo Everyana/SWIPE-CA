@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T01:11:47.514976+00:00",
+  "updatedAt": "2026-11-15T07:08:33.601210+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -15,6 +15,28 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "39dd99773add18c043f9",
+      "title": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
+      "summary": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 23:57",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/15/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
+      "publishedAt": "2026-11-15T04:57:57+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0bde0a97db28c484247d",
+      "title": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
+      "summary": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 20:18",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect",
+      "publishedAt": "2026-11-15T01:18:12+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "e44cbfc6b9cf459ed614",
       "title": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
@@ -199,28 +221,6 @@
       "publishedAt": "2026-11-13T19:00:49+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "914971d2aafd145d354c",
-      "title": "Sunday, November 15, 2026",
-      "summary": "Sunday, November 15, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
-      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/14/sunday-november-15-2026",
-      "publishedAt": "2026-11-13T18:56:42+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "739c99473b1629014c51",
-      "title": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
-      "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
-      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/14/prime-minister-carney-strengthens-canadas-partnerships-asean-and",
-      "publishedAt": "2026-11-13T18:56:36+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
     },
