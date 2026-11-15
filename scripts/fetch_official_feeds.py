@@ -132,6 +132,7 @@ def select_notices(items):
 
 def main():
     all_items=[]; errors=[]; successful=0
+    failed_sources = {}
     for source in SOURCES:
         try:
             req=urllib.request.Request(source["url"],headers={"User-Agent":"SWIPESCanada/0.1 (+https://ca.everyana.com; official feed aggregator)","Accept":"application/atom+xml,application/rss+xml,application/xml,text/xml,text/html"})
@@ -142,10 +143,19 @@ def main():
             successful+=1; all_items.extend(parsed)
             print(source["name"],len(parsed))
         except Exception as e:
+            failed_sources[source["name"]] = source
             errors.append(source["name"]+": "+str(e)[:160])
             print("WARNING",errors[-1])
     if not successful: raise SystemExit("No official feeds succeeded; refusing to overwrite published data")
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=14)
+    path = Path("public/data/notices.json")
+    if path.exists():
+        previous = json.loads(path.read_text(encoding="utf-8"))
+        for item in previous.get("notices", []):
+            source = failed_sources.get(item["source"])
+            if (source and host_ok(item["url"], source["hosts"])
+                    and dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff):
+                all_items.append(item)
     curated_path = Path("scripts/curated_notices.json")
     all_items.extend(item for item in json.loads(curated_path.read_text(encoding="utf-8"))
                      if dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff)
@@ -154,7 +164,7 @@ def main():
         key=item["url"].rstrip("/")
         if key not in dedup: dedup[key]=item
     records = select_notices(dedup.values())
-    path=Path("public/data/notices.json");path.parent.mkdir(parents=True,exist_ok=True)
+    path.parent.mkdir(parents=True,exist_ok=True)
     payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":14,"notices":records}
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
