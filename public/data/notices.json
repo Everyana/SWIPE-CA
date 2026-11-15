@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:49:50.291209+00:00",
+  "updatedAt": "2026-11-15T01:11:47.514976+00:00",
   "sourcesSucceeded": 9,
   "sourcesConfigured": 12,
   "coverage": [
@@ -15,6 +15,17 @@
   ],
   "coverageTarget": 13,
   "notices": [
+    {
+      "id": "e44cbfc6b9cf459ed614",
+      "title": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
+      "summary": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 15:51",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/14/prime-minister-carney-delivers-remarks-media-during-his-visit-philippines",
+      "publishedAt": "2026-11-14T20:51:05+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "e8dcdb6ee93a84969921",
       "title": "Statement by Prime Minister Carney on the 78 th birthday of His Majesty King Charles III",
@@ -208,17 +219,6 @@
       "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
       "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/14/prime-minister-carney-strengthens-canadas-partnerships-asean-and",
       "publishedAt": "2026-11-13T18:56:36+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "e497ce4cfb10ef72fb46",
-      "title": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
-      "summary": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:32",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements",
-      "publishedAt": "2026-11-13T18:32:46+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
       "language": "en",
