@@ -1,24 +1,29 @@
 {
-  "updatedAt": "2026-11-15T12:58:20.531509+00:00",
-  "sourcesSucceeded": 9,
-  "sourcesConfigured": 12,
+  "updatedAt": "2026-11-15T16:26:45.685656+00:00",
+  "sourcesSucceeded": 13,
+  "sourcesConfigured": 16,
   "coverage": [
     "Alberta",
     "British Columbia",
     "Federal",
     "Manitoba",
+    "New Brunswick",
     "Newfoundland and Labrador",
+    "Northwest Territories",
+    "Nova Scotia",
+    "Nunavut",
     "Ontario",
     "Prince Edward Island",
     "Quebec",
-    "Saskatchewan"
+    "Saskatchewan",
+    "Yukon"
   ],
-  "coverageTarget": 13,
+  "coverageTarget": 14,
   "notices": [
     {
       "id": "39dd99773add18c043f9",
       "title": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
-      "summary": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 23:57",
+      "summary": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
       "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/15/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
       "publishedAt": "2026-11-15T04:57:57+00:00",
       "source": "Prime Minister of Canada",
@@ -29,7 +34,7 @@
     {
       "id": "58d83941d599e6e0eab4",
       "title": "Monday, November 16, 2026",
-      "summary": "Monday, November 16, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 22:11",
+      "summary": "Monday, November 16, 2026",
       "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/15/monday-november-16-2026",
       "publishedAt": "2026-11-15T03:11:30+00:00",
       "source": "Prime Minister of Canada",
@@ -40,18 +45,18 @@
     {
       "id": "0bde0a97db28c484247d",
       "title": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
-      "summary": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 20:18",
+      "summary": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
       "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect",
       "publishedAt": "2026-11-15T01:18:12+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
       "language": "en",
-      "category": "Public updates"
+      "category": "Environment"
     },
     {
       "id": "e44cbfc6b9cf459ed614",
       "title": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
-      "summary": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 15:51",
+      "summary": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
       "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/14/prime-minister-carney-delivers-remarks-media-during-his-visit-philippines",
       "publishedAt": "2026-11-14T20:51:05+00:00",
       "source": "Prime Minister of Canada",
@@ -62,7 +67,7 @@
     {
       "id": "e8dcdb6ee93a84969921",
       "title": "Statement by Prime Minister Carney on the 78 th birthday of His Majesty King Charles III",
-      "summary": "Statement by Prime Minister Carney on the 78<sup>th</sup> birthday of His Majesty King Charles III pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 07:49",
+      "summary": "Statement by Prime Minister Carney on the 78 th birthday of His Majesty King Charles III",
       "url": "https://www.pm.gc.ca/en/news/statements/2026/11/14/statement-prime-minister-carney-78th-birthday-his-majesty-king-charles",
       "publishedAt": "2026-11-14T12:49:57+00:00",
       "source": "Prime Minister of Canada",
@@ -79,12 +84,12 @@
       "source": "Gouvernement du Québec",
       "jurisdiction": "Quebec",
       "language": "fr",
-      "category": "Public updates"
+      "category": "Education"
     },
     {
       "id": "9454345c47c0dbb1e299",
       "title": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
-      "summary": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr. pm@pm.gc.ca (Premier ministre Mark Carney) Sat, 11/14/2026 - 00:24",
+      "summary": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
       "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/14/prime-minister-carney-meets-president-philippines-ferdinand-marcos-jr",
       "publishedAt": "2026-11-14T05:24:42+00:00",
       "source": "Prime Minister of Canada",
@@ -101,7 +106,7 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
-      "category": "Public updates"
+      "category": "Health"
     },
     {
       "id": "dd7d48bff3dd5b8968b2",
@@ -123,7 +128,7 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
-      "category": "Public updates"
+      "category": "Public safety"
     },
     {
       "id": "962bd2fd446806530512",
@@ -145,7 +150,7 @@
       "source": "BC Gov News",
       "jurisdiction": "British Columbia",
       "language": "en",
-      "category": "Public updates"
+      "category": "Transport"
     },
     {
       "id": "21e13949c10e82862b21",
@@ -178,7 +183,7 @@
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
       "language": "en",
-      "category": "Public updates"
+      "category": "Education"
     },
     {
       "id": "2854c6ea03439398bc71",
@@ -211,7 +216,7 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
-      "category": "Public updates"
+      "category": "Environment"
     },
     {
       "id": "4f70958bc708af0ece49",
@@ -238,7 +243,7 @@
     {
       "id": "914971d2aafd145d354c",
       "title": "Sunday, November 15, 2026",
-      "summary": "Sunday, November 15, 2026 pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
+      "summary": "Sunday, November 15, 2026",
       "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/14/sunday-november-15-2026",
       "publishedAt": "2026-11-13T18:56:42+00:00",
       "source": "Prime Minister of Canada",
@@ -249,7 +254,7 @@
     {
       "id": "739c99473b1629014c51",
       "title": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
-      "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:56",
+      "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
       "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/14/prime-minister-carney-strengthens-canadas-partnerships-asean-and",
       "publishedAt": "2026-11-13T18:56:36+00:00",
       "source": "Prime Minister of Canada",
@@ -260,7 +265,7 @@
     {
       "id": "e497ce4cfb10ef72fb46",
       "title": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
-      "summary": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses pm@pm.gc.ca (Premier ministre Mark Carney) Fri, 11/13/2026 - 13:32",
+      "summary": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
       "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements",
       "publishedAt": "2026-11-13T18:32:46+00:00",
       "source": "Prime Minister of Canada",
@@ -277,7 +282,7 @@
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
       "language": "en",
-      "category": "Public updates"
+      "category": "Health"
     },
     {
       "id": "b45b2e27fe078b79ef13",
@@ -288,7 +293,7 @@
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
       "language": "en",
-      "category": "Public updates"
+      "category": "Health"
     },
     {
       "id": "0e2af2d6e36df38cfc42",
@@ -299,7 +304,7 @@
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
       "language": "en",
-      "category": "Public updates"
+      "category": "Sport and recreation"
     },
     {
       "id": "3a27f6b4cbe8a787bd50",
@@ -310,7 +315,7 @@
       "source": "Manitoba Government",
       "jurisdiction": "Manitoba",
       "language": "en",
-      "category": "Public updates"
+      "category": "Grants and funding"
     },
     {
       "id": "7dece6c65345e7c5d06c",
@@ -321,7 +326,7 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
-      "category": "Public updates"
+      "category": "Health"
     },
     {
       "id": "e695520e6ff2a4f027d4",
@@ -365,7 +370,7 @@
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
       "language": "en",
-      "category": "Public updates"
+      "category": "Education"
     },
     {
       "id": "090b6f2041946d4f2ada",
@@ -401,57 +406,57 @@
       "category": "Public updates"
     },
     {
-      "id": "beb5f2ab828e8346ab80",
-      "title": "Réaménagement au nord des ponts Pierre-Laporte et de Québec - Pont de Québec : une voie ouverte par direction du 16 au 20 novembre",
-      "summary": "QUÉBEC , le 13 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population que la voie centrale du pont de Québec sera fermée, en continu, du 16 au 20 novembre. Une voie sera disponible par direction. Cette entrave permettra de réaliser des tests du nouveau système",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/reamenagement-au-nord-des-ponts-pierre-laporte-et-de-quebec-pont-de-quebec-une-voie-ouverte-par-direction-du-16-au-20-novembre-73031",
-      "publishedAt": "2026-11-13T14:47:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "0f576a10cda97d658bb8",
-      "title": "Ontario Increasing Access to Insulin Pump Therapy for Diabetics",
-      "summary": "Changes will help nearly 4,000 Ontarians qualify up to a year sooner for diabetes supports",
-      "url": "https://news.ontario.ca/en/release/1008282/ontario_increasing_access_to_insulin_pump_therapy_for_diabetics",
-      "publishedAt": "2026-11-13T14:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
+      "id": "97f69d5ca17ed10749be",
+      "title": "Beer recalled for metal contamination",
+      "summary": "The Department of Health is warning about a food recall issued by the Canadian Food Inspection Agency (CFIA) due to containing pieces of metal.",
+      "url": "https://www.gov.nu.ca/en/newsroom/beer-recalled-metal-contamination-2026-11-13",
+      "publishedAt": "2026-11-13T12:00:00+00:00",
+      "source": "Government of Nunavut",
+      "jurisdiction": "Nunavut",
       "language": "en",
       "category": "Public updates"
     },
     {
-      "id": "026386a9ebf924362a3e",
-      "title": "House of Assembly Management Commission Meeting",
-      "summary": "The House of Assembly advises that a meeting of the Management Commission is scheduled for Monday, November 16 at 9 a.m. The meeting will be available live via the House of Assembly broadcast channel, website and social media channels (Facebook... Read More about House of Assembly Management Commission Meeting The post House of Assembly Management Commission Meeting appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/hoa/1113n02/",
-      "publishedAt": "2026-11-13T14:15:53+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
+      "id": "2e85ce9b4a6e881c9515",
+      "title": "Public Health Advisory Rescinded For the Community of Wekweètì",
+      "summary": "Public Health Advisory Rescinded For the Community of Wekweètì",
+      "url": "https://gnwt.ca/newsroom/public-health-advisory-rescinded-community-wekweeti",
+      "publishedAt": "2026-11-13T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "d3247bed27c07c0697e1",
+      "title": "Weekly Traffic Advisories",
+      "summary": "Weekly Traffic Advisories",
+      "url": "https://news.novascotia.ca/en/2026/11/13/weekly-traffic-advisories",
+      "publishedAt": "2026-11-13T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
+      "language": "en",
+      "category": "Transport"
+    },
+    {
+      "id": "7b420e11bec946b0681e",
+      "title": "New Brunswick releases its second-quarter fiscal update",
+      "summary": "The province projects a $1.31-billion deficit for 2026–27, down $347 million from its previous forecast. The release explains what changed in revenue and spending.",
+      "url": "https://www.gnb.ca/en/news/n-b.2026.11.second-quarter-financial-results-show-decreased-deficit-for-202627.html",
+      "publishedAt": "2026-11-13T00:00:00+00:00",
+      "source": "Government of New Brunswick",
+      "jurisdiction": "New Brunswick",
       "language": "en",
       "category": "Public updates"
     },
     {
-      "id": "5fa616f46e3f1285712c",
-      "title": "L'Assemblée nationale du Québec présente l'exposition Regards sur la pauvreté au Québec",
-      "summary": "QUÉBEC , le 13 nov. 2026 /CNW/ -- De quelle façon parle-t-on de la pauvreté au Québec? Le 18 novembre prochain, de 17 h à 19 h, venez en discuter à l'Assemblée nationale du Québec à l'occasion de l'inauguration de l'exposition photographique Regards sur la pauvreté au Québec . Gratuite, l'exposition",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/lassemblee-nationale-du-quebec-presente-lexposition-regards-sur-la-pauvrete-au-quebec-73030",
-      "publishedAt": "2026-11-13T14:00:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "24136b5a3ee7906db3d7",
-      "title": "Ontario Begins Construction on New Bridges to Support Future Highway 413 Corridor",
-      "summary": "Province reducing gridlock and shortening travel times across Greater Toronto Area",
-      "url": "https://news.ontario.ca/en/release/1008281/ontario_begins_construction_on_new_bridges_to_support_future_highway_413_corridor",
-      "publishedAt": "2026-11-13T13:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
+      "id": "26afb42b89d48d1bc934",
+      "title": "Test of Alert Ready emergency messaging system planned for November 18",
+      "summary": "Test of Alert Ready emergency messaging system planned for November 18 zaburke November 12, 2026 - 4:09 pm On Wednesday, November 18, the Yukon will be participating in a national test of the Alert Ready system at approximately 1:55 pm local time. Alert Ready is Canada's emergency alerting system that delivers critical and potentially life-saving alerts to Canadians. The Alert Ready test will be broadcast on cellphones, radio stations and televisions across the territory. The test alert will clearly state that it is a TEST. If there is a real emergency, the message will state that it is not a test. The Government of Yukon’s Emergency Measures",
+      "url": "https://yukon.ca/en/news/test-alert-ready-emergency-messaging-system-planned-november-18",
+      "publishedAt": "2026-11-12T23:09:29+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
       "language": "en",
       "category": "Public updates"
     }

@@ -11,7 +11,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 SOURCES = [
     {"name":"Government of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom", "hosts":["canada.ca","gc.ca"]},
@@ -26,11 +26,42 @@ SOURCES = [
     {"name":"Government of Prince Edward Island", "jurisdiction":"Prince Edward Island", "lang":"en", "url":"https://www.princeedwardisland.ca/en/news/top-news.xml", "hosts":["princeedwardisland.ca"]},
     {"name":"Government of Newfoundland and Labrador", "jurisdiction":"Newfoundland and Labrador", "lang":"en", "url":"https://www.gov.nl.ca/releases/feed/", "hosts":["gov.nl.ca"]},
     {"name":"Manitoba Government", "jurisdiction":"Manitoba", "lang":"en", "url":"https://news.gov.mb.ca/news/index.rss", "hosts":["gov.mb.ca"]},
+    {"name":"Government of Yukon", "jurisdiction":"Yukon", "lang":"en", "url":"https://yukon.ca/news-feed", "hosts":["yukon.ca"]},
+    {"name":"Government of Nunavut", "jurisdiction":"Nunavut", "lang":"en", "url":"https://www.gov.nu.ca/en/news_rss", "hosts":["gov.nu.ca"]},
+    {"name":"Government of the Northwest Territories", "jurisdiction":"Northwest Territories", "lang":"en", "url":"https://gnwt.ca/newsroom", "hosts":["gnwt.ca"], "format":"gnwt"},
+    {"name":"Government of Nova Scotia", "jurisdiction":"Nova Scotia", "lang":"en", "url":"https://news.novascotia.ca/", "hosts":["novascotia.ca"], "format":"nova_scotia"},
 ]
 NS = {"a":"http://www.w3.org/2005/Atom"}
 def plain(value):
     value = re.sub(r"<[^>]*>", " ", value or "")
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
+TOPIC_PATTERNS = {
+    "Public consultations": r"public consultation|consultation publique|public hearing",
+    "Tenders": r"request for proposals|call for tenders|appel d.offres|procurement",
+    "Immigration": r"immigration|newcomers|nouveaux arrivants|refugees|réfugiés",
+    "Jobs and training": r"job fair|apprenticeship|skills training|formation professionnelle|salon de l.emploi",
+    "Health": r"health|hospital|long.term care|screening|therapy|vaccin|santé|hôpital|dépistage|cystic fibrosis",
+    "Education": r"school|universit|scholarship|student|école|étudiant|research chair|graduation",
+    "Transport": r"highway|traffic.pattern|traffic advisor|winter driving|road closure|bridge|public transit|autoroute|ponts?|circulation",
+    "Housing": r"housing|logement",
+    "Environment": r"environment|conservation|tropical forests|climate|environnement|climat",
+    "Public safety": r"polic(e|ing)|public safety|emergency preparedness|sécurité publique",
+    "Sport and recreation": r"sport|soccer|championship|loisirs",
+    "Grants and funding": r"grant program|funding application|subventions",
+}
+
+def topic(title):
+    for category, pattern in TOPIC_PATTERNS.items():
+        if re.search(r"\b(?:" + pattern + r")", title, re.I):
+            return category
+    return "Public updates"
+
+def clean_excerpt(summary, title):
+    text = plain(summary)
+    # The PM's Drupal feed appends an author and a raw timestamp to excerpts.
+    text = re.split(r"\s+pm@pm\.gc\.ca\b", text, maxsplit=1, flags=re.I)[0]
+    return text[:650].strip() or title
+
 def host_ok(url, domains):
     try:
         parsed=urlparse(url)
@@ -48,7 +79,7 @@ def date_iso(raw):
             return None
 def children(node, name):
     return node.findtext(name) or ""
-def parse(xml, source):
+def xml_entries(xml):
     root=ET.fromstring(xml)
     items=[]
     if root.tag.endswith("feed"):
@@ -61,19 +92,49 @@ def parse(xml, source):
     else:
         for entry in root.findall(".//item"):
             items.append((children(entry,"title"),children(entry,"description"),children(entry,"link"),children(entry,"pubDate") or children(entry,"{http://purl.org/dc/elements/1.1/}date")))
+    return items
+
+def newsroom_entries(page, source):
+    page = page.decode("utf-8")
+    if source["format"] == "gnwt":
+        pattern = (r'<span\s+class="teaser-date[^"]*">([^<]+)</span>'
+                   r'<h2 class="teaser-title[^"]*"><a\s+href="(/newsroom/[^"]+)">(.*?)</a></h2>')
+        entries = re.findall(pattern, page, re.S)
+        return [(title, "", urljoin(source["url"], path),
+                 dt.datetime.strptime(date, "%B %d, %Y").replace(tzinfo=dt.timezone.utc).isoformat())
+                for date, path, title in entries]
+    pattern = (r'>News release</div></div><div class="views-field views-field-title">'
+               r'<span class="field-content"><a href="(/en/(\d{4}/\d{2}/\d{2})/[^"]+)"[^>]*>(.*?)</a>')
+    return [(title, "", urljoin(source["url"], path), date.replace("/", "-") + "T00:00:00+00:00")
+            for path, date, title in re.findall(pattern, page, re.S)]
+
+def parse(data, source):
+    items = newsroom_entries(data, source) if source.get("format") else xml_entries(data)
     out=[]
     for title,summary,link,date in items:
         title=plain(title)[:240]
-        summary=plain(summary)[:650]
+        summary=clean_excerpt(summary,title)
         date=date_iso(date)
         if not title or not date or not host_ok(link,source["hosts"]): continue
-        out.append({"id":hashlib.sha256(link.encode()).hexdigest()[:20],"title":title,"summary":summary or title,"url":link,"publishedAt":date,"source":source["name"],"jurisdiction":source["jurisdiction"],"language":source["lang"],"category":"Public updates"})
+        out.append({"id":hashlib.sha256(link.encode()).hexdigest()[:20],"title":title,"summary":summary or title,"url":link,"publishedAt":date,"source":source["name"],"jurisdiction":source["jurisdiction"],"language":source["lang"],"category":topic(title)})
     return out
+def select_notices(items):
+    ranked = sorted(items, key=lambda item: item["publishedAt"], reverse=True)
+    latest_by_jurisdiction = {}
+    for item in ranked:
+        latest_by_jurisdiction.setdefault(item["jurisdiction"], item)
+    selected = {item["id"]: item for item in latest_by_jurisdiction.values()}
+    for item in ranked:
+        if len(selected) >= 40:
+            break
+        selected.setdefault(item["id"], item)
+    return sorted(selected.values(), key=lambda item: item["publishedAt"], reverse=True)
+
 def main():
     all_items=[]; errors=[]; successful=0
     for source in SOURCES:
         try:
-            req=urllib.request.Request(source["url"],headers={"User-Agent":"SWIPESCanada/0.1 (+https://ca.everyana.com; official feed aggregator)","Accept":"application/atom+xml,application/rss+xml,application/xml,text/xml"})
+            req=urllib.request.Request(source["url"],headers={"User-Agent":"SWIPESCanada/0.1 (+https://ca.everyana.com; official feed aggregator)","Accept":"application/atom+xml,application/rss+xml,application/xml,text/xml,text/html"})
             with urllib.request.urlopen(req,timeout=22) as response:
                 xml=response.read(3_000_000)
             parsed=parse(xml,source)
@@ -84,24 +145,17 @@ def main():
             errors.append(source["name"]+": "+str(e)[:160])
             print("WARNING",errors[-1])
     if not successful: raise SystemExit("No official feeds succeeded; refusing to overwrite published data")
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=14)
+    curated_path = Path("scripts/curated_notices.json")
+    all_items.extend(item for item in json.loads(curated_path.read_text(encoding="utf-8"))
+                     if dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff)
     dedup={}
     for item in all_items:
         key=item["url"].rstrip("/")
         if key not in dedup: dedup[key]=item
-    ranked=sorted(dedup.values(),key=lambda x:x["publishedAt"],reverse=True)
-    preferred=["British Columbia","Alberta","Saskatchewan","Manitoba","Ontario","Quebec","New Brunswick","Nova Scotia","Prince Edward Island","Newfoundland and Labrador","Yukon","Northwest Territories","Nunavut"]
-    records=[]; selected=set()
-    for jurisdiction in preferred:
-        item=next((x for x in ranked if x["jurisdiction"]==jurisdiction),None)
-        if item:
-            records.append(item); selected.add(item["id"])
-    for item in ranked:
-        if len(records)>=40: break
-        if item["id"] not in selected:
-            records.append(item); selected.add(item["id"])
-    records=sorted(records,key=lambda x:x["publishedAt"],reverse=True)
+    records = select_notices(dedup.values())
     path=Path("public/data/notices.json");path.parent.mkdir(parents=True,exist_ok=True)
-    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":13,"notices":records}
+    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":14,"notices":records}
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
 if __name__=="__main__": main()
