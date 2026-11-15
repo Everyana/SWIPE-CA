@@ -44,3 +44,17 @@ footer{color:#a99d99}
 button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #ff8b82;outline-offset:3px}
 @media(max-width:850px){.content{display:block}.rail{display:none}.story{padding:24px 7%}.brand small{display:none}.logo{width:42px;height:42px}.logo svg{width:30px;height:30px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+.language-options{display:flex;gap:3px;padding:3px;border:1px solid #595052;border-radius:10px}
+.language-options .lang{border:0;min-width:40px;min-height:42px;justify-content:center;padding:6px}
+.language-options .lang[aria-pressed="true"]{background:#503034;color:#fff}
+.notice-language{margin-top:12px;color:#d4ceca;font-size:12px;font-weight:600}
+.notice-source{min-height:54px;color:#fff;text-decoration:none}
+.notice-source .source-action{display:flex;align-items:center;gap:6px;color:#ffaaa5;text-align:right;font-weight:700;font-size:13px}
+.notice-source svg{flex-shrink:0}
+.notice-source:hover strong,.notice-source:focus-visible strong,.notice-source:hover .source-action{text-decoration:underline}
+@media(max-width:850px){
+  nav{gap:8px}
+  .story{height:auto;align-items:flex-start}
+  .story h1{margin:12px 0 16px}
+}
