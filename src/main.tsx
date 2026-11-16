@@ -13,7 +13,7 @@ const jurisdictions = {
   Quebec: 'Québec', Saskatchewan: 'Saskatchewan', Yukon: 'Yukon',
 };
 const topics = {
-  'Public updates': 'Actualités publiques', 'Jobs and training': 'Emploi et formation',
+  'Public updates': 'Actualités publiques', 'Government Jobs': 'Emplois gouvernementaux', 'Jobs and training': 'Emploi et formation',
   'Education': 'Éducation', 'Health': 'Santé', 'Transport': 'Transports',
   'Housing': 'Logement', 'Environment': 'Environnement', 'Public safety': 'Sécurité publique',
   'Public consultations': 'Consultations publiques', 'Grants and funding': 'Subventions et financement',
@@ -89,11 +89,12 @@ useEffect(() => {
     document.removeEventListener('visibilitychange', refreshOnReturn);
   };
 }, [retry]);
-const[q,setQ]=useState('');const[cat,setCat]=useState('All');const[jur,setJur]=useState('All');const[saved,setSaved]=useState<string[]>(()=>{try{return JSON.parse(localStorage.getItem('swipes-saved')||'[]')}catch{return []}});const[active,setActive]=useState(0);const[modal,setModal]=useState(false);const feed=useRef<HTMLDivElement>(null);const t=tr[lang];const cats = ['All', ...new Set(stories.map(s => s.category))];
+const[q,setQ]=useState('');const[cat,setCat]=useState('All');const[jur,setJur]=useState('All');const[saved,setSaved]=useState<string[]>(()=>{try{return JSON.parse(localStorage.getItem('swipes-saved')||'[]')}catch{return []}});const[active,setActive]=useState(0);const[modal,setModal]=useState(false);const feed=useRef<HTMLDivElement>(null);const t=tr[lang];const cats = ['All', 'Government Jobs', ...new Set(stories.map(s => s.category).filter(x=>x!=='Government Jobs'))];
 const jurs = ['All', ...new Set([...Object.keys(jurisdictions),...stories.map(s=>s.jurisdiction)])];
 const hasFilters = !!q.trim() || cat !== 'All' || jur !== 'All';
+const isGovJob=(s:Story)=>s.category==='Government Jobs' || (s.category==='Jobs and training' && /recruit|vacanc|hiring|apply for|position|emploi|poste|recrutement/i.test(s.en.title) && /government|gouvernement|ministry|ministère|public service|fonction publique|province|territory|territoire|city of|ville de/i.test(s.source));
 const filtered = useMemo(() => stories.filter(s =>
-  (cat === 'All' || s.category === cat) && (jur === 'All' || s.jurisdiction === jur) &&
+  (cat === 'All' || (cat==='Government Jobs'?isGovJob(s):s.category === cat)) && (jur === 'All' || s.jurisdiction === jur) &&
   searchText(`${s.en.title} ${s.en.summary} ${s.source} ${s.category} ${s.jurisdiction} ${label(s.category, topics, 'fr')} ${label(s.jurisdiction, jurisdictions, 'fr')}`).includes(searchText(q))
 ), [stories, q, cat, jur]);
 useEffect(()=>{localStorage.setItem('swipes-saved',JSON.stringify(saved))},[saved]);useEffect(()=>{setActive(0);feed.current?.scrollTo({top:0,behavior:'instant' as ScrollBehavior})},[q,cat,jur]);useEffect(()=>{const fn=(e:KeyboardEvent)=>{if((e.target as HTMLElement)?.matches('input,select,textarea'))return;if(!modal && filtered.length && (e.key==='ArrowDown'||e.key==='ArrowUp')){e.preventDefault();const next=Math.max(0,Math.min(filtered.length-1,active+(e.key==='ArrowDown'?1:-1)));feed.current?.children[next]?.scrollIntoView({block:'start',behavior:'smooth'});setActive(next)}};window.addEventListener('keydown',fn);return()=>window.removeEventListener('keydown',fn)},[active,filtered.length,modal]);useEffect(()=>{document.documentElement.lang=lang},[lang]);
