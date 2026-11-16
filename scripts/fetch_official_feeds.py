@@ -118,12 +118,18 @@ def parse(data, source):
         if not title or not date or not host_ok(link,source["hosts"]): continue
         out.append({"id":hashlib.sha256(link.encode()).hexdigest()[:20],"title":title,"summary":summary or title,"url":link,"publishedAt":date,"source":source["name"],"jurisdiction":source["jurisdiction"],"language":source["lang"],"category":topic(title)})
     return out
-def select_notices(items):
+def select_notices(items, curated):
     ranked = sorted(items, key=lambda item: item["publishedAt"], reverse=True)
     latest_by_jurisdiction = {}
     for item in ranked:
         latest_by_jurisdiction.setdefault(item["jurisdiction"], item)
-    selected = {item["id"]: item for item in latest_by_jurisdiction.values()}
+    selected = {item["id"]: item for item in curated}
+    covered = {item["jurisdiction"] for item in curated}
+    for jurisdiction, item in latest_by_jurisdiction.items():
+        if len(selected) >= 40:
+            break
+        if jurisdiction not in covered:
+            selected[item["id"]] = item
     for item in ranked:
         if len(selected) >= 40:
             break
@@ -147,7 +153,8 @@ def main():
             errors.append(source["name"]+": "+str(e)[:160])
             print("WARNING",errors[-1])
     if not successful: raise SystemExit("No official feeds succeeded; refusing to overwrite published data")
-    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=14)
+    now = dt.datetime.now(dt.timezone.utc)
+    cutoff = now - dt.timedelta(days=14)
     path = Path("public/data/notices.json")
     if path.exists():
         previous = json.loads(path.read_text(encoding="utf-8"))
@@ -157,13 +164,16 @@ def main():
                     and dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff):
                 all_items.append(item)
     curated_path = Path("scripts/curated_notices.json")
-    all_items.extend(item for item in json.loads(curated_path.read_text(encoding="utf-8"))
-                     if dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff)
-    dedup={}
-    for item in all_items:
-        key=item["url"].rstrip("/")
-        if key not in dedup: dedup[key]=item
-    records = select_notices(dedup.values())
+    curated = [item for item in json.loads(curated_path.read_text(encoding="utf-8"))
+               if dt.datetime.fromisoformat(item["publishedAt"]) >= cutoff
+               and (not item.get("expiresAt") or dt.datetime.fromisoformat(item["expiresAt"]) > now)]
+    dedup = {}
+    for item in curated + all_items:
+        key = item["url"].rstrip("/")
+        if urlparse(key).hostname == "www.alberta.ca":
+            key = key.replace("/announcements.cfm?", "/release.cfm?")
+        dedup.setdefault(key, item)
+    records = select_notices(dedup.values(), curated)
     path.parent.mkdir(parents=True,exist_ok=True)
     payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":14,"notices":records}
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
