@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T01:30:18.787849+00:00",
+  "updatedAt": "2026-11-16T08:51:25.263582+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "coverage": [
@@ -20,6 +20,28 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "2b8f05c820f0e42ea2e1",
+      "title": "Prime Minister Carney meets with President of Senegal Bassirou Diomaye Faye",
+      "summary": "Prime Minister Carney meets with President of Senegal Bassirou Diomaye Faye",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/16/prime-minister-carney-meets-president-senegal-bassirou-diomaye-faye",
+      "publishedAt": "2026-11-16T04:35:12+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "432d43d00fe9e52a0590",
+      "title": "Statement by Prime Minister Carney on the 113 th Grey Cup",
+      "summary": "Statement by Prime Minister Carney on the 113<sup>th</sup> Grey Cup",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/15/statement-prime-minister-carney-113th-grey-cup",
+      "publishedAt": "2026-11-16T03:02:30+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "a8138f71528c7afbffd6",
       "title": "Une première rencontre constructive entre le premier ministre du Québec et le premier ministre du Canada",
@@ -274,17 +296,6 @@
       "category": "Public updates"
     },
     {
-      "id": "e497ce4cfb10ef72fb46",
-      "title": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
-      "summary": "Canada concludes negotiations for two new free trade agreements with the Philippines and ASEAN – unlocking greater access to a market of more than 700 million people for Canadian businesses",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements",
-      "publishedAt": "2026-11-13T18:32:46+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "38ab49e85f4c70cb911f",
       "title": "Ontario Launches Updated Design Manual to Build Long-Term Care Homes Faster",
       "summary": "New changes will cut red tape, streamline planning and construction to help build more long-term care homes across the province",
@@ -391,17 +402,6 @@
       "publishedAt": "2026-11-13T16:03:31+00:00",
       "source": "Government of Prince Edward Island",
       "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "74282732ef9a1a75965a",
-      "title": "Ontario and Canada Working Together to Protect Auto Workers from Tariffs",
-      "summary": "$8.7 billion trade action plan will strengthen tariff-impacted industries and deliver long-term economic growth",
-      "url": "https://news.ontario.ca/en/release/1008280/ontario_and_canada_working_together_to_protect_auto_workers_from_tariffs",
-      "publishedAt": "2026-11-13T15:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
       "language": "en",
       "category": "Public updates"
     },
