@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:57:33.691Z",
+  "updatedAt": "2026-11-16T23:58:15.136722+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "coverage": [
@@ -21,6 +21,28 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "ccf099883cfa7c4fc4b1",
+      "title": "Government Introduces Legislation for Supervised Consumption Sites",
+      "summary": "Today, Mental Health and Addictions Minister Lori Carr introduced The Community Support and Recovery Act, which establishes a provincial framework for where and when supervised consumption sites...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/16/government-introduces-legislation-for-supervised-consumption-sites",
+      "publishedAt": "2026-11-17T02:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "143077586625fb927307",
+      "title": "Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador",
+      "summary": "The Provincial Government has introduced the Regulatory Improvement and Efficiency Act and began second reading today in the House of Assembly, delivering on a key Provincial Government platform commitment to reduce red tape, remove barriers, improve services and create a... Read More about Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador The post Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n09/",
+      "publishedAt": "2026-11-16T23:20:14+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "5fa6ee24ebe5be4c8cb0",
       "title": "Saskatchewan Marks International Education Week",
       "summary": "The Government of Saskatchewan has proclaimed International Education Week from November 16 to 20, 2026. This week highlights the positive impact of international education and recognizes its...",
@@ -28,6 +50,83 @@
       "publishedAt": "2026-11-16T22:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1255cae9b6cfce570c6e",
+      "title": "Updating Alberta’s electoral boundaries",
+      "summary": "Bill 40, the Electoral Divisions Act , would replace Alberta’s existing electoral boundaries with new boundaries approved in a resolution by the Legislative Assembly.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98139F1EBF9E3-D32E-9395-790A11161426C281",
+      "publishedAt": "2026-11-16T21:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "9b716bf3ffd2b42de77a",
+      "title": "Manitoba Government Reduces Spending on Nursing and Health-Care Aide Agencies by Nearly $50 Million",
+      "summary": "Manitoba Government Reduces Spending on Nursing and Health-Care Aide Agencies by Nearly $50 Million",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76079",
+      "publishedAt": "2026-11-16T20:59:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "439c6554e35714545335",
+      "title": "Manitoba Joins the Organisation Internationale de la Francophonie",
+      "summary": "Manitoba Joins the Organisation Internationale de la Francophonie",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76078",
+      "publishedAt": "2026-11-16T20:08:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "499a134c734e87f00340",
+      "title": "Media Advisory: Premier Wakeham to Make Health Care Announcement",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will make a health care announcement tomorrow (Tuesday, November 17). The announcement will take place at 11:00 a.m. at the Memorial University Faculty of Medicine, Room 5M101, 300 Prince Philip Drive,... Read More about Media Advisory: Premier Wakeham to Make Health Care Announcement The post Media Advisory: Premier Wakeham to Make Health Care Announcement appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n08/",
+      "publishedAt": "2026-11-16T20:04:14+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "9585975727af1178f7ac",
+      "title": "B.C. testing emergency alerts to cellphones, TV, radio",
+      "summary": "Test ensures readiness of public alerting system",
+      "url": "https://news.gov.bc.ca/releases/2026EMCR0041-001138",
+      "publishedAt": "2026-11-16T20:00:00+00:00",
+      "source": "BC Gov News",
+      "jurisdiction": "British Columbia",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "413d31c404bfb7a3cbab",
+      "title": "Seven Convicted for Tobacco Tax Act Violations",
+      "summary": "Seven Convicted for Tobacco Tax Act Violations",
+      "url": "https://news.ontario.ca/en/court/1008289/seven_convicted_for_tobacco_tax_act_violations",
+      "publishedAt": "2026-11-16T20:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e7e8c49ee5dcae733b31",
+      "title": "Plan ahead for avalanche season",
+      "summary": "As winter arrives, Alberta’s government is helping keep Albertans safe with daily forecasting on avalanche conditions.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98140F2253664-A90D-DFE5-028F0E8264478B5B",
+      "publishedAt": "2026-11-16T19:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
@@ -121,6 +220,17 @@
       "category": "Public updates"
     },
     {
+      "id": "c82da8c25169098102eb",
+      "title": "Le ministre Jean Pellerin revient sur une mission fructueuse à la COP31",
+      "summary": "QUÉBEC , le 16 nov. 2026 /CNW/ -- Au terme de sa première participation à la Conférence des Parties à la Convention-cadre des Nations Unies sur les changements climatiques (COP31), le ministre de l'Environnement, de la Lutte contre les changements climatiques, de la Protection de la biodiversité, de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/le-ministre-jean-pellerin-revient-sur-une-mission-fructueuse-a-la-cop31-73058",
+      "publishedAt": "2026-11-16T18:46:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
       "id": "868b0bbf96ac58bf9210",
       "title": "Orders in Council",
       "summary": "Order Approved – November 13, 2026",
@@ -128,6 +238,17 @@
       "publishedAt": "2026-11-16T18:45:00+00:00",
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "515e800616d5ec69068b",
+      "title": "Wood Street Centre Advisory Committee members appointed",
+      "summary": "Wood Street Centre Advisory Committee members appointed zaburke November 16, 2026 - 11:34 am The Government of Yukon has appointed the inaugural members of the Wood Street Centre Advisory Committee. Wood Street Centre offers specialized, semester-based programs for students from across the Yukon. Students remain enrolled in their home school while participating in Wood Street Centre programs. The advisory committee establishes a formal way for students, families and community partners to provide advice and perspectives related to Wood Street Centre, which is recognized as a centre for excellence in experiential learning in the Yukon. Followin",
+      "url": "https://yukon.ca/en/news/wood-street-centre-advisory-committee-members-appointed",
+      "publishedAt": "2026-11-16T18:34:47+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
       "language": "en",
       "category": "Public updates"
     },
@@ -196,127 +317,6 @@
       "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
-    },
-    {
-      "id": "4161645d84adcc031874",
-      "title": "Protecting privacy and player account information",
-      "summary": "Minister of Service Alberta and Red Tape Reduction Dale Nally issued the following statement on the future of Play Alberta:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98141F2DCBFE9-F529-1CB3-A14B3E3662B0F0D8",
-      "publishedAt": "2026-11-16T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "0c17805bd8584da1c3b8",
-      "title": "Community projects receive funding to support Yukon youth",
-      "summary": "Community projects receive funding to support Yukon youth cawall November 16, 2026 - 9:00 am Sixteen community projects across the territory are receiving over $62,500 through the Government of Yukon’s Youth Investment Fund. The Youth Investment Fund supports short-term projects aimed at youth under 19 years of age who have fewer chances to participate in extracurricular activities or are experiencing discrimination. Projects funded by the Youth Investment Fund provide Yukon youth with opportunities to promote self-esteem, encourage the development of positive lifestyle choices and create social and recreational opportunities. Thank you to re",
-      "url": "https://yukon.ca/en/news/community-projects-receive-funding-support-yukon-youth",
-      "publishedAt": "2026-11-16T16:00:46+00:00",
-      "source": "Government of Yukon",
-      "jurisdiction": "Yukon",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "cd8a3488cdaab37e2be3",
-      "title": "Métis Week: Minister Sawhney",
-      "summary": "Minister of Indigenous Relations Rajan Sawhney issued the following statement in recognition of Métis Week:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98134EFCE66D3-D725-3811-6563E11333CB63B3",
-      "publishedAt": "2026-11-16T15:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "59f16df3a44c1010128c",
-      "title": "Responsible Gambling Week: Minister Nally statement",
-      "summary": "Minister of Service Alberta and Red Tape Reduction Dale Nally issued the following statement announcing Responsible Gambling Week:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98136F0621690-9DC1-2BED-3A39337B7EDD9661",
-      "publishedAt": "2026-11-16T15:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "5b542d7fe0c45954464f",
-      "title": "Bullying Awareness Week: Minister Turton",
-      "summary": "Minister of Children and Family Services Searle Turton issued the following statement on Bullying Awareness Week:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98137F099EA8D-EAF6-DD20-7F34E2CEF0DE2A88",
-      "publishedAt": "2026-11-16T15:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "65beda08c548f52b308b",
-      "title": "National Addictions Awareness Week: Minister Wilson",
-      "summary": "Minister of Mental Health and Addiction Rick Wilson issued the following statement on National Addictions Awareness Week:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98138F0BDC5B0-0E15-7E08-F136F5770024C439",
-      "publishedAt": "2026-11-16T15:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "6bcb7bf6a43f744a3ff2",
-      "title": "Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families",
-      "summary": "Families across Newfoundland and Labrador will benefit from another affordability measure as the Provincial Government continues its work to put more money back in people’s pockets and make life more affordable for all of us. The Honourable Tony Wakeham, Premier... Read More about Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families The post Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n03/",
-      "publishedAt": "2026-11-16T15:22:27+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ef722e8f90f435e1ee5c",
-      "title": "Digital Health Week highlights online tools for Islanders",
-      "summary": "During Digital Health Week, November 16 to 22, Islanders are encouraged to explore trusted digital tools and resources that help them access health…",
-      "url": "https://www.princeedwardisland.ca/en/news/digital-health-week-highlights-online-tools-for-islanders",
-      "publishedAt": "2026-11-16T15:13:19+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "5312126257854f2e095b",
-      "title": "75th Anniversary Award Added to Arts and Letters Awards Program",
-      "summary": "The Department of Tourism, Culture, Arts and Recreation is pleased to announce the addition of a special 75th Anniversary Award for Excellence and Creativity to the 2027 Arts and Letters Awards Program. In recognition of the 75th anniversary of the... Read More about 75th Anniversary Award Added to Arts and Letters Awards Program The post 75th Anniversary Award Added to Arts and Letters Awards Program appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/tcar/1116n02/",
-      "publishedAt": "2026-11-16T14:15:03+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "a0b15eaa869fdf7fe401",
-      "title": "Health PEI prepares for upcoming Accreditation Canada surveys",
-      "summary": "Health PEI is preparing for its upcoming Accreditation Canada on-site survey visits, scheduled for November 2026 and June 2027, as part of its…",
-      "url": "https://www.princeedwardisland.ca/en/news/health-pei-prepares-for-upcoming-accreditation-canada-surveys",
-      "publishedAt": "2026-11-16T14:14:25+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "65f0ff59f62712de47fd",
-      "title": "Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools",
-      "summary": "The Department of Education and Early Childhood Development is partnering with Heart & Stroke to offer Newfoundland and Labrador schools the opportunity to provide lifesaving skills through the cardiopulmonary resuscitation (CPR) education program CardiacCrash. The partnership builds on an initiative... Read More about Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools The post Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/eecd/1116n01/",
-      "publishedAt": "2026-11-16T13:15:15+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Education"
     },
     {
       "id": "202611-le-budget-federal-propose-1-5-milliard-pour-les-patinoires-et-les-loisirs",
