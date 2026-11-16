@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T08:51:25.263582+00:00",
-  "sourcesSucceeded": 12,
+  "updatedAt": "2026-11-16T15:11:28.472054+00:00",
+  "sourcesSucceeded": 11,
   "sourcesConfigured": 16,
   "coverage": [
     "Alberta",
@@ -21,6 +21,94 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "5312126257854f2e095b",
+      "title": "75th Anniversary Award Added to Arts and Letters Awards Program",
+      "summary": "The Department of Tourism, Culture, Arts and Recreation is pleased to announce the addition of a special 75th Anniversary Award for Excellence and Creativity to the 2027 Arts and Letters Awards Program. In recognition of the 75th anniversary of the... Read More about 75th Anniversary Award Added to Arts and Letters Awards Program The post 75th Anniversary Award Added to Arts and Letters Awards Program appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/tcar/1116n02/",
+      "publishedAt": "2026-11-16T14:15:03+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a0b15eaa869fdf7fe401",
+      "title": "Health PEI prepares for upcoming Accreditation Canada surveys",
+      "summary": "Health PEI is preparing for its upcoming Accreditation Canada on-site survey visits, scheduled for November 2026 and June 2027, as part of its…",
+      "url": "https://www.princeedwardisland.ca/en/news/health-pei-prepares-for-upcoming-accreditation-canada-surveys",
+      "publishedAt": "2026-11-16T14:14:25+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "65f0ff59f62712de47fd",
+      "title": "Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools",
+      "summary": "The Department of Education and Early Childhood Development is partnering with Heart & Stroke to offer Newfoundland and Labrador schools the opportunity to provide lifesaving skills through the cardiopulmonary resuscitation (CPR) education program CardiacCrash. The partnership builds on an initiative... Read More about Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools The post Provincial Government Partnering with Heart & Stroke to Provide CPR and AED Education in Schools appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/eecd/1116n01/",
+      "publishedAt": "2026-11-16T13:15:15+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Education"
+    },
+    {
+      "id": "cb100f728f8e37945631",
+      "title": "Phnom Penh Declaration: Reinvesting in peace for shared prosperity and lasting stability",
+      "summary": "Phnom Penh Declaration: Reinvesting in peace for shared prosperity and lasting stability",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/16/phnom-penh-declaration-reinvesting-peace-shared-prosperity-and-lasting",
+      "publishedAt": "2026-11-16T11:44:17+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8f6ca3a6fdebcaeb4429",
+      "title": "Le gouvernement du Québec accorde plus de 4,3 M$ à la MRC de Mékinac",
+      "summary": "SAINT-TITE, QC , le 16 nov. 2026 /CNW/ -- Le ministre des Affaires municipales, M. Nicolas Girard, est fier d'annoncer qu'une somme de 4 389 840 $ a été accordée à la MRC de Mékinac pour l'agrandissement et la rénovation de son centre administratif. À terme, le bâtiment, situé au 560, rue Notre-Dame",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/le-gouvernement-du-quebec-accorde-plus-de-43-m-a-la-mrc-de-mekinac-73038",
+      "publishedAt": "2026-11-16T09:04:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "30579aa2a526e1a2843d",
+      "title": "L'Assemblée nationale du Québec recherche des projets créatifs pour 2027-2028!",
+      "summary": "QUÉBEC CITY , le 16 nov. 2026 /CNW/ -- L'Assemblée nationale du Québec est heureuse de lancer l'appel de projets de la Programmation citoyenne 2027-2028! L'objectif? Par l'entremise d'expositions, d'ateliers, de conférences ou d'autres types d'activités, mettre en lumière des initiatives porteuses e",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/lassemblee-nationale-du-quebec-recherche-des-projets-creatifs-pour-2027-2028-73036",
+      "publishedAt": "2026-11-16T08:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "bf25b67e2220424e4bf1",
+      "title": "/R E P R I S E -- Examens de conduite et aide à la création d'un compte - Une équipe mobile de la SAAQ sera bientôt à Forestville/",
+      "summary": "BAIE-COMEAU, QC , le 30 oct. 2026 /CNW/ -- La Société de l'assurance automobile du Québec (SAAQ) informe la population de Forestville et des environs de la visite prochaine d'une équipe mobile qui permettra aux personnes désirant obtenir un permis de conduire ou un permis d'apprenti conducteur de pa",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-examens-de-conduite-et-aide-a-la-creation-dun-compte-une-equipe-mobile-de-la-saaq-sera-bientot-a-forestville-73035",
+      "publishedAt": "2026-11-16T08:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "56d06843aad83f1146cf",
+      "title": "/R E P R I S E -- Avis aux médias - Invitation à une prise d'images concernant la réouverture du pont D'Amours/",
+      "summary": "RIVIÈRE-DU-LOUP, QC , le 13 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, au nom du ministre des Transports et de la Mobilité durable, M. Nicolas Girard, ainsi que",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-invitation-a-une-prise-dimages-concernant-la-reouverture-du-pont-damours-73034",
+      "publishedAt": "2026-11-16T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
+    },
+    {
       "id": "2b8f05c820f0e42ea2e1",
       "title": "Prime Minister Carney meets with President of Senegal Bassirou Diomaye Faye",
       "summary": "Prime Minister Carney meets with President of Senegal Bassirou Diomaye Faye",
@@ -37,6 +125,50 @@
       "summary": "Statement by Prime Minister Carney on the 113<sup>th</sup> Grey Cup",
       "url": "https://www.pm.gc.ca/en/news/statements/2026/11/15/statement-prime-minister-carney-113th-grey-cup",
       "publishedAt": "2026-11-16T03:02:30+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "057f8787d8b902f5ec97",
+      "title": "Tuesday, November 17, 2026",
+      "summary": "Tuesday, November 17, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/16/tuesday-november-17-2026",
+      "publishedAt": "2026-11-16T02:14:41+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "20c2a7c2f93d5f0dd1d6",
+      "title": "Statement by Prime Minister Carney on Louis Riel Day",
+      "summary": "Statement by Prime Minister Carney on Louis Riel Day",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/16/statement-prime-minister-carney-louis-riel-day",
+      "publishedAt": "2026-11-15T23:53:12+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b4c475507d206c1f1559",
+      "title": "Canada officially designated as host of the 2028 Sommet de la Francophonie",
+      "summary": "Canada officially designated as host of the 2028 Sommet de la Francophonie",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/16/canada-officially-designated-host-2028-sommet-de-la-francophonie",
+      "publishedAt": "2026-11-15T12:40:09+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "628de84a36316dad5404",
+      "title": "Prime Minister Carney announces investments to strengthen Canada’s partnerships across Francophone Africa",
+      "summary": "Prime Minister Carney announces investments to strengthen Canada’s partnerships across Francophone Africa",
+      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/16/prime-minister-carney-announces-investments-strengthen-canadas",
+      "publishedAt": "2026-11-15T12:00:58+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
       "language": "en",
@@ -87,28 +219,6 @@
       "category": "Environment"
     },
     {
-      "id": "e44cbfc6b9cf459ed614",
-      "title": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
-      "summary": "Prime Minister Carney delivers remarks to media during his visit to the Philippines and participation in the ASEAN Summit",
-      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/14/prime-minister-carney-delivers-remarks-media-during-his-visit-philippines",
-      "publishedAt": "2026-11-14T20:51:05+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "e8dcdb6ee93a84969921",
-      "title": "Statement by Prime Minister Carney on the 78 th birthday of His Majesty King Charles III",
-      "summary": "Statement by Prime Minister Carney on the 78<sup>th</sup> birthday of His Majesty King Charles III",
-      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/14/statement-prime-minister-carney-78th-birthday-his-majesty-king-charles",
-      "publishedAt": "2026-11-14T12:49:57+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "746ffe9083451f09d188",
       "title": "/R E P R I S E -- AVIS AUX MÉDIAS - France Charbonneau et Kim O'Bomsawin recevront un doctorat honorifique de l'Université TÉLUQ/",
       "summary": "QUÉBEC , le 11 nov. 2026 /CNW/ -- À l'occasion de sa collation des grades, l'Université TÉLUQ décernera, le samedi 14 novembre prochain, un doctorat honoris causa à deux personnalités qui se sont distinguées par leur contribution remarquable à la société québécoise. Les représentantes et représentan",
@@ -118,17 +228,6 @@
       "jurisdiction": "Quebec",
       "language": "fr",
       "category": "Education"
-    },
-    {
-      "id": "9454345c47c0dbb1e299",
-      "title": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
-      "summary": "Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.",
-      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/14/prime-minister-carney-meets-president-philippines-ferdinand-marcos-jr",
-      "publishedAt": "2026-11-14T05:24:42+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
     },
     {
       "id": "dab0d4a16e7ab648ba3a",
@@ -274,28 +373,6 @@
       "category": "Public updates"
     },
     {
-      "id": "914971d2aafd145d354c",
-      "title": "Sunday, November 15, 2026",
-      "summary": "Sunday, November 15, 2026",
-      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/14/sunday-november-15-2026",
-      "publishedAt": "2026-11-13T18:56:42+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "739c99473b1629014c51",
-      "title": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
-      "summary": "Prime Minister Carney strengthens Canada’s partnerships with ASEAN and the Philippines to advance shared security and prosperity",
-      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/14/prime-minister-carney-strengthens-canadas-partnerships-asean-and",
-      "publishedAt": "2026-11-13T18:56:36+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "38ab49e85f4c70cb911f",
       "title": "Ontario Launches Updated Design Manual to Build Long-Term Care Homes Faster",
       "summary": "New changes will cut red tape, streamline planning and construction to help build more long-term care homes across the province",
@@ -329,83 +406,6 @@
       "category": "Sport and recreation"
     },
     {
-      "id": "3a27f6b4cbe8a787bd50",
-      "title": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "summary": "Manitoba Government Partners with Treaty One Nations Inc. to Launch Grant Program",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76038",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Grants and funding"
-    },
-    {
-      "id": "7dece6c65345e7c5d06c",
-      "title": "Breast Screening Access Expanded in Central Newfoundland",
-      "summary": "A new mammography unit is now operational at the Central Newfoundland Regional Health Centre in Grand Falls-Windsor. The Honourable Joedy Wall, Minister of Health and Community Services, made the announcement and toured the new mammography unit today. The Provincial Government... Read More about Breast Screening Access Expanded in Central Newfoundland The post Breast Screening Access Expanded in Central Newfoundland appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/health/1113n03/",
-      "publishedAt": "2026-11-13T16:40:11+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "e695520e6ff2a4f027d4",
-      "title": "Standing Hearing for Inquest into Death of Tiana Obirek",
-      "summary": "Standing Hearing for Inquest into Death of Tiana Obirek",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76039",
-      "publishedAt": "2026-11-13T16:40:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "f6ffa6a8c1040ddc7c5a",
-      "title": "Company sentenced for workplace fatality",
-      "summary": "A crane and rigging company has been penalized $350,000 related to a workplace fatality.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98124576D6ED6-BDF9-73A7-42E5E2A0D03786D7",
-      "publishedAt": "2026-11-13T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "90cb96583962d9944c46",
-      "title": "Orders in Council",
-      "summary": "Orders Approved – November 10, 2026",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98123566D993E-A61B-E49A-FB9DE0A99E289E7D",
-      "publishedAt": "2026-11-13T16:15:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "5aa5399a4b56e4cb020f",
-      "title": "New high school graduation requirements | Davantage de cheminements pour la réussite des élèves",
-      "summary": "Alberta’s government will be updating high school graduation requirements to give students more choice and better prepare them for life after high school.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9812558C3D3A0-FF1B-B49F-6E19D782306A17D4",
-      "publishedAt": "2026-11-13T16:10:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Education"
-    },
-    {
-      "id": "090b6f2041946d4f2ada",
-      "title": "Nominations open for PEI Anti-Racism Recognition Award",
-      "summary": "Island residents are invited to nominate individuals, community groups and organizations that are making a difference in addressing racism and…",
-      "url": "https://www.princeedwardisland.ca/en/news/nominations-open-for-pei-anti-racism-recognition-award",
-      "publishedAt": "2026-11-13T16:03:31+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "97f69d5ca17ed10749be",
       "title": "Beer recalled for metal contamination",
       "summary": "The Department of Health is warning about a food recall issued by the Canadian Food Inspection Agency (CFIA) due to containing pieces of metal.",
@@ -417,17 +417,6 @@
       "category": "Public updates"
     },
     {
-      "id": "2e85ce9b4a6e881c9515",
-      "title": "Public Health Advisory Rescinded For the Community of Wekweètì",
-      "summary": "Public Health Advisory Rescinded For the Community of Wekweètì",
-      "url": "https://gnwt.ca/newsroom/public-health-advisory-rescinded-community-wekweeti",
-      "publishedAt": "2026-11-13T00:00:00+00:00",
-      "source": "Government of the Northwest Territories",
-      "jurisdiction": "Northwest Territories",
-      "language": "en",
-      "category": "Health"
-    },
-    {
       "id": "d3247bed27c07c0697e1",
       "title": "Weekly Traffic Advisories",
       "summary": "Weekly Traffic Advisories",
@@ -437,6 +426,17 @@
       "jurisdiction": "Nova Scotia",
       "language": "en",
       "category": "Transport"
+    },
+    {
+      "id": "2e85ce9b4a6e881c9515",
+      "title": "Public Health Advisory Rescinded For the Community of Wekweètì",
+      "summary": "Public Health Advisory Rescinded For the Community of Wekweètì",
+      "url": "https://gnwt.ca/newsroom/public-health-advisory-rescinded-community-wekweeti",
+      "publishedAt": "2026-11-13T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
+      "language": "en",
+      "category": "Health"
     },
     {
       "id": "7b420e11bec946b0681e",
