@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T15:11:28.472054+00:00",
-  "sourcesSucceeded": 11,
+  "updatedAt": "2026-11-16T19:00:00.140891+00:00",
+  "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "coverage": [
     "Alberta",
@@ -20,6 +20,182 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "5fa6ee24ebe5be4c8cb0",
+      "title": "Saskatchewan Marks International Education Week",
+      "summary": "The Government of Saskatchewan has proclaimed International Education Week from November 16 to 20, 2026. This week highlights the positive impact of international education and recognizes its...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/16/saskatchewan-marks-international-education-week",
+      "publishedAt": "2026-11-16T22:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "868b0bbf96ac58bf9210",
+      "title": "Orders in Council",
+      "summary": "Order Approved – November 13, 2026",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98142F740F9D3-A63E-BFD1-5E40F89D63F25C29",
+      "publishedAt": "2026-11-16T18:45:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "979b90163e65af2a417b",
+      "title": "Applications Open for 2027 RISE Awards",
+      "summary": "Applications are now being accepted for the 2027 Research Inspired Student Enrichment (RISE) Awards. The awards support up to 20 Level II students from Newfoundland and Labrador to attend prestigious STEM enrichment programs in Canada and the United States. Students... Read More about Applications Open for 2027 RISE Awards The post Applications Open for 2027 RISE Awards appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1116n07/",
+      "publishedAt": "2026-11-16T18:20:53+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "676b753051b3eb3af09e",
+      "title": "Ontario Introducing Legislation to Protect Children and Strengthen Family Services",
+      "summary": "Proposed changes will strengthen Ontario’s child welfare system, better protect victims of intimate image abuse and improve access to health care",
+      "url": "https://news.ontario.ca/en/release/1008288/ontario_introducing_legislation_to_protect_children_and_strengthen_family_services",
+      "publishedAt": "2026-11-16T18:05:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "50e5fa6021bcfc7c3cdf",
+      "title": "Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Tony Wakeham, Premier of Newfoundland and Labrador: Speaker, I rise today with sadness to acknowledge the passing of the Honourable Lloyd Matthews, a former Member of... Read More about Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews The post Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n06/",
+      "publishedAt": "2026-11-16T17:40:18+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "07818c0012b59bd61262",
+      "title": "Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Paul Dinn, Minister of Education and Early Childhood Development: Speaker, I’m proud to rise today to recognize Anne Beaumaster, a reading specialist at Topsail Elementary School... Read More about Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster The post Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/eecd/1116n05/",
+      "publishedAt": "2026-11-16T17:25:56+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2ff45130a9853bc92886",
+      "title": "Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lloyd Parrott, Minister of Government Services: Speaker, today we remember those lost or forever changed by tragedies on our roads and highways. This morning, we gathered... Read More about Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims The post Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/government-services/1116n04/",
+      "publishedAt": "2026-11-16T17:20:45+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "94f3d641bfbc4feace00",
+      "title": "Prime Minister Carney meets with Prime Minister of Cambodia Hun Manet",
+      "summary": "Prime Minister Carney meets with Prime Minister of Cambodia Hun Manet",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/16/prime-minister-carney-meets-prime-minister-cambodia-hun-manet",
+      "publishedAt": "2026-11-16T16:49:53+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "4161645d84adcc031874",
+      "title": "Protecting privacy and player account information",
+      "summary": "Minister of Service Alberta and Red Tape Reduction Dale Nally issued the following statement on the future of Play Alberta:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98141F2DCBFE9-F529-1CB3-A14B3E3662B0F0D8",
+      "publishedAt": "2026-11-16T16:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0c17805bd8584da1c3b8",
+      "title": "Community projects receive funding to support Yukon youth",
+      "summary": "Community projects receive funding to support Yukon youth cawall November 16, 2026 - 9:00 am Sixteen community projects across the territory are receiving over $62,500 through the Government of Yukon’s Youth Investment Fund. The Youth Investment Fund supports short-term projects aimed at youth under 19 years of age who have fewer chances to participate in extracurricular activities or are experiencing discrimination. Projects funded by the Youth Investment Fund provide Yukon youth with opportunities to promote self-esteem, encourage the development of positive lifestyle choices and create social and recreational opportunities. Thank you to re",
+      "url": "https://yukon.ca/en/news/community-projects-receive-funding-support-yukon-youth",
+      "publishedAt": "2026-11-16T16:00:46+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "cd8a3488cdaab37e2be3",
+      "title": "Métis Week: Minister Sawhney",
+      "summary": "Minister of Indigenous Relations Rajan Sawhney issued the following statement in recognition of Métis Week:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98134EFCE66D3-D725-3811-6563E11333CB63B3",
+      "publishedAt": "2026-11-16T15:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "59f16df3a44c1010128c",
+      "title": "Responsible Gambling Week: Minister Nally statement",
+      "summary": "Minister of Service Alberta and Red Tape Reduction Dale Nally issued the following statement announcing Responsible Gambling Week:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98136F0621690-9DC1-2BED-3A39337B7EDD9661",
+      "publishedAt": "2026-11-16T15:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "5b542d7fe0c45954464f",
+      "title": "Bullying Awareness Week: Minister Turton",
+      "summary": "Minister of Children and Family Services Searle Turton issued the following statement on Bullying Awareness Week:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98137F099EA8D-EAF6-DD20-7F34E2CEF0DE2A88",
+      "publishedAt": "2026-11-16T15:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "65beda08c548f52b308b",
+      "title": "National Addictions Awareness Week: Minister Wilson",
+      "summary": "Minister of Mental Health and Addiction Rick Wilson issued the following statement on National Addictions Awareness Week:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98138F0BDC5B0-0E15-7E08-F136F5770024C439",
+      "publishedAt": "2026-11-16T15:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "6bcb7bf6a43f744a3ff2",
+      "title": "Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families",
+      "summary": "Families across Newfoundland and Labrador will benefit from another affordability measure as the Provincial Government continues its work to put more money back in people’s pockets and make life more affordable for all of us. The Honourable Tony Wakeham, Premier... Read More about Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families The post Premier Wakeham Announces Family Affordability Benefit, Delivering Over $38 Million in Direct Support for Families appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n03/",
+      "publishedAt": "2026-11-16T15:22:27+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ef722e8f90f435e1ee5c",
+      "title": "Digital Health Week highlights online tools for Islanders",
+      "summary": "During Digital Health Week, November 16 to 22, Islanders are encouraged to explore trusted digital tools and resources that help them access health…",
+      "url": "https://www.princeedwardisland.ca/en/news/digital-health-week-highlights-online-tools-for-islanders",
+      "publishedAt": "2026-11-16T15:13:19+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Health"
+    },
     {
       "id": "5312126257854f2e095b",
       "title": "75th Anniversary Award Added to Arts and Letters Awards Program",
@@ -54,6 +230,28 @@
       "category": "Education"
     },
     {
+      "id": "fce1f7d9571fdbf09c95",
+      "title": "Nouvel appel de projets pour soutenir la relève faunique et promouvoir les activités de chasse, de pêche et de piégeage au Québec",
+      "summary": "VILLE DE QUÉBEC , le 16 nov. 2026 /CNW/ -- Le ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Protection de la biodiversité, de la Faune et des Parcs lance un appel de projets dans le cadre du programme Relève et mise en valeur de la faune. Un budget total d'un mi",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/nouvel-appel-de-projets-pour-soutenir-la-releve-faunique-et-promouvoir-les-activites-de-chasse-de-peche-et-de-piegeage-au-quebec-73050",
+      "publishedAt": "2026-11-16T13:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "be8f254c8af196df0cf9",
+      "title": "Fermeture complète de l'autoroute 20/route 132 à Longueuil dans la nuit du 21 au 22 novembre",
+      "summary": "LONGUEUIL, QC , le 16 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population qu'une fermeture complète de l'autoroute 20/route 132 (René-Lévesque), dans les deux directions, entre les boulevards Taschereau et Roland-Therrien, à Longueuil, aura lieu dans la nui",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/fermeture-complete-de-lautoroute-20-route-132-a-longueuil-dans-la-nuit-du-21-au-22-novembre-73049",
+      "publishedAt": "2026-11-16T12:27:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
+    },
+    {
       "id": "cb100f728f8e37945631",
       "title": "Phnom Penh Declaration: Reinvesting in peace for shared prosperity and lasting stability",
       "summary": "Phnom Penh Declaration: Reinvesting in peace for shared prosperity and lasting stability",
@@ -62,6 +260,50 @@
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "88803d2579f5026ffa72",
+      "title": "Projet Mauricie de TES Canada - Le BAPE invite la population à une rencontre préparatoire à l'audience publique",
+      "summary": "QUÉBEC , le 16 nov. 2026 /CNW/ -- La commission d'enquête du Bureau d'audiences publiques sur l'environnement (BAPE) composée d'Antoine Morissette, président, ainsi que de Pierre Benoit et de Chantale Bourbeau, commissaires, invite la population à participer à une soirée d'information en vue de l'au",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/projet-mauricie-de-tes-canada-le-bape-invite-la-population-a-une-rencontre-preparatoire-a-laudience-publique-73044",
+      "publishedAt": "2026-11-16T11:07:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "7c64c1b239888b2c23b8",
+      "title": "Début des travaux d'enrochement au quai de Saint-Siméon - Le maintien des actifs : une priorité pour la STQ",
+      "summary": "QUÉBEC , le 16 nov. 2026 /CNW/ -- La Société des traversiers du Québec (STQ) entreprendra, le 23 novembre prochain, des travaux d'enrochement au quai touristique de Saint-Siméon. Les travaux comprennent principalement l'enrochement de deux faces du quai touristique et le confinement de ses faces int",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/debut-des-travaux-denrochement-au-quai-de-saint-simeon-le-maintien-des-actifs-une-priorite-pour-la-stq-73043",
+      "publishedAt": "2026-11-16T10:47:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "200e3f058ba5c96e173f",
+      "title": "Accès à l'égalité en emploi dans des organismes publics : des progrès encourageants, mais des écarts importants persistent pour les personnes handicapées",
+      "summary": "MONTREAL , le 16 nov. 2026 /CNW/ -- La Commission des droits de la personne et des droits de la jeunesse publie aujourd'hui son huitième rapport triennal sur l'application de la Loi sur l'accès à l'égalité en emploi dans des organismes publics (LAÉE), couvrant la période 2022-2025. Ce rapport présen",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/acces-a-legalite-en-emploi-dans-des-organismes-publics-des-progres-encourageants-mais-des-ecarts-importants-persistent-pour-les-personnes-handicapees-73042",
+      "publishedAt": "2026-11-16T10:15:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "cd8bb44e4f1e40127d8b",
+      "title": "Appel de projets pour un programme de promotion de notre langue auprès des jeunes",
+      "summary": "QUÉBEC , le 16 nov. 2026 /CNW/ -- Le gouvernement du Québec annonce l'ouverture de l'appel de projets Le français, la voix des jeunes! qui vise à soutenir des initiatives novatrices réalisées par et pour les jeunes de 15 à 34 ans afin d'accroître l'utilisation et la valorisation de la langue françai",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/appel-de-projets-pour-un-programme-de-promotion-de-notre-langue-aupres-des-jeunes-73041",
+      "publishedAt": "2026-11-16T10:13:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -142,125 +384,37 @@
       "category": "Public updates"
     },
     {
-      "id": "20c2a7c2f93d5f0dd1d6",
-      "title": "Statement by Prime Minister Carney on Louis Riel Day",
-      "summary": "Statement by Prime Minister Carney on Louis Riel Day",
-      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/16/statement-prime-minister-carney-louis-riel-day",
-      "publishedAt": "2026-11-15T23:53:12+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
+      "id": "66f64ae869cca17199a7",
+      "title": "Drinking Water safety update for schools: Elizabeth Mackenzie, Julian Yendo, Jean Wetrade, Inualthuyak, Moose Kerr, and Ehtseo Ahya",
+      "summary": "Drinking Water safety update for schools: Elizabeth Mackenzie, Julian Yendo, Jean Wetrade, Inualthuyak, Moose Kerr, and Ehtseo Ahya",
+      "url": "https://gnwt.ca/newsroom/drinking-water-safety-update-schools-elizabeth-mackenzie-julian-yendo-jean-wetrade-inualthuyak-moose-kerr-and-ehtseo-ahya",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "b4c475507d206c1f1559",
-      "title": "Canada officially designated as host of the 2028 Sommet de la Francophonie",
-      "summary": "Canada officially designated as host of the 2028 Sommet de la Francophonie",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/16/canada-officially-designated-host-2028-sommet-de-la-francophonie",
-      "publishedAt": "2026-11-15T12:40:09+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "628de84a36316dad5404",
-      "title": "Prime Minister Carney announces investments to strengthen Canada’s partnerships across Francophone Africa",
-      "summary": "Prime Minister Carney announces investments to strengthen Canada’s partnerships across Francophone Africa",
-      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/16/prime-minister-carney-announces-investments-strengthen-canadas",
-      "publishedAt": "2026-11-15T12:00:58+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "a8138f71528c7afbffd6",
-      "title": "Une première rencontre constructive entre le premier ministre du Québec et le premier ministre du Canada",
-      "summary": "PHNOM PENH, Cambodge , le 15 nov. 2026 /CNW/ -- Le premier ministre, Paul St-Pierre Plamondon, a déclaré ceci à la suite de sa première rencontre avec le premier ministre du Canada, M. Mark Carney : « Le premier ministre Carney et moi venons de terminer une première rencontre en marge du Sommet de l",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/une-premiere-rencontre-constructive-entre-le-premier-ministre-du-quebec-et-le-premier-ministre-du-canada-73033",
-      "publishedAt": "2026-11-15T11:01:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "39dd99773add18c043f9",
-      "title": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
-      "summary": "Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
-      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/15/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
-      "publishedAt": "2026-11-15T04:57:57+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "58d83941d599e6e0eab4",
-      "title": "Monday, November 16, 2026",
-      "summary": "Monday, November 16, 2026",
-      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/15/monday-november-16-2026",
-      "publishedAt": "2026-11-15T03:11:30+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "0bde0a97db28c484247d",
-      "title": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
-      "summary": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect",
-      "publishedAt": "2026-11-15T01:18:12+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Environment"
-    },
-    {
-      "id": "746ffe9083451f09d188",
-      "title": "/R E P R I S E -- AVIS AUX MÉDIAS - France Charbonneau et Kim O'Bomsawin recevront un doctorat honorifique de l'Université TÉLUQ/",
-      "summary": "QUÉBEC , le 11 nov. 2026 /CNW/ -- À l'occasion de sa collation des grades, l'Université TÉLUQ décernera, le samedi 14 novembre prochain, un doctorat honoris causa à deux personnalités qui se sont distinguées par leur contribution remarquable à la société québécoise. Les représentantes et représentan",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-france-charbonneau-et-kim-obomsawin-recevront-un-doctorat-honorifique-de-luniversite-teluq-73032",
-      "publishedAt": "2026-11-14T06:00:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Education"
     },
     {
-      "id": "dab0d4a16e7ab648ba3a",
-      "title": "Emmanuel Health Selected to Deliver New Long-Term Care Home in Estevan",
-      "summary": "New 135-Bed Home will be Located Next to St. Joseph's Hospital The Government of Saskatchewan is moving forward with a new long-term care home in Estevan, with Emmanuel Health selected as the...",
-      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/13/emmanuel-health-selected-to-deliver-new-long-term-care-home-in-estevan",
-      "publishedAt": "2026-11-14T01:30:00+00:00",
-      "source": "Government of Saskatchewan",
-      "jurisdiction": "Saskatchewan",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "dd7d48bff3dd5b8968b2",
-      "title": "Saskatchewan Manufacturing Leads the Nation",
-      "summary": "Statistics Canada's latest reports show that Saskatchewan's manufacturing sales increased by 8.8 per cent in September 2026 compared to August 2026 (seasonally adjusted). This month-over-month...",
-      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/13/saskatchewan-manufacturing-leads-the-nation",
-      "publishedAt": "2026-11-14T00:00:00+00:00",
-      "source": "Government of Saskatchewan",
-      "jurisdiction": "Saskatchewan",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "0495fdce29e6e79acf63",
-      "title": "Supporting Strong and Steady Communities with a $423,000 Investment in Weyburn Policing",
-      "summary": "Strong and steady communities are built through local partnerships and consistent investments in public safety. In 2026-27, the Government of Saskatchewan is providing the City of Weyburn with...",
-      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/13/supporting-strong-and-steady-communities-with-422000-investment-in-weyburn-policing",
-      "publishedAt": "2026-11-13T23:00:00+00:00",
-      "source": "Government of Saskatchewan",
-      "jurisdiction": "Saskatchewan",
+      "id": "ef8e6be82d923e049261",
+      "title": "Police Complaints Commissioner Appointed",
+      "summary": "Police Complaints Commissioner Appointed",
+      "url": "https://news.novascotia.ca/en/2026/11/16/police-complaints-commissioner-appointed",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
       "language": "en",
       "category": "Public safety"
+    },
+    {
+      "id": "d7dc962b71aa8a37a8f8",
+      "title": "Emergency Alert Test November 18",
+      "summary": "Emergency Alert Test November 18",
+      "url": "https://news.novascotia.ca/en/2026/11/16/emergency-alert-test-november-18",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
+      "language": "en",
+      "category": "Public updates"
     },
     {
       "id": "962bd2fd446806530512",
@@ -285,127 +439,6 @@
       "category": "Transport"
     },
     {
-      "id": "21e13949c10e82862b21",
-      "title": "Group from Quebec Fined for Illegal Activity in an Ontario Provincial Park",
-      "summary": "Group from Quebec Fined for Illegal Activity in an Ontario Provincial Park",
-      "url": "https://news.ontario.ca/en/court/1008287/group_from_quebec_fined_for_illegal_activity_in_an_ontario_provincial_park",
-      "publishedAt": "2026-11-13T21:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ef596afb509e8d4abb24",
-      "title": "Inquest into the Death of Shawn Quehe Announced",
-      "summary": "Inquest into the Death of Shawn Quehe Announced",
-      "url": "https://news.ontario.ca/en/release/1008278/inquest_into_the_death_of_shawn_quehe_announced",
-      "publishedAt": "2026-11-13T20:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ee7f622598fa9746b8b6",
-      "title": "Ontario and Canada Select the University of Toronto as Host for Province’s First Fusion Energy Research Chair",
-      "summary": "New chair will help leverage Ontario’s nuclear advantage to advance clean energy innovation and strengthen the province’s global competitiveness",
-      "url": "https://news.ontario.ca/en/release/1008285/ontario_and_canada_select_the_university_of_toronto_as_host_for_provinces_first_fusion_energy_research_chair",
-      "publishedAt": "2026-11-13T20:06:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Education"
-    },
-    {
-      "id": "2854c6ea03439398bc71",
-      "title": "A new era of oil sands growth",
-      "summary": "The new Oil Sands Growth Program will attract new oil sands investment, increase production, fill new pipelines and drive economic growth.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=981275DC1AC17-BD32-E06C-F81BC3AE18865A02",
-      "publishedAt": "2026-11-13T20:00:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "c1a955219082bf0c256d",
-      "title": "Minister Parsa to Hold a Press Conference",
-      "summary": "Minister Parsa to Hold a Press Conference",
-      "url": "https://news.ontario.ca/en/advisory/1008286/minister_parsa_to_hold_a_press_conference",
-      "publishedAt": "2026-11-13T19:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "4ae30284ebfdb194c104",
-      "title": "Environmental Assessment Bulletin",
-      "summary": "The Honourable Andrea Barbour, Minister of Environment, Conservation and Climate Change, has announced the following relative to Environmental Assessment – Part 10 – of the Environmental Protection Act. Undertaking Registered: Steady Brook Residential Development (Reg. 2440) Proponent: Darren WhalenThe proponent... Read More about Environmental Assessment Bulletin The post Environmental Assessment Bulletin appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/eccc/1113n06/",
-      "publishedAt": "2026-11-13T19:15:26+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Environment"
-    },
-    {
-      "id": "4f70958bc708af0ece49",
-      "title": "Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims",
-      "summary": "The annual World Day of Remembrance for Road Traffic Victims will be recognized by the Government of Newfoundland and Labrador with a public event at Confederation Building on Monday, November 16 at 11:00 a.m. The Honourable Lloyd Parrott, Minister of... Read More about Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims The post Media Advisory: Provincial Government to Hold Event to Recognize World Day of Remembrance for Road Traffic Victims appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/government-services/1113n05/",
-      "publishedAt": "2026-11-13T19:10:21+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "013c849d711c49e55ea5",
-      "title": "Media Advisory: Premier Wakeham to Announce Affordability Measure for Families",
-      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will announce the Provincial Government’s next affordability measure, focused on families, on Monday, November 16 at 9:30 a.m. The announcement will take place at the Froude Avenue Community Centre, 89 Froude Avenue,... Read More about Media Advisory: Premier Wakeham to Announce Affordability Measure for Families The post Media Advisory: Premier Wakeham to Announce Affordability Measure for Families appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1113n04/",
-      "publishedAt": "2026-11-13T19:00:49+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "38ab49e85f4c70cb911f",
-      "title": "Ontario Launches Updated Design Manual to Build Long-Term Care Homes Faster",
-      "summary": "New changes will cut red tape, streamline planning and construction to help build more long-term care homes across the province",
-      "url": "https://news.ontario.ca/en/release/1008284/ontario_launches_updated_design_manual_to_build_long_term_care_homes_faster",
-      "publishedAt": "2026-11-13T18:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "b45b2e27fe078b79ef13",
-      "title": "Expanding treatment options for cystic fibrosis",
-      "summary": "Albertans living with cystic fibrosis now have access to a new medication that can improve their health and quality of life.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9812659EF5EBC-A4D9-9233-E9E33974FFD66CDE",
-      "publishedAt": "2026-11-13T17:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "0e2af2d6e36df38cfc42",
-      "title": "Ontario Supporting Professional Women’s Soccer League Championship",
-      "summary": "Northern Super League Final event in Ottawa will attract more than 10,000 people and generate $6 million in economic activity",
-      "url": "https://news.ontario.ca/en/release/1008283/ontario_supporting_professional_womens_soccer_league_championship",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Sport and recreation"
-    },
-    {
       "id": "97f69d5ca17ed10749be",
       "title": "Beer recalled for metal contamination",
       "summary": "The Department of Health is warning about a food recall issued by the Canadian Food Inspection Agency (CFIA) due to containing pieces of metal.",
@@ -417,28 +450,6 @@
       "category": "Public updates"
     },
     {
-      "id": "d3247bed27c07c0697e1",
-      "title": "Weekly Traffic Advisories",
-      "summary": "Weekly Traffic Advisories",
-      "url": "https://news.novascotia.ca/en/2026/11/13/weekly-traffic-advisories",
-      "publishedAt": "2026-11-13T00:00:00+00:00",
-      "source": "Government of Nova Scotia",
-      "jurisdiction": "Nova Scotia",
-      "language": "en",
-      "category": "Transport"
-    },
-    {
-      "id": "2e85ce9b4a6e881c9515",
-      "title": "Public Health Advisory Rescinded For the Community of Wekweètì",
-      "summary": "Public Health Advisory Rescinded For the Community of Wekweètì",
-      "url": "https://gnwt.ca/newsroom/public-health-advisory-rescinded-community-wekweeti",
-      "publishedAt": "2026-11-13T00:00:00+00:00",
-      "source": "Government of the Northwest Territories",
-      "jurisdiction": "Northwest Territories",
-      "language": "en",
-      "category": "Health"
-    },
-    {
       "id": "7b420e11bec946b0681e",
       "title": "New Brunswick releases its second-quarter fiscal update",
       "summary": "The province projects a $1.31-billion deficit for 2026–27, down $347 million from its previous forecast. The release explains what changed in revenue and spending.",
@@ -446,17 +457,6 @@
       "publishedAt": "2026-11-13T00:00:00+00:00",
       "source": "Government of New Brunswick",
       "jurisdiction": "New Brunswick",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "26afb42b89d48d1bc934",
-      "title": "Test of Alert Ready emergency messaging system planned for November 18",
-      "summary": "Test of Alert Ready emergency messaging system planned for November 18 zaburke November 12, 2026 - 4:09 pm On Wednesday, November 18, the Yukon will be participating in a national test of the Alert Ready system at approximately 1:55 pm local time. Alert Ready is Canada's emergency alerting system that delivers critical and potentially life-saving alerts to Canadians. The Alert Ready test will be broadcast on cellphones, radio stations and televisions across the territory. The test alert will clearly state that it is a TEST. If there is a real emergency, the message will state that it is not a test. The Government of Yukon’s Emergency Measures",
-      "url": "https://yukon.ca/en/news/test-alert-ready-emergency-messaging-system-planned-november-18",
-      "publishedAt": "2026-11-12T23:09:29+00:00",
-      "source": "Government of Yukon",
-      "jurisdiction": "Yukon",
       "language": "en",
       "category": "Public updates"
     }
