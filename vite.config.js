@@ -1,6 +1,7 @@
 import {defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
 import {readFileSync} from 'node:fs';
+import {writeStoryPages} from './scripts/story-pages.mjs';
 
 const SITE = 'https://ca.everyana.com/';
 const TITLE = 'SWIPES Canada — Official Public Updates';
@@ -57,4 +58,17 @@ function prerender() {
   };
 }
 
-export default defineConfig({plugins: [react(), prerender()]});
+function storyPages() {
+  let outDir = 'dist';
+  return {
+    name: 'swipes-story-pages',
+    apply: 'build',
+    configResolved(config) { outDir = config.build.outDir; },
+    closeBundle() {
+      const r = writeStoryPages(outDir);
+      console.log(`story pages: ${r.pages} written, ${r.indexed} indexable`);
+    },
+  };
+}
+
+export default defineConfig({plugins: [react(), prerender(), storyPages()]});

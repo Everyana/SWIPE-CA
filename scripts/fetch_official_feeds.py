@@ -175,7 +175,14 @@ def main():
         dedup.setdefault(key, item)
     records = select_notices(dedup.values(), curated)
     path.parent.mkdir(parents=True,exist_ok=True)
-    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":14,"notices":records}
+    payload={"updatedAt":dt.datetime.now(dt.timezone.utc).isoformat(),"sourcesSucceeded":successful,"sourcesConfigured":len(SOURCES),"sourceFailures":errors,"coverage":sorted({x["jurisdiction"] for x in records}),"coverageTarget":14,"notices":records}
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    # Keep every notice ever published so its story page stays online after it leaves the feed.
+    archive_path = Path("public/data/archive.json")
+    archive = json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else {"notices": []}
+    kept = {item["id"]: item for item in archive.get("notices", [])}
+    for item in records:
+        kept[item["id"]] = {**kept.get(item["id"], {}), **item}
+    archive_path.write_text(json.dumps({"updatedAt": payload["updatedAt"], "notices": sorted(kept.values(), key=lambda x: x["publishedAt"], reverse=True)}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
 if __name__=="__main__": main()
