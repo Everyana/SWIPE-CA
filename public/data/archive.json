@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-11-17T07:25:55.760525+00:00",
+  "updatedAt": "2026-11-17T13:14:52.419832+00:00",
   "notices": [
+    {
+      "id": "a3c791369214b78d7de2",
+      "title": "Public Advisory: National Test of Alert Ready to Take Place Tomorrow",
+      "summary": "The national emergency public alerting system Alert Ready is scheduled to issue an emergency test message through television, radio and compatible wireless devices tomorrow, Wednesday, November 18, at 9:55 a.m. (NST) and 9:25 a.m. (AST) in most of Labrador. Be... Read More about Public Advisory: National Test of Alert Ready to Take Place Tomorrow The post Public Advisory: National Test of Alert Ready to Take Place Tomorrow appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1117n01/",
+      "publishedAt": "2026-11-17T12:40:56+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "9bbe0b5b70966ed545a3",
+      "title": "Aménagement forestier en Mauricie -- Consultation publique du 17 novembre au 15 décembre 2026",
+      "summary": "TROIS-RIVIÈRES, QC , le 17 nov. 2026 /CNW/ -- Le ministère des Ressources naturelles et des Forêts (MRNF) invite la population à participer à la consultation publique portant sur le plan d'aménagement spécial (PAS) visant à récupérer les arbres tombés ou endommagés par les forts vents qui ont souffl",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/amenagement-forestier-en-mauricie-consultation-publique-du-17-novembre-au-15-decembre-2026-73063",
+      "publishedAt": "2026-11-17T07:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public consultations"
+    },
+    {
+      "id": "9dd3983595ddc9aeccf8",
+      "title": "/R E P R I S E - AVIS AUX MÉDIAS - Sommet BIM+: pour le futur des infrastructures/",
+      "summary": "Le ministre des Finances et ministre responsable des Infrastructures, Nicolas Marceau, prendra la parole dans le cadre de l'événement réunissant plus de 800 personnes de l'écosystème québécois de la construction QUÉBEC , le 16 nov. 2026 /CNW/ -- Les donneurs d'ouvrage publics partenaires de la Feuil",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-sommet-bim-pour-le-futur-des-infrastructures-73062",
+      "publishedAt": "2026-11-17T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "bd85a6d60a2e88e0548b",
+      "title": "Sommet sur l'itinérance à l'hiver 2027 : Tous les partis politiques doivent y travailler, ensemble",
+      "summary": "VILLE DE QUÉBEC , le 17 nov. 2026 /CNW/ -- À la suite de l'annonce de la tenue du Sommet sur l'itinérance cet hiver, Québec solidaire presse le Premier ministre de se mettre au travail rapidement. Le député de Taschereau et responsable solidaire de la lutte à l'itinérance, Etienne Grandmont , lui de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/sommet-sur-litinerance-a-lhiver-2027-tous-les-partis-politiques-doivent-y-travailler-ensemble-73061",
+      "publishedAt": "2026-11-17T06:02:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "8214eaa5fc7b8bc97f55",
+      "title": "Brain & Brain PET : Montréal accueillera 1 000 spécialistes du cerveau en 2029",
+      "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Montréal accueillera pour la première fois le congrès Brain Brain PET, au Palais des congrès de Montréal, du 16 au 20 juin 2029. Quelque 1 000 spécialistes du cerveau sont attendus à ce rendez-vous international bisannuel consacré à la circulation sanguine cérébra",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/brain-brain-pet-montreal-accueillera-1-000-specialistes-du-cerveau-en-2029-73060",
+      "publishedAt": "2026-11-17T06:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "e6a3c45338fec9a78b9b",
       "title": "Prime Minister Carney meets with President of the People’s Republic of China Xi Jinping",
@@ -68,6 +123,17 @@
       "category": "Public updates"
     },
     {
+      "id": "2afe43da3653075a3a69",
+      "title": "Report on Environmental Assessments for Onshore Wind Energy Projects",
+      "summary": "Report on Environmental Assessments for Onshore Wind Energy Projects",
+      "url": "https://news.novascotia.ca/en/2026/11/17/report-environmental-assessments-onshore-wind-energy-projects",
+      "publishedAt": "2026-11-17T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
+      "language": "en",
+      "category": "Environment"
+    },
+    {
       "id": "143077586625fb927307",
       "title": "Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador",
       "summary": "The Provincial Government has introduced the Regulatory Improvement and Efficiency Act and began second reading today in the House of Assembly, delivering on a key Provincial Government platform commitment to reduce red tape, remove barriers, improve services and create a... Read More about Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador The post Provincial Government Committed to Reduce Red Tape, Remove Barriers and Improve Services for People and Businesses in Newfoundland and Labrador appeared first on News Releases .",
@@ -110,6 +176,17 @@
       "jurisdiction": "Manitoba",
       "language": "en",
       "category": "Health"
+    },
+    {
+      "id": "f2609523677ece1bcc88",
+      "title": "Wednesday, November 18, 2026",
+      "summary": "Wednesday, November 18, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/17/wednesday-november-18-2026",
+      "publishedAt": "2026-11-16T20:15:56+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
     },
     {
       "id": "439c6554e35714545335",
