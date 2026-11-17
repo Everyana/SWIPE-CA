@@ -1,6 +1,171 @@
 {
-  "updatedAt": "2026-11-17T13:14:52.419832+00:00",
+  "updatedAt": "2026-11-17T19:07:05.428239+00:00",
   "notices": [
+    {
+      "id": "67b055faa36bb507adb3",
+      "title": "Province Provides Funding to School Divisions and Emergency Medical Service Providers to Help Address Fuel Costs",
+      "summary": "The Government of Saskatchewan is providing more than $9 million to help school divisions and emergency medical service (EMS) providers address rising fuel costs and maintain services across the...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/17/province-provides-funding-to-school-divisions-and-emergency-medical-service-providers-to-help-addres",
+      "publishedAt": "2026-11-17T23:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Education"
+    },
+    {
+      "id": "f3be6b424636e51b9113",
+      "title": "Saskatchewan Expands Access to New Ovarian Cancer Treatments",
+      "summary": "Saskatchewan is one of the leading provinces to provide access to life-extending treatments. Saskatchewan women battling one of the most aggressive forms of cancer will soon have access to two new...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/17/saskatchewan-expands-access-to-new-ovarian-cancer-treatments",
+      "publishedAt": "2026-11-17T21:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "964a260a7f05b6f58ed1",
+      "title": "`Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
+      "summary": "`Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76118",
+      "publishedAt": "2026-11-17T18:45:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c943173d7242505d3ce7",
+      "title": "Making driver’s licence and ID renewals easier",
+      "summary": "Albertans facing federal processing delays or missing historical records will have new options to renew their driver’s licence or ID card.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9814927913BDD-0924-0E07-53646AD6B8C19B53",
+      "publishedAt": "2026-11-17T18:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "de7eaa0ba0fab54da0f2",
+      "title": "Minister Sarkaria to Hold a Press Conference",
+      "summary": "Minister Sarkaria to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008294/minister_sarkaria_to_hold_a_press_conference",
+      "publishedAt": "2026-11-17T18:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a83b0cfd63a7e286f22e",
+      "title": "Alert Ready test planned",
+      "summary": "Islanders are advised that there will be a test of the Alert Ready system Wednesday, November 18, 2026 at approximately 12:55 p.m. Alert Ready,…",
+      "url": "https://www.princeedwardisland.ca/en/news/alert-ready-test-planned",
+      "publishedAt": "2026-11-17T17:41:25+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "37d245e2a5ccd5fd2b3e",
+      "title": "Government of Yukon increases Yukon Water Board supports to help tackle permitting backlog",
+      "summary": "Government of Yukon increases Yukon Water Board supports to help tackle permitting backlog zaburke November 17, 2026 - 10:25 am The Government of Yukon recognizes the pressures facing the Yukon Water Board and its secretariat as it manages a significant increase in applications and renewals alongside other complex files. Delays in processing water licence and placer land use approval applications can also create challenges for placer miners and their operations. To help address these delays and increase certainty, the Yukon government has allocated additional support to the secretariat to improve its capacity to review and provide technical a",
+      "url": "https://yukon.ca/en/news/government-yukon-increases-yukon-water-board-supports-help-tackle-permitting-backlog",
+      "publishedAt": "2026-11-17T17:25:42+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8d2a136fced734dc5b31",
+      "title": "Ministerial Statement: Minister Conway Ottenheimer Recognizes Restorative Justice Week",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Helen Conway Ottenheimer, Minister of Justice and Public Safety: Speaker, I rise today to recognize November 15-22 as Restorative Justice Week. This week provides an opportunity... Read More about Ministerial Statement: Minister Conway Ottenheimer Recognizes Restorative Justice Week The post Ministerial Statement: Minister Conway Ottenheimer Recognizes Restorative Justice Week appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1117n04/",
+      "publishedAt": "2026-11-17T17:20:11+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "fa0a9d02d7f72ac0778f",
+      "title": "Ministerial Statement: Minister Paddock Congratulates Newfoundland and Labrador Companies Recognized at DEFSEC Atlantic",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lin Paddock, Minister of Jobs, Growth and Rural Development: Speaker, last month, Newfoundland and Labrador proudly showcased its defence, aerospace and security capabilities at the Canadian... Read More about Ministerial Statement: Minister Paddock Congratulates Newfoundland and Labrador Companies Recognized at DEFSEC Atlantic The post Ministerial Statement: Minister Paddock Congratulates Newfoundland and Labrador Companies Recognized at DEFSEC Atlantic appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1117n03/",
+      "publishedAt": "2026-11-17T17:15:22+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "007ee38257657e33d085",
+      "title": "Standing Hearing for Inquest into Death of Tamra Bateman",
+      "summary": "Standing Hearing for Inquest into Death of Tamra Bateman",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76117",
+      "publishedAt": "2026-11-17T16:38:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a033c8756c11b41cf39e",
+      "title": "Provincial Government Investing $1.2 Million to Help Bring More Family Doctors to Newfoundland and Labrador",
+      "summary": "The Provincial Government is investing $1.2 million through Budget 2026 to help bring more family doctors to communities throughout Newfoundland and Labrador. The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, announced the investment today to support a new pathway... Read More about Provincial Government Investing $1.2 Million to Help Bring More Family Doctors to Newfoundland and Labrador The post Provincial Government Investing $1.2 Million to Help Bring More Family Doctors to Newfoundland and Labrador appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1117n02/",
+      "publishedAt": "2026-11-17T15:40:38+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "3a7991e818cdfd7e20d0",
+      "title": "Alberta Emergency Alert test: Minister Ellis",
+      "summary": "Minister of Public Safety and Emergency Services Mike Ellis issued the following statement on the upcoming Alberta Emergency Alert test:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98148229D21E7-EF25-1C13-229954E33805768C",
+      "publishedAt": "2026-11-17T15:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2786ee3108afc066592f",
+      "title": "Prime Minister Carney delivers plenary remarks at the closing of the Sommet de la Francophonie",
+      "summary": "Prime Minister Carney delivers plenary remarks at the closing of the Sommet de la Francophonie",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/16/prime-minister-carney-delivers-plenary-remarks-closing-sommet-de-la",
+      "publishedAt": "2026-11-17T13:30:32+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "86b2319d770f92b99541",
+      "title": "Fraude impliquant l'achat de chevaux - Le TMF impose des mesures administratives à Kelsey Brunette",
+      "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Le 5 novembre 2026, le Tribunal administratif des marchés financiers (TMF) a imposé à Kelsey Brunette des pénalités administratives totalisant 75 000 $ et a prononcé des ordonnances d'interdiction à son encontre. L'Autorité des marchés financiers (AMF) reprochait",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/fraude-impliquant-lachat-de-chevaux-le-tmf-impose-des-mesures-administratives-a-kelsey-brunette-73076",
+      "publishedAt": "2026-11-17T13:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "16337db894550e143955",
+      "title": "Prime Minister Carney meets with President of Mexico Claudia Sheinbaum",
+      "summary": "Prime Minister Carney meets with President of Mexico Claudia Sheinbaum",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/17/prime-minister-carney-meets-president-mexico-claudia-sheinbaum",
+      "publishedAt": "2026-11-17T13:08:45+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "a3c791369214b78d7de2",
       "title": "Public Advisory: National Test of Alert Ready to Take Place Tomorrow",
@@ -10,6 +175,39 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "050b4029314725ca9c4b",
+      "title": "Unités individuelles de traitement de l'eau : le gouvernement du Québec soutiendra de nouveaux projets",
+      "summary": "QUÉBEC , le 17 nov. 2026 /CNW/ -- Le ministre des Affaires municipales, M. Nicolas Girard, annonce le lancement d'un appel de projets dans le cadre du Programme d'unités individuelles de traitement de l'eau (PUIT), qui vise à soutenir les municipalités dans l'implantation ou la mise aux normes d'ins",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/unites-individuelles-de-traitement-de-leau-le-gouvernement-du-quebec-soutiendra-de-nouveaux-projets-73074",
+      "publishedAt": "2026-11-17T12:33:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "f565d3745dcbadd2cf01",
+      "title": "Réalisation d'une murale aux abords de l'autoroute 15 (Décarie) : un appel de propositions est lancé",
+      "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Dans le cadre d'un projet pilote, le ministère des Transports et de la Mobilité durable lance un appel de propositions auprès des artistes professionnels de la région métropolitaine de Montréal pour la création d'une œuvre sur la façade d'un mur de l'autoroute 15",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/realisation-dune-murale-aux-abords-de-lautoroute-15-decarie-un-appel-de-propositions-est-lance-73073",
+      "publishedAt": "2026-11-17T12:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
+    },
+    {
+      "id": "bd7061bf05decaa5a3f1",
+      "title": "Réfection majeure du tunnel Louis-Hippolyte-La Fontaine - Fermeture du tunnel durant la nuit du 20 au 21 novembre",
+      "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population que l'autoroute 25, y compris le tunnel Louis-Hippolyte-La Fontaine, sera fermée dans les deux directions durant la nuit du 20 au 21 novembre. Cette entrave est requise afin d'effectuer de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/refection-majeure-du-tunnel-louis-hippolyte-la-fontaine-fermeture-du-tunnel-durant-la-nuit-du-20-au-21-novembre-73072",
+      "publishedAt": "2026-11-17T11:54:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
