@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-17T01:16:53.094817+00:00",
+  "updatedAt": "2026-11-17T06:27:48.662308+00:00",
   "notices": [
+    {
+      "id": "e6a3c45338fec9a78b9b",
+      "title": "Prime Minister Carney meets with President of the People’s Republic of China Xi Jinping",
+      "summary": "Prime Minister Carney meets with President of the People’s Republic of China Xi Jinping",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/17/prime-minister-carney-meets-president-peoples-republic-china-xi-jinping",
+      "publishedAt": "2026-11-17T05:01:26+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "9e10c6f90a7a088477ea",
+      "title": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "summary": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china",
+      "publishedAt": "2026-11-17T03:18:45+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2e7b01addc9c8dc6afd3",
+      "title": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "summary": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china",
+      "publishedAt": "2026-11-17T02:35:16+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "ccf099883cfa7c4fc4b1",
       "title": "Government Introduces Legislation for Supervised Consumption Sites",
@@ -9,6 +42,17 @@
       "publishedAt": "2026-11-17T02:30:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "320d457380322b8994b9",
+      "title": "Provincial Government Introduces New Cities Act",
+      "summary": "The Provincial Government is introducing modern legislation for cities in Newfoundland and Labrador. The proposed Cities Act would give cities more independence and flexibility, align with the Towns and Local Service Districts Act, and replace the City of Mount Pearl... Read More about Provincial Government Introduces New Cities Act The post Provincial Government Introduces New Cities Act appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/mca/1116n10/",
+      "publishedAt": "2026-11-17T01:20:54+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },

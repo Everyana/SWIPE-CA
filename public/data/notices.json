@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-11-17T01:16:53.094817+00:00",
+  "updatedAt": "2026-11-17T06:27:48.662308+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
+  "sourceFailures": [
+    "Government of Canada: No valid official items returned",
+    "Gouvernement du Canada: No valid official items returned",
+    "Statistics Canada: undefined entity &ccedil;: line 82, column 127",
+    "Government of Nunavut: HTTP Error 403: Forbidden"
+  ],
   "coverage": [
     "Alberta",
     "British Columbia",
@@ -21,6 +27,39 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "e6a3c45338fec9a78b9b",
+      "title": "Prime Minister Carney meets with President of the People’s Republic of China Xi Jinping",
+      "summary": "Prime Minister Carney meets with President of the People’s Republic of China Xi Jinping",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/17/prime-minister-carney-meets-president-peoples-republic-china-xi-jinping",
+      "publishedAt": "2026-11-17T05:01:26+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "9e10c6f90a7a088477ea",
+      "title": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "summary": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china",
+      "publishedAt": "2026-11-17T03:18:45+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2e7b01addc9c8dc6afd3",
+      "title": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "summary": "Prime Minister Carney advances Canada’s strategic partnership with China across trade, commerce, and culture",
+      "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china",
+      "publishedAt": "2026-11-17T02:35:16+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "ccf099883cfa7c4fc4b1",
       "title": "Government Introduces Legislation for Supervised Consumption Sites",
       "summary": "Today, Mental Health and Addictions Minister Lori Carr introduced The Community Support and Recovery Act, which establishes a provincial framework for where and when supervised consumption sites...",
@@ -28,6 +67,17 @@
       "publishedAt": "2026-11-17T02:30:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "320d457380322b8994b9",
+      "title": "Provincial Government Introduces New Cities Act",
+      "summary": "The Provincial Government is introducing modern legislation for cities in Newfoundland and Labrador. The proposed Cities Act would give cities more independence and flexibility, align with the Towns and Local Service Districts Act, and replace the City of Mount Pearl... Read More about Provincial Government Introduces New Cities Act The post Provincial Government Introduces New Cities Act appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/mca/1116n10/",
+      "publishedAt": "2026-11-17T01:20:54+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
@@ -269,50 +319,6 @@
       "summary": "Applications are now being accepted for the 2027 Research Inspired Student Enrichment (RISE) Awards. The awards support up to 20 Level II students from Newfoundland and Labrador to attend prestigious STEM enrichment programs in Canada and the United States. Students... Read More about Applications Open for 2027 RISE Awards The post Applications Open for 2027 RISE Awards appeared first on News Releases .",
       "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1116n07/",
       "publishedAt": "2026-11-16T18:20:53+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "676b753051b3eb3af09e",
-      "title": "Ontario Introducing Legislation to Protect Children and Strengthen Family Services",
-      "summary": "Proposed changes will strengthen Ontario’s child welfare system, better protect victims of intimate image abuse and improve access to health care",
-      "url": "https://news.ontario.ca/en/release/1008288/ontario_introducing_legislation_to_protect_children_and_strengthen_family_services",
-      "publishedAt": "2026-11-16T18:05:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "50e5fa6021bcfc7c3cdf",
-      "title": "Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Tony Wakeham, Premier of Newfoundland and Labrador: Speaker, I rise today with sadness to acknowledge the passing of the Honourable Lloyd Matthews, a former Member of... Read More about Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews The post Ministerial Statement: Honouring the Life and Service of the Honourable Lloyd Matthews appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1116n06/",
-      "publishedAt": "2026-11-16T17:40:18+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "07818c0012b59bd61262",
-      "title": "Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Paul Dinn, Minister of Education and Early Childhood Development: Speaker, I’m proud to rise today to recognize Anne Beaumaster, a reading specialist at Topsail Elementary School... Read More about Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster The post Ministerial Statement: Minister Dinn Celebrates Reading Specialist Anne Beaumaster appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/eecd/1116n05/",
-      "publishedAt": "2026-11-16T17:25:56+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "2ff45130a9853bc92886",
-      "title": "Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Lloyd Parrott, Minister of Government Services: Speaker, today we remember those lost or forever changed by tragedies on our roads and highways. This morning, we gathered... Read More about Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims The post Ministerial Statement: Minister Parrott Recognizes World Day of Remembrance for Road Traffic Victims appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/government-services/1116n04/",
-      "publishedAt": "2026-11-16T17:20:45+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
