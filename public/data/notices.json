@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:58:15.136722+00:00",
+  "updatedAt": "2026-11-17T01:16:53.094817+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "coverage": [
@@ -28,6 +28,17 @@
       "publishedAt": "2026-11-17T02:30:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "93075bf8fe634dd653c2",
+      "title": "Prime Minister Carney delivers remarks at the opening of FrancoTech 2026",
+      "summary": "Prime Minister Carney delivers remarks at the opening of FrancoTech 2026",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/15/prime-minister-carney-delivers-remarks-opening-francotech-2026",
+      "publishedAt": "2026-11-17T00:55:36+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
     },
@@ -304,17 +315,6 @@
       "publishedAt": "2026-11-16T17:20:45+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "94f3d641bfbc4feace00",
-      "title": "Prime Minister Carney meets with Prime Minister of Cambodia Hun Manet",
-      "summary": "Prime Minister Carney meets with Prime Minister of Cambodia Hun Manet",
-      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/16/prime-minister-carney-meets-prime-minister-cambodia-hun-manet",
-      "publishedAt": "2026-11-16T16:49:53+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
     },
