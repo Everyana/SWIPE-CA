@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-17T19:07:05.428239+00:00",
+  "updatedAt": "2026-11-18T01:22:27.520056+00:00",
   "notices": [
+    {
+      "id": "e114525f743661741d63",
+      "title": "Strong and Steady Saskatchewan: Government Introduces Protections Against Deceptive AI",
+      "summary": "Today the Government of Saskatchewan introduced legislation to address the deceptive and illegal use of AI. The Prevention of Deceptive Artificial Intelligence Act defends Saskatchewan people and...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/17/strong-and-steady-saskatchewan-government-introduces-protections-against-deceptive-ai",
+      "publishedAt": "2026-11-18T02:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "67b055faa36bb507adb3",
       "title": "Province Provides Funding to School Divisions and Emergency Medical Service Providers to Help Address Fuel Costs",
@@ -24,14 +35,135 @@
       "category": "Public updates"
     },
     {
+      "id": "f22ff3710483d232816b",
+      "title": "Province Advises of Alert Ready Test Tomorrow",
+      "summary": "Province Advises of Alert Ready Test Tomorrow",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76077",
+      "publishedAt": "2026-11-17T21:00:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ccd2465b90b9125e5b23",
+      "title": "More choice, more certainty",
+      "summary": "New legislation, if passed, will modernize pension legislation for retirees, expand consumer choice and provide more certainty across Alberta’s financial sector.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98152307CC832-0497-C4E1-56376B0A4C28F5AD",
+      "publishedAt": "2026-11-17T20:50:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "880c6e6630129a0daf9a",
+      "title": "Government of Yukon seeks feedback on expanding prescribing authority for pharmacists",
+      "summary": "Government of Yukon seeks feedback on expanding prescribing authority for pharmacists zaburke November 17, 2026 - 1:47 pm The Government of Yukon is seeking feedback on changes that will allow pharmacists to provide treatment and prescribe medications for a broader range of common health concerns, helping improve access to care for Yukoners. The proposed changes would expand the list of medications pharmacists can prescribe and could include treatment for select common minor ailments and infections, such as strep throat and sinus and ear infections, reproductive health care, including emergency and hormonal contraception. The Government of Yu",
+      "url": "https://yukon.ca/en/news/government-yukon-seeks-feedback-expanding-prescribing-authority-pharmacists",
+      "publishedAt": "2026-11-17T20:47:35+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e0f91338b48237ecb9ac",
+      "title": "Proposed Amendments to the Tobacco and Vapour Products Control Act to Improve Health Outcomes",
+      "summary": "The Honourable Joedy Wall, Minister of Health and Community Services, has introduced amendments to the Tobacco and Vapour Products Control Act that will help improve health outcomes by banning non-tobacco flavoured vaping products and requiring vapour product retailers to be... Read More about Proposed Amendments to the Tobacco and Vapour Products Control Act to Improve Health Outcomes The post Proposed Amendments to the Tobacco and Vapour Products Control Act to Improve Health Outcomes appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1117n05/",
+      "publishedAt": "2026-11-17T20:15:51+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "c8918a385da9f5649ead",
+      "title": "Government of Yukon, ATCO Electric Yukon, City of Whitehorse and Yukon Energy enhance emergency preparedness",
+      "summary": "Government of Yukon, ATCO Electric Yukon, City of Whitehorse and Yukon Energy enhance emergency preparedness zaburke November 17, 2026 - 1:03 pm This is a joint news release between the Government of Yukon, ATCO Electric Yukon, the City of Whitehorse and Yukon Energy. On November 13, the Government of Yukon, ATCO Electric Yukon, the City of Whitehorse and Yukon Energy participated in a test of the mutual aid protocol, an emergency preparedness tool developed to help reduce strain on the Yukon’s electrical grid during periods of high demand. The drill simulated an event where the Yukon reached the upper thresholds of the utilities’ operational",
+      "url": "https://yukon.ca/en/news/government-yukon-atco-electric-yukon-city-whitehorse-and-yukon-energy-enhance-emergency-preparedness",
+      "publishedAt": "2026-11-17T20:03:19+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "801895d5e81ca46ea41a",
+      "title": "Date Announced for the Inquest into the Death of Quacey Dos Santos",
+      "summary": "Date Announced for the Inquest into the Death of Quacey Dos Santos",
+      "url": "https://news.ontario.ca/en/release/1008290/date_announced_for_the_inquest_into_the_death_of_quacey_dos_santos",
+      "publishedAt": "2026-11-17T20:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ed1e8c5db7b3addad72e",
+      "title": "Ontario Court Convicts Individual for Puppy Mill Operation",
+      "summary": "Ontario Court Convicts Individual for Puppy Mill Operation",
+      "url": "https://news.ontario.ca/en/bulletin/1008292/ontario_court_convicts_individual_for_puppy_mill_operation",
+      "publishedAt": "2026-11-17T19:45:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0956a165c8c87974b28c",
+      "title": "November 16-20 is Financial Literacy Week",
+      "summary": "Students across Prince Edward Island will benefit from a strengthened framework aimed at improving financial literacy.To mark Financial Literacy Week…",
+      "url": "https://www.princeedwardisland.ca/en/news/november-16-20-is-financial-literacy-week",
+      "publishedAt": "2026-11-17T19:41:10+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7266559d7b91e99d3097",
+      "title": "Ontario Court Convicts Individuals of Animal Welfare Offences",
+      "summary": "Ontario Court Convicts Individuals of Animal Welfare Offences",
+      "url": "https://news.ontario.ca/en/bulletin/1008291/ontario_court_convicts_individuals_of_animal_welfare_offences",
+      "publishedAt": "2026-11-17T19:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1bbda071220ba0432e56",
+      "title": "Ontario Clean Water Agency Fined $100,000 Following Workplace Injury",
+      "summary": "Ontario Clean Water Agency Fined $100,000 Following Workplace Injury",
+      "url": "https://news.ontario.ca/en/court/1008293/ontario_clean_water_agency_fined_100000_following_workplace_injury",
+      "publishedAt": "2026-11-17T19:15:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "964a260a7f05b6f58ed1",
-      "title": "`Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
-      "summary": "`Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
+      "title": "'Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
+      "summary": "'Stronger Today, Stronger Tomorrow' Speech from the Throne Opens New Legislative Session",
       "url": "https://news.gov.mb.ca/news/index.html?item=76118",
       "publishedAt": "2026-11-17T18:45:00+00:00",
       "source": "Manitoba Government",
       "jurisdiction": "Manitoba",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "391cd587f9ed74f7b8eb",
+      "title": "Ancestra Lumina : un parcours hommage unique qui dynamise l'offre touristique et l'économie montréalaises",
+      "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre responsable de la Métropole et de la région de Montréal, M. Stéphane Paquet, et le président-directeur général de Tourisme Montréal, M. Yves Lalumière, saluent l'inauguration du p",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/ancestra-lumina-un-parcours-hommage-unique-qui-dynamise-loffre-touristique-et-leconomie-montrealaises-73086",
+      "publishedAt": "2026-11-17T18:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -65,6 +197,17 @@
       "source": "Government of Prince Edward Island",
       "jurisdiction": "Prince Edward Island",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "22310cc3737161a843fb",
+      "title": "Avis aux médias - Agenda public du premier ministre du Québec - 18 novembre 2026",
+      "summary": "QUÉBEC , le 17 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 18 novembre novembre 2026. Veuillez noter qu'il peut changer sans préavis. Conseil des ministres (fermé aux médias) Heure : 12 h30 Lie",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-aux-medias-agenda-public-du-premier-ministre-du-quebec-18-novembre-2026-73085",
+      "publishedAt": "2026-11-17T17:39:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
