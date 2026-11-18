@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T07:24:58.554614+00:00",
+  "updatedAt": "2026-11-18T13:20:34.236673+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,50 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "2645a8b4f6ecc152ead0",
+      "title": "Prime Minister Carney meets with President of the United States Donald J. Trump",
+      "summary": "Prime Minister Carney meets with President of the United States Donald J. Trump",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/18/prime-minister-carney-meets-president-united-states-donald-j-trump",
+      "publishedAt": "2026-11-18T12:20:52+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "57511c3d2e5d033ecb80",
+      "title": "Public Advisory: National Test of Alert Ready to Take Place Today",
+      "summary": "The national emergency public alerting system Alert Ready is scheduled to issue an emergency test message today (Wednesday, November 18) at 9:55 a.m. (NST) and 9:25 a.m. (AST) in most of Labrador. Be advised that some residents will not receive... Read More about Public Advisory: National Test of Alert Ready to Take Place Today The post Public Advisory: National Test of Alert Ready to Take Place Today appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1118n01/",
+      "publishedAt": "2026-11-18T11:55:19+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "aa66ad45a1b939341df9",
+      "title": "Projet de réaménagement du terminal n° 5 au port de Baie-Comeau - Le BAPE invite la population à la deuxième partie de l'audience publique dès le 8 décembre 2026",
+      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- Le Bureau d'audiences publiques sur l'environnement (BAPE) annonce que la deuxième partie de l'audience publique sur le projet de réaménagement du terminal no 5 au port de Baie-Comeau par la Corporation de gestion du port de Baie-Comeau débutera le 8 décembre 2026,",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/projet-de-reamenagement-du-terminal-n-5-au-port-de-baie-comeau-le-bape-invite-la-population-a-la-deuxieme-partie-de-laudience-publique-des-le-8-decembre-2026-73090",
+      "publishedAt": "2026-11-18T08:08:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "8fbff5a72042366bf23f",
+      "title": "/R E P R I S E -- Projet d'élargissement du boulevard La Vérendrye Ouest entre le boulevard Gréber et la montée Paiement à Gatineau - Le BAPE tient une séance publique d'information/",
+      "summary": "QUÉBEC , le 4 nov. 2026 /CNW/ -- Le Bureau d'audiences publiques sur l'environnement (BAPE) invite la population à une séance publique d'information dans le cadre de la période d'information sur le projet de la Ville de Gatineau d'élargir le boulevard La Vérendrye Ouest entre le boulevard Gréber et",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-projet-delargissement-du-boulevard-la-verendrye-ouest-entre-le-boulevard-greber-et-la-montee-paiement-a-gatineau-le-bape-tient-une-seance-publique-dinformation-73088",
+      "publishedAt": "2026-11-18T07:57:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "e114525f743661741d63",
       "title": "Strong and Steady Saskatchewan: Government Introduces Protections Against Deceptive AI",
@@ -197,50 +241,6 @@
       "summary": "MONTRÉAL , le 17 nov. 2026 /CNW/ -- Le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre responsable de la Métropole et de la région de Montréal, M. Stéphane Paquet, et le président-directeur général de Tourisme Montréal, M. Yves Lalumière, saluent l'inauguration du p",
       "url": "https://www.quebec.ca/nouvelles/actualites/details/ancestra-lumina-un-parcours-hommage-unique-qui-dynamise-loffre-touristique-et-leconomie-montrealaises-73086",
       "publishedAt": "2026-11-17T18:30:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "c943173d7242505d3ce7",
-      "title": "Making driver’s licence and ID renewals easier",
-      "summary": "Albertans facing federal processing delays or missing historical records will have new options to renew their driver’s licence or ID card.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9814927913BDD-0924-0E07-53646AD6B8C19B53",
-      "publishedAt": "2026-11-17T18:00:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "de7eaa0ba0fab54da0f2",
-      "title": "Minister Sarkaria to Hold a Press Conference",
-      "summary": "Minister Sarkaria to Hold a Press Conference",
-      "url": "https://news.ontario.ca/en/advisory/1008294/minister_sarkaria_to_hold_a_press_conference",
-      "publishedAt": "2026-11-17T18:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "a83b0cfd63a7e286f22e",
-      "title": "Alert Ready test planned",
-      "summary": "Islanders are advised that there will be a test of the Alert Ready system Wednesday, November 18, 2026 at approximately 12:55 p.m. Alert Ready,…",
-      "url": "https://www.princeedwardisland.ca/en/news/alert-ready-test-planned",
-      "publishedAt": "2026-11-17T17:41:25+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "22310cc3737161a843fb",
-      "title": "Avis aux médias - Agenda public du premier ministre du Québec - 18 novembre 2026",
-      "summary": "QUÉBEC , le 17 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 18 novembre novembre 2026. Veuillez noter qu'il peut changer sans préavis. Conseil des ministres (fermé aux médias) Heure : 12 h30 Lie",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-aux-medias-agenda-public-du-premier-ministre-du-quebec-18-novembre-2026-73085",
-      "publishedAt": "2026-11-17T17:39:00+00:00",
       "source": "Gouvernement du Québec",
       "jurisdiction": "Quebec",
       "language": "fr",
