@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-11-18T01:22:27.520056+00:00",
-  "sourcesSucceeded": 11,
+  "updatedAt": "2026-11-18T07:24:58.554614+00:00",
+  "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
     "Government of Canada: No valid official items returned",
     "Gouvernement du Canada: No valid official items returned",
     "Statistics Canada: HTTP Error 403: Forbidden",
-    "Government of Nunavut: HTTP Error 403: Forbidden",
-    "Government of the Northwest Territories: HTTP Error 502: Bad Gateway"
+    "Government of Nunavut: HTTP Error 403: Forbidden"
   ],
   "coverage": [
     "Alberta",
@@ -48,6 +47,17 @@
       "jurisdiction": "Saskatchewan",
       "language": "en",
       "category": "Education"
+    },
+    {
+      "id": "073e014dd866af0e53b0",
+      "title": "Marilyn Perreault reçoit le Prix du CALQ - Artiste de l'année dans les Laurentides",
+      "summary": "SAINTE-AGATHE-DES-MONTS, QC , le 17 nov. 2026 /CNW/ -- Le Conseil des arts et des lettres du Québec (CALQ), en collaboration avec Culture Laurentides et Le Devoir, est heureux de décerner le Prix du CALQ - Artiste de l'année dans les Laurentides à l'artiste Marilyn Perreault . Ce prix, assorti d'un",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/marilyn-perreault-recoit-le-prix-du-calq-artiste-de-lannee-dans-les-laurentides-73087",
+      "publishedAt": "2026-11-17T22:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
     },
     {
       "id": "f3be6b424636e51b9113",
@@ -257,18 +267,6 @@
       "jurisdiction": "Manitoba",
       "language": "en",
       "category": "Health"
-    },
-    {
-      "id": "202611-le-salon-de-l-immigration-se-tient-les-16-et-17-novembre",
-      "title": "Le Salon de l’immigration se tient les 16 et 17 novembre",
-      "summary": "Le calendrier du gouvernement du Québec indique les dates du Salon de l’immigration et de l’intégration. Consultez le calendrier pour accéder au site du Salon.",
-      "url": "https://www.quebec.ca/emploi/trouver-emploi-stage/salons-emploi",
-      "publishedAt": "2026-11-16T19:00:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Immigration",
-      "expiresAt": "2026-11-18T05:00:00+00:00"
     },
     {
       "id": "202611-nunavut-warns-residents-about-phone-scams",
