@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-19T01:18:57.071191+00:00",
+  "updatedAt": "2026-11-19T07:24:47.283487+00:00",
   "notices": [
+    {
+      "id": "4582b430765bfdb1fe63",
+      "title": "Prime Minister Carney meets with Prime Minister of Singapore Lawrence Wong, Prime Minister of Australia Anthony Albanese, and Prime Minister of New Zealand Christopher Luxon",
+      "summary": "Prime Minister Carney meets with Prime Minister of Singapore Lawrence Wong, Prime Minister of Australia Anthony Albanese, and Prime Minister of New Zealand Christopher Luxon",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/19/prime-minister-carney-meets-prime-minister-singapore-lawrence-wong-prime",
+      "publishedAt": "2026-11-19T06:04:19+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c4f7e355192ec25a861f",
+      "title": "Prime Minister Carney strengthens economic partnerships at APEC, capping an ambitious week that delivered major gains for Canadian workers and businesses",
+      "summary": "Prime Minister Carney strengthens economic partnerships at APEC, capping an ambitious week that delivered major gains for Canadian workers and businesses",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/19/prime-minister-carney-strengthens-economic-partnerships-apec-capping",
+      "publishedAt": "2026-11-19T02:52:53+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ac71cfb78cfd4993ab07",
+      "title": "Prime Minister Carney delivers remarks at the APEC CEO Summit",
+      "summary": "Prime Minister Carney delivers remarks at the APEC CEO Summit",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/18/prime-minister-carney-delivers-remarks-apec-ceo-summit",
+      "publishedAt": "2026-11-19T01:00:37+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "462c6d159b7f50777df0",
       "title": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
@@ -54,6 +87,17 @@
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a13240504f01715e927e",
+      "title": "Nominations du Conseil des ministres",
+      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- Le Conseil des ministres a procédé aux nominations suivantes à sa séance d'aujourd'hui. Retraite Québec M me Christine Tremblay est nommée, à compter du 23 novembre 2026, membre du conseil d'administration et présidente-directrice générale de Retraite Québec. M me T",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/nominations-du-conseil-des-ministres-1-73101",
+      "publishedAt": "2026-11-18T21:27:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {

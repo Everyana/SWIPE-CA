@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:18:57.071191+00:00",
+  "updatedAt": "2026-11-19T07:24:47.283487+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,39 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "4582b430765bfdb1fe63",
+      "title": "Prime Minister Carney meets with Prime Minister of Singapore Lawrence Wong, Prime Minister of Australia Anthony Albanese, and Prime Minister of New Zealand Christopher Luxon",
+      "summary": "Prime Minister Carney meets with Prime Minister of Singapore Lawrence Wong, Prime Minister of Australia Anthony Albanese, and Prime Minister of New Zealand Christopher Luxon",
+      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/19/prime-minister-carney-meets-prime-minister-singapore-lawrence-wong-prime",
+      "publishedAt": "2026-11-19T06:04:19+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c4f7e355192ec25a861f",
+      "title": "Prime Minister Carney strengthens economic partnerships at APEC, capping an ambitious week that delivered major gains for Canadian workers and businesses",
+      "summary": "Prime Minister Carney strengthens economic partnerships at APEC, capping an ambitious week that delivered major gains for Canadian workers and businesses",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/19/prime-minister-carney-strengthens-economic-partnerships-apec-capping",
+      "publishedAt": "2026-11-19T02:52:53+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ac71cfb78cfd4993ab07",
+      "title": "Prime Minister Carney delivers remarks at the APEC CEO Summit",
+      "summary": "Prime Minister Carney delivers remarks at the APEC CEO Summit",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/18/prime-minister-carney-delivers-remarks-apec-ceo-summit",
+      "publishedAt": "2026-11-19T01:00:37+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "462c6d159b7f50777df0",
       "title": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
@@ -79,6 +112,17 @@
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a13240504f01715e927e",
+      "title": "Nominations du Conseil des ministres",
+      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- Le Conseil des ministres a procédé aux nominations suivantes à sa séance d'aujourd'hui. Retraite Québec M me Christine Tremblay est nommée, à compter du 23 novembre 2026, membre du conseil d'administration et présidente-directrice générale de Retraite Québec. M me T",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/nominations-du-conseil-des-ministres-1-73101",
+      "publishedAt": "2026-11-18T21:27:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -197,50 +241,6 @@
       "summary": "The following statement was read in the House of Assembly today by the Honourable Mike Goosney, Minister of Tourism, Culture, Arts and Recreation: Speaker, today I rise to recognize two important milestones: the 25th anniversary of the Mary Brown’s Centre... Read More about Ministerial Statement: Province Celebrates Milestones at Mary Brown’s Centre and St. John’s Convention Centre The post Ministerial Statement: Province Celebrates Milestones at Mary Brown’s Centre and St. John’s Convention Centre appeared first on News Releases .",
       "url": "https://www.gov.nl.ca/releases/2026/tcar/1118n04-2/",
       "publishedAt": "2026-11-18T17:50:28+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "5e6cd4d4c91438bec5ad",
-      "title": "Trou de 65 G$ dans le PQI : Le caucus libéral de l'Outaouais exige des garanties pour protéger le futur hôpital",
-      "summary": "GATINEAU, QC , le 18 nov. 2026 /CNW/ -- Au lendemain de l'annonce du ministre des Finances, Nicolas Marceau, selon laquelle il manquerait près de soixante-cinq milliards de dollars au Plan québécois des infrastructures (PQI), le caucus libéral des députés de l'Outaouais demande à la ministre respons",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/trou-de-65-g-dans-le-pqi-le-caucus-liberal-de-loutaouais-exige-des-garanties-pour-proteger-le-futur-hopital-73099",
-      "publishedAt": "2026-11-18T17:16:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Health"
-    },
-    {
-      "id": "1d3902141c7ae8ac33e8",
-      "title": "Manitoba Government Ready to Reopen Victoria Hospital's Emergency Department Next Summer",
-      "summary": "Manitoba Government Ready to Reopen Victoria Hospital's Emergency Department Next Summer",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76138",
-      "publishedAt": "2026-11-18T16:58:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "d45ccbe6a2be135cf9dd",
-      "title": "Opening doors to employment across Alberta",
-      "summary": "Alberta is investing almost a quarter of a billion dollars to help Albertans find and keep meaningful employment, including nearly $35 million for simulated worksites.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9815558E0EC9F-9BBC-A103-F9A602634C1341E9",
-      "publishedAt": "2026-11-18T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ed08be05469234b85f7e",
-      "title": "Media Advisory: Government House Leader Available to Media",
-      "summary": "The Honourable Lloyd Parrott, Government House Leader, will be available to media to discuss proceedings in the House of Assembly today (Wednesday, November 18). The availability will take place at 1:45 p.m. in the East Block Lobby, Confederation Building. -30- The post Media Advisory: Government House Leader Available to Media appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1118n04/",
-      "publishedAt": "2026-11-18T16:21:46+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
