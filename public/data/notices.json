@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:01:45.403144+00:00",
+  "updatedAt": "2026-11-19T01:18:57.071191+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -27,6 +27,17 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "462c6d159b7f50777df0",
+      "title": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
+      "summary": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/18/prime-minister-carney-delivers-remarks-media-apec-ceo-summit",
+      "publishedAt": "2026-11-19T00:14:18+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "c5feff612f63829c59ef",
       "title": "Saskatchewan Recognizes Lung Cancer Awareness Month",
       "summary": "Saskatchewan is recognizing November as Lung Cancer Awareness Month and encouraging residents to learn more about prevention, screening and early detection. November is also recognized as Lung...",
@@ -49,6 +60,39 @@
       "category": "Jobs and training"
     },
     {
+      "id": "13a5011a0a55d1773f58",
+      "title": "Ensuring industry pays for new well cleanup",
+      "summary": "Alberta’s government is introducing new requirements for oil and gas companies to set aside their own money to cover the future cleanup costs of every new well drilled.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9815659E046A8-0AD8-E675-24B279C25B2AD380",
+      "publishedAt": "2026-11-18T21:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b86cbdbfee1bc80bebb6",
+      "title": "New restrictions on data centres",
+      "summary": "Alberta’s government is proposing new restrictions on data centres to protect communities, farmland, water and electricity while ensuring responsible growth.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=981575A97E76E-B93C-5D78-1B86AFC4364E2200",
+      "publishedAt": "2026-11-18T21:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8ee1955f32ffeea4f634",
+      "title": "The Government of Yukon announces recipients of the 2026 Robert E. Leckie Awards",
+      "summary": "The Government of Yukon announces recipients of the 2026 Robert E. Leckie Awards Primary image zaburke November 18, 2026 - 2:15 pm Recipients of the 2026 Robert E. Leckie Awards were announced Tuesday evening at the 54th Annual Geoscience Forum & Trade Show banquet. Burnt Gold Enterprises received the Leckie Award for Excellence in Environmental Stewardship in placer mining. The company has set a strong example by minimizing its operational footprint, reclaiming disturbed ground as mining progresses and implementing measures to protect the Indian River. Rio2 Limited received the Leckie Award for Excellence in Environmental Stewardship in quar",
+      "url": "https://yukon.ca/en/news/government-yukon-announces-recipients-2026-robert-e-leckie-awards",
+      "publishedAt": "2026-11-18T21:15:36+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "1af7eec9d60b38df2902",
       "title": "Eleven New Sober Living Spaces Open in North Battleford",
       "summary": "Today Minister of Health Jeremy Cockrill announced funding for 11 new second-stage sober living spaces in North Battleford. The $630,000 in annual funding to Poundmaker’s Lodge for these sober...",
@@ -57,6 +101,61 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "3c9255ed81d222a0330a",
+      "title": "New legislation tabled to replace IRAC with modern, transparent, and specialized regulators built for Islanders",
+      "summary": "The Government of Prince Edward Island has tabled the Appeals, Land and Regulatory Commission of Prince Edward Island Act to replace the Island…",
+      "url": "https://www.princeedwardisland.ca/en/news/new-legislation-tabled-to-replace-irac-with-modern-transparent-and-specialized-regulators",
+      "publishedAt": "2026-11-18T20:21:00+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "44b0136d62fc5bbd6ba5",
+      "title": "Media Advisory: Premier Wakeham to Present Annual Athletic Awards",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will host the 22nd Annual Premier’s Athletic Awards tomorrow (Thursday, November 19) at 5:00 p.m. The event will take place at The Works Field House, Memorial University, St. John’s. Premier Wakeham... Read More about Media Advisory: Premier Wakeham to Present Annual Athletic Awards The post Media Advisory: Premier Wakeham to Present Annual Athletic Awards appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1118n08/",
+      "publishedAt": "2026-11-18T19:25:27+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "771fafe2f452365ba325",
+      "title": "Yukon government takes next steps to unlock geothermal energy potential",
+      "summary": "Yukon government takes next steps to unlock geothermal energy potential zaburke November 18, 2026 - 12:22 pm The Government of Yukon is formally advancing work toward the development of a Yukon geothermal regulatory framework, creating a clearer path for responsible deep geothermal development in the territory. As the Yukon's electricity demand continues to grow, the government is exploring multiple options to strengthen energy security and improve reliability. Geothermal is one of those options as it has the potential to provide dependable, around-the-clock energy for heat and electricity, particularly during winter, from local resources. Of",
+      "url": "https://yukon.ca/en/news/yukon-government-takes-next-steps-unlock-geothermal-energy-potential",
+      "publishedAt": "2026-11-18T19:22:19+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "77dae193b4fdacd753d4",
+      "title": "Investigator appointed to lead independent review of Carr case",
+      "summary": "An investigator has been appointed to lead an independent review of the Byron Carr murder investigation.The Honorable Duncan R. Beveridge has been…",
+      "url": "https://www.princeedwardisland.ca/en/news/investigator-appointed-to-lead-independent-review-of-carr-case",
+      "publishedAt": "2026-11-18T19:04:51+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "01cfc78d28d8ff83dfc4",
+      "title": "Contrôle routier Québec reprend ses interventions non planifiées en Montérégie",
+      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- La Société de l'assurance automobile du Québec (SAAQ) et la Fraternité des constables du contrôle routier du Québec (FCCRQ) sont heureuses d'annoncer le retour des interventions non planifiées du Service de contrôle routier de Montérégie-Est, situé à Saint-Bruno-de-",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/controle-routier-quebec-reprend-ses-interventions-non-planifiees-en-monteregie-73100",
+      "publishedAt": "2026-11-18T18:50:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -104,6 +203,17 @@
       "category": "Public updates"
     },
     {
+      "id": "5e6cd4d4c91438bec5ad",
+      "title": "Trou de 65 G$ dans le PQI : Le caucus libéral de l'Outaouais exige des garanties pour protéger le futur hôpital",
+      "summary": "GATINEAU, QC , le 18 nov. 2026 /CNW/ -- Au lendemain de l'annonce du ministre des Finances, Nicolas Marceau, selon laquelle il manquerait près de soixante-cinq milliards de dollars au Plan québécois des infrastructures (PQI), le caucus libéral des députés de l'Outaouais demande à la ministre respons",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/trou-de-65-g-dans-le-pqi-le-caucus-liberal-de-loutaouais-exige-des-garanties-pour-proteger-le-futur-hopital-73099",
+      "publishedAt": "2026-11-18T17:16:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Health"
+    },
+    {
       "id": "1d3902141c7ae8ac33e8",
       "title": "Manitoba Government Ready to Reopen Victoria Hospital's Emergency Department Next Summer",
       "summary": "Manitoba Government Ready to Reopen Victoria Hospital's Emergency Department Next Summer",
@@ -134,116 +244,6 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "634bf1f00e4d30fce08e",
-      "title": "Coroner’s inquest scheduled into death of Jared Lowndes",
-      "summary": "The BC Coroners Service will hold an inquest into the circumstances of the death of Jared Leigh Lowndes starting Monday, Dec. 7, 2026.",
-      "url": "https://news.gov.bc.ca/releases/2026PSSG0076-001140",
-      "publishedAt": "2026-11-18T16:00:00+00:00",
-      "source": "BC Gov News",
-      "jurisdiction": "British Columbia",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "c20954ffda02772c12c0",
-      "title": "Ontario Funding More Than 6,700 Additional Seats at the University of Toronto to Prepare Students for In-Demand Careers",
-      "summary": "Province’s $1.7 billion investment funding more than 70,000 additional seats in STEM, health care, education and trades",
-      "url": "https://news.ontario.ca/en/release/1008295/ontario_funding_more_than_6700_additional_seats_at_the_university_of_toronto_to_prepare_students_for_in_demand_careers",
-      "publishedAt": "2026-11-18T16:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Education"
-    },
-    {
-      "id": "d6b9cd31dbb2abf8d542",
-      "title": "Media Advisory: Dr. Fitzgerald Available to Media",
-      "summary": "Dr. Janice Fitzgerald, Chief Medical Officer of Health, will be available to media to discuss the proposed amendments to the Tobacco and Vapour Products Control Act today (Wednesday, November 18). The availability will take place at 12:15 p.m. at the... Read More about Media Advisory: Dr. Fitzgerald Available to Media The post Media Advisory: Dr. Fitzgerald Available to Media appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/health/1118n03/",
-      "publishedAt": "2026-11-18T15:00:17+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "e1b1f5a2da2b86897085",
-      "title": "Ontario Cracking Down on Excessive Vehicle Noise",
-      "summary": "Steeper fines will help deter revving engines and illegal mufflers",
-      "url": "https://news.ontario.ca/en/release/1008296/ontario_cracking_down_on_excessive_vehicle_noise",
-      "publishedAt": "2026-11-18T14:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "c4418fd7334b2a826c3b",
-      "title": "Child and Youth Advocate Recognizes National Child Day 2026",
-      "summary": "On November 20 each year, Canada celebrates National Child Day and reaffirms its commitment to protect and uphold the rights of all young people, as stated in the United Nations Convention on the Rights of the Child (UNCRC). “It is... Read More about Child and Youth Advocate Recognizes National Child Day 2026 The post Child and Youth Advocate Recognizes National Child Day 2026 appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/cya/1118n02/",
-      "publishedAt": "2026-11-18T13:40:05+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "7f02a5e5f81048bc0ec0",
-      "title": "Mois de l'économie sociale - Près de 4,5 M$ pour soutenir des entreprises d'économie sociale de la Montérégie",
-      "summary": "LONGUEUIL, QC , le 18 nov. 2026 /CNW/ -- À l'occasion du Mois de l'économie sociale, Investissement Québec dévoile aujourd'hui l'octroi de 4 interventions financières totalisant 4 435 000 $ pour soutenir des projets portés par des entreprises d'économie sociale de la Montérégie. Investissement Québe",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/mois-de-leconomie-sociale-pres-de-45-m-pour-soutenir-des-entreprises-deconomie-sociale-de-la-monteregie-73098",
-      "publishedAt": "2026-11-18T13:30:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "2645a8b4f6ecc152ead0",
-      "title": "Prime Minister Carney meets with President of the United States Donald J. Trump",
-      "summary": "Prime Minister Carney meets with President of the United States Donald J. Trump",
-      "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/18/prime-minister-carney-meets-president-united-states-donald-j-trump",
-      "publishedAt": "2026-11-18T12:20:52+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "57511c3d2e5d033ecb80",
-      "title": "Public Advisory: National Test of Alert Ready to Take Place Today",
-      "summary": "The national emergency public alerting system Alert Ready is scheduled to issue an emergency test message today (Wednesday, November 18) at 9:55 a.m. (NST) and 9:25 a.m. (AST) in most of Labrador. Be advised that some residents will not receive... Read More about Public Advisory: National Test of Alert Ready to Take Place Today The post Public Advisory: National Test of Alert Ready to Take Place Today appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fal/1118n01/",
-      "publishedAt": "2026-11-18T11:55:19+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "d59572b68cbae9565b58",
-      "title": "Frais de courtage illégaux - Simple-crédit.ca plaide coupable",
-      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- L'Office de la protection du consommateur annonce que l'entreprise Simple-crédit.ca (12704226 Canada inc.) et sa présidente, M me Frédérick Gallant, ont plaidé coupable, les 25 et 26 mai 2026, à des accusations portées en vertu de la Loi sur la protection du consomm",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/frais-de-courtage-illegaux-simple-creditca-plaide-coupable-73096",
-      "publishedAt": "2026-11-18T10:15:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "4f9ad44b73e612921184",
-      "title": "Marché du carbone : le Québec et la Californie tiennent leur 49e vente aux enchères conjointe d'unités d'émission de gaz à effet de serre aujourd'hui",
-      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- Une vente aux enchères d'unités d'émission de gaz à effet de serre se tiendra aujourd'hui. Le ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Protection de la biodiversité, de la Faune et des Parcs (MELCCPBFP) tiendra cette vente",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/marche-du-carbone-le-quebec-et-la-californie-tiennent-leur-49e-vente-aux-encheres-conjointe-dunites-demission-de-gaz-a-effet-de-serre-aujourdhui-73095",
-      "publishedAt": "2026-11-18T10:10:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Public updates"
     },
     {

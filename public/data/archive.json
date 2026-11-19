@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-18T19:01:45.403144+00:00",
+  "updatedAt": "2026-11-19T01:18:57.071191+00:00",
   "notices": [
+    {
+      "id": "462c6d159b7f50777df0",
+      "title": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
+      "summary": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/18/prime-minister-carney-delivers-remarks-media-apec-ceo-summit",
+      "publishedAt": "2026-11-19T00:14:18+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "c5feff612f63829c59ef",
       "title": "Saskatchewan Recognizes Lung Cancer Awareness Month",
@@ -24,6 +35,39 @@
       "category": "Jobs and training"
     },
     {
+      "id": "13a5011a0a55d1773f58",
+      "title": "Ensuring industry pays for new well cleanup",
+      "summary": "Alberta’s government is introducing new requirements for oil and gas companies to set aside their own money to cover the future cleanup costs of every new well drilled.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9815659E046A8-0AD8-E675-24B279C25B2AD380",
+      "publishedAt": "2026-11-18T21:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b86cbdbfee1bc80bebb6",
+      "title": "New restrictions on data centres",
+      "summary": "Alberta’s government is proposing new restrictions on data centres to protect communities, farmland, water and electricity while ensuring responsible growth.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=981575A97E76E-B93C-5D78-1B86AFC4364E2200",
+      "publishedAt": "2026-11-18T21:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8ee1955f32ffeea4f634",
+      "title": "The Government of Yukon announces recipients of the 2026 Robert E. Leckie Awards",
+      "summary": "The Government of Yukon announces recipients of the 2026 Robert E. Leckie Awards Primary image zaburke November 18, 2026 - 2:15 pm Recipients of the 2026 Robert E. Leckie Awards were announced Tuesday evening at the 54th Annual Geoscience Forum & Trade Show banquet. Burnt Gold Enterprises received the Leckie Award for Excellence in Environmental Stewardship in placer mining. The company has set a strong example by minimizing its operational footprint, reclaiming disturbed ground as mining progresses and implementing measures to protect the Indian River. Rio2 Limited received the Leckie Award for Excellence in Environmental Stewardship in quar",
+      "url": "https://yukon.ca/en/news/government-yukon-announces-recipients-2026-robert-e-leckie-awards",
+      "publishedAt": "2026-11-18T21:15:36+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "1af7eec9d60b38df2902",
       "title": "Eleven New Sober Living Spaces Open in North Battleford",
       "summary": "Today Minister of Health Jeremy Cockrill announced funding for 11 new second-stage sober living spaces in North Battleford. The $630,000 in annual funding to Poundmaker’s Lodge for these sober...",
@@ -32,6 +76,61 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "3c9255ed81d222a0330a",
+      "title": "New legislation tabled to replace IRAC with modern, transparent, and specialized regulators built for Islanders",
+      "summary": "The Government of Prince Edward Island has tabled the Appeals, Land and Regulatory Commission of Prince Edward Island Act to replace the Island…",
+      "url": "https://www.princeedwardisland.ca/en/news/new-legislation-tabled-to-replace-irac-with-modern-transparent-and-specialized-regulators",
+      "publishedAt": "2026-11-18T20:21:00+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "44b0136d62fc5bbd6ba5",
+      "title": "Media Advisory: Premier Wakeham to Present Annual Athletic Awards",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will host the 22nd Annual Premier’s Athletic Awards tomorrow (Thursday, November 19) at 5:00 p.m. The event will take place at The Works Field House, Memorial University, St. John’s. Premier Wakeham... Read More about Media Advisory: Premier Wakeham to Present Annual Athletic Awards The post Media Advisory: Premier Wakeham to Present Annual Athletic Awards appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1118n08/",
+      "publishedAt": "2026-11-18T19:25:27+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "771fafe2f452365ba325",
+      "title": "Yukon government takes next steps to unlock geothermal energy potential",
+      "summary": "Yukon government takes next steps to unlock geothermal energy potential zaburke November 18, 2026 - 12:22 pm The Government of Yukon is formally advancing work toward the development of a Yukon geothermal regulatory framework, creating a clearer path for responsible deep geothermal development in the territory. As the Yukon's electricity demand continues to grow, the government is exploring multiple options to strengthen energy security and improve reliability. Geothermal is one of those options as it has the potential to provide dependable, around-the-clock energy for heat and electricity, particularly during winter, from local resources. Of",
+      "url": "https://yukon.ca/en/news/yukon-government-takes-next-steps-unlock-geothermal-energy-potential",
+      "publishedAt": "2026-11-18T19:22:19+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "77dae193b4fdacd753d4",
+      "title": "Investigator appointed to lead independent review of Carr case",
+      "summary": "An investigator has been appointed to lead an independent review of the Byron Carr murder investigation.The Honorable Duncan R. Beveridge has been…",
+      "url": "https://www.princeedwardisland.ca/en/news/investigator-appointed-to-lead-independent-review-of-carr-case",
+      "publishedAt": "2026-11-18T19:04:51+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "01cfc78d28d8ff83dfc4",
+      "title": "Contrôle routier Québec reprend ses interventions non planifiées en Montérégie",
+      "summary": "QUÉBEC , le 18 nov. 2026 /CNW/ -- La Société de l'assurance automobile du Québec (SAAQ) et la Fraternité des constables du contrôle routier du Québec (FCCRQ) sont heureuses d'annoncer le retour des interventions non planifiées du Service de contrôle routier de Montérégie-Est, situé à Saint-Bruno-de-",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/controle-routier-quebec-reprend-ses-interventions-non-planifiees-en-monteregie-73100",
+      "publishedAt": "2026-11-18T18:50:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -77,6 +176,17 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
+    },
+    {
+      "id": "5e6cd4d4c91438bec5ad",
+      "title": "Trou de 65 G$ dans le PQI : Le caucus libéral de l'Outaouais exige des garanties pour protéger le futur hôpital",
+      "summary": "GATINEAU, QC , le 18 nov. 2026 /CNW/ -- Au lendemain de l'annonce du ministre des Finances, Nicolas Marceau, selon laquelle il manquerait près de soixante-cinq milliards de dollars au Plan québécois des infrastructures (PQI), le caucus libéral des députés de l'Outaouais demande à la ministre respons",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/trou-de-65-g-dans-le-pqi-le-caucus-liberal-de-loutaouais-exige-des-garanties-pour-proteger-le-futur-hopital-73099",
+      "publishedAt": "2026-11-18T17:16:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Health"
     },
     {
       "id": "1d3902141c7ae8ac33e8",
