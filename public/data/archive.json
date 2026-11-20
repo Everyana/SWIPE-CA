@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-11-19T19:05:49.246742+00:00",
+  "updatedAt": "2026-11-20T01:12:58.200584+00:00",
   "notices": [
+    {
+      "id": "0eb64219f246c473fd1a",
+      "title": "$846,000 Investment to Support Safer Streets and Stronger Community Connections in Moose Jaw",
+      "summary": "Strong, steady partnerships and proactive policing help communities respond to evolving public safety needs. In 2026-27, the Government of Saskatchewan is providing the City of Moose Jaw with...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/19/846000-to-support-safer-streets-and-stronger-community-connections-in-moose-jaw",
+      "publishedAt": "2026-11-20T03:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "163a33ae8dac1fc1faa4",
+      "title": "New High School Course Connects Students With Careers in Power Generation",
+      "summary": "Saskatchewan high school students are getting a firsthand look at the province's energy and electricity production sector through a new course designed to introduce them to the technologies,...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/19/new-high-school-course-connects-students-with-careers-in-power-generation",
+      "publishedAt": "2026-11-20T02:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Education"
+    },
     {
       "id": "2ea8606b4e1180b5bfb6",
       "title": "New Construction Builds a Strong, Steady Saskatchewan",
@@ -31,6 +53,160 @@
       "publishedAt": "2026-11-19T23:01:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c4cab1a3cef980f5839b",
+      "title": "Premier Wakeham Recognizes Province’s Top Young Athletes at Annual Awards Ceremony",
+      "summary": "This evening, the Honourable Tony Wakeham, Premier of Newfoundland and Labrador, celebrated the athletic achievements of more than 120 young athletes from across the province at the 22nd annual Premier’s Athletic Awards. Established in 2005, this awards program continues to... Read More about Premier Wakeham Recognizes Province’s Top Young Athletes at Annual Awards Ceremony The post Premier Wakeham Recognizes Province’s Top Young Athletes at Annual Awards Ceremony appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1119n16/",
+      "publishedAt": "2026-11-19T22:00:06+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c8303f8c1971b93a8ebb",
+      "title": "Manitoba Government Introduces Legislation to Strengthen Public Safety, Support Producers and Advance Innovation",
+      "summary": "Manitoba Government Introduces Legislation to Strengthen Public Safety, Support Producers and Advance Innovation",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76157",
+      "publishedAt": "2026-11-19T21:47:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "7d5652f8cd63a1f2128c",
+      "title": "Media Advisory: Minister Wall Available to the Media to Highlight Health Care Service",
+      "summary": "The Honourable Joedy Wall, Minister of Health and Community Services, will be available to media tomorrow (Friday, November 20) to discuss health care services in Old Perlican. Minister Wall will be joined by Riley Balsom, MHA for Carbonear – Trinity... Read More about Media Advisory: Minister Wall Available to the Media to Highlight Health Care Service The post Media Advisory: Minister Wall Available to the Media to Highlight Health Care Service appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/health/1119n15/",
+      "publishedAt": "2026-11-19T21:45:52+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "baff706d9b4059b65c6d",
+      "title": "Orders in Council",
+      "summary": "Orders Approved – November 19, 2026",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98168973483D3-C01A-0056-22571AC224A5D9A6",
+      "publishedAt": "2026-11-19T21:45:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ff9cb284cf1d10d15033",
+      "title": "Elimination of Provincial Gas and Diesel Tax Passes Third Reading in the House of Assembly",
+      "summary": "Changes to the Revenue Administration Act have passed third reading in the House of Assembly, allowing the elimination of the provincial tax on gasoline and diesel to move forward. The legislation will reduce the provincial tax on gasoline and diesel... Read More about Elimination of Provincial Gas and Diesel Tax Passes Third Reading in the House of Assembly The post Elimination of Provincial Gas and Diesel Tax Passes Third Reading in the House of Assembly appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fin/1119n14/",
+      "publishedAt": "2026-11-19T21:35:08+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "21997f5c65c06fd713e9",
+      "title": "Leading the world on carbon capture and storage",
+      "summary": "Alberta is updating its carbon capture incentive program to more closely match federal programs and support major projects and new oil production.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98167954820D3-00B6-6A55-A40A22FBA96168AD",
+      "publishedAt": "2026-11-19T21:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "6818b683007f45e03210",
+      "title": "Legislation Introduced to Support Families",
+      "summary": "The Honourable Helen Conway Ottenheimer, KC, Minister of Justice and Public Safety and Attorney General, has introduced the International Recovery of Child Support and Family Maintenance Convention Act to enhance support enforcement for families in Newfoundland and Labrador. The International... Read More about Legislation Introduced to Support Families The post Legislation Introduced to Support Families appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1119n13/",
+      "publishedAt": "2026-11-19T21:20:03+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1ff9ee61605785fc58d3",
+      "title": "Public Schools Branch pilots video cameras on six school buses",
+      "summary": "The Public Schools Branch (PSB) will begin testing video cameras on six school buses this week to improve safety for students and bus drivers and…",
+      "url": "https://www.princeedwardisland.ca/en/news/public-schools-branch-pilots-video-cameras-on-six-school-buses",
+      "publishedAt": "2026-11-19T20:56:54+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Education"
+    },
+    {
+      "id": "6e52aadd31ab4ede7d8f",
+      "title": "Associate Minister Rae to Hold a Press Conference",
+      "summary": "Associate Minister Rae to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008304/associate_minister_rae_to_hold_a_press_conference",
+      "publishedAt": "2026-11-19T20:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0461a1b556ba5642e221",
+      "title": "Yukon government awards bursaries to dozens of health care students",
+      "summary": "Yukon government awards bursaries to dozens of health care students zaburke November 19, 2026 - 1:21 pm The Government of Yukon is supporting 54 Yukon students pursuing careers in medicine, nursing and other health and social services professions through $320,000 in bursary funding in 2026. This funding helps students with education costs and supports efforts to build the Yukon’s future health workforce. Of the 54 recipients, 15 are studying medicine, 22 are studying nursing and 17 are enrolled in other health career programs. The funding includes $207,500 for 28 new recipients and $112,500 for 26 students continuing their studies through mul",
+      "url": "https://yukon.ca/en/news/yukon-government-awards-bursaries-dozens-health-care-students",
+      "publishedAt": "2026-11-19T20:21:20+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "56b4ec4e9859f3d006f7",
+      "title": "Ontario Court Convicts Individual of Animal Welfare Offence",
+      "summary": "Ontario Court Convicts Individual of Animal Welfare Offence",
+      "url": "https://news.ontario.ca/en/bulletin/1008300/ontario_court_convicts_individual_of_animal_welfare_offence",
+      "publishedAt": "2026-11-19T20:15:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "56cc0359a10ca01051e3",
+      "title": "Ontario Court Convicts Individuals of Animal Welfare Offences",
+      "summary": "Ontario Court Convicts Individuals of Animal Welfare Offences",
+      "url": "https://news.ontario.ca/en/bulletin/1008298/ontario_court_convicts_individuals_of_animal_welfare_offences",
+      "publishedAt": "2026-11-19T20:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "980ee598c5f37ad74535",
+      "title": "Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s",
+      "summary": "As part of the Government of Newfoundland and Labrador’s commitment to enhancing public safety in the province, the Honourable Helen Conway Ottenheimer, KC, is today announcing funding to the City of St. John’s to increase public safety for residents and... Read More about Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s The post Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1119n12/",
+      "publishedAt": "2026-11-19T19:57:19+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "5658763251b73ca25977",
+      "title": "Strengthening leadership in Alberta’s courts",
+      "summary": "Appointments to the Alberta Court of Justice will further strengthen judicial leadership and support public safety across the province.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9816690116A46-F105-6C4F-96C00CF9FC33E030",
+      "publishedAt": "2026-11-19T19:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
@@ -131,6 +307,17 @@
       "source": "Government of Yukon",
       "jurisdiction": "Yukon",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b49de9dffe596251b3d4",
+      "title": "Décès de Michel Carpentier : « Nous perdons aujourd'hui l'un des grands bâtisseurs du Québec » - Paul St-Pierre Plamondon",
+      "summary": "QUÉBEC , le 19 nov. 2026 /CNW/ -- Le premier ministre du Québec, M. Paul St-Pierre Plamondon, a rendu hommage aujourd'hui à Michel Carpentier, un homme d'exception dont l'engagement et la dévotion envers le service public auront marqué l'histoire politique du Québec. Le premier ministre a tenu à sou",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/deces-de-michel-carpentier-nous-perdons-aujourdhui-lun-des-grands-batisseurs-du-quebec-paul-st-pierre-plamondon-73110",
+      "publishedAt": "2026-11-19T17:13:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
