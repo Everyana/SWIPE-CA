@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:12:58.200584+00:00",
+  "updatedAt": "2026-11-20T07:24:28.060668+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -90,6 +90,17 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2569bd5d9f0496720c88",
+      "title": "Lauranne Faubert-Guay reçoit le Prix du CALQ - Artiste de l'année en Outaouais",
+      "summary": "WAKEFIELD, QC , le 19 nov. 2026 /CNW/ -- Le Conseil des arts et des lettres du Québec (CALQ), en collaboration avec Culture Outaouais et Le Devoir, est heureux de décerner le Prix du CALQ - Artiste de l'année en Outaouais à l'artiste Lauranne Faubert-Guay . Ce prix, assorti d'un montant de 15 000 $,",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/lauranne-faubert-guay-recoit-le-prix-du-calq-artiste-de-lannee-en-outaouais-73111",
+      "publishedAt": "2026-11-19T22:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -233,17 +244,6 @@
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "b49de9dffe596251b3d4",
-      "title": "Décès de Michel Carpentier : « Nous perdons aujourd'hui l'un des grands bâtisseurs du Québec » - Paul St-Pierre Plamondon",
-      "summary": "QUÉBEC , le 19 nov. 2026 /CNW/ -- Le premier ministre du Québec, M. Paul St-Pierre Plamondon, a rendu hommage aujourd'hui à Michel Carpentier, un homme d'exception dont l'engagement et la dévotion envers le service public auront marqué l'histoire politique du Québec. Le premier ministre a tenu à sou",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/deces-de-michel-carpentier-nous-perdons-aujourdhui-lun-des-grands-batisseurs-du-quebec-paul-st-pierre-plamondon-73110",
-      "publishedAt": "2026-11-19T17:13:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Public updates"
     },
     {
