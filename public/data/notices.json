@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-11-20T07:24:28.060668+00:00",
-  "sourcesSucceeded": 12,
+  "updatedAt": "2026-11-20T13:19:14.737599+00:00",
+  "sourcesSucceeded": 11,
   "sourcesConfigured": 16,
   "sourceFailures": [
     "Government of Canada: No valid official items returned",
     "Gouvernement du Canada: No valid official items returned",
     "Statistics Canada: undefined entity &ccedil;: line 82, column 127",
-    "Government of Nunavut: HTTP Error 403: Forbidden"
+    "Government of Nunavut: HTTP Error 403: Forbidden",
+    "Government of the Northwest Territories: HTTP Error 502: Bad Gateway"
   ],
   "coverage": [
     "Alberta",
@@ -26,6 +27,28 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "16246671f9fe4aac05b7",
+      "title": "Public Advisory: Resource Enforcement Division Lays Significant Charges on the Great Northern Peninsula",
+      "summary": "The Resource Enforcement Division continues to combat poaching and other illegal activities on the Great Northern Peninsula. On July 8, 2026, the Roddickton detachment received a complaint regarding suspicious activity on the Big East River. Officers conducted a joint patrol with... Read More about Public Advisory: Resource Enforcement Division Lays Significant Charges on the Great Northern Peninsula The post Public Advisory: Resource Enforcement Division Lays Significant Charges on the Great Northern Peninsula appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/public-advisory-resource-enforcement-division-lays-significant-charges-on-the-great-northern-peninsula/",
+      "publishedAt": "2026-11-20T13:15:08+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c6a82af74f11946b2a26",
+      "title": "Public Advisory: Second Payments for Home Heating Supplement Program Being Issued",
+      "summary": "The Government of Newfoundland and Labrador is pleased to inform residents that the second payments for the Home Heating Supplement Program (furnace and stove oil) are beginning to roll out today. As part of recently announced affordability measures, the Provincial... Read More about Public Advisory: Second Payments for Home Heating Supplement Program Being Issued The post Public Advisory: Second Payments for Home Heating Supplement Program Being Issued appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fin/1120n01/",
+      "publishedAt": "2026-11-20T12:45:38+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "0eb64219f246c473fd1a",
       "title": "$846,000 Investment to Support Safer Streets and Stronger Community Connections in Moose Jaw",
@@ -221,28 +244,6 @@
       "publishedAt": "2026-11-19T20:00:00+00:00",
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "980ee598c5f37ad74535",
-      "title": "Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s",
-      "summary": "As part of the Government of Newfoundland and Labrador’s commitment to enhancing public safety in the province, the Honourable Helen Conway Ottenheimer, KC, is today announcing funding to the City of St. John’s to increase public safety for residents and... Read More about Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s The post Minister Conway Ottenheimer Announces Funding to Support Public Safety in St. John’s appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/jps/1119n12/",
-      "publishedAt": "2026-11-19T19:57:19+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public safety"
-    },
-    {
-      "id": "5658763251b73ca25977",
-      "title": "Strengthening leadership in Alberta’s courts",
-      "summary": "Appointments to the Alberta Court of Justice will further strengthen judicial leadership and support public safety across the province.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9816690116A46-F105-6C4F-96C00CF9FC33E030",
-      "publishedAt": "2026-11-19T19:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
