@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-11-21T13:01:33.309029+00:00",
+  "updatedAt": "2026-11-21T18:55:04.994066+00:00",
   "notices": [
+    {
+      "id": "3ef75541256c5b052697",
+      "title": "Statement by Prime Minister Carney on the 30 th anniversary of the final report of the Royal Commission on Aboriginal Peoples",
+      "summary": "Statement by Prime Minister Carney on the 30<sup>th</sup> anniversary of the final report of the Royal Commission on Aboriginal Peoples",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/21/statement-prime-minister-carney-30th-anniversary-final-report-royal",
+      "publishedAt": "2026-11-21T13:14:22+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "48b33d5b9fc8b06e616b",
+      "title": "Dépôt d'accusations à l'endroit de deux policiers du Service de police de la Ville de Montréal",
+      "summary": "MONTRÉAL , le 21 nov. 2026 /CNW/ -- Après examen d'un rapport d'enquête soumis par le Service de police de la Ville de Montréal en lien avec certains événements impliquant des policiers du poste de quartier 39, le Directeur des poursuites criminelles et pénales (DPCP) annonce publiquement dans le bu",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/depot-daccusations-a-lendroit-de-deux-policiers-du-service-de-police-de-la-ville-de-montreal-73120",
+      "publishedAt": "2026-11-21T11:36:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public safety"
+    },
+    {
+      "id": "35fad591f04170ad8f03",
+      "title": "Festivals et événements de la saison hiver-printemps 2026-2027 : Le gouvernement du Québec appuie le Grand Marché de Noël",
+      "summary": "QUÉBEC , le 21 nov. 2026 /CNW/ -- Le gouvernement du Québec est heureux de confirmer une aide financière de 26 790 $ au Grand Marché de Noël de Québec , qui se déroule jusqu'au 24 décembre. Le ministre de l'Agriculture, des Pêcheries et de l'Alimentation et ministre responsable de la région de l'Est",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/festivals-et-evenements-de-la-saison-hiver-printemps-2026-2027-le-gouvernement-du-quebec-appuie-le-grand-marche-de-noel-73119",
+      "publishedAt": "2026-11-21T10:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "f02f794be565400e6bc3",
       "title": "Saturday, November 21, 2026",
       "summary": "Saturday, November 21, 2026",
       "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/20/saturday-november-21-2026",
+      "publishedAt": "2026-11-21T02:23:29+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2b7afaf613a7e78a2c84",
+      "title": "UPDATE – Saturday, November 21, 2026",
+      "summary": "UPDATE – Saturday, November 21, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/21/update-saturday-november-21-2026",
       "publishedAt": "2026-11-21T02:23:29+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
