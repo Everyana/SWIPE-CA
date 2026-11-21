@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:16:41.661150+00:00",
+  "updatedAt": "2026-11-21T07:15:20.727340+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,17 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "f02f794be565400e6bc3",
+      "title": "Saturday, November 21, 2026",
+      "summary": "Saturday, November 21, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/20/saturday-november-21-2026",
+      "publishedAt": "2026-11-21T02:23:29+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
     {
       "id": "6565bbc7797ee31a5e52",
       "title": "Government of Saskatchewan Announces Name of New Rosthern Hospital",
@@ -232,17 +243,6 @@
       "publishedAt": "2026-11-20T18:47:00+00:00",
       "source": "Manitoba Government",
       "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "dec2929fbb63e5d4a8a4",
-      "title": "Man Convicted of Doing Business as a Livestock Dealer Without a Licence",
-      "summary": "Man Convicted of Doing Business as a Livestock Dealer Without a Licence",
-      "url": "https://news.ontario.ca/en/court/1008312/man_convicted_of_doing_business_as_a_livestock_dealer_without_a_licence",
-      "publishedAt": "2026-11-20T18:32:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
       "language": "en",
       "category": "Public updates"
     },
