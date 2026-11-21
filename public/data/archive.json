@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:05:30.473447+00:00",
+  "updatedAt": "2026-11-21T01:16:41.661150+00:00",
   "notices": [
     {
       "id": "6565bbc7797ee31a5e52",
@@ -35,6 +35,17 @@
       "category": "Health"
     },
     {
+      "id": "772fa6f353e19d14be90",
+      "title": "Manitoba Government Establishing First-Ever Commercial Fishers Advisory Table",
+      "summary": "Manitoba Government Establishing First-Ever Commercial Fishers Advisory Table",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76197",
+      "publishedAt": "2026-11-20T21:34:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "9e1665d216fb7c601dc7",
       "title": "49 Regina Police Positions Funded Through $6.9 Million Provincial Investment",
       "summary": "Safer streets, stronger neighbourhoods and faster police response times when residents need help the most start with dedicated frontline officers working in our communities. The Government of...",
@@ -44,6 +55,138 @@
       "jurisdiction": "Saskatchewan",
       "language": "en",
       "category": "Public safety"
+    },
+    {
+      "id": "429a0ff7d5c54ea29fc7",
+      "title": "Two People Fined for Unlawful Deer Hunt on St. Joseph Island",
+      "summary": "Two People Fined for Unlawful Deer Hunt on St. Joseph Island",
+      "url": "https://news.ontario.ca/en/court/1008315/two_people_fined_for_unlawful_deer_hunt_on_st_joseph_island",
+      "publishedAt": "2026-11-20T21:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c5491f86ccae1e226882",
+      "title": "Inquest into the Death of Clarence Strong Announced",
+      "summary": "Inquest into the Death of Clarence Strong Announced",
+      "url": "https://news.ontario.ca/en/release/1008305/inquest_into_the_death_of_clarence_strong_announced",
+      "publishedAt": "2026-11-20T20:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "11aef7abbe07f4f03147",
+      "title": "Media Advisory: Minister Conway Ottenheimer to Discuss Safer Communities Legislation",
+      "summary": "The Honourable Helen Conway Ottenheimer, KC, Minister of Justice and Public Safety, will be available to discuss Safer Communities and Neighbourhoods legislation Monday, November 23. The availability will take place in the Media Centre, East Block, Confederation Building, at 9:55... Read More about Media Advisory: Minister Conway Ottenheimer to Discuss Safer Communities Legislation The post Media Advisory: Minister Conway Ottenheimer to Discuss Safer Communities Legislation appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1120n08/",
+      "publishedAt": "2026-11-20T20:10:05+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "eec9c6ac8435ee499eb5",
+      "title": "X-ray Services Return to Dr. A. A. Wilkinson Memorial Health Centre as it Celebrates 25th Anniversary",
+      "summary": "The Government of Newfoundland and Labrador is today announcing that a new, digital X-ray machine has been installed at the Dr. A. A. Wilkinson Memorial Health Centre in Old Perlican, meaning the return of X-ray services as the Health Centre... Read More about X-ray Services Return to Dr. A. A. Wilkinson Memorial Health Centre as it Celebrates 25th Anniversary The post X-ray Services Return to Dr. A. A. Wilkinson Memorial Health Centre as it Celebrates 25th Anniversary appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/health/1120n07/",
+      "publishedAt": "2026-11-20T20:05:50+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "d0c4dfab4251fe31cbd7",
+      "title": "Minister Pirie to Hold a Press Conference",
+      "summary": "Minister Pirie to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008314/minister_pirie_to_hold_a_press_conference",
+      "publishedAt": "2026-11-20T20:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2567a7710999b36c5ebe",
+      "title": "Environmental Assessment Bulletin",
+      "summary": "The Honourable Andrea Barbour, Minister of Environment, Conservation and Climate Change, has announced the following relative to Environmental Assessment – Part 10 – of the Environmental Protection Act. Undertaking Registered: Happy Valley-Goose Bay Quarry Resubmission (Reg. 2441) Proponent: Markland... Read More about Environmental Assessment Bulletin The post Environmental Assessment Bulletin appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/eccc/1120n06/",
+      "publishedAt": "2026-11-20T19:55:22+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Environment"
+    },
+    {
+      "id": "f4fa2f53577f7c317ffe",
+      "title": "Province launches Don’t Wait, Make the Call campaign on National Child Day",
+      "summary": "November 20th is National Child Day, an opportunity to recognize and celebrate the contributions of Island children and youth and reaffirm our shared…",
+      "url": "https://www.princeedwardisland.ca/en/news/province-launches-dont-wait-make-the-call-campaign-on-national-child-day",
+      "publishedAt": "2026-11-20T19:51:56+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "6499b2fc50345445cf06",
+      "title": "Ontario Investing in Mental Health Supports to Protect Public Safety Personnel",
+      "summary": "Ontario Investing in Mental Health Supports to Protect Public Safety Personnel",
+      "url": "https://news.ontario.ca/en/backgrounder/1008306/ontario_investing_in_mental_health_supports_to_protect_public_safety_personnel",
+      "publishedAt": "2026-11-20T19:45:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "ea2df4aecad17948720f",
+      "title": "New and improved parent toolkit | Une nouvelle trousse d’outils améliorée",
+      "summary": "An updated parent toolkit will provide families with easier access to learning-at-home resources for K-9 students.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98175C7C8EDFC-AE1B-9411-4B6E3DD4852BEE61",
+      "publishedAt": "2026-11-20T19:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "01f83d5c75e87cfbece8",
+      "title": "Yukon government welcomes continued collaboration on housing priorities following federal, provincial and territorial meeting",
+      "summary": "Yukon government welcomes continued collaboration on housing priorities following federal, provincial and territorial meeting zaburke November 20, 2026 - 12:02 pm The Government of Yukon welcomes continued collaboration between federal, provincial and territorial governments following a meeting of ministers responsible for housing and homelessness held in Toronto on November 12 and 13, 2026. The Minister responsible for the Yukon Housing Corporation, Scott Kent, joined federal Minister of Housing and Infrastructure Gregor Robertson and provincial and territorial counterparts to discuss housing and homelessness commitments related to the feder",
+      "url": "https://yukon.ca/en/news/yukon-government-welcomes-continued-collaboration-housing-priorities-following-federal-provincial-and-territorial-meeting",
+      "publishedAt": "2026-11-20T19:02:34+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Housing"
+    },
+    {
+      "id": "1c18eeb96cdfdde9f118",
+      "title": "Branching out with Alberta’s wood products",
+      "summary": "Alberta is investing $1.7 million in 13 projects to help value-added wood manufacturers develop new products and diversify Alberta’s forest industry.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98172C283DC20-DAAE-DA36-61F30566395CD811",
+      "publishedAt": "2026-11-20T19:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "30113316d07b43cf4e77",
+      "title": "Ontario Expands Rural High-Speed Internet in Bruce and Grey Counties",
+      "summary": "Completion of EH!tel fibre expansion project gives thousands of residents access to high-speed internet",
+      "url": "https://news.ontario.ca/en/release/1008310/ontario_expands_rural_high_speed_internet_in_bruce_and_grey_counties",
+      "publishedAt": "2026-11-20T19:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
     },
     {
       "id": "fe5ba54ec56a5589b68c",
@@ -87,6 +230,17 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a5eddf132c4973a6a659",
+      "title": "La ministre Pellerin-Forget rencontre les équipes des services sociaux de proximité en Montérégie",
+      "summary": "QUÉBEC , le 20 nov. 2026 /CNW/ -- À l'occasion d'une tournée en Montérégie, la ministre déléguée à la Santé mentale et aux Services sociaux, Camille Pellerin-Forget, est allée à la rencontre des équipes qui offrent au quotidien des services sociaux de proximité à la population. Cette visite lui a pe",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/la-ministre-pellerin-forget-rencontre-les-equipes-des-services-sociaux-de-proximite-en-monteregie-73118",
+      "publishedAt": "2026-11-20T18:12:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
