@@ -1,0 +1,27 @@
+{
+  "_note": "Plain-language summaries written by the SWIPES editor. A notice with an entry here becomes indexable (see scripts/story-pages.mjs). Kept separate from archive.json so the feed refresh never overwrites them.",
+  "summaries": {
+    "6565bbc7797ee31a5e52": "Saskatchewan has named the new hospital planned for Rosthern: it will be called Sask Valley Hospital, a name chosen to reflect the wider area it will serve.",
+    "852eb83ea8c2a52efd7a": "Saskatchewan is buying a new PET/CT scanner for Royal University Hospital in Saskatoon. The machine combines two imaging tests in one scan and is used mainly to find and track cancer.",
+    "9e1665d216fb7c601dc7": "Saskatchewan is putting $6.9 million toward 49 frontline police positions in Regina, aimed at faster response times and more officers on city streets.",
+    "5b7b13ddf663e975f64e": "Saskatchewan says it is looking at bioenergy made from forestry by-products, both to give the forest industry new markets and to help meet future energy demand.",
+    "772fa6f353e19d14be90": "Manitoba is setting up its first advisory table for commercial fishers, giving the industry a regular channel to advise the province on fishing policy.",
+    "eec9c6ac8435ee499eb5": "X-ray services are back at the Dr. A. A. Wilkinson Memorial Health Centre in Old Perlican, Newfoundland and Labrador, after a new digital X-ray machine was installed. The centre is marking its 25th anniversary.",
+    "afc9c07deb28c400cb08": "Newfoundland and Labrador Finance Minister Craig Pardy will present the province's 2026 Fall Economic and Fiscal Update on Monday, November 23, at the Confederation Building in St. John's.",
+    "11aef7abbe07f4f03147": "Newfoundland and Labrador Justice Minister Helen Conway Ottenheimer will speak to media on Monday, November 23, about the province's Safer Communities and Neighbourhoods legislation.",
+    "c6a82af74f11946b2a26": "Newfoundland and Labrador has started issuing the second payments under its Home Heating Supplement Program for households that heat with furnace or stove oil.",
+    "33d3b126118354d502d8": "Newfoundland and Labrador has approved the offshore regulator's decision on the development plan for the Bay du Nord oil project, a key step before the project can move ahead.",
+    "f4fa2f53577f7c317ffe": "On National Child Day (November 20), Prince Edward Island launched \"Don't Wait, Make the Call\", a campaign urging Islanders to report concerns about a child's safety.",
+    "ea2df4aecad17948720f": "Alberta has updated its parent toolkit, which collects learning-at-home resources for families of students from kindergarten to Grade 9 in one place.",
+    "1c18eeb96cdfdde9f118": "Alberta is giving $1.7 million to 13 projects that help wood manufacturers create new value-added products and diversify the province's forest industry.",
+    "5c3b312fe70897f6d9f5": "Alberta has signed a partnership with Discover Airlines to strengthen direct flights between Alberta and Germany and bring more international visitors to the province.",
+    "f0b40374030f9c695f32": "Alberta is investing $250 million to build thousands of affordable homes across the province.",
+    "30113316d07b43cf4e77": "A fibre internet expansion by EH!tel is now complete in Bruce and Grey counties, Ontario, giving thousands of rural residents access to high-speed internet.",
+    "4dcf0a8ab98d07525bd2": "Ontario is moving ahead with widening Highway 17 between Arnprior and Renfrew to improve safety, cut congestion and support a key trade route in Eastern Ontario.",
+    "74b39c0251f82984ac84": "Construction has started on the redeveloped Banwell Gardens Care Centre in Windsor, Ontario. The long-term care home will have 192 modern beds, and the province expects about 650 jobs.",
+    "f17f042e0d0945bf7ec5": "Ford of Canada is investing nearly $5 billion in Ontario, including a new production line for F-Series Super Duty trucks and new stamping capacity. Ford employs about 7,000 people in Canada, more than 2,000 of them in Oakville.",
+    "47bb7a468b44daf2cb99": "Ontario and the federal government are investing $250 million in a new port facility in Sault Ste. Marie, meant to boost trade within Canada and with other countries and support growth in Northern Ontario.",
+    "3ba01046833ae6c42e03": "The Ontario Parks Store has launched a winter collection of Canadian-made gear and gifts. All proceeds go to trail improvements, accessibility and visitor experiences in provincial parks.",
+    "fe5ba54ec56a5589b68c": "British Columbia Premier Lorne Doerkson has sworn in a new cabinet, saying its focus is restoring confidence in government and building a stronger province."
+  }
+}

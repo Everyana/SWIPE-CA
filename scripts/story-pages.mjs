@@ -14,8 +14,9 @@ export function loadStories() {
   const byId = new Map();
   for (const n of [...archive, ...live]) byId.set(n.id, {...byId.get(n.id), ...n});
   const liveIds = new Set(live.map((n) => n.id));
+  const editor = readJson('public/data/editor-summaries.json', {summaries: {}}).summaries || {};
   return [...byId.values()]
-    .map((n) => ({...n, inFeed: liveIds.has(n.id)}))
+    .map((n) => ({...n, ...(editor[n.id] ? {editorSummary: editor[n.id]} : {}), inFeed: liveIds.has(n.id)}))
     .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 }
 
