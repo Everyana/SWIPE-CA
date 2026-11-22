@@ -10,12 +10,16 @@ const readJson = (p, fallback) => (existsSync(p) ? JSON.parse(readFileSync(p, 'u
 
 export function loadStories() {
   const live = readJson('public/data/notices.json', {notices: []}).notices || [];
+  // Our own writing: hand-curated notices (summary written by our editors) + editor summaries for feed notices.
+  const curated = new Set(readJson('scripts/curated_notices.json', []).map((n) => n.id));
+  const editor = readJson('public/data/editor-summaries.json', {summaries: {}}).summaries || {};
   const archive = readJson('public/data/archive.json', {notices: []}).notices || [];
   const byId = new Map();
   for (const n of [...archive, ...live]) byId.set(n.id, {...byId.get(n.id), ...n});
   const liveIds = new Set(live.map((n) => n.id));
   return [...byId.values()]
-    .map((n) => ({...n, inFeed: liveIds.has(n.id)}))
+    .map((n) => ({...n, inFeed: liveIds.has(n.id),
+      editorSummary: n.editorSummary || editor[n.id] || (curated.has(n.id) ? n.summary : undefined)}))
     .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 }
 
