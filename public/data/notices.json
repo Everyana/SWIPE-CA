@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-11-22T01:12:58.216172+00:00",
-  "sourcesSucceeded": 12,
+  "updatedAt": "2026-11-22T07:16:02.613773+00:00",
+  "sourcesSucceeded": 11,
   "sourcesConfigured": 16,
   "sourceFailures": [
     "Government of Canada: No valid official items returned",
     "Gouvernement du Canada: No valid official items returned",
     "Statistics Canada: undefined entity &ccedil;: line 82, column 127",
-    "Government of Nunavut: HTTP Error 403: Forbidden"
+    "Government of Nunavut: HTTP Error 403: Forbidden",
+    "Government of the Northwest Territories: HTTP Error 502: Bad Gateway"
   ],
   "coverage": [
     "Alberta",
