@@ -31,7 +31,6 @@ function prerender() {
         `<meta property="og:type" content="website"/>`,
         `<meta property="og:site_name" content="SWIPES Canada"/>`,
         `<meta property="og:locale" content="en_CA"/>`,
-        `<meta property="og:locale:alternate" content="fr_CA"/>`,
         `<meta property="og:url" content="${SITE}"/>`,
         `<meta property="og:title" content="${esc(TITLE)}"/>`,
         `<meta property="og:description" content="${esc(DESC)}"/>`,
@@ -47,7 +46,7 @@ function prerender() {
         `<style>.pr{background:#0a1926;color:#f5f1ea;font:16px/1.5 system-ui,sans-serif;min-height:100vh;padding:24px}.pr h1{font-size:28px;margin:0 0 4px}.pr p.k{color:#e94a3f;font-weight:700;letter-spacing:.08em;font-size:12px;margin:0 0 20px}.pr article{border-top:1px solid #23384a;padding:16px 0;max-width:760px}.pr small{color:#e94a3f;font-weight:700}.pr h2{font-size:20px;margin:4px 0}.pr a{color:#f5f1ea}</style>`,
       ].join('');
       const cards = notices
-        .map((n) => `<article><small>${esc(n.jurisdiction)} · ${esc(String(n.publishedAt).slice(0, 10))}</small><h2>${esc(n.title)}</h2><p>${esc(n.summary)}</p><a href="${esc(n.url)}" rel="noopener" target="_blank">${esc(n.source)} — read the original notice</a></article>`)
+        .map((n) => `<article><small>${esc(n.jurisdiction)} · ${esc(String(n.publishedAt).slice(0, 10))}</small><h2>${n.editorSummary && n.id ? `<a href="/story/${encodeURIComponent(n.id)}/">${esc(n.title)}</a>` : esc(n.title)}</h2><p>${esc(n.summary)}</p><a href="${esc(n.url)}" rel="noopener" target="_blank">${esc(n.source)} — read the original notice</a></article>`)
         .join('');
       const body = `<div class="pr"><h1>SWIPES.</h1><p class="k">CANADA EDITION · PUBLIC INFORMATION</p>${cards}</div>`;
       return html
