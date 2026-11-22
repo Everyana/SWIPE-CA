@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:59:38.819488+00:00",
+  "updatedAt": "2026-11-22T18:55:19.758697+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,17 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "3fe5971131e0cf65d738",
+      "title": "Itinérance : l'expertise libérale au service de solutions pérennes",
+      "summary": "QUÉBEC , le 22 nov. 2026 /CNW/ -- Le chef de l'opposition officielle, M. Charles Milliard, annonce la formation d'un comité de travail composé de députés du caucus libéral afin d'alimenter les réflexions et de préparer la tenue du Sommet sur l'itinérance qui se tiendra au début de 2027. Le comité de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/itinerance-lexpertise-liberale-au-service-de-solutions-perennes-73121",
+      "publishedAt": "2026-11-22T09:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "3ef75541256c5b052697",
       "title": "Statement by Prime Minister Carney on the 30 th anniversary of the final report of the Royal Commission on Aboriginal Peoples",
@@ -243,17 +254,6 @@
       "publishedAt": "2026-11-20T19:00:00+00:00",
       "source": "Government of Alberta",
       "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "30113316d07b43cf4e77",
-      "title": "Ontario Expands Rural High-Speed Internet in Bruce and Grey Counties",
-      "summary": "Completion of EH!tel fibre expansion project gives thousands of residents access to high-speed internet",
-      "url": "https://news.ontario.ca/en/release/1008310/ontario_expands_rural_high_speed_internet_in_bruce_and_grey_counties",
-      "publishedAt": "2026-11-20T19:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
       "language": "en",
       "category": "Public updates"
     },
