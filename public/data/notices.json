@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-23T19:08:46.528033+00:00",
+  "updatedAt": "2026-11-23T19:28:55.056770+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
     "Government of Canada: No valid official items returned",
     "Gouvernement du Canada: No valid official items returned",
-    "Statistics Canada: undefined entity &ccedil;: line 82, column 127",
+    "Statistics Canada: No valid official items returned",
     "Government of Nunavut: HTTP Error 403: Forbidden"
   ],
   "coverage": [
@@ -89,6 +89,17 @@
       "publishedAt": "2026-11-23T18:34:22+00:00",
       "source": "Government of Prince Edward Island",
       "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ac228aa2a82180742cc7",
+      "title": "Fire Marshals Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale",
+      "summary": "Fire Marshals Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale zaburke November 23, 2026 - 11:24 am The Yukon Fire Marshals Office has partnered with the West Side Association to provide fire prevention equipment to residents of West Dawson and Sunnydale. The Fire Marshals Office is providing the community with 38 combination smoke and carbon monoxide (CO) detectors as well as eight CO alarms. The West Side Association will distribute the alarms locally. As part of this initiative, the West Side Association will also be speaking with residents about fire prevention and emergency preparedness a",
+      "url": "https://yukon.ca/en/news/fire-marshals-office-partners-west-side-association-support-fire-prevention-west-dawson-and-sunnydale",
+      "publishedAt": "2026-11-23T18:24:31+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
       "language": "en",
       "category": "Public updates"
     },
@@ -245,17 +256,6 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
-    },
-    {
-      "id": "d090b644bbbf21d8c37f",
-      "title": "Kindergarten registration opens for the 2027-28 school year",
-      "summary": "Island parents and guardians can register their child for kindergarten at their local school beginning November 23 for the 2027-28 school year.Any…",
-      "url": "https://www.princeedwardisland.ca/en/news/kindergarten-registration-opens-for-the-2027-28-school-year",
-      "publishedAt": "2026-11-23T14:16:44+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Education"
     },
     {
       "id": "17a96a8f0b368e8c9ed7",
