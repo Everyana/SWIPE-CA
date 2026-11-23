@@ -1,6 +1,237 @@
 {
-  "updatedAt": "2026-11-23T13:26:46.566740+00:00",
+  "updatedAt": "2026-11-23T19:08:46.528033+00:00",
   "notices": [
+    {
+      "id": "3233823057c30d6d5ea8",
+      "title": "Saskatchewan Wins at 2026 Canadian Tourism Awards",
+      "summary": "It was a proud night for Saskatchewan at the Canadian Tourism Awards, with two businesses earning national recognition in three categories announced at the gala event on November 18 in Fredericton,...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/23/saskatchewan-wins-at-2026-canadian-tourism-awards",
+      "publishedAt": "2026-11-23T22:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2c4aa4e0a666f3e2fa39",
+      "title": "Over 100 Saskatchewan Communities Now Eligible for Rural and Remote Recruitment Incentive Program",
+      "summary": "In the Past Two Years, the Program has Nearly Doubled the Number of Eligible Communities More than 100 Saskatchewan communities are now eligible for recruitment incentives aimed at attracting...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/23/over-100-saskatchewan-communities-now-eligible-for-rural-and-remote-recruitment-incentive-program",
+      "publishedAt": "2026-11-23T21:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0965a08ccf958ae9d647",
+      "title": "Manitoba Government Releases Final Report on 2025 Wildfire Response",
+      "summary": "Manitoba Government Releases Final Report on 2025 Wildfire Response",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76218",
+      "publishedAt": "2026-11-23T18:57:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "29df2caa01eddc73608b",
+      "title": "Provincial Government Introduces Amendments to Support Safer Communities",
+      "summary": "The Honourable Helen Conway Ottenheimer, KC, Minister of Justice and Public Safety and Attorney General, has introduced amendments to the Safer Communities and Neighbourhoods Act which will address concerns related to properties that impact people’s sense of safety and security.... Read More about Provincial Government Introduces Amendments to Support Safer Communities The post Provincial Government Introduces Amendments to Support Safer Communities appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1123n12/",
+      "publishedAt": "2026-11-23T18:52:37+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "f374f6f3c7129554be84",
+      "title": "Manitoba Government Adds 12 Police Officers to Combat Retail Crime and Serve Rural Communities",
+      "summary": "Manitoba Government Adds 12 Police Officers to Combat Retail Crime and Serve Rural Communities",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76217",
+      "publishedAt": "2026-11-23T18:50:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "b22dbf8b32ef10d7afe9",
+      "title": "New rules for non-resident ownership of municipal property",
+      "summary": "Amendments to the Prince Edward Island Lands Protection Act will establish new rules for non-resident ownership of municipal property, effective…",
+      "url": "https://www.princeedwardisland.ca/en/news/new-rules-for-non-resident-ownership-of-municipal-property",
+      "publishedAt": "2026-11-23T18:34:22+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7f1d1c2aba212c59c610",
+      "title": "Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador",
+      "summary": "Pamela Dawe, Seniors’ Advocate (A) for Newfoundland and Labrador, will be available to the media as she releases the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador. The first of these annual reports was released... Read More about Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador The post Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador appeared first o",
+      "url": "https://www.gov.nl.ca/releases/2026/osa/1123n11/",
+      "publishedAt": "2026-11-23T18:05:42+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8ad9c6f9a08390806c08",
+      "title": "Minister Lecce to Hold a Photo Opportunity",
+      "summary": "Minister Lecce to Hold a Photo Opportunity",
+      "url": "https://news.ontario.ca/en/advisory/1008318/minister_lecce_to_hold_a_photo_opportunity",
+      "publishedAt": "2026-11-23T18:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b72a39f685bfe91df7e0",
+      "title": "New rules improve access for service dog handlers",
+      "summary": "Islanders with service dogs can now voluntarily certify their dogs under a new law, helping to reaffirm their access to public spaces, housing, and…",
+      "url": "https://www.princeedwardisland.ca/en/news/new-rules-improve-access-for-service-dog-handlers",
+      "publishedAt": "2026-11-23T17:50:42+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7ee89e97293e774ab483",
+      "title": "Provincial Government Acknowledges World Fisheries Day",
+      "summary": "The Provincial Government is proud to recognize World Fisheries Day, observed annually on November 21. World Fisheries Day provides an opportunity to celebrate the province’s fishery, which has been a cornerstone of our heritage, way of life and economy for... Read More about Provincial Government Acknowledges World Fisheries Day The post Provincial Government Acknowledges World Fisheries Day appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1123n10/",
+      "publishedAt": "2026-11-23T17:50:27+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "994bb79230dbfb8a9e3e",
+      "title": "Calgary Police Service officers charged in connection with man’s death",
+      "summary": "An independent investigation into a man’s death while being arrested by Calgary police has resulted in charges of manslaughter and assault causing bodily harm against three officers.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=981855F238476-9049-54B8-1C7BA97F87709417",
+      "publishedAt": "2026-11-23T17:45:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "b2219c8d00e61e3d6fa0",
+      "title": "Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lloyd Parrott, Minister of Government Services: Speaker, I rise today to recognize MADD Canada and its Project Red Ribbon public awareness campaign. For decades, the red... Read More about Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon The post Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/government-services/1123n09/",
+      "publishedAt": "2026-11-23T17:35:26+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8cbb3e9dd7a925b0236d",
+      "title": "Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Craig Pardy, Minister of Finance and President of Treasury Board: Speaker, I rise today to inform Members of the House that our government has released the... Read More about Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update The post Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fin/1123n08/",
+      "publishedAt": "2026-11-23T17:30:38+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "6956bd605c6c8033850d",
+      "title": "Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Mike Goosney, Minister of Tourism, Culture, Arts and Recreation: Speaker, I rise today to recognize the outstanding young athletes honoured through the 22nd annual Premier’s Athletic... Read More about Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients The post Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/tcar/1123n07/",
+      "publishedAt": "2026-11-23T17:25:25+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2a0d29ae22d941d15e89",
+      "title": "Ontario Investing More than $9 Million to Support Indigenous-led Economic Opportunities and Growth",
+      "summary": "Applications now open for new round of Indigenous Community Capital Grants Program and Indigenous Economic Development Fund",
+      "url": "https://news.ontario.ca/en/release/1008316/ontario_investing_more_than_9_million_to_support_indigenous_led_economic_opportunities_and_growth",
+      "publishedAt": "2026-11-23T17:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7f6066a726cda24f0fb8",
+      "title": "Statement from Minister Kent on National Housing Day",
+      "summary": "Statement from Minister Kent on National Housing Day zaburke November 23, 2026 - 9:55 am Minister responsible for Yukon Housing Corporation Scott Kent has issued the following statement: “Housing is about more than building units. It is about creating homes and giving people a place to put down roots, build a future, create lasting memories and become part of a community. “For National Housing Day, we recognize that finding a safe, secure and affordable home remains a challenge for some Yukoners. “That is why our government is committed to increasing housing supply and improving affordability across the territory so more Yukoners can find a p",
+      "url": "https://yukon.ca/en/news/statement-minister-kent-national-housing-day",
+      "publishedAt": "2026-11-23T16:55:07+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Housing"
+    },
+    {
+      "id": "82c2547cd8d9d94d0f13",
+      "title": "Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update",
+      "summary": "The Honourable Craig Pardy, Minister of Finance, today released the 2026 Fall Fiscal and Economic Update, announcing that Newfoundland and Labrador’s economy continues to outperform expectations, resulting in a significantly improved fiscal outlook for the province. Strong economic growth, higher... Read More about Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update The post Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fin/1123n06/",
+      "publishedAt": "2026-11-23T16:37:20+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "a4d7813a546149576d10",
+      "title": "Provincial Government Announces Grants to Youth Organizations",
+      "summary": "Young people throughout Newfoundland and Labrador will have more opportunities to build skills, develop leadership and connect with their communities thanks to more than $275,000 in Provincial Government funding for 19 youth-serving organizations. The Honourable Chris Tibbs, Minister of Social... Read More about Provincial Government Announces Grants to Youth Organizations The post Provincial Government Announces Grants to Youth Organizations appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/sswb/1123n05/",
+      "publishedAt": "2026-11-23T15:00:57+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7df4e8925349d3161fce",
+      "title": "Provincial Government Announces Support for Fire Protection Vehicles and Equipment",
+      "summary": "The Honourable Pleaman Forsey, Minister of Forestry, Agriculture and Lands, is announcing nearly $700,000 under the Fire Vehicles and Equipment Grant Fund to enhance fire protection services in more communities across Newfoundland and Labrador. The Provincial Government is investing: $539,566.70... Read More about Provincial Government Announces Support for Fire Protection Vehicles and Equipment The post Provincial Government Announces Support for Fire Protection Vehicles and Equipment appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1123n04/",
+      "publishedAt": "2026-11-23T14:30:47+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1f9d3bceda7860049fbc",
+      "title": "Office of the Information and Privacy Commissioner – Report A-2026-038 Released",
+      "summary": "he Office of the Information and Privacy Commissioner has released Report A-2026-038 under authority of the Access to Information and Protection of Privacy Act, 2015. A summary of the Report is included below. To view the Report in its entirety,... Read More about Office of the Information and Privacy Commissioner – Report A-2026-038 Released The post Office of the Information and Privacy Commissioner – Report A-2026-038 Released appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/oipc/1123n03/",
+      "publishedAt": "2026-11-23T14:25:48+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d090b644bbbf21d8c37f",
+      "title": "Kindergarten registration opens for the 2027-28 school year",
+      "summary": "Island parents and guardians can register their child for kindergarten at their local school beginning November 23 for the 2027-28 school year.Any…",
+      "url": "https://www.princeedwardisland.ca/en/news/kindergarten-registration-opens-for-the-2027-28-school-year",
+      "publishedAt": "2026-11-23T14:16:44+00:00",
+      "source": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "language": "en",
+      "category": "Education"
+    },
     {
       "id": "c2fa66c3964611155313",
       "title": "Hunters Reminded to Share Information to Support Sustainable Wildlife Management",
@@ -10,6 +241,17 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "17a96a8f0b368e8c9ed7",
+      "title": "Festivals et événements de la saison automnale 2026 : le gouvernement du Québec soutient les Rencontres internationales du documentaire de Montréal",
+      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, ainsi que le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre respons",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/festivals-et-evenements-de-la-saison-automnale-2026-le-gouvernement-du-quebec-soutient-les-rencontres-internationales-du-documentaire-de-montreal-73134",
+      "publishedAt": "2026-11-23T13:02:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -43,6 +285,17 @@
       "source": "Gouvernement du Québec",
       "jurisdiction": "Quebec",
       "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "344622ab0ea12c3c9252",
+      "title": "Network Service Interruption Affecting Some GNWT Services",
+      "summary": "Network Service Interruption Affecting Some GNWT Services",
+      "url": "https://gnwt.ca/newsroom/network-service-interruption-affecting-some-gnwt-services",
+      "publishedAt": "2026-11-23T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
+      "language": "en",
       "category": "Public updates"
     },
     {
