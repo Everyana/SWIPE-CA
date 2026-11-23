@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-22T18:55:19.758697+00:00",
+  "updatedAt": "2026-11-23T01:20:05.098303+00:00",
   "notices": [
+    {
+      "id": "5334ad4e56a635ba85b3",
+      "title": "test-nov22-212pm",
+      "summary": "Nov 22 at 2pm.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9818230DB3363-02DE-2862-5A3FDA2CABB2DD30",
+      "publishedAt": "2026-11-22T20:10:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d76b5eea76ad18090614",
+      "title": "National Housing Day: Minister Neudorf",
+      "summary": "Minister of Assisted Living and Social Services Nathan Neudorf issued the following statement on National Housing Day:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98178CFA003CF-A353-ED85-104CEE9D39F2571E",
+      "publishedAt": "2026-11-22T18:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Housing"
+    },
+    {
+      "id": "6d6a8185510800e82f9b",
+      "title": "Avis médias - Agenda public du premier ministre du Québec - 23 novembre 2026",
+      "summary": "QUÉBEC , le 22 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 23 novembre 2026. Veuillez noter qu'il peut changer sans préavis. Rencontre avec la mairesse de Montréal : arrivée du premier ministre",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-medias-agenda-public-du-premier-ministre-du-quebec-23-novembre-2026-73122",
+      "publishedAt": "2026-11-22T15:28:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "3fe5971131e0cf65d738",
       "title": "Itinérance : l'expertise libérale au service de solutions pérennes",

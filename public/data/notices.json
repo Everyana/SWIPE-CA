@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:55:19.758697+00:00",
+  "updatedAt": "2026-11-23T01:20:05.098303+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,39 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "5334ad4e56a635ba85b3",
+      "title": "test-nov22-212pm",
+      "summary": "Nov 22 at 2pm.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9818230DB3363-02DE-2862-5A3FDA2CABB2DD30",
+      "publishedAt": "2026-11-22T20:10:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d76b5eea76ad18090614",
+      "title": "National Housing Day: Minister Neudorf",
+      "summary": "Minister of Assisted Living and Social Services Nathan Neudorf issued the following statement on National Housing Day:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98178CFA003CF-A353-ED85-104CEE9D39F2571E",
+      "publishedAt": "2026-11-22T18:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Housing"
+    },
+    {
+      "id": "6d6a8185510800e82f9b",
+      "title": "Avis médias - Agenda public du premier ministre du Québec - 23 novembre 2026",
+      "summary": "QUÉBEC , le 22 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 23 novembre 2026. Veuillez noter qu'il peut changer sans préavis. Rencontre avec la mairesse de Montréal : arrivée du premier ministre",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-medias-agenda-public-du-premier-ministre-du-quebec-23-novembre-2026-73122",
+      "publishedAt": "2026-11-22T15:28:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "3fe5971131e0cf65d738",
       "title": "Itinérance : l'expertise libérale au service de solutions pérennes",
@@ -223,39 +256,6 @@
       "jurisdiction": "Ontario",
       "language": "en",
       "category": "Health"
-    },
-    {
-      "id": "ea2df4aecad17948720f",
-      "title": "New and improved parent toolkit | Une nouvelle trousse d’outils améliorée",
-      "summary": "An updated parent toolkit will provide families with easier access to learning-at-home resources for K-9 students.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98175C7C8EDFC-AE1B-9411-4B6E3DD4852BEE61",
-      "publishedAt": "2026-11-20T19:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "01f83d5c75e87cfbece8",
-      "title": "Yukon government welcomes continued collaboration on housing priorities following federal, provincial and territorial meeting",
-      "summary": "Yukon government welcomes continued collaboration on housing priorities following federal, provincial and territorial meeting zaburke November 20, 2026 - 12:02 pm The Government of Yukon welcomes continued collaboration between federal, provincial and territorial governments following a meeting of ministers responsible for housing and homelessness held in Toronto on November 12 and 13, 2026. The Minister responsible for the Yukon Housing Corporation, Scott Kent, joined federal Minister of Housing and Infrastructure Gregor Robertson and provincial and territorial counterparts to discuss housing and homelessness commitments related to the feder",
-      "url": "https://yukon.ca/en/news/yukon-government-welcomes-continued-collaboration-housing-priorities-following-federal-provincial-and-territorial-meeting",
-      "publishedAt": "2026-11-20T19:02:34+00:00",
-      "source": "Government of Yukon",
-      "jurisdiction": "Yukon",
-      "language": "en",
-      "category": "Housing"
-    },
-    {
-      "id": "1c18eeb96cdfdde9f118",
-      "title": "Branching out with Alberta’s wood products",
-      "summary": "Alberta is investing $1.7 million in 13 projects to help value-added wood manufacturers develop new products and diversify Alberta’s forest industry.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98172C283DC20-DAAE-DA36-61F30566395CD811",
-      "publishedAt": "2026-11-20T19:00:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
     },
     {
       "id": "202611-alberta-opens-its-budget-2027-survey",
