@@ -80,7 +80,23 @@ def date_iso(raw):
 def children(node, name):
     return node.findtext(name) or ""
 def xml_entries(xml):
-    root=ET.fromstring(xml)
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError as exc:
+        if "undefined entity" not in str(exc):
+            raise
+        # Some RSS publishers use HTML entities without declaring them in XML.
+        xml = re.sub(
+            rb"&([A-Za-z][A-Za-z0-9]+);",
+            lambda match: (
+                "".join(f"&#{ord(char)};" for char in html.entities.html5[match[1].decode() + ";"]).encode()
+                if match[1] not in {b"amp", b"lt", b"gt", b"quot", b"apos"}
+                and match[1].decode() + ";" in html.entities.html5
+                else match[0]
+            ),
+            xml,
+        )
+        root = ET.fromstring(xml)
     items=[]
     if root.tag.endswith("feed"):
         for entry in root.findall("a:entry",NS):
