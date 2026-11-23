@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T07:41:59.481742+00:00",
+  "updatedAt": "2026-11-23T13:26:46.566740+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,50 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "c2fa66c3964611155313",
+      "title": "Hunters Reminded to Share Information to Support Sustainable Wildlife Management",
+      "summary": "The Department of Forestry, Agriculture and Lands is committed to the responsible management and protection of our province’s wildlife. With big game hunting season underway, hunters and trappers can support science-based wildlife management and help guide decisions on quotas, regulations... Read More about Hunters Reminded to Share Information to Support Sustainable Wildlife Management The post Hunters Reminded to Share Information to Support Sustainable Wildlife Management appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1123n01/",
+      "publishedAt": "2026-11-23T13:15:56+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1c33c878afec941abace",
+      "title": "/R E P R I S E -- INVITATION À LA PRESSE - La machine : mission vers le futur/",
+      "summary": "Le Musée de la civilisation vous invite à découvrir en primeur QUÉBEC , le 19 nov. 2026 /CNW/ -- L'exposition La machine : mission vers le futur est conçue et réalisée par le Musée de la civilisation avec le soutien financier de sa Fondation. La Presse est partenaire média. Cette exposition a aussi",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-invitation-a-la-presse-la-machine-mission-vers-le-futur-73125",
+      "publishedAt": "2026-11-23T08:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "10b049c55dbc27e688fd",
+      "title": "/R E P R I S E -- Projet Mauricie de TES Canada - Le BAPE invite la population à une rencontre préparatoire à l'audience publique/",
+      "summary": "QUÉBEC , le 16 nov. 2026 /CNW/ -- La commission d'enquête du Bureau d'audiences publiques sur l'environnement (BAPE) composée d'Antoine Morissette, président, ainsi que de Pierre Benoit et de Chantale Bourbeau, commissaires, invite la population à participer à une soirée d'information en vue de l'au",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-projet-mauricie-de-tes-canada-le-bape-invite-la-population-a-une-rencontre-preparatoire-a-laudience-publique-73124",
+      "publishedAt": "2026-11-23T07:23:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "855391f4a9b7f0cf7f40",
+      "title": "Campagne de sensibilisation Un mort par jour - Raconter l'irréparable pour éviter qu'il ne se reproduise",
+      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- La Société de l'assurance automobile du Québec (SAAQ) présente de nouveaux témoignages dans le cadre du volet « Les proches » de sa campagne Un mort par jour . En racontant leur histoire avec courage et générosité, Julie, Véronique, Stéphanie et Daniel souhaitent co",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/campagne-de-sensibilisation-un-mort-par-jour-raconter-lirreparable-pour-eviter-quil-ne-se-reproduise-73123",
+      "publishedAt": "2026-11-23T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "5334ad4e56a635ba85b3",
       "title": "test-nov22-212pm",
@@ -210,50 +254,6 @@
       "publishedAt": "2026-11-20T20:05:50+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Health"
-    },
-    {
-      "id": "d0c4dfab4251fe31cbd7",
-      "title": "Minister Pirie to Hold a Press Conference",
-      "summary": "Minister Pirie to Hold a Press Conference",
-      "url": "https://news.ontario.ca/en/advisory/1008314/minister_pirie_to_hold_a_press_conference",
-      "publishedAt": "2026-11-20T20:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "2567a7710999b36c5ebe",
-      "title": "Environmental Assessment Bulletin",
-      "summary": "The Honourable Andrea Barbour, Minister of Environment, Conservation and Climate Change, has announced the following relative to Environmental Assessment – Part 10 – of the Environmental Protection Act. Undertaking Registered: Happy Valley-Goose Bay Quarry Resubmission (Reg. 2441) Proponent: Markland... Read More about Environmental Assessment Bulletin The post Environmental Assessment Bulletin appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/eccc/1120n06/",
-      "publishedAt": "2026-11-20T19:55:22+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Environment"
-    },
-    {
-      "id": "f4fa2f53577f7c317ffe",
-      "title": "Province launches Don’t Wait, Make the Call campaign on National Child Day",
-      "summary": "November 20th is National Child Day, an opportunity to recognize and celebrate the contributions of Island children and youth and reaffirm our shared…",
-      "url": "https://www.princeedwardisland.ca/en/news/province-launches-dont-wait-make-the-call-campaign-on-national-child-day",
-      "publishedAt": "2026-11-20T19:51:56+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "6499b2fc50345445cf06",
-      "title": "Ontario Investing in Mental Health Supports to Protect Public Safety Personnel",
-      "summary": "Ontario Investing in Mental Health Supports to Protect Public Safety Personnel",
-      "url": "https://news.ontario.ca/en/backgrounder/1008306/ontario_investing_in_mental_health_supports_to_protect_public_safety_personnel",
-      "publishedAt": "2026-11-20T19:45:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
       "language": "en",
       "category": "Health"
     },
