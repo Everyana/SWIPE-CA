@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:25:54.910079+00:00",
+  "updatedAt": "2026-11-24T13:23:38.490038+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,6 +26,28 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "703bd147e337639b0167",
+      "title": "Projet Mauricie de TES Canada - Les séances publiques débutent le 7 décembre",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- La première partie de l'audience publique sur le projet de construction d'une usine de fabrication d'hydrogène vert et de gaz naturel renouvelable sur le territoire de la ville de Shawinigan par TESMauricie H2 Inc. se tiendra à la salle Aubin (301, rue Saint-Jacques",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/projet-mauricie-de-tes-canada-les-seances-publiques-debutent-le-7-decembre-73140",
+      "publishedAt": "2026-11-24T08:03:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "d2d732ee78d1d5cab748",
+      "title": "/R E P R I S E --INVITATION AUX MÉDIAS - Cérémonie de remise des Prix du Québec 2026/",
+      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- Le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre responsable de la Métropole et de la région de Montréal, M. Stéphane Paquet, et le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre re",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-invitation-aux-medias-ceremonie-de-remise-des-prix-du-quebec-2026-73138",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "8b5682b731cd172424ff",
       "title": "Saskatchewan Serious Incident Response Team Investigating Police Involved Death Near Duck Lake",
@@ -111,6 +133,17 @@
       "publishedAt": "2026-11-23T21:01:01+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "04e5d219251a67c61d48",
+      "title": "Media Advisory: Provincial Government to Announce Support for Green Commercial Operations",
+      "summary": "The Honourable Lin Paddock, Minister of Jobs, Growth and Rural Development, will announce a Provincial Government investment in Country Ribbon through the Green Transition Fund Program. Minister Paddock will be joined by the Honourable Pleaman Forsey, Minister of Forestry, Agriculture... Read More about Media Advisory: Provincial Government to Announce Support for Green Commercial Operations The post Media Advisory: Provincial Government to Announce Support for Green Commercial Operations appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1123n13/",
+      "publishedAt": "2026-11-23T21:00:56+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
@@ -225,17 +258,6 @@
       "category": "Public updates"
     },
     {
-      "id": "7f1d1c2aba212c59c610",
-      "title": "Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador",
-      "summary": "Pamela Dawe, Seniors’ Advocate (A) for Newfoundland and Labrador, will be available to the media as she releases the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador. The first of these annual reports was released... Read More about Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador The post Media Advisory: Seniors’ Advocate Available to Media for Release of the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador appeared first o",
-      "url": "https://www.gov.nl.ca/releases/2026/osa/1123n11/",
-      "publishedAt": "2026-11-23T18:05:42+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "8ad9c6f9a08390806c08",
       "title": "Minister Lecce to Hold a Photo Opportunity",
       "summary": "Minister Lecce to Hold a Photo Opportunity",
@@ -243,28 +265,6 @@
       "publishedAt": "2026-11-23T18:00:00+00:00",
       "source": "Government of Ontario",
       "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "b72a39f685bfe91df7e0",
-      "title": "New rules improve access for service dog handlers",
-      "summary": "Islanders with service dogs can now voluntarily certify their dogs under a new law, helping to reaffirm their access to public spaces, housing, and…",
-      "url": "https://www.princeedwardisland.ca/en/news/new-rules-improve-access-for-service-dog-handlers",
-      "publishedAt": "2026-11-23T17:50:42+00:00",
-      "source": "Government of Prince Edward Island",
-      "jurisdiction": "Prince Edward Island",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "7ee89e97293e774ab483",
-      "title": "Provincial Government Acknowledges World Fisheries Day",
-      "summary": "The Provincial Government is proud to recognize World Fisheries Day, observed annually on November 21. World Fisheries Day provides an opportunity to celebrate the province’s fishery, which has been a cornerstone of our heritage, way of life and economy for... Read More about Provincial Government Acknowledges World Fisheries Day The post Provincial Government Acknowledges World Fisheries Day appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fal/1123n10/",
-      "publishedAt": "2026-11-23T17:50:27+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },

@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-11-24T07:25:54.910079+00:00",
+  "updatedAt": "2026-11-24T13:23:38.490038+00:00",
   "notices": [
+    {
+      "id": "703bd147e337639b0167",
+      "title": "Projet Mauricie de TES Canada - Les séances publiques débutent le 7 décembre",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- La première partie de l'audience publique sur le projet de construction d'une usine de fabrication d'hydrogène vert et de gaz naturel renouvelable sur le territoire de la ville de Shawinigan par TESMauricie H2 Inc. se tiendra à la salle Aubin (301, rue Saint-Jacques",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/projet-mauricie-de-tes-canada-les-seances-publiques-debutent-le-7-decembre-73140",
+      "publishedAt": "2026-11-24T08:03:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "d2d732ee78d1d5cab748",
+      "title": "/R E P R I S E --INVITATION AUX MÉDIAS - Cérémonie de remise des Prix du Québec 2026/",
+      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- Le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre responsable de la Métropole et de la région de Montréal, M. Stéphane Paquet, et le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre re",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-invitation-aux-medias-ceremonie-de-remise-des-prix-du-quebec-2026-73138",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "8b5682b731cd172424ff",
       "title": "Saskatchewan Serious Incident Response Team Investigating Police Involved Death Near Duck Lake",
@@ -86,6 +108,17 @@
       "publishedAt": "2026-11-23T21:01:01+00:00",
       "source": "Prime Minister of Canada",
       "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "04e5d219251a67c61d48",
+      "title": "Media Advisory: Provincial Government to Announce Support for Green Commercial Operations",
+      "summary": "The Honourable Lin Paddock, Minister of Jobs, Growth and Rural Development, will announce a Provincial Government investment in Country Ribbon through the Green Transition Fund Program. Minister Paddock will be joined by the Honourable Pleaman Forsey, Minister of Forestry, Agriculture... Read More about Media Advisory: Provincial Government to Announce Support for Green Commercial Operations The post Media Advisory: Provincial Government to Announce Support for Green Commercial Operations appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1123n13/",
+      "publishedAt": "2026-11-23T21:00:56+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
     },
