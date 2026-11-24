@@ -1,6 +1,259 @@
 {
-  "updatedAt": "2026-11-24T13:23:38.490038+00:00",
+  "updatedAt": "2026-11-24T19:05:54.745640+00:00",
   "notices": [
+    {
+      "id": "0bd80ec61444d61d27cf",
+      "title": "Investing $850,000 to Support a Strong, Steady, and Secure North Battleford",
+      "summary": "In 2026-27, the Government of Saskatchewan is providing the City of North Battleford with approximately $850,000 through the Municipal Police Grants program to support two specialized policing...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/24/850000-invested-for-a-strong-steady-secure-north-battleford",
+      "publishedAt": "2026-11-25T01:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0a2e123737993b0a7862",
+      "title": "Another 24 Teacher Innovation and Support Fund Projects to Benefit Students",
+      "summary": "The Government of Saskatchewan is providing $1 million for 24 unique projects in 16 school divisions across Saskatchewan following the fall application period for the Teacher Innovation and...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/24/teacher-innovation-and-support-fund-approves-24-new-projects-for-2026-27",
+      "publishedAt": "2026-11-24T23:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Education"
+    },
+    {
+      "id": "d41030ff3802f6a5d41f",
+      "title": "Province Achieves Health Training Seat Milestone",
+      "summary": "Saskatchewan students have more opportunities than ever to train for a rewarding health care career, and more options to study in-province. The province has invested $295 million to create over...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/24/province-achieves-health-training-seat-milestone",
+      "publishedAt": "2026-11-24T23:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "c8319ce2db88fb76160d",
+      "title": "Showcasing Saskatchewan's Geological Advantage and Critical Minerals Future",
+      "summary": "Saskatchewan continues to strengthen its position as a world class destination for critical minerals exploration, innovation, investment, and development. The Saskatchewan Geoscience Exchange,...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/24/showcasing-saskatchewans-geological-advantage-and-critical-minerals-future",
+      "publishedAt": "2026-11-24T22:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "38349987a3a7c791ee47",
+      "title": "Statement from the Commissioner for Legislative Standards",
+      "summary": "The following statement was issued today by the Commissioner for Legislative Standards: “The powers and authorities of the Commissioner for Legislative Standards are prescribed in the House of Assembly Act (the Act). Pursuant to Sections 38 and 40, the Commissioner... Read More about Statement from the Commissioner for Legislative Standards The post Statement from the Commissioner for Legislative Standards appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/ocls/1124n05/",
+      "publishedAt": "2026-11-24T18:30:59+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "eab3ec60c2808d415f3d",
+      "title": "Protecting freedom of speech and religion",
+      "summary": "Alberta’s government will introduce a motion under the Alberta Sovereignty within a United Canada Act to defend freedom of religion and expression.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=981918C19F50B-BF95-E212-593A118C2A10DED1",
+      "publishedAt": "2026-11-24T18:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8a4044312d366667a4d9",
+      "title": "Ministerial Statement: Minister Forsey Encourages Wild Game Donations to Local Food Banks",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Pleaman Forsey, Minister of Forestry, Agriculture and Lands: Speaker, big-game hunting is a valued tradition in Newfoundland and Labrador. This activity has been enjoyed by generations... Read More about Ministerial Statement: Minister Forsey Encourages Wild Game Donations to Local Food Banks The post Ministerial Statement: Minister Forsey Encourages Wild Game Donations to Local Food Banks appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1124n04/",
+      "publishedAt": "2026-11-24T17:20:38+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0b04556fd5ffe1eea094",
+      "title": "Ministerial Statement: St. John’s to Welcome the 2029 Jeux de l’Acadie",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lin Paddock, Minister of Francophone Affairs: Speaker, I rise today to celebrate exciting news for Newfoundland and Labrador’s Acadian and Francophone community. St. John’s has been... Read More about Ministerial Statement: St. John’s to Welcome the 2029 Jeux de l’Acadie The post Ministerial Statement: St. John’s to Welcome the 2029 Jeux de l’Acadie appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1124n03/",
+      "publishedAt": "2026-11-24T17:15:37+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "3168ba2b99fefc4a4670",
+      "title": "Ontario Announces Bold Plan to Build Mines Faster",
+      "summary": "Province to introduce a series of reforms that would protect workers by securing Ontario’s place as the best jurisdiction for mining investment",
+      "url": "https://news.ontario.ca/en/release/1008319/ontario_announces_bold_plan_to_build_mines_faster",
+      "publishedAt": "2026-11-24T17:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "b022610af9582f274d93",
+      "title": "Provincial Government Invests $492,000 to Support Green Operations at Country Ribbon Feed Mill",
+      "summary": "The Provincial Government is investing $492,000 through the Green Transition Fund to support Country Ribbon’s Feed Mill Boiler Electrification Project, helping strengthen the province’s agri-food sector while advancing clean economic growth. The project will replace fuel oil with electricity at... Read More about Provincial Government Invests $492,000 to Support Green Operations at Country Ribbon Feed Mill The post Provincial Government Invests $492,000 to Support Green Operations at Country Ribbon Feed Mill appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1124n02/",
+      "publishedAt": "2026-11-24T16:20:57+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "9049bf9eb2415fae5d68",
+      "title": "Manitoba Government Investing in Paramedic Training to Strengthen Emergency Care",
+      "summary": "Manitoba Government Investing in Paramedic Training to Strengthen Emergency Care",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76219",
+      "publishedAt": "2026-11-24T16:15:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "25cf51fde42051d8a571",
+      "title": "Premier’s statement on Guru Nanak Dev Ji’s Gurpurab",
+      "summary": "Premier Lorne Doerkson has issued the following statement in recognition of Gurpurab, celebrating the birth anniversary of Guru Nanak Dev Ji:",
+      "url": "https://news.gov.bc.ca/releases/2026PREM0070-001143",
+      "publishedAt": "2026-11-24T15:31:00+00:00",
+      "source": "BC Gov News",
+      "jurisdiction": "British Columbia",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "f675610d5c31a70fbfa6",
+      "title": "Media Advisory: Minister Wall to Discuss Personal Health Information Legislation",
+      "summary": "The Honourable Joedy Wall, Minister of Health and Community Services, will be available to the media to discuss Personal Health Information legislation today (Tuesday, November 24). The availability will take place in the Media Centre, East Block, Confederation Building, at... Read More about Media Advisory: Minister Wall to Discuss Personal Health Information Legislation The post Media Advisory: Minister Wall to Discuss Personal Health Information Legislation appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/health/1124n01/",
+      "publishedAt": "2026-11-24T14:20:46+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "ea9aaf905522539246f2",
+      "title": "Services sociaux - La ministre Pellerin-Forget et la députée de Saint-Jérôme rencontrent les équipes de proximité de la région des Laurentides",
+      "summary": "SAINT-JÉRÔME, QC , le 24 nov. 2026 /CNW/ -- À l'occasion d'une tournée dans la région des Laurentides, la ministre déléguée à la Santé mentale et aux Services sociaux, Camille Pellerin-Forget, est allée à la rencontre de plusieurs équipes de services sociaux de proximité afin de faire le point sur l",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/services-sociaux-la-ministre-pellerin-forget-et-la-deputee-de-saint-jerome-rencontrent-les-equipes-de-proximite-de-la-region-des-laurentides-73167",
+      "publishedAt": "2026-11-24T14:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "cd8905a796aedb4b6529",
+      "title": "Diffusion à venir : résultats de la comparaison de la rémunération de l'administration québécoise avec celle des autres secteurs du marché du travail au Québec",
+      "summary": "MONTRÉAL , le 24 nov. 2026 /CNW/ -- L'Institut de la statistique du Québec désire informer les médias qu'il diffusera sur son site Web le jeudi 26 novembre l'édition 2026 du rapport Rémunération des salariés - État et évolution comparés . Dans ce rapport, diffusé annuellement, on compare les salaire",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/diffusion-a-venir-resultats-de-la-comparaison-de-la-remuneration-de-ladministration-quebecoise-avec-celle-des-autres-secteurs-du-marche-du-travail-au-quebec-73166",
+      "publishedAt": "2026-11-24T13:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "71bbd22f6766e163cad1",
+      "title": "Renforcer la chaîne de financement pour faire naître et grandir nos PME - Québec agit pour soutenir la création d'entreprises technologiques innovantes",
+      "summary": "MONTRÉAL , le 24 nov. 2026 /CNW/ -- Le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre responsable de la Métropole et de la région de Montréal, M. Stéphane Paquet, annonce des investissements stratégiques dans trois fonds de capital d'investissement, soit les fonds",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/renforcer-la-chaine-de-financement-pour-faire-naitre-et-grandir-nos-pme-quebec-agit-pour-soutenir-la-creation-dentreprises-technologiques-innovantes-73165",
+      "publishedAt": "2026-11-24T12:45:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "ad7b15ad84e6b2f2e50b",
+      "title": "PLAISIR ET GÉNÉROSITÉ AU GRAND BANQUET DE LA FONDATION DU MUSÉE DE LA CIVILISATION",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Plaisir et festivités ont marqué l'ambiance du 22 e Grand Banquet de la Fondation du Musée de la civilisation, vendredi soir dernier, sous la coprésidence d'honneur de madame Kim Thomassin, première vice-présidente et cheffe pour le Québec à La Caisse, et madame Sté",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/plaisir-et-generosite-au-grand-banquet-de-la-fondation-du-musee-de-la-civilisation-73164",
+      "publishedAt": "2026-11-24T12:06:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "1b629c776566a9ca3eb9",
+      "title": "Dévoilement des six artistes de la seconde cohorte d'Habiter le MAC",
+      "summary": "MONTRÉAL , le 24 nov. 2026 /CNW/ -- Le Musée d'art contemporain de Montréal (MAC) est fier de dévoiler les artistes de la deuxième cohorte d'Habiter le MAC, un programme de développement de carrière qui place la relève artistique au cœur du Musée pendant la préparation de l'ouverture du nouveau MAC",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/devoilement-des-six-artistes-de-la-seconde-cohorte-dhabiter-le-mac-73163",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "ee916cc92c089589d2ea",
+      "title": "Prix du Québec 2026 : Marie-Josée Lacroix reçoit le prix Ernest-Cormier",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, est heureux d'annoncer l'attribution du prix Ernest-Cormier 2026 à Marie-Josée Lacroix. Ainsi, son nom",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/prix-du-quebec-2026-marie-josee-lacroix-recoit-le-prix-ernest-cormier-73161",
+      "publishedAt": "2026-11-24T11:52:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "a8fe99393b976a625e5f",
+      "title": "Prix du Québec 2026 : Pierre Séguin reçoit le prix Guy-Mauffette",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, est heureux d'annoncer l'attribution du prix Guy-Mauffette 2026 à Pierre Séguin, résident de Montréal.",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/prix-du-quebec-2026-pierre-seguin-recoit-le-prix-guy-mauffette-73160",
+      "publishedAt": "2026-11-24T11:49:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "2910d95350126a3bb05f",
+      "title": "Enquête indépendante sur l'événement survenu à Dollard-des-Ormeaux le 4 août 2024 : motifs pour lesquels aucune accusation n'a été portée",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Les procédures judiciaires étant terminées, le Directeur des poursuites criminelles et pénales (DPCP) expose les motifs l'ayant mené à conclure, dans son communiqué intérimaire du 11 juin 2025, que l'analyse de la preuve ne révélait pas la commission d'une infractio",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/enquete-independante-sur-levenement-survenu-a-dollard-des-ormeaux-le-4-aout-2024-motifs-pour-lesquels-aucune-accusation-na-ete-portee-73159",
+      "publishedAt": "2026-11-24T11:45:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "5b4429cb88c8bfdc77e7",
+      "title": "Prix du Québec 2026 : Bernard Émond reçoit le prix Albert-Tessier",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, est heureux d'annoncer l'attribution du prix Albert-Tessier 2026 à Bernard Émond, originaire de Montré",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/prix-du-quebec-2026-bernard-emond-recoit-le-prix-albert-tessier-73158",
+      "publishedAt": "2026-11-24T11:44:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "28012f6927011d62039c",
+      "title": "Prix du Québec 2026 : Lyne Lapointe reçoit le prix Paul-Émile-Borduas",
+      "summary": "QUÉBEC , le 24 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, est heureux d'annoncer l'attribution du prix Paul-Émile-Borduas 2026 à Lyne Lapointe, originaire de Mo",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/prix-du-quebec-2026-lyne-lapointe-recoit-le-prix-paul-emile-borduas-73157",
+      "publishedAt": "2026-11-24T11:36:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "703bd147e337639b0167",
       "title": "Projet Mauricie de TES Canada - Les séances publiques débutent le 7 décembre",
@@ -35,6 +288,17 @@
       "category": "Public safety"
     },
     {
+      "id": "7bc098fd64d310548937",
+      "title": "Saskatchewan Serious Incident Response Team Investigating Police Involved Death Near Duck Lake",
+      "summary": "On Thursday, November 19, 2026, at approximately 10:48 a.m., the Saskatchewan Serious Incident Response Team (SIRT) received a notification from the Royal Canadian Mounted Police (RCMP) regarding a...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/23/sirt-investigating-police-involved-death-near-duck-lake",
+      "publishedAt": "2026-11-24T03:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
       "id": "038c56536d8601fcbd74",
       "title": "Saskatchewan Introduces The Adoption Act, 2026 to Better Support Children and Families",
       "summary": "Today, the Government of Saskatchewan introduced The Adoption Act, 2026 to modernize adoption legislation and better support children's identity and connections to family, culture and community by...",
@@ -44,6 +308,17 @@
       "jurisdiction": "Saskatchewan",
       "language": "en",
       "category": "Public updates"
+    },
+    {
+      "id": "f85b948db1b306826a1d",
+      "title": "Have your say on the future of the Mackenzie Valley Highway",
+      "summary": "Have your say on the future of the Mackenzie Valley Highway",
+      "url": "https://gnwt.ca/newsroom/have-your-say-future-mackenzie-valley-highway-4",
+      "publishedAt": "2026-11-24T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
+      "language": "en",
+      "category": "Transport"
     },
     {
       "id": "eeaabfe62d20df411489",
