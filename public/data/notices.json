@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:28:55.056770+00:00",
+  "updatedAt": "2026-11-24T01:17:40.554031+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -27,6 +27,50 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "8b5682b731cd172424ff",
+      "title": "Saskatchewan Serious Incident Response Team Investigating Police Involved Death Near Duck Lake",
+      "summary": "On Thursday, November 19, 2026, at approximately 10:48 a.m., the Saskatchewan Serious Incident Response Team (SIRT) received a notification from the Royal Canadian Mounted Police (RCMP) regarding a...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/04/sirt-investigating-police-involved-death-near-duck-lake",
+      "publishedAt": "2026-11-24T03:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "038c56536d8601fcbd74",
+      "title": "Saskatchewan Introduces The Adoption Act, 2026 to Better Support Children and Families",
+      "summary": "Today, the Government of Saskatchewan introduced The Adoption Act, 2026 to modernize adoption legislation and better support children's identity and connections to family, culture and community by...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/23/saskatchewan-introduces-the-adoption-act-2026-to-better-support-children-and-families",
+      "publishedAt": "2026-11-24T02:35:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "eeaabfe62d20df411489",
+      "title": "Statement from Minister Laking on Yukon Energy’s termination of the contractor for the grid-scale battery project",
+      "summary": "Statement from Minister Laking on Yukon Energy’s termination of the contractor for the grid-scale battery project zaburke November 23, 2026 - 4:33 pm Minister of Energy, Mines and Resources Ted Laking has issued the following statement: “I recognize that Yukoners have questions about the Whitehorse Grid-Scale Battery Energy Storage System Project – BESS. Today, Yukon Energy announced that they have terminated their contract with the primary contractor on the project. \"The battery project remains an important project that will help strengthen the reliability and resiliency of our electricity system. However, the challenges encountered on this",
+      "url": "https://yukon.ca/en/news/statement-minister-laking-yukon-energys-termination-contractor-grid-scale-battery-project",
+      "publishedAt": "2026-11-23T23:33:29+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "898f6b3ec112897f977c",
+      "title": "Government of Yukon hosts forum for Local Advisory Councils",
+      "summary": "Government of Yukon hosts forum for Local Advisory Councils zaburke November 23, 2026 - 3:15 pm On November 20, the Government of Yukon hosted the biannual Local Advisory Council Forum. Local Advisory Councils are elected bodies that advise the Minister of Community Services on matters affecting their unincorporated communities. The forum is an opportunity for the councils to come together and share with the Minister and government officials the priorities and challenges facing their communities. It is also an opportunity for the Government of Yukon to update Local Advisory Councils on shared priorities. Updates included work on the Community",
+      "url": "https://yukon.ca/en/news/government-yukon-hosts-forum-local-advisory-councils",
+      "publishedAt": "2026-11-23T22:15:29+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "3233823057c30d6d5ea8",
       "title": "Saskatchewan Wins at 2026 Canadian Tourism Awards",
       "summary": "It was a proud night for Saskatchewan at the Canadian Tourism Awards, with two businesses earning national recognition in three categories announced at the gala event on November 18 in Fredericton,...",
@@ -34,6 +78,50 @@
       "publishedAt": "2026-11-23T22:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d0497a10845a844860ec",
+      "title": "Yukon government launches framework to reduce red tape",
+      "summary": "Yukon government launches framework to reduce red tape zaburke November 23, 2026 - 2:41 pm The Government of Yukon has released the Red Tape Reduction Framework to establish a coordinated, government-wide approach to reducing unnecessary administrative burden. The framework will guide red tape reduction efforts across government from 2026 to 2029. Red tape is the unnecessary time, effort and cost associated with accessing government programs, following government rules or completing required processes. This framework gives departments a structured process to identify issues, prioritize improvements and measure results. In May 2026, the govern",
+      "url": "https://yukon.ca/en/news/yukon-government-launches-framework-reduce-red-tape",
+      "publishedAt": "2026-11-23T21:41:08+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "65a217434dfe14f2464a",
+      "title": "2026 APEC Leaders’ Declaration - Shenzhen Outlook: Building an Asia-Pacific Community to Prosper Together",
+      "summary": "2026 APEC Leaders’ Declaration - Shenzhen Outlook: Building an Asia-Pacific Community to Prosper Together",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/11/21/2026-apec-leaders-declaration-shenzhen-outlook-building-asia-pacific",
+      "publishedAt": "2026-11-23T21:09:42+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c9bef833d7fcfb7882c1",
+      "title": "Tuesday, November 24, 2026",
+      "summary": "Tuesday, November 24, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/23/tuesday-november-24-2026",
+      "publishedAt": "2026-11-23T21:01:01+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "bdda0f4f36ca23bba5ff",
+      "title": "Strengthening Alberta’s natural gas network",
+      "summary": "Alberta’s government is introducing legislation to ensure the province has the natural gas infrastructure needed to meet growing demand and supply.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98186624080EC-96DF-14E8-BCE7221F79B6E6C7",
+      "publishedAt": "2026-11-23T21:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
@@ -46,6 +134,39 @@
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "5aa3455796a7eec011d2",
+      "title": "Protecting personal information and public safety",
+      "summary": "New legislation, if passed, will strengthen protections for voter information, improve public safety and reduce unnecessary administrative law enforcement hurdles.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9818763FE104A-DFDF-1C7D-AF158A4BC9A71EFB",
+      "publishedAt": "2026-11-23T20:50:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public safety"
+    },
+    {
+      "id": "dfa9839cd8a21a34ab71",
+      "title": "Yukon government approves lot sales in Haines Junction and Whitehorse for affordable homes",
+      "summary": "Yukon government approves lot sales in Haines Junction and Whitehorse for affordable homes zaburke November 23, 2026 - 1:46 pm The Government of Yukon is taking concrete action to increase housing supply, improve housing availability and expand housing choice for Yukoners, including homeownership for those facing barriers to entering the market. On November 12, 2026, the Government of Yukon approved the sale of one lot in Haines Junction to Northern Community Land Trust Society and two lots in Whitehorse’s Whistle Bend subdivision to Habitat for Humanity Yukon for $1 each. In Haines Junction, the sale of Lot 17 block 43 will support Northern",
+      "url": "https://yukon.ca/en/news/yukon-government-approves-lot-sales-haines-junction-and-whitehorse-affordable-homes",
+      "publishedAt": "2026-11-23T20:46:57+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "2d7d3ac4e2b0f24db5bd",
+      "title": "Agenda public du premier ministre du Québec - 24 novembre 2026",
+      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 24 novembre 2026. Veuillez noter qu'il peut changer sans préavis. Conférence de presse : Annonce sur l'itinérance Heure : 11 h 45 Lieu",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/agenda-public-du-premier-ministre-du-quebec-24-novembre-2026-73137",
+      "publishedAt": "2026-11-23T20:10:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -94,8 +215,8 @@
     },
     {
       "id": "ac228aa2a82180742cc7",
-      "title": "Fire Marshals Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale",
-      "summary": "Fire Marshals Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale zaburke November 23, 2026 - 11:24 am The Yukon Fire Marshals Office has partnered with the West Side Association to provide fire prevention equipment to residents of West Dawson and Sunnydale. The Fire Marshals Office is providing the community with 38 combination smoke and carbon monoxide (CO) detectors as well as eight CO alarms. The West Side Association will distribute the alarms locally. As part of this initiative, the West Side Association will also be speaking with residents about fire prevention and emergency preparedness a",
+      "title": "Fire Marshal's Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale",
+      "summary": "Fire Marshal's Office partners with West Side Association to support fire prevention in West Dawson and Sunnydale zaburke November 23, 2026 - 11:24 am The Yukon Fire Marshal's Office has partnered with the West Side Association to provide fire prevention equipment to residents of West Dawson and Sunnydale. The Fire Marshal's Office is providing the community with 38 combination smoke and carbon monoxide (CO) detectors as well as eight CO alarms. The West Side Association will distribute the alarms locally. As part of this initiative, the West Side Association will also be speaking with residents about fire prevention and emergency preparednes",
       "url": "https://yukon.ca/en/news/fire-marshals-office-partners-west-side-association-support-fire-prevention-west-dawson-and-sunnydale",
       "publishedAt": "2026-11-23T18:24:31+00:00",
       "source": "Government of Yukon",
@@ -148,131 +269,10 @@
       "category": "Public updates"
     },
     {
-      "id": "994bb79230dbfb8a9e3e",
-      "title": "Calgary Police Service officers charged in connection with man’s death",
-      "summary": "An independent investigation into a man’s death while being arrested by Calgary police has resulted in charges of manslaughter and assault causing bodily harm against three officers.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=981855F238476-9049-54B8-1C7BA97F87709417",
-      "publishedAt": "2026-11-23T17:45:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public safety"
-    },
-    {
-      "id": "b2219c8d00e61e3d6fa0",
-      "title": "Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Lloyd Parrott, Minister of Government Services: Speaker, I rise today to recognize MADD Canada and its Project Red Ribbon public awareness campaign. For decades, the red... Read More about Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon The post Ministerial Statement: Minister Parrott Recognizes Project Red Ribbon appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/government-services/1123n09/",
-      "publishedAt": "2026-11-23T17:35:26+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "8cbb3e9dd7a925b0236d",
-      "title": "Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Craig Pardy, Minister of Finance and President of Treasury Board: Speaker, I rise today to inform Members of the House that our government has released the... Read More about Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update The post Ministerial Statement: Minister Pardy Releases 2026 Fall Fiscal and Economic Update appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fin/1123n08/",
-      "publishedAt": "2026-11-23T17:30:38+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "6956bd605c6c8033850d",
-      "title": "Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Mike Goosney, Minister of Tourism, Culture, Arts and Recreation: Speaker, I rise today to recognize the outstanding young athletes honoured through the 22nd annual Premier’s Athletic... Read More about Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients The post Ministerial Statement: Minister Goosney Congratulates Premier’s Athletic Award Recipients appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/tcar/1123n07/",
-      "publishedAt": "2026-11-23T17:25:25+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "2a0d29ae22d941d15e89",
-      "title": "Ontario Investing More than $9 Million to Support Indigenous-led Economic Opportunities and Growth",
-      "summary": "Applications now open for new round of Indigenous Community Capital Grants Program and Indigenous Economic Development Fund",
-      "url": "https://news.ontario.ca/en/release/1008316/ontario_investing_more_than_9_million_to_support_indigenous_led_economic_opportunities_and_growth",
-      "publishedAt": "2026-11-23T17:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "7f6066a726cda24f0fb8",
-      "title": "Statement from Minister Kent on National Housing Day",
-      "summary": "Statement from Minister Kent on National Housing Day zaburke November 23, 2026 - 9:55 am Minister responsible for Yukon Housing Corporation Scott Kent has issued the following statement: “Housing is about more than building units. It is about creating homes and giving people a place to put down roots, build a future, create lasting memories and become part of a community. “For National Housing Day, we recognize that finding a safe, secure and affordable home remains a challenge for some Yukoners. “That is why our government is committed to increasing housing supply and improving affordability across the territory so more Yukoners can find a p",
-      "url": "https://yukon.ca/en/news/statement-minister-kent-national-housing-day",
-      "publishedAt": "2026-11-23T16:55:07+00:00",
-      "source": "Government of Yukon",
-      "jurisdiction": "Yukon",
-      "language": "en",
-      "category": "Housing"
-    },
-    {
-      "id": "82c2547cd8d9d94d0f13",
-      "title": "Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update",
-      "summary": "The Honourable Craig Pardy, Minister of Finance, today released the 2026 Fall Fiscal and Economic Update, announcing that Newfoundland and Labrador’s economy continues to outperform expectations, resulting in a significantly improved fiscal outlook for the province. Strong economic growth, higher... Read More about Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update The post Provincial Government Reports Projected Surplus in 2026 Fall Fiscal and Economic Update appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fin/1123n06/",
-      "publishedAt": "2026-11-23T16:37:20+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "a4d7813a546149576d10",
-      "title": "Provincial Government Announces Grants to Youth Organizations",
-      "summary": "Young people throughout Newfoundland and Labrador will have more opportunities to build skills, develop leadership and connect with their communities thanks to more than $275,000 in Provincial Government funding for 19 youth-serving organizations. The Honourable Chris Tibbs, Minister of Social... Read More about Provincial Government Announces Grants to Youth Organizations The post Provincial Government Announces Grants to Youth Organizations appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/sswb/1123n05/",
-      "publishedAt": "2026-11-23T15:00:57+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "7df4e8925349d3161fce",
-      "title": "Provincial Government Announces Support for Fire Protection Vehicles and Equipment",
-      "summary": "The Honourable Pleaman Forsey, Minister of Forestry, Agriculture and Lands, is announcing nearly $700,000 under the Fire Vehicles and Equipment Grant Fund to enhance fire protection services in more communities across Newfoundland and Labrador. The Provincial Government is investing: $539,566.70... Read More about Provincial Government Announces Support for Fire Protection Vehicles and Equipment The post Provincial Government Announces Support for Fire Protection Vehicles and Equipment appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fal/1123n04/",
-      "publishedAt": "2026-11-23T14:30:47+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "1f9d3bceda7860049fbc",
-      "title": "Office of the Information and Privacy Commissioner – Report A-2026-038 Released",
-      "summary": "he Office of the Information and Privacy Commissioner has released Report A-2026-038 under authority of the Access to Information and Protection of Privacy Act, 2015. A summary of the Report is included below. To view the Report in its entirety,... Read More about Office of the Information and Privacy Commissioner – Report A-2026-038 Released The post Office of the Information and Privacy Commissioner – Report A-2026-038 Released appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/oipc/1123n03/",
-      "publishedAt": "2026-11-23T14:25:48+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "17a96a8f0b368e8c9ed7",
-      "title": "Festivals et événements de la saison automnale 2026 : le gouvernement du Québec soutient les Rencontres internationales du documentaire de Montréal",
-      "summary": "QUÉBEC , le 23 nov. 2026 /CNW/ -- Le ministre de la Culture, du Patrimoine, des Communications et de la Langue française et ministre responsable de la région du Bas-Saint-Laurent, M. Pascal Bérubé, ainsi que le ministre du Développement économique, de l'Innovation et de l'Énergie et ministre respons",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/festivals-et-evenements-de-la-saison-automnale-2026-le-gouvernement-du-quebec-soutient-les-rencontres-internationales-du-documentaire-de-montreal-73134",
-      "publishedAt": "2026-11-23T13:02:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "344622ab0ea12c3c9252",
-      "title": "Network Service Interruption Affecting Some GNWT Services",
-      "summary": "Network Service Interruption Affecting Some GNWT Services",
-      "url": "https://gnwt.ca/newsroom/network-service-interruption-affecting-some-gnwt-services",
+      "id": "d46b97caec7c87e1fdf2",
+      "title": "Ministerial Activities Advisory for the week of November 24-30, 2026",
+      "summary": "Ministerial Activities Advisory for the week of November 24-30, 2026",
+      "url": "https://gnwt.ca/newsroom/ministerial-activities-advisory-week-november-24-30-2026",
       "publishedAt": "2026-11-23T00:00:00+00:00",
       "source": "Government of the Northwest Territories",
       "jurisdiction": "Northwest Territories",
