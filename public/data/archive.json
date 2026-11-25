@@ -1,6 +1,215 @@
 {
-  "updatedAt": "2026-11-25T13:29:07.359449+00:00",
+  "updatedAt": "2026-11-25T18:59:17.053013+00:00",
   "notices": [
+    {
+      "id": "feb07b31dc236f358b5f",
+      "title": "Government of Saskatchewan Releases Mid-Year Financial Report",
+      "summary": "Saskatchewan is forecasting a deficit of $784 million at mid-year, an improvement of $36 million from the 2026-27 Provincial Budget. Despite ongoing global economic uncertainty and trade-related...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/25/government-of-saskatchewan-releases-mid-year-financial-report",
+      "publishedAt": "2026-11-25T22:15:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7dfdfa543e5638ef08ce",
+      "title": "Saskatchewan Implements the Productivity Mega Deduction to Drive Investment",
+      "summary": "The Government of Saskatchewan is implementing the provincial portion of Canada's new Productivity Mega Deduction (PMD) income tax investment incentive. The PMD is designed to encourage business...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/25/saskatchewan-implements-the-productivity-mega-deduction-to-drive-investment",
+      "publishedAt": "2026-11-25T21:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1b7e0d8b1fcbc43d3919",
+      "title": "Office of the Information and Privacy Commissioner – Report A-2026-039 Released",
+      "summary": "The Office of the Information and Privacy Commissioner has released Report A-2026-039 under authority of the Access to Information and Protection of Privacy Act, 2015. A summary of the Report is included below. To view the Report in its entirety,... Read More about Office of the Information and Privacy Commissioner – Report A-2026-039 Released The post Office of the Information and Privacy Commissioner – Report A-2026-039 Released appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/oipc/1125n13/",
+      "publishedAt": "2026-11-25T18:40:40+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1f091ad3257afc17cad1",
+      "title": "Manitoba Government Working to Secure Five Speech-Language Pathology Training Seats for Manitoba Students",
+      "summary": "Manitoba Government Working to Secure Five Speech-Language Pathology Training Seats for Manitoba Students",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76237",
+      "publishedAt": "2026-11-25T18:27:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Education"
+    },
+    {
+      "id": "7df04760a893bafb4ee5",
+      "title": "Ministerial Statement: Minister Petten Highlights the Importance of Community Engagement",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Barry Petten, Minister of Municipal and Community Affairs: Mr. Speaker, I rise today to recognize how community engagement helps our government achieve better outcomes. Newfoundlanders and... Read More about Ministerial Statement: Minister Petten Highlights the Importance of Community Engagement The post Ministerial Statement: Minister Petten Highlights the Importance of Community Engagement appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/mca/1125n12-2/",
+      "publishedAt": "2026-11-25T18:20:08+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "19d104e4c0fed7f47c2e",
+      "title": "Minister Sarkaria to Hold a Press Conference",
+      "summary": "Minister Sarkaria to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008322/minister_sarkaria_to_hold_a_press_conference",
+      "publishedAt": "2026-11-25T18:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "cdfd4a8e2df6b983c309",
+      "title": "Ministerial Statement: Minister Parrott Provides Update on Floating Dry Dock Project at Bull Arm",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lloyd Parrott, Minister of Energy and Mines: Speaker, I rise today to provide an update on our government’s work to advance the proposed floating dry dock... Read More about Ministerial Statement: Minister Parrott Provides Update on Floating Dry Dock Project at Bull Arm The post Ministerial Statement: Minister Parrott Provides Update on Floating Dry Dock Project at Bull Arm appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/minesen/1125n12/",
+      "publishedAt": "2026-11-25T17:50:24+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "5ddf63e3cbcbe2495dcc",
+      "title": "Ministerial Statement: Minister Evans Recognizes the Launch of the Purple Ribbon Campaign",
+      "summary": "The following statement was read in the House of Assembly today by the Honourable Lela Evans, Minister of Women and Gender Equality: Speaker, I rise to recognize the Purple Ribbon Campaign and the 16 Days of Activism Against Gender-Based Violence.... Read More about Ministerial Statement: Minister Evans Recognizes the Launch of the Purple Ribbon Campaign The post Ministerial Statement: Minister Evans Recognizes the Launch of the Purple Ribbon Campaign appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/wge/1125n11/",
+      "publishedAt": "2026-11-25T17:45:20+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "7ac27742f3d62a576dd7",
+      "title": "Edmonton scores Grey Cup 2028",
+      "summary": "Alberta’s capital city is set to welcome football fans from across Canada, as the host of the 2028 Grey Cup and Grey Cup Festival.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98198C46265A9-D744-415A-CF400F1AA0C42B4D",
+      "publishedAt": "2026-11-25T17:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "bda3788711eadf2aa338",
+      "title": "Alberta's best take the stage at BreakOut West",
+      "summary": "The BreakOut West music festival, industry conference and special events will be hosted in Edmonton for the first time in a decade.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98195C1457DAC-C49C-75EE-E962930A1C5B4AEF",
+      "publishedAt": "2026-11-25T16:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "943d0c85aab5bd55c66c",
+      "title": "Amendments to the Tobacco and Vapour Products Control Act Postponed to Allow Further Consultation",
+      "summary": "The Honourable Joedy Wall, Minister of Health and Community Services, announced today that proposed amendments to the Tobacco and Vapour Products Control Act, introduced on November 17, 2026, are being postponed to allow for additional consultation with the general public... Read More about Amendments to the Tobacco and Vapour Products Control Act Postponed to Allow Further Consultation The post Amendments to the Tobacco and Vapour Products Control Act Postponed to Allow Further Consultation appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/health/1125n09/",
+      "publishedAt": "2026-11-25T16:10:35+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1126672349e682d8413e",
+      "title": "Elimination of Violence Against Women: Joint Statement",
+      "summary": "Minister Tanya Fir and Minister Rajan Sawhney issued the following statement on International Day for the Elimination of Violence Against Women:",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98197C23EE1BC-0D76-B0B7-55E5AB4FA42390CD",
+      "publishedAt": "2026-11-25T16:00:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "8e360e5280b0ef180402",
+      "title": "Media Advisory: Minister Parrott Available to Media",
+      "summary": "The Honourable Lloyd Parrott, Minister of Government Services, will be available to media today (Wednesday, November 25) to discuss Bill 37, An Act to Amend the Highway Traffic Act. The availability will take place in the scrum area outside of... Read More about Media Advisory: Minister Parrott Available to Media The post Media Advisory: Minister Parrott Available to Media appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/government-services/1125n08/",
+      "publishedAt": "2026-11-25T15:45:41+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "1fd1f307082490fb3c0a",
+      "title": "Ontario Opening HOV Lanes to Single-Occupant Vehicles During Off-Peak Hours",
+      "summary": "Changes to take effect starting January 1, 2027",
+      "url": "https://news.ontario.ca/en/release/1008320/ontario_opening_hov_lanes_to_single_occupant_vehicles_during_off_peak_hours",
+      "publishedAt": "2026-11-25T15:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "30d8d28b4cce23ed3e10",
+      "title": "Media Advisory: Minister Forsey to Announce Support for Search and Rescue Services",
+      "summary": "The Honourable Pleaman Forsey, Minister of Forestry, Agriculture and Lands, will make an announcement related to search and rescue support in Newfoundland and Labrador tomorrow (Thursday, November 26). The announcement will take place at the Newfoundland and Labrador Search and... Read More about Media Advisory: Minister Forsey to Announce Support for Search and Rescue Services The post Media Advisory: Minister Forsey to Announce Support for Search and Rescue Services appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/fal/1125n07/",
+      "publishedAt": "2026-11-25T14:40:21+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "dc7beab2e2f16bf8cd10",
+      "title": "Provincial Government Invests in Regional Planning to Help Labrador Prepare for Future Growth",
+      "summary": "The Provincial Government is investing $148,850 through the Regional Development Fund to support the establishment of the Central Labrador Major Projects Office (CL-MPO) in Happy Valley-Goose Bay. The Central Labrador Major Projects Office will serve as a dedicated project office... Read More about Provincial Government Invests in Regional Planning to Help Labrador Prepare for Future Growth The post Provincial Government Invests in Regional Planning to Help Labrador Prepare for Future Growth appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1125n06/",
+      "publishedAt": "2026-11-25T14:30:29+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "82b6158ea684a2457170",
+      "title": "Amendments Introduced to Ensure Effective Representation in the Province",
+      "summary": "The Honourable Helen Conway Ottenheimer, KC, Minister of Justice and Public Safety and Attorney General, has introduced amendments to the Electoral Boundaries Act to ensure electoral district boundaries accurately reflect the province’s population and geography ahead of the next provincial... Read More about Amendments Introduced to Ensure Effective Representation in the Province The post Amendments Introduced to Ensure Effective Representation in the Province appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/jps/1125n05/",
+      "publishedAt": "2026-11-25T14:20:42+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "043b107e3649fdd4e094",
+      "title": "Office of Seniors’ Advocate releases the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing",
+      "summary": "The Office of the Seniors’ Advocate has released its Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing in Newfoundland and Labrador (Seniors’ Report 2026) and accompanying Seniors’ Report 2026: Data Tables. Now in its third annual volume, the Seniors’... Read More about Office of Seniors’ Advocate releases the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing The post Office of Seniors’ Advocate releases the Seniors’ Report 2026, Monitoring Key Indicators of Seniors’ Wellbeing appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/osa/1125n04/",
+      "publishedAt": "2026-11-25T13:40:22+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "6c191e6581b63a248446",
+      "title": "/R E P R I S E -- Visite du chantier de réfection majeure du tunnel Louis-Hippolyte-La Fontaine/",
+      "summary": "MONTRÉAL , le 24 nov 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable invite les représentants des médias à une visite du chantier du tunnel Louis-Hippolyte-La Fontaine. À cette occasion, des représentants du Ministère et de Renouveau La Fontaine seront présents. Cet événement aur",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-visite-du-chantier-de-refection-majeure-du-tunnel-louis-hippolyte-la-fontaine-73191",
+      "publishedAt": "2026-11-25T13:30:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
     {
       "id": "7588d5344feee0f6db78",
       "title": "Minister Dinn Congratulates High School Graduates Receiving Provincial Scholarships",
@@ -11,6 +220,17 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Education"
+    },
+    {
+      "id": "9e9fa303d356b7e7d958",
+      "title": "Dossier Ayman Kabalan - Avis d'audience de l'acte introductif d'instance",
+      "summary": "MONTRÉAL , le 25 nov. 2026 /CNW/ -- L'Autorité des marchés financiers (AMF) annonce la date d'audience durant laquelle sera présenté l'acte introductif d'instance qu'elle a déposé au Tribunal administratif des marchés financiers (TMF) dans le cadre d'un dossier impliquant entres autres Ayman Kabalan",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/dossier-ayman-kabalan-avis-daudience-de-lacte-introductif-dinstance-73189",
+      "publishedAt": "2026-11-25T13:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
     },
     {
       "id": "45d70f000998e216be2d",
@@ -33,6 +253,39 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
+    },
+    {
+      "id": "e46f533f65a30ea870e0",
+      "title": "Le tronçon de la route 361 à Sainte-Geneviève-de-Batiscan maintenant amélioré",
+      "summary": "SAINTE-GENEVIÈVE-DE-BATISCAN, QC , le 25 nov. 2026 /CNW/ -- Les travaux majeurs de réfection et d'amélioration de la route 361, à Sainte-Geneviève-de-Batiscan, se termineront demain. Le ministre des Transports et de la Mobilité durable, M. Nicolas Girard, et le ministre responsable de la région de l",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/le-troncon-de-la-route-361-a-sainte-genevieve-de-batiscan-maintenant-ameliore-73188",
+      "publishedAt": "2026-11-25T12:11:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "2986c77941c121b0ff6c",
+      "title": "Côte-Nord : les ministres Savard-Tremblay et Richard à la rencontre des communautés innues",
+      "summary": "QUÉBEC , le 25 nov. 2026 /CNW/ -- Le ministre responsable des Relations avec les Premières Nations et les Inuit, Simon-Pierre Savard-Tremblay, et la ministre responsable des Régions et de l'Occupation du territoire et ministre responsable de la Côte-Nord, Meggie Richard, ont conclu le 23 novembre un",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/cote-nord-les-ministres-savard-tremblay-et-richard-a-la-rencontre-des-communautes-innues-73187",
+      "publishedAt": "2026-11-25T11:32:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "cc80b8f1a10c6e36511b",
+      "title": "Dépôt d'une accusation à l'endroit d'un policier du Service de police de la Ville de Montréal",
+      "summary": "QUÉBEC , le 25 nov. 2026 /CNW/ -- Après examen d'un rapport d'enquête soumis par le Service de police de la Ville de Montréal en lien avec certains événements impliquant des policiers du poste de quartier 39, le Directeur des poursuites criminelles et pénales (DPCP) annonce publiquement dans le but",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/depot-dune-accusation-a-lendroit-dun-policier-du-service-de-police-de-la-ville-de-montreal-73186",
+      "publishedAt": "2026-11-25T11:22:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public safety"
     },
     {
       "id": "a81ef2a49cafd8f6d068",
@@ -141,6 +394,17 @@
       "publishedAt": "2026-11-25T00:05:37+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "266da7275b833f57a9e9",
+      "title": "First Sections of 30-Unit Modular Building Arrive in Hay River",
+      "summary": "First Sections of 30-Unit Modular Building Arrive in Hay River",
+      "url": "https://gnwt.ca/newsroom/first-sections-30-unit-modular-building-arrive-hay-river",
+      "publishedAt": "2026-11-25T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
       "language": "en",
       "category": "Public updates"
     },
