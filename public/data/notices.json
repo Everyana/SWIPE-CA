@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T01:23:51.003707+00:00",
+  "updatedAt": "2026-11-25T07:29:17.729250+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -45,6 +45,17 @@
       "publishedAt": "2026-11-25T02:38:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c948fa01095b863f0b06",
+      "title": "Premier Doerkson sets priorities for new government in mandate letters",
+      "summary": "Premier Lorne Doerkson has issued mandate letters to cabinet ministers and ministers of state, outlining the priorities, expectations and responsibilities that will guide the new government's work to deliver meaningful change for British Columbians.",
+      "url": "https://news.gov.bc.ca/releases/2026PREM0072-001146",
+      "publishedAt": "2026-11-25T01:55:00+00:00",
+      "source": "BC Gov News",
+      "jurisdiction": "British Columbia",
       "language": "en",
       "category": "Public updates"
     },
@@ -277,17 +288,6 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "ff9bfe0d3d407e40e6dd",
-      "title": "Un ex-juge de la Cour municipale de Longueuil, Jean Herbert, coupable de fraude et de production de faux",
-      "summary": "MONTRÉAL , le 24 nov. 2026 /CNW/ -- Jean Herbert, ancien juge à la Cour municipale de Longueuil, a été reconnu coupable aujourd'hui de fraude et de production de faux au Palais de justice de Longueuil. L'enquête, menée par le Commissaire à la lutte contre la corruption (CLCC), a démontré que M. Herb",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/un-ex-juge-de-la-cour-municipale-de-longueuil-jean-herbert-coupable-de-fraude-et-de-production-de-faux-73173",
-      "publishedAt": "2026-11-24T17:04:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Public updates"
     },
     {
