@@ -119,3 +119,11 @@ class GnbTests(unittest.TestCase):
         self.assertEqual(items[0]["summary"], "Comments are accepted until May 24, 2027.")
         self.assertEqual(items[0]["deadline"], "2027-05-24")
         self.assertTrue(items[0]["publishedAt"].startswith("2026-11-25T14:46"))
+
+class NoiseTests(unittest.TestCase):
+    def test_test_items_and_weekly_advisories(self):
+        self.assertTrue(F.is_advisory("test-nov22-212pm"))
+        self.assertTrue(F.is_advisory("Ministerial Activities Advisory for the week of November 24-30, 2026"))
+        self.assertTrue(F.is_advisory("UPDATE – Saturday, November 21, 2026"))
+        self.assertFalse(F.is_advisory("Testing emergency alerts to cellphones"))
+        self.assertFalse(F.is_advisory("Province Advises of Alert Ready Test Tomorrow"))

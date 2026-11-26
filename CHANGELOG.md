@@ -22,3 +22,4 @@
 - New Brunswick added (EN + FR) from the gnb.ca newswire data that powers the official News and alerts page; the old RSS was retired.
 - Nunavut feed marked blocked: it returns 403 to automated clients; we don't disguise the job as a browser. Curated notices keep Nunavut covered.
 - README rewritten: registry, refresh pipeline, health alerts, deploy path, checks and known source gaps.
+- Feed noise filter: test items published by mistake on official feeds and weekly 'activities advisories' are dropped.

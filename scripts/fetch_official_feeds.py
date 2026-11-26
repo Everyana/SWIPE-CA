@@ -35,11 +35,13 @@ def plain(value):
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 ADVISORY = re.compile(r"^(?:media advisory|avis (?:aux )?m[ée]dias|/?r ?e ?p ?r ?i ?s ?e|invitation (?:[àa] la presse|aux m[ée]dias)|agenda public)"
                       r"|\bto hold a (?:press conference|photo opportunity|media availability)\b|\bavailable to media\b"
-                      r"|^(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday), \w+ \d{1,2}, \d{4}$", re.I)
+                      r"|\bactivities advisory\b|^(?:update\s*[-–]\s*)?(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday), \w+ \d{1,2}, \d{4}$", re.I)
+
+TEST_ITEM = re.compile(r"^test[\s_-]", re.I)
 
 def is_advisory(title, url=""):
     """Media advisories, itineraries and press invitations tell journalists where to be; they are not public information cards."""
-    return bool(ADVISORY.search(title.strip())) or "/media-advisories/" in url
+    return bool(ADVISORY.search(title.strip())) or "/media-advisories/" in url or bool(TEST_ITEM.match(title.strip()))
 
 TOPIC_PATTERNS = {
     "Public consultations": r"public consultation|consultation publique|public hearing",
