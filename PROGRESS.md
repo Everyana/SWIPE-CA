@@ -23,7 +23,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 9. ✅ Reader shows our editor summary when present, labels source excerpt — BP §6, 14d #3
 10. ✅ Topic patterns: reduce "Public updates" catch-all — BP §5
 11. ✅ Prerender fixes: title replace never matches; duplicate robots meta — audit
-12. ⬜ Accessibility: skip link, focus-visible, reduced motion, live region for card position — BP §14, LC #7
+12. ✅ Accessibility: skip link, focus-visible, reduced motion, live region for card position — BP §14, LC #7
 13. ⬜ Story pages: exact disclaimer + "Report a correction" link + last-checked date — BP §6/§14, LC #5
 14. ⬜ /sources/ page generated from registry + health (transparency) — BP §14, LC #8
 15. ⬜ /about/ editorial + corrections + privacy notice page — LC #8, BP §14

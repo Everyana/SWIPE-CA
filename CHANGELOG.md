@@ -13,3 +13,4 @@
 - New topics: Laws and regulations, Budget and finance, Economy and business, Culture and awards, Indigenous, Reports and data (EN/FR); archive re-tagged each run except curated notices.
 - End-to-end fetcher test with faked feeds (feed, archive, health, deadlines, failure handling).
 - Home page: title is now set by the pre-renderer (it never matched before) and the duplicate robots tag is gone; `npm run check:dist` verifies the build output in CI.
+- Accessibility: skip link to the stories, screen-reader announcement of the current card ("Story 3 of 40"), and smooth scrolling turned off for reduced-motion users.
