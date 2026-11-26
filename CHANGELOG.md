@@ -17,3 +17,4 @@
 - Story pages: full independence disclaimer, 'Report a correction' email link and the date the notice was last checked against the source feed.
 - New /sources/ page: every official source with level, status and last successful fetch, built from the registry and health file.
 - New /about/ page: what we publish, corrections, privacy (no account, no tracking cookies) and the independence disclaimer; linked from the About panel and every story page.
+- Weekly link check (Mondays): every card's official link is requested; broken ones open a GitHub issue, bot-walled ones are reported as unverified.
