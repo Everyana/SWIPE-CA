@@ -23,7 +23,7 @@ def load_sources(path=REGISTRY):
         if e.get("status") != "active":
             continue
         src = {"name": e["name"], "jurisdiction": e["jurisdiction"], "lang": e["lang"], "url": e["url"], "hosts": e["hosts"]}
-        if e["access"].startswith("page:"):
+        if e["access"].startswith(("page:", "json:")):
             src["format"] = e["access"].split(":", 1)[1]
         out.append(src)
     return out
@@ -187,8 +187,23 @@ def extract_deadline(text, published_iso):
             return d.isoformat()
     return None
 
+def gnb_entries(data, lang):
+    """New Brunswick newswire JSON (the data behind www.gnb.ca/en/news/newswire.html)."""
+    rows = json.loads(data.decode("utf-8"))["data"]["newsModelList"]["items"]
+    out = []
+    for r in rows:
+        path = (r.get("detailUrl") or "").replace("/content/GNB3", "", 1)
+        if not path.startswith("/"):
+            continue
+        out.append((r.get(f"title_{lang}") or r.get("displayTitle") or "", r.get(f"leadLine_{lang}") or r.get("displayLead") or "",
+                    "https://www.gnb.ca" + path, r.get("datePublished") or ""))
+    return out
+
 def parse(data, source):
-    items = newsroom_entries(data, source) if source.get("format") else xml_entries(data)
+    if source.get("format") == "gnb":
+        items = gnb_entries(data, source["lang"])
+    else:
+        items = newsroom_entries(data, source) if source.get("format") else xml_entries(data)
     out=[]
     for title,summary,link,date in items:
         title=plain(title)[:240]

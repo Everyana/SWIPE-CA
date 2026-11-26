@@ -227,6 +227,36 @@
       ],
       "verifiedAt": "2026-11-25",
       "status": "active"
+    },
+    {
+      "id": "government-of-new-brunswick",
+      "name": "Government of New Brunswick",
+      "jurisdiction": "New Brunswick",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.gnb.ca/bin/gnb/newswire?limit=30&offset=0&type=gnb3%3Anewswire%2Falert%7Cgnb3%3Anewswire%2Fnews%2Frelease%7Cgnb3%3Anewswire%2Fnews%2Fstatement%7Cgnb3%3Anewswire%2Fnews%2Falert&sortBy=PUBLISHED&sortOrder=DESC&lang=en",
+      "access": "json:gnb",
+      "hosts": [
+        "gnb.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active",
+      "note": "gnb.ca newswire JSON used by the official News and alerts page (www.gnb.ca/en/news/newswire.html); the old www2.gnb.ca RSS was retired."
+    },
+    {
+      "id": "gouvernement-du-nouveau-brunswick",
+      "name": "Gouvernement du Nouveau-Brunswick",
+      "jurisdiction": "New Brunswick",
+      "level": "provincial",
+      "lang": "fr",
+      "url": "https://www.gnb.ca/bin/gnb/newswire?limit=30&offset=0&type=gnb3%3Anewswire%2Falert%7Cgnb3%3Anewswire%2Fnews%2Frelease%7Cgnb3%3Anewswire%2Fnews%2Fstatement%7Cgnb3%3Anewswire%2Fnews%2Falert&sortBy=PUBLISHED&sortOrder=DESC&lang=fr",
+      "access": "json:gnb",
+      "hosts": [
+        "gnb.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active",
+      "note": "gnb.ca newswire JSON used by the official News and alerts page (www.gnb.ca/en/news/newswire.html); the old www2.gnb.ca RSS was retired."
     }
   ]
 }

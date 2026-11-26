@@ -107,3 +107,15 @@ class TopicAdvisoryTests(unittest.TestCase):
         rss = b"""<rss><channel><item><title>Media Advisory: Minister to speak</title>
         <link>https://news.ontario.ca/en/advisory/1</link><pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>"""
         self.assertEqual(F.parse(rss, SRC), [])
+
+GNB = b'{"data":{"newsModelList":{"items":[{"datePublished":"2026-11-25T10:46:00.000-04:00","title_en":"Public participation process begins for air quality approval","leadLine_en":"Comments are accepted until May 24, 2027.","title_fr":"D\\u00e9but du processus","leadLine_fr":"x","detailUrl":"/content/GNB3/en/news/n-b.2026.11.public-participation.html"},{"datePublished":"2026-11-25T10:00:00.000-04:00","title_en":"Bad","detailUrl":"https://evil.example/x"}]}}}'
+
+class GnbTests(unittest.TestCase):
+    def test_gnb_json(self):
+        src = {"name": "Government of New Brunswick", "jurisdiction": "New Brunswick", "lang": "en", "url": "https://www.gnb.ca/bin/gnb/newswire", "hosts": ["gnb.ca"], "format": "gnb"}
+        items = F.parse(GNB, src)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["url"], "https://www.gnb.ca/en/news/n-b.2026.11.public-participation.html")
+        self.assertEqual(items[0]["summary"], "Comments are accepted until May 24, 2027.")
+        self.assertEqual(items[0]["deadline"], "2027-05-24")
+        self.assertTrue(items[0]["publishedAt"].startswith("2026-11-25T14:46"))

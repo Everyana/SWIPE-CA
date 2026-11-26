@@ -15,10 +15,10 @@ class RegistryTests(unittest.TestCase):
             self.assertIn(s["level"], LEVELS)
             self.assertIn(s["lang"], ("en", "fr"))
             self.assertIn(s["status"], ("active", "blocked", "paused"))
-            self.assertTrue(s["access"] in ("rss", "atom") or s["access"].startswith("page:"))
+            self.assertTrue(s["access"] in ("rss", "atom") or s["access"].startswith(("page:", "json:")))
             self.assertEqual(urlparse(s["url"]).scheme, "https", s["id"])
             self.assertTrue(s["hosts"])
-            if s["status"] != "active":
+            if s["status"] != "active" or s["access"].startswith("json:"):
                 self.assertTrue(s.get("note"), f"{s['id']} needs a note explaining its status")
 
     def test_fetcher_loads_only_active(self):

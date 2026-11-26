@@ -19,3 +19,4 @@
 - New /about/ page: what we publish, corrections, privacy (no account, no tracking cookies) and the independence disclaimer; linked from the About panel and every story page.
 - Weekly link check (Mondays): every card's official link is requested; broken ones open a GitHub issue, bot-walled ones are reported as unverified.
 - Removed the unused GitHub Pages deploy workflow; Hostinger Git auto-deploy is the only deploy path.
+- New Brunswick added (EN + FR) from the gnb.ca newswire data that powers the official News and alerts page; the old RSS was retired.
