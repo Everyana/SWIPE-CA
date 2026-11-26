@@ -9,3 +9,6 @@
 - Deadlines: the fetcher pulls explicit deadlines (EN/FR cues such as 'apply by', 'until', 'date limite') into a `deadline` field; cards show it (or 'Deadline passed') and story pages print it.
 - Deadline extraction ignores event end dates ('runs until', 'se déroule jusqu'au'); weak cues need an action word such as apply, submit or feedback.
 - Cards show our own SWIPES summary when one exists (labelled), and the pre-rendered home page uses it and links to the story page.
+- Media advisories, itineraries and press invitations are no longer published as cards.
+- New topics: Laws and regulations, Budget and finance, Economy and business, Culture and awards, Indigenous, Reports and data (EN/FR); archive re-tagged each run except curated notices.
+- End-to-end fetcher test with faked feeds (feed, archive, health, deadlines, failure handling).

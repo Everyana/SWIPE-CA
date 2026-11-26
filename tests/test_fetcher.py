@@ -89,3 +89,21 @@ class DeadlineEventTests(unittest.TestCase):
     def test_feedback_until_is_a_deadline(self):
         self.assertEqual(F.extract_deadline("Residents can share feedback until February 8, 2027.", self.P), "2027-02-08")
         self.assertEqual(F.extract_deadline("Les commentaires sont acceptés jusqu'au 15 décembre.", self.P), "2026-12-15")
+
+class TopicAdvisoryTests(unittest.TestCase):
+    def test_advisories_are_dropped(self):
+        for t in ["Media Advisory: Minister X Available to Media", "Minister Sarkaria to Hold a Press Conference",
+                  "Wednesday, November 25, 2026", "Avis médias - Agenda public du premier ministre du Québec - 25 novembre 2026",
+                  "/R E P R I S E -- INVITATION À LA PRESSE - La machine"]:
+            self.assertTrue(F.is_advisory(t), t)
+        self.assertTrue(F.is_advisory("Itinerary", "https://www.pm.gc.ca/en/news/media-advisories/2026/11/24/x"))
+        self.assertFalse(F.is_advisory("Province opens school registration"))
+    def test_new_topics(self):
+        self.assertEqual(F.topic("Provincial Government Introduces New Cities Act"), "Laws and regulations")
+        self.assertEqual(F.topic("Government of Saskatchewan Releases Mid-Year Financial Report"), "Budget and finance")
+        self.assertEqual(F.topic("Ontario Announces Bold Plan to Build Mines Faster"), "Economy and business")
+        self.assertEqual(F.topic("Prix du Québec 2026 : X reçoit le prix"), "Culture and awards")
+    def test_parse_skips_advisory(self):
+        rss = b"""<rss><channel><item><title>Media Advisory: Minister to speak</title>
+        <link>https://news.ontario.ca/en/advisory/1</link><pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>"""
+        self.assertEqual(F.parse(rss, SRC), [])

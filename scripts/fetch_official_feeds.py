@@ -33,6 +33,14 @@ NS = {"a":"http://www.w3.org/2005/Atom"}
 def plain(value):
     value = re.sub(r"<[^>]*>", " ", value or "")
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
+ADVISORY = re.compile(r"^(?:media advisory|avis (?:aux )?m[ée]dias|/?r ?e ?p ?r ?i ?s ?e|invitation (?:[àa] la presse|aux m[ée]dias)|agenda public)"
+                      r"|\bto hold a (?:press conference|photo opportunity|media availability)\b|\bavailable to media\b"
+                      r"|^(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday), \w+ \d{1,2}, \d{4}$", re.I)
+
+def is_advisory(title, url=""):
+    """Media advisories, itineraries and press invitations tell journalists where to be; they are not public information cards."""
+    return bool(ADVISORY.search(title.strip())) or "/media-advisories/" in url
+
 TOPIC_PATTERNS = {
     "Public consultations": r"public consultation|consultation publique|public hearing",
     "Tenders": r"request for proposals|call for tenders|appel d.offres|procurement",
@@ -45,7 +53,13 @@ TOPIC_PATTERNS = {
     "Environment": r"environment|conservation|tropical forests|climate|environnement|climat",
     "Public safety": r"polic(e|ing)|public safety|emergency preparedness|sécurité publique",
     "Sport and recreation": r"sport|soccer|championship|loisirs",
-    "Grants and funding": r"grant program|funding application|subventions",
+    "Grants and funding": r"grant program|funding application|subventions|grants? to|invest(?:s|ing)? \$|provides up to \$|aide financi[eè]re|financement",
+    "Laws and regulations": r"act\b|legislation|amendments?|regulations?|bill \d+|projet de loi|loi\b|r[eè]glement",
+    "Budget and finance": r"budget|fiscal|financial report|surplus|deficit|tax|deduction|imp[oô]t|finances publiques",
+    "Economy and business": r"economy|economic|business|investment|trade|mines?\b|minerals|industry|PME|[ée]conomi|entreprises?",
+    "Culture and awards": r"award|prix du|artist|museum|mus[ée]e|festival|culture|heritage|patrimoine|music",
+    "Indigenous": r"indigenous|first nations?|m[ée]tis|inuit|autochtones?|premi[eè]res nations|innus?",
+    "Reports and data": r"report\b|rapport|survey results|statistics|indicators",
 }
 
 def topic(title):
@@ -181,6 +195,7 @@ def parse(data, source):
         summary=clean_excerpt(summary,title)
         date=date_iso(date)
         if not title or not date or not host_ok(link,source["hosts"]): continue
+        if is_advisory(title, link): continue
         out.append({"id":hashlib.sha256(link.encode()).hexdigest()[:20],"title":title,"summary":summary or title,"url":link,"publishedAt":date,"source":source["name"],"jurisdiction":source["jurisdiction"],"language":source["lang"],"category":topic(title)})
         deadline = extract_deadline(title + ". " + summary, date)
         if deadline:
@@ -283,6 +298,11 @@ def main():
     kept = {item["id"]: item for item in archive.get("notices", [])}
     for item in records:
         kept[item["id"]] = {**kept.get(item["id"], {}), **item}
+    curated_ids = {item["id"] for item in json.loads(curated_path.read_text(encoding="utf-8"))}
+    for item in kept.values():
+        # Re-tag with the current topic rules; hand-curated notices keep the category an editor gave them.
+        if item["id"] not in curated_ids:
+            item["category"] = topic(item["title"])
     archive_path.write_text(json.dumps({"updatedAt": payload["updatedAt"], "notices": sorted(kept.values(), key=lambda x: x["publishedAt"], reverse=True)}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print("Wrote",len(records),"verified-link feed items;",len(errors),"source failures")
 if __name__=="__main__": main()

@@ -18,6 +18,9 @@ const topics = {
   'Housing': 'Logement', 'Environment': 'Environnement', 'Public safety': 'Sécurité publique',
   'Public consultations': 'Consultations publiques', 'Grants and funding': 'Subventions et financement',
   'Immigration': 'Immigration', 'Tenders': 'Appels d’offres', 'Sport and recreation': 'Sports et loisirs',
+  'Laws and regulations': 'Lois et règlements', 'Budget and finance': 'Budget et finances',
+  'Economy and business': 'Économie et entreprises', 'Culture and awards': 'Culture et prix',
+  'Indigenous': 'Autochtones', 'Reports and data': 'Rapports et données',
 };
 function label(value: string, translations: Record<string, string>, lang: Lang) {
   return lang === 'fr' ? translations[value] ?? value : value;
