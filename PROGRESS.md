@@ -31,7 +31,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 17. ✅ Remove unused GitHub Pages deploy workflow — audit
 18. ✅ New Brunswick official feed — README, audit
 19. ✅ Nunavut 403 on runner: marked blocked with reason (no browser disguise) — audit
-20. ⬜ README refresh (architecture, sources, tests, ops) — README
+20. ✅ README refresh (architecture, sources, tests, ops) — README
 21. ⬜ C15 editor summaries batch 4 for new feed items — doc 14
 
 ## Needs owner

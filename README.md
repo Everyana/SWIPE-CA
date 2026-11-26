@@ -1,19 +1,32 @@
 # SWIPES Canada
 
-SWIPES Canada is a mobile-first reader for selected notices from official Canadian sources. English and French interface labels are available. Notice titles and excerpts use the issuing source's language.
+A mobile-first reader for notices from official Canadian government and public-institution sources, live at https://ca.everyana.com. English and French interface. Notice titles and excerpts keep the issuing source's language; summaries written by SWIPES are labelled.
 
 ## Run locally
 
 ```sh
 npm install
-npm run dev
-npm run build
+npm run dev          # local reader
+npm test             # Python fetcher tests + Node story-page tests
+npm run build        # dist/ with reader, story pages, /about/, /sources/, sitemap
+npm run check:dist   # post-build checks (title, robots, canonical, sitemap)
 ```
 
-The build output is in `dist/`. The reader checks the deployed JSON snapshot and the public GitHub feed on page load, every five minutes while visible, and when the visitor returns. It uses the newer available feed and keeps the last successful edition during a temporary fetch error.
+## How data flows
 
-## Refresh and publish
+1. `scripts/sources.json` is the source registry: issuer, jurisdiction, level, language, URL, access method (`rss`, `atom`, `page:*`, `json:gnb`), allowed link hosts, verified date and status. Only `active` sources are fetched; `blocked` ones carry a note.
+2. `.github/workflows/refresh-notices.yml` runs `scripts/fetch_official_feeds.py` every six hours. It keeps only https links on the source's own domains, drops media advisories and itineraries, tags topics, pulls explicit deadlines, removes duplicates, keeps 40 cards (one per jurisdiction first) and carries a failed source's cards for 14 days.
+3. It writes `public/data/notices.json` (live feed), `public/data/archive.json` (every notice ever shown, so story pages stay online) and `public/data/source-health.json` (per-source status and consecutive failures), then commits them.
+4. `scripts/source_alerts.py` opens a GitHub issue (label `source-health`) when a source fails three runs in a row and closes it when it recovers.
+5. Hostinger Git auto-deploy builds `main` and publishes `dist/`. The reader also reads the newest feed from GitHub, so scheduled data reaches visitors without a code release.
 
-The GitHub refresh workflow runs every six hours and commits validated RSS and Atom notices to `public/data/notices.json`. Run `python scripts/fetch_official_feeds.py` for a manual refresh. Check the printed source failures and the feed coverage before publication. The jurisdiction filter lists all 10 provinces, all three territories, and federal notices. The About panel shows how many currently have published cards.
+`scripts/curated_notices.json` holds hand-verified notices with an expiry date. `public/data/editor-summaries.json` holds our own summaries; only notices with one get an indexable story page.
 
-Hostinger serves the production domain. Publish the contents of `dist/` to that domain's document root. Deploying a new build publishes both the reader and the current feed snapshot. After the reader is deployed, scheduled feed commits can reach visitors through the public GitHub feed independently of frontend releases. New Brunswick currently uses time-limited, manually verified releases in `scripts/curated_notices.json`.
+## Checks
+
+- `ci.yml`: tests, build and build-output checks on every push and pull request.
+- `link-check.yml`: weekly request of every card link; broken links open an issue (`link-check`).
+
+## Known source gaps
+
+Statistics Canada (RSS behind a browser challenge) and Nunavut (403 to automated clients) are marked blocked in the registry; see `/sources/` on the live site.
