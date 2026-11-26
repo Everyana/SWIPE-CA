@@ -23,3 +23,4 @@
 - Nunavut feed marked blocked: it returns 403 to automated clients; we don't disguise the job as a browser. Curated notices keep Nunavut covered.
 - README rewritten: registry, refresh pipeline, health alerts, deploy path, checks and known source gaps.
 - Feed noise filter: test items published by mistake on official feeds and weekly 'activities advisories' are dropped.
+- 48 more own-words editor summaries (EN/FR): 198 indexable story pages (was 150). Skipped statements, court/inquest items naming people, opposition releases and advisories.

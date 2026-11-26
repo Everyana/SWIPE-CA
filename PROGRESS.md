@@ -33,7 +33,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 19. ✅ Nunavut 403 on runner: marked blocked with reason (no browser disguise) — audit
 20. ✅ README refresh (architecture, sources, tests, ops) — README
 21. ✅ Noise filter: drop feed test items (e.g. "test-nov22-212pm") and weekly ministerial activity advisories — audit
-22. ⬜ C15 editor summaries batch 4 for new feed items — doc 14
+22. ✅ C15 editor summaries batch 4 for new feed items — doc 14
 
 ## Needs owner
 - ⛔ Login gate (guest first few cards) vs "official info always free" — 00 §4 vs 14d
