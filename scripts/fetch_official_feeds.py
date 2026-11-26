@@ -151,9 +151,34 @@ def select_notices(items, curated):
         selected.setdefault(item["id"], item)
     return sorted(selected.values(), key=lambda item: item["publishedAt"], reverse=True)
 
+HEALTH_PATH = Path("public/data/source-health.json")
+ALERT_AFTER = 3  # consecutive failed runs before a source is flagged for attention
+
+def build_health(results, previous, registry, now_iso):
+    """results: {source name: {"ok": bool, "items": int, "error": str}}.
+    Carries lastSuccess and consecutiveFailures forward from the previous health file."""
+    prev = {s["name"]: s for s in (previous or {}).get("sources", [])}
+    out = []
+    for entry in registry:
+        name = entry["name"]
+        before = prev.get(name, {})
+        if entry.get("status") != "active":
+            out.append({"id": entry["id"], "name": name, "jurisdiction": entry["jurisdiction"], "status": entry["status"],
+                        "note": entry.get("note", ""), "items": 0, "lastSuccess": before.get("lastSuccess"),
+                        "consecutiveFailures": 0, "needsAttention": False})
+            continue
+        r = results.get(name, {"ok": False, "items": 0, "error": "not run"})
+        fails = 0 if r["ok"] else int(before.get("consecutiveFailures", 0)) + 1
+        out.append({"id": entry["id"], "name": name, "jurisdiction": entry["jurisdiction"],
+                    "status": "ok" if r["ok"] else "error", "items": r["items"], "error": r.get("error", ""),
+                    "lastSuccess": now_iso if r["ok"] else before.get("lastSuccess"),
+                    "consecutiveFailures": fails, "needsAttention": fails >= ALERT_AFTER})
+    return {"checkedAt": now_iso, "alertAfter": ALERT_AFTER, "sources": out}
+
 def main():
     all_items=[]; errors=[]; successful=0
     failed_sources = {}
+    results = {}
     for source in SOURCES:
         try:
             req=urllib.request.Request(source["url"],headers={"User-Agent":"SWIPESCanada/0.1 (+https://ca.everyana.com; official feed aggregator)","Accept":"application/atom+xml,application/rss+xml,application/xml,text/xml,text/html"})
@@ -162,11 +187,18 @@ def main():
             parsed=parse(xml,source)
             if not parsed: raise ValueError("No valid official items returned")
             successful+=1; all_items.extend(parsed)
+            results[source["name"]] = {"ok": True, "items": len(parsed)}
             print(source["name"],len(parsed))
         except Exception as e:
             failed_sources[source["name"]] = source
             errors.append(source["name"]+": "+str(e)[:160])
+            results[source["name"]] = {"ok": False, "items": 0, "error": str(e)[:160]}
             print("WARNING",errors[-1])
+    registry = json.loads(REGISTRY.read_text(encoding="utf-8"))["sources"]
+    previous_health = json.loads(HEALTH_PATH.read_text(encoding="utf-8")) if HEALTH_PATH.exists() else None
+    health = build_health(results, previous_health, registry, dt.datetime.now(dt.timezone.utc).isoformat())
+    HEALTH_PATH.parent.mkdir(parents=True, exist_ok=True)
+    HEALTH_PATH.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if not successful: raise SystemExit("No official feeds succeeded; refusing to overwrite published data")
     now = dt.datetime.now(dt.timezone.utc)
     cutoff = now - dt.timedelta(days=14)
