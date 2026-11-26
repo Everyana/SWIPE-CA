@@ -61,3 +61,22 @@ class AtomTests(unittest.TestCase):
         self.assertTrue(items[0]["title"].startswith("Government of Canada advances"))
         self.assertEqual(items[0]["summary"], "Women deserve access to care.")
         self.assertTrue(items[0]["publishedAt"].startswith("2026-11-25T21:15:02"))
+
+class DeadlineTests(unittest.TestCase):
+    P = "2026-11-13T00:00:00+00:00"
+    def test_english_cues(self):
+        self.assertEqual(F.extract_deadline("The state portal lists December 2 as the closing date. Apply by December 2, 2026.", self.P), "2026-12-02")
+        self.assertEqual(F.extract_deadline("Applications are open until January 15.", self.P), "2027-01-15")
+        self.assertEqual(F.extract_deadline("Deadline: Nov. 30", self.P), "2026-11-30")
+        self.assertEqual(F.extract_deadline("Submit bids by November 30.", self.P), "2026-11-30")
+    def test_french_cues(self):
+        self.assertEqual(F.extract_deadline("Consultation jusqu'au 15 décembre 2026.", self.P), "2026-12-15")
+        self.assertEqual(F.extract_deadline("Date limite : 1er février", self.P), "2027-02-01")
+    def test_no_cue_no_deadline(self):
+        self.assertIsNone(F.extract_deadline("The games run December 11 to 22.", self.P))
+        self.assertIsNone(F.extract_deadline("", self.P))
+        self.assertIsNone(F.extract_deadline("before the meeting", self.P))
+    def test_parse_sets_deadline(self):
+        rss = b"""<rss><channel><item><title>Grant intake opens</title><description>Apply by January 31, 2027.</description>
+        <link>https://news.ontario.ca/en/release/9</link><pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>"""
+        self.assertEqual(F.parse(rss, SRC)[0]["deadline"], "2027-01-31")

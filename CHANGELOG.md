@@ -6,3 +6,4 @@
 - Statistics Canada marked blocked with reason: the old URL was a help page and the real RSS sits behind a browser challenge.
 - Source health: each refresh writes `public/data/source-health.json` (status, items, last success, consecutive failures per source).
 - Alerts: a source that fails 3 runs in a row opens a GitHub issue labelled source-health; it closes itself when the source recovers.
+- Deadlines: the fetcher pulls explicit deadlines (EN/FR cues such as 'apply by', 'until', 'date limite') into a `deadline` field; cards show it (or 'Deadline passed') and story pages print it.

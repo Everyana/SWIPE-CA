@@ -123,6 +123,48 @@ def newsroom_entries(page, source):
     return [(title, "", urljoin(source["url"], path), date.replace("/", "-") + "T00:00:00+00:00")
             for path, date, title in re.findall(pattern, page, re.S)]
 
+MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
+                                      "september", "october", "november", "december"], 1)}
+MONTHS.update({m[:3]: i for m, i in list(MONTHS.items())})
+MONTHS.update({"sept": 9})
+MOIS = {m: i for i, m in enumerate(["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
+                                    "septembre", "octobre", "novembre", "décembre"], 1)}
+EN_CUE = r"(?:deadline(?:\s+(?:is|of|to\s+apply\s+is))?|(?:submit(?:ted)?|apply|register|send)(?:\s+[a-z]+){0,3}\s+by|closes?\s+(?:on\s+)?|closing\s+date(?:\s+is)?|due\s+(?:by|on)|until|no\s+later\s+than|before)"
+EN_DATE = r"(?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday),?\s+)?([a-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(\d{4}))?"
+FR_CUE = r"(?:date\s+limite(?:\s+(?:est|:))?|jusqu.au|au\s+plus\s+tard\s+le|avant\s+le|d.ici\s+le)"
+FR_DATE = r"(?:le\s+)?(\d{1,2})(?:er)?\s+([a-zéû]+)(?:\s+(\d{4}))?"
+
+def extract_deadline(text, published_iso):
+    """Return an ISO date for an explicit deadline in the notice text, or None.
+    Only dates introduced by a deadline cue count; the year defaults to the publication year,
+    rolled forward if the date would fall before publication."""
+    if not text:
+        return None
+    pub = dt.datetime.fromisoformat(published_iso).date()
+    low = text.lower()
+    candidates = []
+    for m in re.finditer(EN_CUE + r"[:\s]+" + EN_DATE, low):
+        month = MONTHS.get(m.group(1).rstrip("."))
+        if month:
+            candidates.append((month, int(m.group(2)), m.group(3)))
+    for m in re.finditer(FR_CUE + r"[:\s]+" + FR_DATE, low):
+        month = MOIS.get(m.group(2))
+        if month:
+            candidates.append((month, int(m.group(1)), m.group(3)))
+    for month, day, year in candidates:
+        try:
+            d = dt.date(int(year) if year else pub.year, month, day)
+        except ValueError:
+            continue
+        if not year and d < pub:
+            try:
+                d = d.replace(year=pub.year + 1)
+            except ValueError:
+                continue
+        if pub <= d <= pub + dt.timedelta(days=400):
+            return d.isoformat()
+    return None
+
 def parse(data, source):
     items = newsroom_entries(data, source) if source.get("format") else xml_entries(data)
     out=[]
@@ -132,6 +174,9 @@ def parse(data, source):
         date=date_iso(date)
         if not title or not date or not host_ok(link,source["hosts"]): continue
         out.append({"id":hashlib.sha256(link.encode()).hexdigest()[:20],"title":title,"summary":summary or title,"url":link,"publishedAt":date,"source":source["name"],"jurisdiction":source["jurisdiction"],"language":source["lang"],"category":topic(title)})
+        deadline = extract_deadline(title + ". " + summary, date)
+        if deadline:
+            out[-1]["deadline"] = deadline
     return out
 def select_notices(items, curated):
     ranked = sorted(items, key=lambda item: item["publishedAt"], reverse=True)

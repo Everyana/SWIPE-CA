@@ -22,6 +22,13 @@ const topics = {
 function label(value: string, translations: Record<string, string>, lang: Lang) {
   return lang === 'fr' ? translations[value] ?? value : value;
 }
+export function deadlineLabel(iso: string, lang: Lang, today = new Date()) {
+  const d = new Date(iso + 'T23:59:59');
+  const text = d.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {year: 'numeric', month: 'long', day: 'numeric'});
+  const closed = d.getTime() < today.getTime();
+  if (lang === 'fr') return closed ? `Date limite passée · ${text}` : `Date limite · ${text}`;
+  return closed ? `Deadline passed · ${text}` : `Deadline · ${text}`;
+}
 function searchText(value: string) {
   return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().trim();
 }
@@ -64,6 +71,7 @@ useEffect(() => {
         en: {title: n.title, summary: n.summary || n.title, action: 'Read original notice'},
         fr: {title: n.title, summary: n.summary || n.title, action: 'Lire l’avis original'},
         source: n.source, url: n.url,
+        deadline: typeof n.deadline === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(n.deadline) ? n.deadline : undefined,
       }));
       if (request === controller) {
         latestTimestamp = timestamp;
@@ -114,7 +122,7 @@ const toggle=(id:string)=>setSaved(s=>s.includes(id)?s.filter(x=>x!==id):[...s,i
 }</h2>{feedStatus==='unavailable' ?
   <button onClick={()=>{setFeedStatus('loading');setRetry(value=>value+1)}}>{lang==='en'?'Try again':'Réessayer'}</button> :
   !!stories.length && hasFilters && <button onClick={()=>{setQ('');setCat('All');setJur('All')}}>{t.reset}</button>
-}</div>:filtered.map((s,i)=><article className="story" id={s.id} key={s.id}><div className="storyInner"><div className="meta"><span className="pill">{label(s.category,topics,lang)}</span><span>{label(s.jurisdiction,jurisdictions,lang)}</span><span className="sep">·</span><span>{new Date(s.date).toLocaleDateString(lang==='fr'?'fr-CA':'en-CA',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'})}</span></div><div className="notice-language">{lang==='en'?'Original language':'Langue originale'} · {s.language==='fr'?'Français':'English'}</div><h1 lang={s.language}>{s[lang].title}</h1>{s[lang].summary!==s[lang].title&&<p className="summary" lang={s.language}>{s[lang].summary}</p>}{s.deadline&&<div className="deadline">{lang==='en'?'Deadline':'Date limite'}: {s.deadline}</div>}<a className="source notice-source" href={s.url} target="_blank" rel="noopener noreferrer">
+}</div>:filtered.map((s,i)=><article className="story" id={s.id} key={s.id}><div className="storyInner"><div className="meta"><span className="pill">{label(s.category,topics,lang)}</span><span>{label(s.jurisdiction,jurisdictions,lang)}</span><span className="sep">·</span><span>{new Date(s.date).toLocaleDateString(lang==='fr'?'fr-CA':'en-CA',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'})}</span></div><div className="notice-language">{lang==='en'?'Original language':'Langue originale'} · {s.language==='fr'?'Français':'English'}</div><h1 lang={s.language}>{s[lang].title}</h1>{s[lang].summary!==s[lang].title&&<p className="summary" lang={s.language}>{s[lang].summary}</p>}{s.deadline&&<div className="deadline">{deadlineLabel(s.deadline,lang)}</div>}<a className="source notice-source" href={s.url} target="_blank" rel="noopener noreferrer">
   <div><span>{t.official}</span><strong>{s.source}</strong></div>
   <span className="source-action">{s[lang].action}<ExternalLink size={16} aria-hidden="true"/></span>
 </a><div className="actions"><button onClick={()=>toggle(s.id)}>{saved.includes(s.id)?<Check size={19}/>:<Bookmark size={19}/>} {saved.includes(s.id)?t.saved:t.save}</button><button onClick={()=>share(s)}><Share2 size={19}/>{t.share}</button></div></div></article>)}</main><aside className="rightRail"><div className="vertical">SWIPE TO KNOW · SWIPE TO KNOW · SWIPE TO KNOW</div><div className="arrows"><button onClick={()=>feed.current?.children[Math.max(0,active-1)]?.scrollIntoView({behavior:'smooth'})} aria-label="Previous"><ArrowUp size={20}/></button><button onClick={()=>feed.current?.children[Math.min(filtered.length-1,active+1)]?.scrollIntoView({behavior:'smooth'})} aria-label="Next"><ArrowDown size={20}/></button></div></aside></div><footer><span>SWIPES · CANADA / CANADA</span><span>{feedStatus==='live'?(lang==='en'?'OFFICIAL SOURCES · ORIGINAL-LANGUAGE EXCERPTS':'SOURCES OFFICIELLES · EXTRAITS EN LANGUE ORIGINALE'):(lang==='en'?'LIVE FEED NOT YET AVAILABLE':'FLUX EN DIRECT NON DISPONIBLE')}</span></footer>{modal&&<div className="overlay" onClick={()=>setModal(false)}><section className="modal" onClick={e=>e.stopPropagation()}><button className="close" onClick={()=>setModal(false)}><X/></button><h2>{t.about} SWIPES</h2><p>{t.aboutText}</p><p>{lang==='en'?'Independent platform. Not affiliated with or endorsed by the Government of Canada.':'Plateforme indépendante. Non affiliée au gouvernement du Canada et non approuvée par celui-ci.'}</p><p>{lang==='en'?'Coverage in this edition':'Couverture de cette édition'} · {new Set(stories.map(s=>s.jurisdiction)).size} / {Object.keys(jurisdictions).length}</p>{feedUpdated&&<p>{lang==='en'?'Feed last refreshed':'Dernière actualisation du fil'} · <time dateTime={feedUpdated}>{new Date(feedUpdated).toLocaleString(lang==='fr'?'fr-CA':'en-CA')}</time></p>}<button className="primary" onClick={()=>setModal(false)}>{t.close}</button></section></div>}</div>}

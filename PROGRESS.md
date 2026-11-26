@@ -19,7 +19,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 5. ✅ StatCan: wrong URL (HTML page) + bot challenge on RSS → mark source blocked in registry with reason — audit
 6. ✅ Source health file `public/data/source-health.json` + consecutive-failure tracking — BP §12/§15, LC #9
 7. ✅ Failure alert: open/update a GitHub issue when a source fails 3 runs in a row — BP §16 Ops
-8. ⬜ Deadline extraction (deadline/closing/until dates) → `deadline` on cards — BP §6, 14d #19
+8. ✅ Deadline extraction (deadline/closing/until dates) → `deadline` on cards — BP §6, 14d #19
 9. ⬜ Reader shows our editor summary when present, labels source excerpt — BP §6, 14d #3
 10. ⬜ Topic patterns: reduce "Public updates" catch-all — BP §5
 11. ⬜ Prerender fixes: title replace never matches; duplicate robots meta — audit

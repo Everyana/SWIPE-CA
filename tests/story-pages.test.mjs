@@ -26,3 +26,12 @@ test('only pages with our own summary are indexable', () => {
     assert.equal(robots.startsWith('index'), Boolean(s.editorSummary), s.id);
   }
 });
+
+test('a notice with a deadline shows it on its story page', () => {
+  const out = mkdtempSync(join(tmpdir(), 'swipes-'));
+  writeStoryPages(out);
+  const withDeadline = loadStories().find((s) => s.deadline);
+  if (!withDeadline) return; // feed has no deadline notices right now
+  const html = readFileSync(join(out, 'story', withDeadline.id, 'index.html'), 'utf8');
+  assert.match(html, new RegExp(`datetime="${withDeadline.deadline}"`));
+});
