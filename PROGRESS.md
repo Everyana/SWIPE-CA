@@ -28,7 +28,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 14. ✅ /sources/ page generated from registry + health (transparency) — BP §14, LC #8
 15. ✅ /about/ editorial + corrections + privacy notice page — LC #8, BP §14
 16. ✅ Weekly link checker workflow (card source URLs) — LC #9, BP §16
-17. ⬜ Remove unused GitHub Pages deploy workflow — audit
+17. ✅ Remove unused GitHub Pages deploy workflow — audit
 18. ⬜ New Brunswick official feed — README, audit
 19. ⬜ Nunavut 403 on runner: retry with browser-like headers; else mark blocked — audit
 20. ⬜ README refresh (architecture, sources, tests, ops) — README

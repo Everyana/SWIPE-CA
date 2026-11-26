@@ -18,3 +18,4 @@
 - New /sources/ page: every official source with level, status and last successful fetch, built from the registry and health file.
 - New /about/ page: what we publish, corrections, privacy (no account, no tracking cookies) and the independence disclaimer; linked from the About panel and every story page.
 - Weekly link check (Mondays): every card's official link is requested; broken ones open a GitHub issue, bot-walled ones are reported as unverified.
+- Removed the unused GitHub Pages deploy workflow; Hostinger Git auto-deploy is the only deploy path.
