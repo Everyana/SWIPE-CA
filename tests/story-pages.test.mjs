@@ -12,7 +12,7 @@ test('story pages, sitemap and robots are written', () => {
   assert.equal(r.pages, stories.length);
   assert.ok(r.indexed > 0 && r.indexed <= r.pages);
   const sitemap = readFileSync(join(out, 'sitemap.xml'), 'utf8');
-  assert.equal((sitemap.match(/<loc>/g) || []).length, r.indexed + 2);
+  assert.equal((sitemap.match(/<loc>/g) || []).length, r.indexed + 4);
   assert.ok(existsSync(join(out, 'robots.txt')));
   assert.ok(existsSync(join(out, 'stories', 'index.html')));
 });
@@ -45,4 +45,17 @@ test('story pages carry the disclaimer, a correction link and the last-checked d
   assert.match(html, /href="mailto:hello@everyana\.com\?subject=SWIPES%20correction/);
   assert.match(html, /Last checked against the source feed: \d{4}-\d{2}-\d{2}/);
   assert.match(html, /href="\/about\/"/);
+});
+
+test('about and sources pages are built from the registry', () => {
+  const out = mkdtempSync(join(tmpdir(), 'swipes-'));
+  writeStoryPages(out);
+  const sources = readFileSync(join(out, 'sources', 'index.html'), 'utf8');
+  const reg = JSON.parse(readFileSync('scripts/sources.json', 'utf8')).sources;
+  for (const r of reg) assert.ok(sources.includes(r.name.replace(/&/g, '&amp;')), r.name);
+  assert.match(sources, /Not fetched/); // Statistics Canada is blocked
+  const about = readFileSync(join(out, 'about', 'index.html'), 'utf8');
+  assert.match(about, /Corrections/);
+  assert.match(about, /Privacy/);
+  assert.match(about, /not affiliated with or endorsed by any government/);
 });

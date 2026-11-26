@@ -25,8 +25,8 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 11. ✅ Prerender fixes: title replace never matches; duplicate robots meta — audit
 12. ✅ Accessibility: skip link, focus-visible, reduced motion, live region for card position — BP §14, LC #7
 13. ✅ Story pages: exact disclaimer + "Report a correction" link + last-checked date — BP §6/§14, LC #5
-14. ⬜ /sources/ page generated from registry + health (transparency) — BP §14, LC #8
-15. ⬜ /about/ editorial + corrections + privacy notice page — LC #8, BP §14
+14. ✅ /sources/ page generated from registry + health (transparency) — BP §14, LC #8
+15. ✅ /about/ editorial + corrections + privacy notice page — LC #8, BP §14
 16. ⬜ Weekly link checker workflow (card source URLs) — LC #9, BP §16
 17. ⬜ Remove unused GitHub Pages deploy workflow — audit
 18. ⬜ New Brunswick official feed — README, audit

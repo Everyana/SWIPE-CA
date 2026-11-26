@@ -15,3 +15,5 @@
 - Home page: title is now set by the pre-renderer (it never matched before) and the duplicate robots tag is gone; `npm run check:dist` verifies the build output in CI.
 - Accessibility: skip link to the stories, screen-reader announcement of the current card ("Story 3 of 40"), and smooth scrolling turned off for reduced-motion users.
 - Story pages: full independence disclaimer, 'Report a correction' email link and the date the notice was last checked against the source feed.
+- New /sources/ page: every official source with level, status and last successful fetch, built from the registry and health file.
+- New /about/ page: what we publish, corrections, privacy (no account, no tracking cookies) and the independence disclaimer; linked from the About panel and every story page.

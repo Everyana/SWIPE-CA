@@ -57,8 +57,36 @@ export function writeStoryPages(outDir) {
   const index = Object.keys(byJur).sort().map((j) => `<h2>${esc(j)}</h2><ul>${byJur[j].map((n) => `<li><a href="${storyPath(n)}">${esc(n.title)}</a> <small>${esc(String(n.publishedAt).slice(0, 10))}</small></li>`).join('')}</ul>`).join('');
   mkdirSync(join(outDir, 'stories'), {recursive: true});
   writeFileSync(join(outDir, 'stories', 'index.html'), page({title: 'All notices by province and territory | SWIPES Canada', description: 'Every official notice published on SWIPES Canada, grouped by province, territory and federal.', path: '/stories/', body: `<h1>All notices</h1>${index}`}));
-  const urls = [{loc: '/', lastmod: today}, {loc: '/stories/', lastmod: today}, ...stories.filter(indexable).map((n) => ({loc: storyPath(n), lastmod: String(n.publishedAt).slice(0, 10)}))];
+  writeInfoPages(outDir, today);
+  const urls = [{loc: '/', lastmod: today}, {loc: '/stories/', lastmod: today}, {loc: '/about/', lastmod: today}, {loc: '/sources/', lastmod: today}, ...stories.filter(indexable).map((n) => ({loc: storyPath(n), lastmod: String(n.publishedAt).slice(0, 10)}))];
   writeFileSync(join(outDir, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')}\n</urlset>\n`);
   writeFileSync(join(outDir, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
   return {pages: stories.length, indexed: stories.filter(indexable).length};
+}
+
+const LEVEL = {federal: 'Federal', provincial: 'Provincial', territorial: 'Territorial', municipal: 'Municipal', regional: 'Regional', institution: 'Public institution'};
+
+export function sourceRows() {
+  const registry = readJson('scripts/sources.json', {sources: []}).sources || [];
+  const health = Object.fromEntries((readJson('public/data/source-health.json', {sources: []}).sources || []).map((h) => [h.id, h]));
+  return registry.map((r) => {
+    const h = health[r.id];
+    const status = r.status !== 'active' ? 'Not fetched' : !h ? 'Active' : h.status === 'ok' ? 'Working' : 'Temporarily failing';
+    return {...r, statusLabel: status, lastSuccess: h?.lastSuccess ? String(h.lastSuccess).slice(0, 10) : '', reason: r.status !== 'active' ? (r.note || '') : (h && h.status !== 'ok' ? h.error || '' : '')};
+  });
+}
+
+function writeInfoPages(outDir, today) {
+  const rows = sourceRows();
+  const table = `<table style="width:100%;border-collapse:collapse;font-size:15px"><thead><tr><th align="left">Source</th><th align="left">Level</th><th align="left">Status</th><th align="left">Last success</th></tr></thead><tbody>${rows.map((r) => `<tr style="border-top:1px solid #23384a"><td><a href="${esc(r.url)}" rel="noopener" target="_blank">${esc(r.name)}</a><br><small>${esc(r.jurisdiction)} · ${esc(r.lang.toUpperCase())} · ${esc(r.access)}</small>${r.reason ? `<br><small>${esc(r.reason)}</small>` : ''}</td><td>${esc(LEVEL[r.level] || r.level)}</td><td>${esc(r.statusLabel)}</td><td>${esc(r.lastSuccess)}</td></tr>`).join('')}</tbody></table>`;
+  mkdirSync(join(outDir, 'sources'), {recursive: true});
+  writeFileSync(join(outDir, 'sources', 'index.html'), page({title: 'Official sources | SWIPES Canada', description: 'Every official government source SWIPES Canada reads, with its status and the last time it was fetched successfully.', path: '/sources/', body: `<h1>Official sources</h1><p>SWIPES Canada only reads channels published by governments and public institutions. A card can only link to the domains listed for its source. The feed is checked every six hours; this page was built on ${esc(today)}.</p>${table}<p>Missing a source, or a source that looks wrong? Email <a href="mailto:${CONTACT}">${CONTACT}</a>.</p>`}));
+  const about = `<h1>About SWIPES Canada</h1>
+<p>SWIPES Canada collects notices published by Canadian governments and public institutions and shows them as short cards you can swipe through. Every card links to the original notice.</p>
+<h2>What we publish</h2><ul><li>Only notices from official government and public-institution channels. See the <a href="/sources/">list of sources</a>.</li><li>No paid placement, no sponsored ranking and no political party messaging.</li><li>Media advisories, press-conference schedules and itineraries are left out.</li><li>Card text is the issuer's own opening text, or a short summary written by SWIPES when one is marked as such. Notices appear in the language the issuer used.</li><li>Deadlines are read from the notice text. Always confirm them with the issuing authority.</li></ul>
+<h2>Corrections</h2><p>If a card or page is wrong, use the "Report a correction" link on the story page or email <a href="mailto:${CONTACT}">${CONTACT}</a>. We fix confirmed errors and note the change on the page.</p>
+<h2>Privacy</h2><ul><li>No account is needed and we ask for no personal information.</li><li>Saved cards and your language choice stay in your own browser (local storage) and are not sent to us.</li><li>No advertising or analytics cookies are set.</li><li>To load the newest feed, your browser requests the public data files from this site and from GitHub (raw.githubusercontent.com), which receives your IP address as any web server does.</li></ul>
+<h2>Independence</h2><p>${DISCLAIMER}</p>`;
+  mkdirSync(join(outDir, 'about'), {recursive: true});
+  writeFileSync(join(outDir, 'about', 'index.html'), page({title: 'About, sources and corrections | SWIPES Canada', description: 'What SWIPES Canada publishes, where it comes from, how to report a correction and how your data is handled.', path: '/about/', body: about}));
 }
