@@ -8,3 +8,4 @@
 - Alerts: a source that fails 3 runs in a row opens a GitHub issue labelled source-health; it closes itself when the source recovers.
 - Deadlines: the fetcher pulls explicit deadlines (EN/FR cues such as 'apply by', 'until', 'date limite') into a `deadline` field; cards show it (or 'Deadline passed') and story pages print it.
 - Deadline extraction ignores event end dates ('runs until', 'se déroule jusqu'au'); weak cues need an action word such as apply, submit or feedback.
+- Cards show our own SWIPES summary when one exists (labelled), and the pre-rendered home page uses it and links to the story page.
