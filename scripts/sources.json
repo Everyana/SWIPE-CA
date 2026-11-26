@@ -198,7 +198,8 @@
         "gov.nu.ca"
       ],
       "verifiedAt": "2026-11-25",
-      "status": "active"
+      "status": "blocked",
+      "note": "Feed works in a browser but returns HTTP 403 to the scheduled job (server blocks automated clients). We do not disguise the job as a browser. Nunavut stays covered by curated notices until gov.nu.ca allows the feed. Checked 2026-11-25."
     },
     {
       "id": "government-of-the-northwest-territories",
