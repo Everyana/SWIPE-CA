@@ -12,3 +12,4 @@
 - Media advisories, itineraries and press invitations are no longer published as cards.
 - New topics: Laws and regulations, Budget and finance, Economy and business, Culture and awards, Indigenous, Reports and data (EN/FR); archive re-tagged each run except curated notices.
 - End-to-end fetcher test with faked feeds (feed, archive, health, deadlines, failure handling).
+- Home page: title is now set by the pre-renderer (it never matched before) and the duplicate robots tag is gone; `npm run check:dist` verifies the build output in CI.

@@ -29,7 +29,6 @@ function prerender() {
       }
       const head = [
         `<link rel="canonical" href="${SITE}"/>`,
-        `<meta name="robots" content="index,follow,max-image-preview:large"/>`,
         `<meta property="og:type" content="website"/>`,
         `<meta property="og:site_name" content="SWIPES Canada"/>`,
         `<meta property="og:locale" content="en_CA"/>`,
@@ -53,7 +52,7 @@ function prerender() {
         .join('');
       const body = `<div class="pr"><h1>SWIPES.</h1><p class="k">CANADA EDITION · PUBLIC INFORMATION</p>${cards}</div>`;
       return html
-        .replace('<title>SWIPES | Do the Swipe</title>', `<title>${esc(TITLE)}</title>`)
+        .replace(/<title>[^<]*<\/title>/, `<title>${esc(TITLE)}</title>`)
         .replace('</head>', `${head}</head>`)
         .replace('<div id="root"></div>', `<div id="root">${body}</div>`);
     },
