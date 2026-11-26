@@ -35,3 +35,14 @@ test('a notice with a deadline shows it on its story page', () => {
   const html = readFileSync(join(out, 'story', withDeadline.id, 'index.html'), 'utf8');
   assert.match(html, new RegExp(`datetime="${withDeadline.deadline}"`));
 });
+
+test('story pages carry the disclaimer, a correction link and the last-checked date', () => {
+  const out = mkdtempSync(join(tmpdir(), 'swipes-'));
+  writeStoryPages(out);
+  const s = loadStories()[0];
+  const html = readFileSync(join(out, 'story', s.id, 'index.html'), 'utf8');
+  assert.match(html, /not affiliated with or endorsed by any government/);
+  assert.match(html, /href="mailto:hello@everyana\.com\?subject=SWIPES%20correction/);
+  assert.match(html, /Last checked against the source feed: \d{4}-\d{2}-\d{2}/);
+  assert.match(html, /href="\/about\/"/);
+});

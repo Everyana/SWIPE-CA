@@ -14,3 +14,4 @@
 - End-to-end fetcher test with faked feeds (feed, archive, health, deadlines, failure handling).
 - Home page: title is now set by the pre-renderer (it never matched before) and the duplicate robots tag is gone; `npm run check:dist` verifies the build output in CI.
 - Accessibility: skip link to the stories, screen-reader announcement of the current card ("Story 3 of 40"), and smooth scrolling turned off for reduced-motion users.
+- Story pages: full independence disclaimer, 'Report a correction' email link and the date the notice was last checked against the source feed.
