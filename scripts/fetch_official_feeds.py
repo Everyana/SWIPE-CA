@@ -13,24 +13,22 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-SOURCES = [
-    {"name":"Government of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom", "hosts":["canada.ca","gc.ca"]},
-    {"name":"Gouvernement du Canada", "jurisdiction":"Federal", "lang":"fr", "url":"https://api.io.canada.ca/io-server/gc/news/fr/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom", "hosts":["canada.ca","gc.ca"]},
-    {"name":"BC Gov News", "jurisdiction":"British Columbia", "lang":"en", "url":"https://news.gov.bc.ca/feed", "hosts":["gov.bc.ca"]},
-    {"name":"Prime Minister of Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://www.pm.gc.ca/en/rss.xml", "hosts":["pm.gc.ca"]},
-    {"name":"Statistics Canada", "jurisdiction":"Federal", "lang":"en", "url":"https://www150.statcan.gc.ca/n1/dai-quo/rss-eng.htm", "hosts":["statcan.gc.ca"]},
-    {"name":"Government of Alberta", "jurisdiction":"Alberta", "lang":"en", "url":"https://www.alberta.ca/NewsRoom/newsroom.cfm", "hosts":["alberta.ca"]},
-    {"name":"Government of Saskatchewan", "jurisdiction":"Saskatchewan", "lang":"en", "url":"https://www.saskatchewan.ca/Feeds/NewsFeed.ashx", "hosts":["saskatchewan.ca"]},
-    {"name":"Government of Ontario", "jurisdiction":"Ontario", "lang":"en", "url":"https://news.ontario.ca/newsroom/en/rss/allnews.rss", "hosts":["ontario.ca"]},
-    {"name":"Gouvernement du Québec", "jurisdiction":"Quebec", "lang":"fr", "url":"https://www.quebec.ca/fil-de-presse.rss", "hosts":["quebec.ca"]},
-    {"name":"Government of Prince Edward Island", "jurisdiction":"Prince Edward Island", "lang":"en", "url":"https://www.princeedwardisland.ca/en/news/top-news.xml", "hosts":["princeedwardisland.ca"]},
-    {"name":"Government of Newfoundland and Labrador", "jurisdiction":"Newfoundland and Labrador", "lang":"en", "url":"https://www.gov.nl.ca/releases/feed/", "hosts":["gov.nl.ca"]},
-    {"name":"Manitoba Government", "jurisdiction":"Manitoba", "lang":"en", "url":"https://news.gov.mb.ca/news/index.rss", "hosts":["gov.mb.ca"]},
-    {"name":"Government of Yukon", "jurisdiction":"Yukon", "lang":"en", "url":"https://yukon.ca/news-feed", "hosts":["yukon.ca"]},
-    {"name":"Government of Nunavut", "jurisdiction":"Nunavut", "lang":"en", "url":"https://www.gov.nu.ca/en/news_rss", "hosts":["gov.nu.ca"]},
-    {"name":"Government of the Northwest Territories", "jurisdiction":"Northwest Territories", "lang":"en", "url":"https://gnwt.ca/newsroom", "hosts":["gnwt.ca"], "format":"gnwt"},
-    {"name":"Government of Nova Scotia", "jurisdiction":"Nova Scotia", "lang":"en", "url":"https://news.novascotia.ca/", "hosts":["novascotia.ca"], "format":"nova_scotia"},
-]
+REGISTRY = Path(__file__).with_name("sources.json")
+
+def load_sources(path=REGISTRY):
+    """Active sources from the registry, in the shape the fetcher uses."""
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    out = []
+    for e in data["sources"]:
+        if e.get("status") != "active":
+            continue
+        src = {"name": e["name"], "jurisdiction": e["jurisdiction"], "lang": e["lang"], "url": e["url"], "hosts": e["hosts"]}
+        if e["access"].startswith("page:"):
+            src["format"] = e["access"].split(":", 1)[1]
+        out.append(src)
+    return out
+
+SOURCES = load_sources()
 NS = {"a":"http://www.w3.org/2005/Atom"}
 def plain(value):
     value = re.sub(r"<[^>]*>", " ", value or "")
