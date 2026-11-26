@@ -129,8 +129,9 @@ MONTHS.update({m[:3]: i for m, i in list(MONTHS.items())})
 MONTHS.update({"sept": 9})
 MOIS = {m: i for i, m in enumerate(["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
                                     "septembre", "octobre", "novembre", "décembre"], 1)}
-EN_CUE = r"(?:deadline(?:\s+(?:is|of|to\s+apply\s+is))?|(?:submit(?:ted)?|apply|register|send)(?:\s+[a-z]+){0,3}\s+by|closes?\s+(?:on\s+)?|closing\s+date(?:\s+is)?|due\s+(?:by|on)|until|no\s+later\s+than|before)"
+EN_CUE = r"(?:deadline(?:\s+(?:is|of|to\s+apply\s+is))?|(?:submit(?:ted)?|apply|register|send)(?:\s+[a-z]+){0,3}\s+by|closes?\s+(?:on\s+)?|closing\s+date(?:\s+is)?|due\s+(?:by|on)|no\s+later\s+than|until|before)"
 EN_DATE = r"(?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday),?\s+)?([a-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(\d{4}))?"
+ACTION = r"(?:appl(?:y|ication)|submi|regist|feedback|comment|nominat|bids?\b|proposal|enrol|survey|demande|inscri|commentaire|soumett|candidat|proposition|sondage|consultation)"
 FR_CUE = r"(?:date\s+limite(?:\s+(?:est|:))?|jusqu.au|au\s+plus\s+tard\s+le|avant\s+le|d.ici\s+le)"
 FR_DATE = r"(?:le\s+)?(\d{1,2})(?:er)?\s+([a-zéû]+)(?:\s+(\d{4}))?"
 
@@ -143,12 +144,19 @@ def extract_deadline(text, published_iso):
     pub = dt.datetime.fromisoformat(published_iso).date()
     low = text.lower()
     candidates = []
+    def action_before(start):
+        # "until"/"before"/"jusqu'au" also mark event end dates; only count them after an action word.
+        return re.search(ACTION, low[max(0, start - 90):start]) is not None
     for m in re.finditer(EN_CUE + r"[:\s]+" + EN_DATE, low):
         month = MONTHS.get(m.group(1).rstrip("."))
+        if re.match(r"(?:until|before)\b", m.group(0)) and not action_before(m.start()):
+            continue
         if month:
             candidates.append((month, int(m.group(2)), m.group(3)))
     for m in re.finditer(FR_CUE + r"[:\s]+" + FR_DATE, low):
         month = MOIS.get(m.group(2))
+        if re.match(r"(?:jusqu|avant|d.ici)", m.group(0)) and not action_before(m.start()):
+            continue
         if month:
             candidates.append((month, int(m.group(1)), m.group(3)))
     for month, day, year in candidates:

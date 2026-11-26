@@ -80,3 +80,12 @@ class DeadlineTests(unittest.TestCase):
         rss = b"""<rss><channel><item><title>Grant intake opens</title><description>Apply by January 31, 2027.</description>
         <link>https://news.ontario.ca/en/release/9</link><pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>"""
         self.assertEqual(F.parse(rss, SRC)[0]["deadline"], "2027-01-31")
+
+class DeadlineEventTests(unittest.TestCase):
+    P = "2026-11-21T00:00:00+00:00"
+    def test_event_end_is_not_a_deadline(self):
+        self.assertIsNone(F.extract_deadline("Plan ahead in coastal areas from Tuesday, Nov. 24 until Thursday, Nov. 26, 2026.", self.P))
+        self.assertIsNone(F.extract_deadline("Le Grand Marché de Noël se déroule jusqu'au 24 décembre.", self.P))
+    def test_feedback_until_is_a_deadline(self):
+        self.assertEqual(F.extract_deadline("Residents can share feedback until February 8, 2027.", self.P), "2027-02-08")
+        self.assertEqual(F.extract_deadline("Les commentaires sont acceptés jusqu'au 15 décembre.", self.P), "2026-12-15")
