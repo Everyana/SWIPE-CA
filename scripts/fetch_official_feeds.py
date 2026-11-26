@@ -78,7 +78,8 @@ def date_iso(raw):
         except Exception:
             return None
 def children(node, name):
-    return node.findtext(name) or ""
+    # Atom names use the "a:" prefix, so the namespace map is required or the text is silently lost.
+    return node.findtext(name, namespaces=NS) or ""
 def xml_entries(xml):
     try:
         root = ET.fromstring(xml)

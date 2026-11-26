@@ -44,3 +44,20 @@ class SelectTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+GC_ATOM = """<feed xmlns="http://www.w3.org/2005/Atom"><updated>2026-11-25T17:52:39-05:00</updated>
+<entry><title>Government of Canada advances women’s health research</title>
+<id>https://www.canada.ca/en/institutes-health-research/news/2026/11/a.html</id>
+<summary type="html">Women deserve access to care.</summary><author><name>Canadian Institutes of Health Research</name></author>
+<category term="news releases"/><updated>2026-11-25T16:15:02-05:00</updated>
+<link href="https://www.canada.ca/en/institutes-health-research/news/2026/11/a.html"/></entry>
+</feed>""".encode()
+
+class AtomTests(unittest.TestCase):
+    def test_gc_atom_without_rel_and_published(self):
+        src = {"name": "Government of Canada", "jurisdiction": "Federal", "lang": "en", "url": "https://api.io.canada.ca/x", "hosts": ["canada.ca", "gc.ca"]}
+        items = F.parse(GC_ATOM, src)
+        self.assertEqual(len(items), 1)
+        self.assertTrue(items[0]["title"].startswith("Government of Canada advances"))
+        self.assertEqual(items[0]["summary"], "Women deserve access to care.")
+        self.assertTrue(items[0]["publishedAt"].startswith("2026-11-25T21:15:02"))
