@@ -13,7 +13,7 @@ Legend: ⬜ todo · 🚧 in progress · ✅ done + checks pass · ⛔ needs owne
 
 ## Queue (priority order)
 1. ✅ Test harness: Python unittest for fetcher + Node test for story pages; `npm test` — BP §16 (CI green)
-2. ⬜ CI workflow: tests + build on push/PR — BP §16, LC #9
+2. ✅ CI workflow: tests + build on push/PR — BP §16, LC #9
 3. ⬜ Fix Atom parsing (namespaced title/summary/date lost → GC en/fr feed 0 items) — audit (14b)
 4. ⬜ Source registry file `scripts/sources.json` (issuer, jurisdiction, level, url, access, hosts, verified date, status) — LC #1, BP §4
 5. ⬜ StatCan: wrong URL (HTML page) + bot challenge on RSS → mark source blocked in registry with reason — audit
