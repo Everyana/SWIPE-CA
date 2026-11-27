@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T01:26:45.667407+00:00",
+  "updatedAt": "2026-11-27T07:27:50.216359+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -55,6 +55,17 @@
       "publishedAt": "2026-11-27T01:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "be33bd5d5c4c43066749",
+      "title": "Prime Minister Carney refers Whitehorse Power Centres project to the Major Projects Office",
+      "summary": "Prime Minister Carney refers Whitehorse Power Centres project to the Major Projects Office",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/26/prime-minister-carney-refers-whitehorse-power-centres-project-major",
+      "publishedAt": "2026-11-27T00:43:11+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
     },
@@ -310,17 +321,6 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Public updates"
-    },
-    {
-      "id": "4b6a144e741387801fb8",
-      "title": "Winter Crossing opens first building as part of affordable housing project",
-      "summary": "Winter Crossing opens first building as part of affordable housing project zaburke November 26, 2026 - 10:16 am This is a joint release between the Government of Yukon, Da Daghay Development Corporation and the Council of Yukon First Nations. Da Daghay Development Corporation, the Government of Yukon and the Council of Yukon First Nations are proud to announce the completion of the first building in the Winter Crossing project. Fifteen new homes in Whistle Bend are ready for clients to move in. More units will be released in phases as the remaining six buildings are constructed. All buildings will include accessible units and a mix of studio,",
-      "url": "https://yukon.ca/en/news/winter-crossing-opens-first-building-part-affordable-housing-project",
-      "publishedAt": "2026-11-26T17:16:35+00:00",
-      "source": "Government of Yukon",
-      "jurisdiction": "Yukon",
-      "language": "en",
-      "category": "Housing"
     },
     {
       "id": "09a62f9dee8cf6983dd8",

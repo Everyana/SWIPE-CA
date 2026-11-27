@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T01:26:45.667407+00:00",
+  "updatedAt": "2026-11-27T07:27:50.216359+00:00",
   "notices": [
     {
       "id": "d251b24a5b6d8726afbd",
@@ -31,6 +31,17 @@
       "publishedAt": "2026-11-27T01:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "be33bd5d5c4c43066749",
+      "title": "Prime Minister Carney refers Whitehorse Power Centres project to the Major Projects Office",
+      "summary": "Prime Minister Carney refers Whitehorse Power Centres project to the Major Projects Office",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/26/prime-minister-carney-refers-whitehorse-power-centres-project-major",
+      "publishedAt": "2026-11-27T00:43:11+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
       "language": "en",
       "category": "Public updates"
     },
