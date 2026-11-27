@@ -1,0 +1,26 @@
+# Changelog
+- Tests: Python unittest for the feed fetcher and Node tests for story pages; `npm test` runs both.
+- CI workflow runs tests and the production build on every push and pull request.
+- Fix: Atom feeds (Government of Canada EN/FR) lost every title and date because namespaced fields were read without the namespace map; federal notices return to the feed.
+- Source registry: official sources now live in `scripts/sources.json` (issuer, level, access method, allowed hosts, verified date, status) instead of code.
+- Statistics Canada marked blocked with reason: the old URL was a help page and the real RSS sits behind a browser challenge.
+- Source health: each refresh writes `public/data/source-health.json` (status, items, last success, consecutive failures per source).
+- Alerts: a source that fails 3 runs in a row opens a GitHub issue labelled source-health; it closes itself when the source recovers.
+- Deadlines: the fetcher pulls explicit deadlines (EN/FR cues such as 'apply by', 'until', 'date limite') into a `deadline` field; cards show it (or 'Deadline passed') and story pages print it.
+- Deadline extraction ignores event end dates ('runs until', 'se déroule jusqu'au'); weak cues need an action word such as apply, submit or feedback.
+- Cards show our own SWIPES summary when one exists (labelled), and the pre-rendered home page uses it and links to the story page.
+- Media advisories, itineraries and press invitations are no longer published as cards.
+- New topics: Laws and regulations, Budget and finance, Economy and business, Culture and awards, Indigenous, Reports and data (EN/FR); archive re-tagged each run except curated notices.
+- End-to-end fetcher test with faked feeds (feed, archive, health, deadlines, failure handling).
+- Home page: title is now set by the pre-renderer (it never matched before) and the duplicate robots tag is gone; `npm run check:dist` verifies the build output in CI.
+- Accessibility: skip link to the stories, screen-reader announcement of the current card ("Story 3 of 40"), and smooth scrolling turned off for reduced-motion users.
+- Story pages: full independence disclaimer, 'Report a correction' email link and the date the notice was last checked against the source feed.
+- New /sources/ page: every official source with level, status and last successful fetch, built from the registry and health file.
+- New /about/ page: what we publish, corrections, privacy (no account, no tracking cookies) and the independence disclaimer; linked from the About panel and every story page.
+- Weekly link check (Mondays): every card's official link is requested; broken ones open a GitHub issue, bot-walled ones are reported as unverified.
+- Removed the unused GitHub Pages deploy workflow; Hostinger Git auto-deploy is the only deploy path.
+- New Brunswick added (EN + FR) from the gnb.ca newswire data that powers the official News and alerts page; the old RSS was retired.
+- Nunavut feed marked blocked: it returns 403 to automated clients; we don't disguise the job as a browser. Curated notices keep Nunavut covered.
+- README rewritten: registry, refresh pipeline, health alerts, deploy path, checks and known source gaps.
+- Feed noise filter: test items published by mistake on official feeds and weekly 'activities advisories' are dropped.
+- 48 more own-words editor summaries (EN/FR): 198 indexable story pages (was 150). Skipped statements, court/inquest items naming people, opposition releases and advisories.

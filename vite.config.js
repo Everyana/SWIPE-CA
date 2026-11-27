@@ -16,6 +16,8 @@ function prerender() {
     name: 'swipes-prerender',
     transformIndexHtml(html) {
       let notices = [];
+      let editor = {};
+      try { editor = JSON.parse(readFileSync('public/data/editor-summaries.json', 'utf8')).summaries || {}; } catch { editor = {}; }
       try {
         const feed = JSON.parse(readFileSync('public/data/notices.json', 'utf8'));
         notices = (feed.notices || [])
@@ -27,7 +29,6 @@ function prerender() {
       }
       const head = [
         `<link rel="canonical" href="${SITE}"/>`,
-        `<meta name="robots" content="index,follow,max-image-preview:large"/>`,
         `<meta property="og:type" content="website"/>`,
         `<meta property="og:site_name" content="SWIPES Canada"/>`,
         `<meta property="og:locale" content="en_CA"/>`,
@@ -46,11 +47,12 @@ function prerender() {
         `<style>.pr{background:#0a1926;color:#f5f1ea;font:16px/1.5 system-ui,sans-serif;min-height:100vh;padding:24px}.pr h1{font-size:28px;margin:0 0 4px}.pr p.k{color:#e94a3f;font-weight:700;letter-spacing:.08em;font-size:12px;margin:0 0 20px}.pr article{border-top:1px solid #23384a;padding:16px 0;max-width:760px}.pr small{color:#e94a3f;font-weight:700}.pr h2{font-size:20px;margin:4px 0}.pr a{color:#f5f1ea}</style>`,
       ].join('');
       const cards = notices
-        .map((n) => `<article><small>${esc(n.jurisdiction)} · ${esc(String(n.publishedAt).slice(0, 10))}</small><h2>${n.editorSummary && n.id ? `<a href="/story/${encodeURIComponent(n.id)}/">${esc(n.title)}</a>` : esc(n.title)}</h2><p>${esc(n.summary)}</p><a href="${esc(n.url)}" rel="noopener" target="_blank">${esc(n.source)} — read the original notice</a></article>`)
+        .map((n) => ({...n, editorSummary: editor[n.id]}))
+        .map((n) => `<article><small>${esc(n.jurisdiction)} · ${esc(String(n.publishedAt).slice(0, 10))}</small><h2>${n.editorSummary && n.id ? `<a href="/story/${encodeURIComponent(n.id)}/">${esc(n.title)}</a>` : esc(n.title)}</h2><p>${esc(n.editorSummary || n.summary)}</p><a href="${esc(n.url)}" rel="noopener" target="_blank">${esc(n.source)} — read the original notice</a></article>`)
         .join('');
       const body = `<div class="pr"><h1>SWIPES.</h1><p class="k">CANADA EDITION · PUBLIC INFORMATION</p>${cards}</div>`;
       return html
-        .replace('<title>SWIPES | Do the Swipe</title>', `<title>${esc(TITLE)}</title>`)
+        .replace(/<title>[^<]*<\/title>/, `<title>${esc(TITLE)}</title>`)
         .replace('</head>', `${head}</head>`)
         .replace('<div id="root"></div>', `<div id="root">${body}</div>`);
     },

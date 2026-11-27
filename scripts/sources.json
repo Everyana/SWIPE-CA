@@ -1,0 +1,263 @@
+{
+  "_note": "Approved official sources for SWIPES Canada. Only status=active sources are fetched. Every source must be a government or public institution channel; hosts lists the only domains a card link may point to.",
+  "sources": [
+    {
+      "id": "government-of-canada",
+      "name": "Government of Canada",
+      "jurisdiction": "Federal",
+      "level": "federal",
+      "lang": "en",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom",
+      "access": "atom",
+      "hosts": [
+        "canada.ca",
+        "gc.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "gouvernement-du-canada",
+      "name": "Gouvernement du Canada",
+      "jurisdiction": "Federal",
+      "level": "federal",
+      "lang": "fr",
+      "url": "https://api.io.canada.ca/io-server/gc/news/fr/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom",
+      "access": "atom",
+      "hosts": [
+        "canada.ca",
+        "gc.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "bc-gov-news",
+      "name": "BC Gov News",
+      "jurisdiction": "British Columbia",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://news.gov.bc.ca/feed",
+      "access": "rss",
+      "hosts": [
+        "gov.bc.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "prime-minister-of-canada",
+      "name": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "level": "federal",
+      "lang": "en",
+      "url": "https://www.pm.gc.ca/en/rss.xml",
+      "access": "rss",
+      "hosts": [
+        "pm.gc.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "statistics-canada",
+      "name": "Statistics Canada",
+      "jurisdiction": "Federal",
+      "level": "federal",
+      "lang": "en",
+      "url": "https://www150.statcan.gc.ca/rss/dai-quo/0-eng.rss",
+      "access": "rss",
+      "hosts": [
+        "statcan.gc.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "blocked",
+      "note": "Old URL was an HTML help page. The real 'All subjects' RSS sits behind a browser challenge (HTTP 403) and cannot be fetched by the scheduled job. Checked 2026-11-25."
+    },
+    {
+      "id": "government-of-alberta",
+      "name": "Government of Alberta",
+      "jurisdiction": "Alberta",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.alberta.ca/NewsRoom/newsroom.cfm",
+      "access": "rss",
+      "hosts": [
+        "alberta.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-saskatchewan",
+      "name": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.saskatchewan.ca/Feeds/NewsFeed.ashx",
+      "access": "rss",
+      "hosts": [
+        "saskatchewan.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-ontario",
+      "name": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://news.ontario.ca/newsroom/en/rss/allnews.rss",
+      "access": "rss",
+      "hosts": [
+        "ontario.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "gouvernement-du-qu-bec",
+      "name": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "level": "provincial",
+      "lang": "fr",
+      "url": "https://www.quebec.ca/fil-de-presse.rss",
+      "access": "rss",
+      "hosts": [
+        "quebec.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-prince-edward-island",
+      "name": "Government of Prince Edward Island",
+      "jurisdiction": "Prince Edward Island",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.princeedwardisland.ca/en/news/top-news.xml",
+      "access": "rss",
+      "hosts": [
+        "princeedwardisland.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-newfoundland-and-labrador",
+      "name": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.gov.nl.ca/releases/feed/",
+      "access": "rss",
+      "hosts": [
+        "gov.nl.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "manitoba-government",
+      "name": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://news.gov.mb.ca/news/index.rss",
+      "access": "rss",
+      "hosts": [
+        "gov.mb.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-yukon",
+      "name": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "level": "territorial",
+      "lang": "en",
+      "url": "https://yukon.ca/news-feed",
+      "access": "rss",
+      "hosts": [
+        "yukon.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-nunavut",
+      "name": "Government of Nunavut",
+      "jurisdiction": "Nunavut",
+      "level": "territorial",
+      "lang": "en",
+      "url": "https://www.gov.nu.ca/en/news_rss",
+      "access": "rss",
+      "hosts": [
+        "gov.nu.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "blocked",
+      "note": "Feed works in a browser but returns HTTP 403 to the scheduled job (server blocks automated clients). We do not disguise the job as a browser. Nunavut stays covered by curated notices until gov.nu.ca allows the feed. Checked 2026-11-25."
+    },
+    {
+      "id": "government-of-the-northwest-territories",
+      "name": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
+      "level": "territorial",
+      "lang": "en",
+      "url": "https://gnwt.ca/newsroom",
+      "access": "page:gnwt",
+      "hosts": [
+        "gnwt.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-nova-scotia",
+      "name": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://news.novascotia.ca/",
+      "access": "page:nova_scotia",
+      "hosts": [
+        "novascotia.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active"
+    },
+    {
+      "id": "government-of-new-brunswick",
+      "name": "Government of New Brunswick",
+      "jurisdiction": "New Brunswick",
+      "level": "provincial",
+      "lang": "en",
+      "url": "https://www.gnb.ca/bin/gnb/newswire?limit=30&offset=0&type=gnb3%3Anewswire%2Falert%7Cgnb3%3Anewswire%2Fnews%2Frelease%7Cgnb3%3Anewswire%2Fnews%2Fstatement%7Cgnb3%3Anewswire%2Fnews%2Falert&sortBy=PUBLISHED&sortOrder=DESC&lang=en",
+      "access": "json:gnb",
+      "hosts": [
+        "gnb.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active",
+      "note": "gnb.ca newswire JSON used by the official News and alerts page (www.gnb.ca/en/news/newswire.html); the old www2.gnb.ca RSS was retired."
+    },
+    {
+      "id": "gouvernement-du-nouveau-brunswick",
+      "name": "Gouvernement du Nouveau-Brunswick",
+      "jurisdiction": "New Brunswick",
+      "level": "provincial",
+      "lang": "fr",
+      "url": "https://www.gnb.ca/bin/gnb/newswire?limit=30&offset=0&type=gnb3%3Anewswire%2Falert%7Cgnb3%3Anewswire%2Fnews%2Frelease%7Cgnb3%3Anewswire%2Fnews%2Fstatement%7Cgnb3%3Anewswire%2Fnews%2Falert&sortBy=PUBLISHED&sortOrder=DESC&lang=fr",
+      "access": "json:gnb",
+      "hosts": [
+        "gnb.ca"
+      ],
+      "verifiedAt": "2026-11-25",
+      "status": "active",
+      "note": "gnb.ca newswire JSON used by the official News and alerts page (www.gnb.ca/en/news/newswire.html); the old www2.gnb.ca RSS was retired."
+    }
+  ]
+}
