@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:27:50.216359+00:00",
+  "updatedAt": "2026-11-27T13:23:32.933771+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -25,6 +25,39 @@
   ],
   "coverageTarget": 14,
   "notices": [
+    {
+      "id": "823877adfe2ebb7e1058",
+      "title": "Mise en garde aux entrepreneurs de la région de l'Abitibi-Témiscamingue : tentative de fraude par un faux représentant de la RBQ",
+      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- La Régie du bâtiment du Québec (RBQ) souhaite informer les entrepreneurs et la population qu'une tentative de fraude impliquant l'usurpation de son identité lui a récemment été signalée. Selon les informations reçues, un entrepreneur aurait été contacté par téléphon",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/mise-en-garde-aux-entrepreneurs-de-la-region-de-labitibi-temiscamingue-tentative-de-fraude-par-un-faux-representant-de-la-rbq-73223",
+      "publishedAt": "2026-11-27T08:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "963c87e7c6751620acfb",
+      "title": "/R E P R I S E -- INVITATION AUX MÉDIAS : Inauguration du Pavillon de La Casa à Longueuil/",
+      "summary": "LONGUEUIL, QC , le 26 nov. 2026 /CNW/ -- Le gouvernement du Québec, le gouvernement du Canada, la Ville de Longueuil et Hébergement La Casa Bernard-Hubert invitent les représentantes et représentants des médias à l'inauguration du Pavillon, un agrandissement de l'un des points de service de La Casa.",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-invitation-aux-medias-inauguration-du-pavillon-de-la-casa-a-longueuil-73221",
+      "publishedAt": "2026-11-27T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "699c2cff3ae273f91e05",
+      "title": "/R E P R I S E -- Avis aux médias - Mise en service de la première structure du nouveau pont de l'Île-aux-Tourtes/",
+      "summary": "MONTRÉAL , le 25 nov. 2026 /CNW/ -- Le ministre des Transports et de la Mobilité durable, M. Nicolas Girard, invite les représentants des médias à une conférence de presse concernant l'ouverture de la première structure du nouveau pont de l'Île-aux-Tourtes. Celle-ci sera suivie d'une prise d'images.",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-mise-en-service-de-la-premiere-structure-du-nouveau-pont-de-lile-aux-tourtes-73220",
+      "publishedAt": "2026-11-27T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
+    },
     {
       "id": "d251b24a5b6d8726afbd",
       "title": "Innovation Saskatchewan Invests $450,000 to Advance Lithium Refining Technology in Saskatchewan",
@@ -77,6 +110,17 @@
       "publishedAt": "2026-11-27T00:09:06+00:00",
       "source": "Government of Yukon",
       "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e0a7baa63d6cd3c2e3e1",
+      "title": "Safety Emphasized as Lobster Season Begins in Southwest Nova Scotia",
+      "summary": "Safety Emphasized as Lobster Season Begins in Southwest Nova Scotia",
+      "url": "https://news.novascotia.ca/en/2026/11/27/safety-emphasized-lobster-season-begins-southwest-nova-scotia",
+      "publishedAt": "2026-11-27T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
       "language": "en",
       "category": "Public updates"
     },
@@ -277,50 +321,6 @@
       "jurisdiction": "Quebec",
       "language": "fr",
       "category": "Transport"
-    },
-    {
-      "id": "2929c6fc2f38ffb8ff52",
-      "title": "Ministerial Statement: Minister Goosney Congratulates Newfoundland and Labrador Nominees at the Canadian Tourism Awards",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Mike Goosney, Minister of Tourism, Culture, Arts and Recreation: Speaker, I rise today to recognize two outstanding nominees from Newfoundland and Labrador at the Canadian Tourism... Read More about Ministerial Statement: Minister Goosney Congratulates Newfoundland and Labrador Nominees at the Canadian Tourism Awards The post Ministerial Statement: Minister Goosney Congratulates Newfoundland and Labrador Nominees at the Canadian Tourism Awards appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/tcar/1126n09/",
-      "publishedAt": "2026-11-26T17:35:14+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "e92fcc89bf04b167c922",
-      "title": "Ministerial Statement: Enhanced Indigenous Cultural Programming at Correctional Facilities",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Helen Conway Ottenheimer, Minister of Justice and Public Safety: Speaker, our government is committed to ensuring Indigenous cultural programming is available in correctional facilities throughout Newfoundland... Read More about Ministerial Statement: Enhanced Indigenous Cultural Programming at Correctional Facilities The post Ministerial Statement: Enhanced Indigenous Cultural Programming at Correctional Facilities appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/jps/1126n08/",
-      "publishedAt": "2026-11-26T17:30:48+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "50bec67220d5eb812b77",
-      "title": "Minister Pirie to Hold a Press Conference",
-      "summary": "Minister Pirie to Hold a Press Conference",
-      "url": "https://news.ontario.ca/en/advisory/1008329/minister_pirie_to_hold_a_press_conference",
-      "publishedAt": "2026-11-26T17:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "e54c355f88200bd4660c",
-      "title": "Ministerial Statement: Provincial Government Recognizes International Day of Persons with Disabilities",
-      "summary": "The following statement was read in the House of Assembly today by the Honourable Chris Tibbs, Minister of Social Supports and Well-Being: I rise today to recognize the International Day of Persons with Disabilities, December 3. This day celebrates the... Read More about Ministerial Statement: Provincial Government Recognizes International Day of Persons with Disabilities The post Ministerial Statement: Provincial Government Recognizes International Day of Persons with Disabilities appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/sswb/1126n07/",
-      "publishedAt": "2026-11-26T17:25:33+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
     },
     {
       "id": "09a62f9dee8cf6983dd8",

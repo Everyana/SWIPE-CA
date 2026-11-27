@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-27T07:27:50.216359+00:00",
+  "updatedAt": "2026-11-27T13:23:32.933771+00:00",
   "notices": [
+    {
+      "id": "823877adfe2ebb7e1058",
+      "title": "Mise en garde aux entrepreneurs de la région de l'Abitibi-Témiscamingue : tentative de fraude par un faux représentant de la RBQ",
+      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- La Régie du bâtiment du Québec (RBQ) souhaite informer les entrepreneurs et la population qu'une tentative de fraude impliquant l'usurpation de son identité lui a récemment été signalée. Selon les informations reçues, un entrepreneur aurait été contacté par téléphon",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/mise-en-garde-aux-entrepreneurs-de-la-region-de-labitibi-temiscamingue-tentative-de-fraude-par-un-faux-representant-de-la-rbq-73223",
+      "publishedAt": "2026-11-27T08:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "963c87e7c6751620acfb",
+      "title": "/R E P R I S E -- INVITATION AUX MÉDIAS : Inauguration du Pavillon de La Casa à Longueuil/",
+      "summary": "LONGUEUIL, QC , le 26 nov. 2026 /CNW/ -- Le gouvernement du Québec, le gouvernement du Canada, la Ville de Longueuil et Hébergement La Casa Bernard-Hubert invitent les représentantes et représentants des médias à l'inauguration du Pavillon, un agrandissement de l'un des points de service de La Casa.",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-invitation-aux-medias-inauguration-du-pavillon-de-la-casa-a-longueuil-73221",
+      "publishedAt": "2026-11-27T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "699c2cff3ae273f91e05",
+      "title": "/R E P R I S E -- Avis aux médias - Mise en service de la première structure du nouveau pont de l'Île-aux-Tourtes/",
+      "summary": "MONTRÉAL , le 25 nov. 2026 /CNW/ -- Le ministre des Transports et de la Mobilité durable, M. Nicolas Girard, invite les représentants des médias à une conférence de presse concernant l'ouverture de la première structure du nouveau pont de l'Île-aux-Tourtes. Celle-ci sera suivie d'une prise d'images.",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/r-e-p-r-i-s-e-avis-aux-medias-mise-en-service-de-la-premiere-structure-du-nouveau-pont-de-lile-aux-tourtes-73220",
+      "publishedAt": "2026-11-27T07:00:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
+    },
     {
       "id": "d251b24a5b6d8726afbd",
       "title": "Innovation Saskatchewan Invests $450,000 to Advance Lithium Refining Technology in Saskatchewan",
@@ -53,6 +86,17 @@
       "publishedAt": "2026-11-27T00:09:06+00:00",
       "source": "Government of Yukon",
       "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e0a7baa63d6cd3c2e3e1",
+      "title": "Safety Emphasized as Lobster Season Begins in Southwest Nova Scotia",
+      "summary": "Safety Emphasized as Lobster Season Begins in Southwest Nova Scotia",
+      "url": "https://news.novascotia.ca/en/2026/11/27/safety-emphasized-lobster-season-begins-southwest-nova-scotia",
+      "publishedAt": "2026-11-27T00:00:00+00:00",
+      "source": "Government of Nova Scotia",
+      "jurisdiction": "Nova Scotia",
       "language": "en",
       "category": "Public updates"
     },
