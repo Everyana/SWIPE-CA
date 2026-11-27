@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:05:57.803583+00:00",
+  "updatedAt": "2026-11-27T01:26:45.667407+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -13,7 +13,6 @@
     "British Columbia",
     "Federal",
     "Manitoba",
-    "New Brunswick",
     "Newfoundland and Labrador",
     "Northwest Territories",
     "Nova Scotia",
@@ -27,6 +26,28 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "d251b24a5b6d8726afbd",
+      "title": "Innovation Saskatchewan Invests $450,000 to Advance Lithium Refining Technology in Saskatchewan",
+      "summary": "Innovation Saskatchewan is investing $450,000 through the Saskatchewan Advantage Innovation Fund (SAIF) to accelerate the commercialization of advanced lithium extraction and refining technologies...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/26/innovation-saskatchewan-invests-450000-to-advance-lithium-refining-technology-in-saskatchewan",
+      "publishedAt": "2026-11-27T02:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e462575dc475b68a7983",
+      "title": "Saskatchewan Serious Incident Response Team Concludes Investigation into Fatal Officer-Involved Shooting on Ahtahkakoop Cree Nation",
+      "summary": "On Sunday, September 8, 2024, at approximately 8:55 a.m., the Saskatchewan Serious Incident Response Team (SIRT) received a notification from the Saskatchewan Royal Canadian Mounted Police (RCMP)...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/26/sirt-concludes-investigation-into-fatal-officer-involved-shooting-on-ahtahkakoop-cree-nation",
+      "publishedAt": "2026-11-27T02:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "61618ed1b4b19a6bcc8d",
       "title": "ExploreSask Photo Contest Winners Announced",
       "summary": "Tourism Saskatchewan is pleased to announce the winning submissions for the 2026 ExploreSask Photo Contest. The competition, launched in June, received 2,061 entries by the September 15...",
@@ -34,6 +55,28 @@
       "publishedAt": "2026-11-27T01:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "0fc4b5d6d24b1f392e1b",
+      "title": "Fall sitting of Yukon Legislative Assembly concludes",
+      "summary": "Fall sitting of Yukon Legislative Assembly concludes zaburke November 26, 2026 - 5:09 pm The 2026 fall sitting of the Yukon Legislative Assembly concluded November 26 and delivered legislation to advance several government mandate commitments for Yukoners. These included strengthening protection for wildland firefighters, supporting responsible firearm owners, passing the 2027 Fall Capital Budget to provide earlier certainty for Yukon businesses and industry and bringing balance to the rental market for tenants and landlords. Amendments to the Workers’ Safety and Compensation Act give wildland firefighters the same presumptive cancer coverage",
+      "url": "https://yukon.ca/en/news/fall-sitting-yukon-legislative-assembly-concludes",
+      "publishedAt": "2026-11-27T00:09:06+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "4f1512e275fad9ffb4ea",
+      "title": "Orders in Council",
+      "summary": "Orders Approved – November 26, 2026",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=9820501D55D1C-D4D6-8458-EA76E7139B10649B",
+      "publishedAt": "2026-11-26T22:40:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
@@ -49,6 +92,50 @@
       "category": "Public updates"
     },
     {
+      "id": "1e9928be11d979cb8749",
+      "title": "Media Advisory: Premier Wakeham Available to Media to Highlight Health Care Services",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will be available to media tomorrow (Friday, November 27) to discuss health care services. Premier Wakeham will be joined by the Honourable Joedy Wall, Minister of Health and Community Services. The... Read More about Media Advisory: Premier Wakeham Available to Media to Highlight Health Care Services The post Media Advisory: Premier Wakeham Available to Media to Highlight Health Care Services appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1126n14/",
+      "publishedAt": "2026-11-26T21:50:58+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "361e8bd5bb106171342e",
+      "title": "Fall Sitting of House of Assembly Concludes with Action on Key Provincial Government Priorities",
+      "summary": "The fall sitting of the House of Assembly concluded today with the Provincial Government continuing to deliver on its commitment to better health care, safer communities and making life more affordable for the people of Newfoundland and Labrador. Building on... Read More about Fall Sitting of House of Assembly Concludes with Action on Key Provincial Government Priorities The post Fall Sitting of House of Assembly Concludes with Action on Key Provincial Government Priorities appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1126n13-2/",
+      "publishedAt": "2026-11-26T21:40:33+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "f6048ece9665bf409142",
+      "title": "Media Advisory: Premier Wakeham to Make Funding Announcement in Support of Single Parent Families",
+      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, will make a funding announcement in support of single parent families tomorrow (Friday, November 27). The announcement will take place at 11:00 a.m. at the office of the Single Parents’ Association... Read More about Media Advisory: Premier Wakeham to Make Funding Announcement in Support of Single Parent Families The post Media Advisory: Premier Wakeham to Make Funding Announcement in Support of Single Parent Families appeared first on News Releases .",
+      "url": "https://www.gov.nl.ca/releases/2026/exec/1126n12/",
+      "publishedAt": "2026-11-26T21:30:26+00:00",
+      "source": "Government of Newfoundland and Labrador",
+      "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d65ee55c143d32094f66",
+      "title": "Manitoba Government Introduces Comprehensive Presumptive Coverage Legislation for Firefighters",
+      "summary": "Manitoba Government Introduces Comprehensive Presumptive Coverage Legislation for Firefighters",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76247",
+      "publishedAt": "2026-11-26T21:26:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "aec44f9c849ca55f1791",
       "title": "Manufacturing Keeps Saskatchewan Strong and Steady",
       "summary": "Exports of goods Manufactured in the Province Reached $10 Billion in 2025 Trade and Export Development Minister Warren Kaeding has proclaimed November 23 to 29 as Manufacturing Week in...",
@@ -60,6 +147,61 @@
       "category": "Public updates"
     },
     {
+      "id": "bf1f8d88f562e8da95b1",
+      "title": "Manitoba Government Recognizes Circle of Honour Recipients",
+      "summary": "Manitoba Government Recognizes Circle of Honour Recipients",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76245",
+      "publishedAt": "2026-11-26T21:00:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "627279be07c47fcb5c99",
+      "title": "Manitoba Government Announces Recipients of 2026 Apprenticeship Awards of Distinction",
+      "summary": "Manitoba Government Announces Recipients of 2026 Apprenticeship Awards of Distinction",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76246",
+      "publishedAt": "2026-11-26T20:45:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Jobs and training"
+    },
+    {
+      "id": "e4d92d3b97919a500b07",
+      "title": "Ontario Investing More Than $3.6 Million to Grow Made-in-Ontario Wood Manufacturing",
+      "summary": "Investment will support new manufacturing facility in Clinton to boost production of Ontario wood products and support more than 70 good-paying local jobs",
+      "url": "https://news.ontario.ca/en/release/1008328/ontario_investing_more_than_36_million_to_grow_made_in_ontario_wood_manufacturing",
+      "publishedAt": "2026-11-26T20:09:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "00a116ae45fb877c8fc2",
+      "title": "Friday, November 27, 2026",
+      "summary": "Friday, November 27, 2026",
+      "url": "https://www.pm.gc.ca/en/news/media-advisories/2026/11/26/friday-november-27-2026",
+      "publishedAt": "2026-11-26T20:06:27+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "566c0d63a34776b8be64",
+      "title": "Minister Kusendova-Bashta to Hold a Press Conference",
+      "summary": "Minister Kusendova-Bashta to Hold a Press Conference",
+      "url": "https://news.ontario.ca/en/advisory/1008326/minister_kusendova_bashta_to_hold_a_press_conference",
+      "publishedAt": "2026-11-26T19:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "6a7ee93b4d4be5e45bae",
       "title": "International Recovery of Child Support and Family Maintenance Convention Act Passes Third Reading",
       "summary": "The Honourable Helen Conway Ottenheimer, KC, Minister of Justice and Public Safety and Attorney General, today marked the passage of the International Recovery of Child Support and Family Maintenance Convention Act as it received third reading in the House of... Read More about International Recovery of Child Support and Family Maintenance Convention Act Passes Third Reading The post International Recovery of Child Support and Family Maintenance Convention Act Passes Third Reading appeared first on News Releases .",
@@ -67,6 +209,28 @@
       "publishedAt": "2026-11-26T18:50:51+00:00",
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e06d6178d98c08bade95",
+      "title": "Avis médias - Agenda public du premier ministre du Québec - 27 novembre 2026",
+      "summary": "QUÉBEC , le 26 nov. 2026 /CNW/ -- Voici l'agenda public du premier ministre du Québec et responsable de la Lutte contre l'itinérance, M. St-Pierre Plamondon, pour ce 27 novembre 2026. Veuillez noter qu'il peut changer sans préavis. Rencontre avec le scientifique en chef du Québec, M. Dupras (fermé a",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-medias-agenda-public-du-premier-ministre-du-quebec-27-novembre-2026-73219",
+      "publishedAt": "2026-11-26T18:32:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
+      "id": "d3fd9576f04019a1201b",
+      "title": "Q2 update: Alberta’s record-breaking results",
+      "summary": "Alberta’s second-quarter fiscal update projects an $8.5-billion surplus for 2026-27, putting the province on track for its sixth consecutive surplus.",
+      "url": "https://www.alberta.ca/announcements.cfm?xID=98204F94C24D1-0069-9C05-E5340EA4016BEE68",
+      "publishedAt": "2026-11-26T18:30:00+00:00",
+      "source": "Government of Alberta",
+      "jurisdiction": "Alberta",
       "language": "en",
       "category": "Public updates"
     },
@@ -91,6 +255,17 @@
       "jurisdiction": "Ontario",
       "language": "en",
       "category": "Public updates"
+    },
+    {
+      "id": "2cb609936692760cf76a",
+      "title": "Réaménagement au nord des ponts Pierre-Laporte et de Québec - Ouverture de l'avenue des Hôtels et fermetures de nuit du pont de Québec",
+      "summary": "QUÉBEC , le 26 nov. 2026 /CNW/ -- Le ministère des Transports et de la Mobilité durable informe la population que l'avenue des Hôtels sera rouverte graduellement à la circulation à compter du 27 novembre. De plus, de nouveaux accès vers l'avenue des Hôtels et la route 175 (boulevard Laurier) seront",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/reamenagement-au-nord-des-ponts-pierre-laporte-et-de-quebec-ouverture-de-lavenue-des-hotels-et-fermetures-de-nuit-du-pont-de-quebec-73218",
+      "publishedAt": "2026-11-26T17:56:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Transport"
     },
     {
       "id": "2929c6fc2f38ffb8ff52",
@@ -148,180 +323,15 @@
       "category": "Housing"
     },
     {
-      "id": "951f97eabbab8210cbc8",
-      "title": "Manitoba Government Invests $50,000 in Career Connections in Brandon",
-      "summary": "Manitoba Government Invests $50,000 in Career Connections in Brandon",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76244",
-      "publishedAt": "2026-11-26T16:35:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "fd5a950db707dd4d2b59",
-      "title": "Province Advises New Morris River Bridge on Provincial Trunk Highway 3 Now Open to Traffic",
-      "summary": "Province Advises New Morris River Bridge on Provincial Trunk Highway 3 Now Open to Traffic",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76243",
-      "publishedAt": "2026-11-26T16:21:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Transport"
-    },
-    {
-      "id": "7cb01f7c03d401cf554c",
-      "title": "Provincial Government Provides Continued Support for Newfoundland and Labrador Search and Rescue Association",
-      "summary": "The Honourable Pleaman Forsey, Minister of Forestry, Agriculture and Lands, today announced continued support to ensure volunteer ground search and rescue teams are well equipped and always prepared to respond to emergencies. The Provincial Government will continue to commit $1... Read More about Provincial Government Provides Continued Support for Newfoundland and Labrador Search and Rescue Association The post Provincial Government Provides Continued Support for Newfoundland and Labrador Search and Rescue Association appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/fal/1126n06/",
-      "publishedAt": "2026-11-26T15:55:38+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "3a01ab8ef94827d4d0d0",
-      "title": "Premier Announces New Appointment to Churchill River Negotiations Oversight Committee",
-      "summary": "The Honourable Tony Wakeham, Premier of Newfoundland and Labrador, today announced the appointment of Geoffrey P. Young, KC, to the Churchill River Negotiations Oversight Committee. Mr. Young brings more than 30 years of legal and executive experience in the province’s... Read More about Premier Announces New Appointment to Churchill River Negotiations Oversight Committee The post Premier Announces New Appointment to Churchill River Negotiations Oversight Committee appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/exec/1126n05/",
-      "publishedAt": "2026-11-26T15:45:32+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "cabdf83d8d79eaf0a66e",
-      "title": "Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy",
-      "summary": "The Provincial Government wants to hear from people throughout Newfoundland and Labrador as it develops its Rural Revitalization Strategy. Residents, municipalities, Indigenous Governments and Organizations, businesses, community groups and local leaders are invited to share the opportunities, challenges and priorities... Read More about Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy The post Public Advisory: Help Shape Newfoundland and Labrador’s Rural Revitalization Strategy appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/jobs-growth-and-rural-development/1126n04/",
-      "publishedAt": "2026-11-26T15:30:48+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "c2a618a81e8a0a86878f",
-      "title": "Enhancing emergency response across Alberta",
-      "summary": "Alberta is investing $38.5 million to strengthen emergency health services and improve access to timely emergency care across the province.",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=98201F4A57776-AA31-C49B-A168BDD655F2A1ED",
-      "publishedAt": "2026-11-26T15:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "c38b2986bb0140e93ae3",
-      "title": "Ontario Strengthening E-Bike Regulations to Protect Road Users",
-      "summary": "Ontario Strengthening E-Bike Regulations to Protect Road Users",
-      "url": "https://news.ontario.ca/en/backgrounder/1008324/ontario_strengthening_e_bike_regulations_to_protect_road_users",
-      "publishedAt": "2026-11-26T15:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "69200e7eeea246dd685d",
-      "title": "Ontario Strengthening E-Bike Regulations to Protect Road Users",
-      "summary": "New rules will prevent motorcycle-style and motor scooter-style electric vehicles from being operated as e-bikes",
-      "url": "https://news.ontario.ca/en/release/1008325/ontario_strengthening_e_bike_regulations_to_protect_road_users",
-      "publishedAt": "2026-11-26T15:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "fde493b0a3d7e06e9024",
-      "title": "Two Employers Prosecuted for Three Workplace Incidents",
-      "summary": "Two Employers Prosecuted for Three Workplace Incidents",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76242",
-      "publishedAt": "2026-11-26T14:18:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "63eca7d11d9ae381f48f",
-      "title": "Government Expands 24-Hour Snow Clearing and Ice Control Services Across the Entire Trans-Canada Highway",
-      "summary": "The Provincial Government is expanding 24-hour snow clearing and ice control operations across the entire Trans-Canada Highway in Newfoundland and Labrador, significantly enhancing winter maintenance services on the province’s main transportation route. The expansion follows a review of the 24-hour... Read More about Government Expands 24-Hour Snow Clearing and Ice Control Services Across the Entire Trans-Canada Highway The post Government Expands 24-Hour Snow Clearing and Ice Control Services Across the Entire Trans-Canada Highway appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/ti/1126n03/",
-      "publishedAt": "2026-11-26T13:50:02+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Transport"
-    },
-    {
-      "id": "035ff3dcfa0953518ad0",
-      "title": "France Charbonneau et Kim O'Bomsawin : deux voix d'influence honorées par l'Université TÉLUQ",
-      "summary": "VILLE DE QUÉBEC , le 26 nov. 2026 /CNW/ -- Sous son égide, l'Université TÉLUQ a décerné un doctorat honoris causa de l'Université du Québec à deux femmes dont les parcours ont profondément marqué la société québécoise : l'ancienne procureure de la Couronne et juge de la Cour supérieure du Québec, Fr",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/france-charbonneau-et-kim-obomsawin-deux-voix-dinfluence-honorees-par-luniversite-teluq-73213",
-      "publishedAt": "2026-11-26T13:48:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Education"
-    },
-    {
-      "id": "3a229f77d7d56ae51ac5",
-      "title": "Une première Chaire de recherche du Canada de niveau 1 à l'Université TÉLUQ sur l'intelligence des données en santé",
-      "summary": "VILLE DE QUÉBEC , le 26 nov. 2026 /CNW/ -- La professeure Neila Mezghani, de l'Université TÉLUQ, directrice de l'Institut d'intelligence artificielle appliquée (I2A) et chercheure au Centre de recherche du CHUM (CRCHUM), s'est vu attribuer une Chaire de recherche du Canada de niveau 1 en intelligenc",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/une-premiere-chaire-de-recherche-du-canada-de-niveau-1-a-luniversite-teluq-sur-lintelligence-des-donnees-en-sante-73212",
-      "publishedAt": "2026-11-26T13:42:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Health"
-    },
-    {
-      "id": "0215c8dceb463298b791",
-      "title": "Public Advisory: Winter Lights Across Canada Taking Place Next Week",
-      "summary": "The 40th annual Winter Lights Across Canada celebration will take place on Thursday, December 3, at Confederation Building in St. John’s. Winter Lights Across Canada is an annual event where each province and territory decorates its capital city and holds... Read More about Public Advisory: Winter Lights Across Canada Taking Place Next Week The post Public Advisory: Winter Lights Across Canada Taking Place Next Week appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/ti/1126n02/",
-      "publishedAt": "2026-11-26T13:30:44+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "dd9d2df21c9355b0fad3",
-      "title": "Ontario Premier Doug Ford and Unifor National President Lana Payne: “Companies that build in Canada with Canadian workers should get every advantage to succeed”",
-      "summary": "Ontario Premier Doug Ford and Unifor National President Lana Payne: “Companies that build in Canada with Canadian workers should get every advantage to succeed”",
-      "url": "https://news.ontario.ca/en/statement/1008323/ontario_premier_doug_ford_and_unifor_national_president_lana_payne_companies_that_build_in_canada_with_canadian_workers_should_get_every_advantage_to_succeed",
-      "publishedAt": "2026-11-26T13:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "860c1bf3c4e2d1304ad3",
-      "title": "Lancement de la Commission D'Astous - Commission consultative visant à proposer des améliorations de la performance de l'État et la simplification des règles administratives",
-      "summary": "QUÉBEC , le 26 nov. 2026 /CNW/ -- Le premier ministre du Québec, M. Paul St-Pierre Plamondon, a annoncé aujourd'hui en compagnie du ministre délégué à l'Efficacité gouvernementale et à l'Allègement réglementaire de l'État, M. Sébastien D'Astous, la mise en place de la Commission consultative visant",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/lancement-de-la-commission-dastous-commission-consultative-visant-a-proposer-des-ameliorations-de-la-performance-de-letat-et-la-simplification-des-regles-administratives-73211",
-      "publishedAt": "2026-11-26T11:35:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "6f22714e809cfe71c650",
-      "title": "GNWT announces senior leadership appointments at Finance and Housing NWT",
-      "summary": "GNWT announces senior leadership appointments at Finance and Housing NWT",
-      "url": "https://gnwt.ca/newsroom/gnwt-announces-senior-leadership-appointments-finance-and-housing-nwt",
+      "id": "09a62f9dee8cf6983dd8",
+      "title": "Minister Rodgers announces leadership change at the Northwest Territories Health and Social Services Authority",
+      "summary": "Minister Rodgers announces leadership change at the Northwest Territories Health and Social Services Authority",
+      "url": "https://gnwt.ca/newsroom/minister-rodgers-announces-leadership-change-northwest-territories-health-and-social-services-authority",
       "publishedAt": "2026-11-26T00:00:00+00:00",
       "source": "Government of the Northwest Territories",
       "jurisdiction": "Northwest Territories",
       "language": "en",
-      "category": "Housing"
+      "category": "Health"
     },
     {
       "id": "2a019ef9b347184a6ea3",
@@ -454,17 +464,6 @@
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
       "category": "Government Jobs"
-    },
-    {
-      "id": "7b420e11bec946b0681e",
-      "title": "New Brunswick releases its second-quarter fiscal update",
-      "summary": "The province projects a $1.31-billion deficit for 2026–27, down $347 million from its previous forecast. The release explains what changed in revenue and spending.",
-      "url": "https://www.gnb.ca/en/news/n-b.2026.11.second-quarter-financial-results-show-decreased-deficit-for-202627.html",
-      "publishedAt": "2026-11-13T00:00:00+00:00",
-      "source": "Government of New Brunswick",
-      "jurisdiction": "New Brunswick",
-      "language": "en",
-      "category": "Public updates"
     }
   ]
 }
