@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T19:04:12.455103+00:00",
+  "updatedAt": "2026-11-28T01:22:18.736646+00:00",
   "sourcesSucceeded": 12,
   "sourcesConfigured": 16,
   "sourceFailures": [
@@ -26,11 +26,77 @@
   "coverageTarget": 14,
   "notices": [
     {
+      "id": "f3b245bf5cf287ec0f95",
+      "title": "Saskatchewan Expands Community Safety Efforts with Community Discharge Offices",
+      "summary": "As part of its commitment to improving community safety, the Government of Saskatchewan is enhancing its approach to how offenders are reintegrated into communities. Saskatchewan has opened...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/saskatchewan-opens-community-discharge-offices-to-support-safer-communities",
+      "publishedAt": "2026-11-28T03:00:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "38e82d30d97830460aa8",
+      "title": "$2.24 Million in Charitable Gaming Grants Delivered to Community Groups Across Saskatchewan",
+      "summary": "Lotteries and Gaming Saskatchewan (LGS) provided about $2.24 million in charitable gaming grants in the second quarter of 2026-27, benefiting groups and organizations in nearly 230 Saskatchewan...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/224-million-in-charitable-gaming-grants-delivered-to-community-groups-across-saskatchewan",
+      "publishedAt": "2026-11-28T02:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "e902ef56cb949969fde3",
+      "title": "Saskatchewan Association of Health Organizations Inc. and the Saskatchewan Government and General Employees' Health Providers Reach Deal",
+      "summary": "The Saskatchewan Government and General Employees' Union (SGEU) representing health care workers have today signed a new collective bargaining agreement covering a six-year term (April 1, 2023 -...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/saskatchewan-association-of-health-organizations-inc-and-the-saskatchewan-government-employees-healt",
+      "publishedAt": "2026-11-28T02:30:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Health"
+    },
+    {
+      "id": "a0b02999095348264a80",
+      "title": "Exhibition featuring newest Yukon Permanent Art Collection acquisitions opens in Whitehorse",
+      "summary": "Exhibition featuring newest Yukon Permanent Art Collection acquisitions opens in Whitehorse zaburke November 27, 2026 - 4:41 pm The Government of Yukon is pleased to announce the opening of At the Edge, an exhibition featuring the 11 newest additions to the Yukon Permanent Art Collection, now on display in the foyer gallery of the Jim Smith Building in Whitehorse. Featuring painting, carving, sculpture and textile works, At the Edge explores themes of meeting points, transitions and disrupted spaces, highlighting the diverse perspectives and artistic approaches of Yukon artists. The exhibition features works by Eugene Alfred, Misha Donohoe, J",
+      "url": "https://yukon.ca/en/news/exhibition-featuring-newest-yukon-permanent-art-collection-acquisitions-opens-whitehorse",
+      "publishedAt": "2026-11-27T23:41:04+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "07d92f6b31e2226c062e",
+      "title": "Yukon First Nations and Government of Yukon leadership gather for Yukon Forum in Carmacks",
+      "summary": "Yukon First Nations and Government of Yukon leadership gather for Yukon Forum in Carmacks Primary image zaburke November 27, 2026 - 3:42 pm This is a joint Yukon Forum news release. Today, leaders representing Yukon First Nations, the Council of Yukon First Nations and the Government of Yukon gathered for the fourth Yukon Forum of the year hosted on the Traditional Territory of by Little Salmon/Carmacks First Nation in Carmacks. The meeting focused on discussions of health-related matters related to community health centres, health transformation and the substance use crisis. Yukon First Nations and the Government of Yukon signed a new Health",
+      "url": "https://yukon.ca/en/news/yukon-first-nations-and-government-yukon-leadership-gather-yukon-forum-carmacks",
+      "publishedAt": "2026-11-27T22:42:52+00:00",
+      "source": "Government of Yukon",
+      "jurisdiction": "Yukon",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "ed70ece6c553139e5170",
       "title": "Government Offers Binding Arbitration to Saskatchewan Teachers' Federation",
       "summary": "This morning, the Government of Saskatchewan has offered binding arbitration to resolve outstanding issues in the current round of collective bargaining for teachers. The Government-Trustee...",
       "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/government-offers-binding-arbitration-to-saskatchewan-teachers-federation",
       "publishedAt": "2026-11-27T22:25:00+00:00",
+      "source": "Government of Saskatchewan",
+      "jurisdiction": "Saskatchewan",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "f2f9eece789757252f4b",
+      "title": "Celebrate an Old-Fashioned Victorian Christmas at Government House",
+      "summary": "There is Claus for celebration at Government House. Guests are invited to enjoy an Old-Fashioned Victorian Christmas on Friday, November 27 from 5:30 to 8:30 p.m. This popular family tradition...",
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/celebrate-an-old-fashioned-victorian-christmas-at-government-house",
+      "publishedAt": "2026-11-27T22:00:00+00:00",
       "source": "Government of Saskatchewan",
       "jurisdiction": "Saskatchewan",
       "language": "en",
@@ -48,13 +114,13 @@
       "category": "Health"
     },
     {
-      "id": "f2f9eece789757252f4b",
-      "title": "Celebrate an Old-Fashioned Victorian Christmas at Government House",
-      "summary": "There is Claus for celebration at Government House. Guests are invited to enjoy an Old-Fashioned Victorian Christmas on Friday, November 27 from 5:30 to 8:30 p.m. This popular family tradition...",
-      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/27/celebrate-an-old-fashioned-victorian-christmas-at-government-house",
-      "publishedAt": "2026-11-27T22:00:00+00:00",
-      "source": "Government of Saskatchewan",
-      "jurisdiction": "Saskatchewan",
+      "id": "c107e82bd1108eb6a8c2",
+      "title": "Manitoba Government Honours Outstanding Early Childhood Educators Shaping Next Generation",
+      "summary": "Manitoba Government Honours Outstanding Early Childhood Educators Shaping Next Generation",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76251",
+      "publishedAt": "2026-11-27T21:22:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
       "language": "en",
       "category": "Public updates"
     },
@@ -70,6 +136,72 @@
       "category": "Public safety"
     },
     {
+      "id": "39873959b070e127bea4",
+      "title": "Province Advises of Provincial Trunk Highway 11 Bridge Closure Near Elma Starting in December",
+      "summary": "Province Advises of Provincial Trunk Highway 11 Bridge Closure Near Elma Starting in December",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76250",
+      "publishedAt": "2026-11-27T20:30:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Transport"
+    },
+    {
+      "id": "1c99d86579030f900f0e",
+      "title": "Ontario’s $4 Million Investment Expands Access to Natural Gas in Tweed",
+      "summary": "New expansion project delivers affordable and reliable natural gas to more homes, farms and businesses",
+      "url": "https://news.ontario.ca/en/release/1008333/ontarios_4_million_investment_expands_access_to_natural_gas_in_tweed",
+      "publishedAt": "2026-11-27T20:15:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "ec80f8b1602134cc120d",
+      "title": "Two People Fined for Allowing Dogs to Run at Large During White-Tailed Deer Hunting Season",
+      "summary": "Two People Fined for Allowing Dogs to Run at Large During White-Tailed Deer Hunting Season",
+      "url": "https://news.ontario.ca/en/court/1008337/two_people_fined_for_allowing_dogs_to_run_at_large_during_white_tailed_deer_hunting_season",
+      "publishedAt": "2026-11-27T20:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "21e950d60843439c6f6c",
+      "title": "New Affordable Housing Coming to Kitchener",
+      "summary": "New Affordable Housing Coming to Kitchener",
+      "url": "https://news.ontario.ca/en/bulletin/1008338/new_affordable_housing_coming_to_kitchener",
+      "publishedAt": "2026-11-27T19:30:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Housing"
+    },
+    {
+      "id": "e459bc6f09a503b52675",
+      "title": "Manitoba Government Appoints New Clean Environment Commission Chair",
+      "summary": "Manitoba Government Appoints New Clean Environment Commission Chair",
+      "url": "https://news.gov.mb.ca/news/index.html?item=76249",
+      "publishedAt": "2026-11-27T19:11:00+00:00",
+      "source": "Manitoba Government",
+      "jurisdiction": "Manitoba",
+      "language": "en",
+      "category": "Environment"
+    },
+    {
+      "id": "f14da944ee7335e521f7",
+      "title": "Québec prend acte de la Stratégie forestière fédérale et rappelle que la gestion de la forêt relève de ses compétences",
+      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- La ministre des Ressources naturelles et des Forêts, M me Natalie Bisaillon, prend acte de l'annonce d'investissements de la part du gouvernement fédéral pour soutenir la compétitivité du secteur forestier à l'échelle canadienne. La ministre rappelle néanmoins que l",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/quebec-prend-acte-de-la-strategie-forestiere-federale-et-rappelle-que-la-gestion-de-la-foret-releve-de-ses-competences-73242",
+      "publishedAt": "2026-11-27T19:09:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
       "id": "23fbbc223794c6d495a0",
       "title": "ASIRT investigating peace officer case at Alberta Children’s Hospital",
       "summary": "The Alberta Serious Incident Response Team (ASIRT) is investigating the circumstances of a serious injury sustained by a female bystander when peace officers intervened in a dispute at a hospital in Calgary.",
@@ -81,6 +213,28 @@
       "category": "Health"
     },
     {
+      "id": "0adb2db56f4b344619a2",
+      "title": "Queensville Poultry Operation Pleads Guilty to Operating Unlicensed Meat Plant",
+      "summary": "Queensville Poultry Operation Pleads Guilty to Operating Unlicensed Meat Plant",
+      "url": "https://news.ontario.ca/en/court/1008332/queensville_poultry_operation_pleads_guilty_to_operating_unlicensed_meat_plant",
+      "publishedAt": "2026-11-27T19:00:00+00:00",
+      "source": "Government of Ontario",
+      "jurisdiction": "Ontario",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "c9e0d305efae0619e398",
+      "title": "Prime Minister Carney delivers remarks at the Equal Voice Gala",
+      "summary": "Prime Minister Carney delivers remarks at the Equal Voice Gala",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/11/24/prime-minister-carney-delivers-remarks-equal-voice-gala",
+      "publishedAt": "2026-11-27T18:51:13+00:00",
+      "source": "Prime Minister of Canada",
+      "jurisdiction": "Federal",
+      "language": "en",
+      "category": "Public updates"
+    },
+    {
       "id": "5f5a0d6b6a05ab3eb547",
       "title": "Provincial Government Strengthens Cardiac Care in Newfoundland and Labrador with Investments in Staff and Equipment",
       "summary": "The Government of Newfoundland and Labrador is expanding the Provincial Cardiac Care Program’s capacity throughout the province with investments in new diagnostic equipment and specialized health care professionals that will improve access to care, reduce wait times and increase capacity... Read More about Provincial Government Strengthens Cardiac Care in Newfoundland and Labrador with Investments in Staff and Equipment The post Provincial Government Strengthens Cardiac Care in Newfoundland and Labrador with Investments in Staff and Equipment appeared first on News Releases .",
@@ -89,6 +243,17 @@
       "source": "Government of Newfoundland and Labrador",
       "jurisdiction": "Newfoundland and Labrador",
       "language": "en",
+      "category": "Public updates"
+    },
+    {
+      "id": "d0d7ac414c852d43a87d",
+      "title": "AVIS AUX MÉDIAS - Début des travaux de la Commission consultative visant à proposer des améliorations de la performance de l'État et la simplification des règles administratives",
+      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- Le ministre délégué à l'Efficacité gouvernementale et à l'Allègement réglementaire de l'État, M. Sébastien D'Astous, invite les médias à assister au début des travaux de la Commission consultative visant à proposer des améliorations de la performance de l'État et la",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/avis-aux-medias-debut-des-travaux-de-la-commission-consultative-visant-a-proposer-des-ameliorations-de-la-performance-de-letat-et-la-simplification-des-regles-administratives-73241",
+      "publishedAt": "2026-11-27T18:24:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -136,6 +301,17 @@
       "category": "Public updates"
     },
     {
+      "id": "921298c39d0c1af470c9",
+      "title": "Mise en garde à la population - Présence possible de morceaux de métal dans les coquilles du pêcheur préparées et vendues par l'entreprise Les Poissonneries Odessa inc.",
+      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- Le ministère de l'Agriculture, des Pêcheries et de l'Alimentation (MAPAQ), en collaboration avec l'entreprise, Les Poissonnerie Odessa inc., située au 6569, avenue Papineau, à Montréal, avise la population de ne pas consommer le produit indiqué dans le tableau ci-de",
+      "url": "https://www.quebec.ca/nouvelles/actualites/details/mise-en-garde-a-la-population-presence-possible-de-morceaux-de-metal-dans-les-coquilles-du-pecheur-preparees-et-vendues-par-lentreprise-les-poissonneries-odessa-inc-73239",
+      "publishedAt": "2026-11-27T17:10:00+00:00",
+      "source": "Gouvernement du Québec",
+      "jurisdiction": "Quebec",
+      "language": "fr",
+      "category": "Public updates"
+    },
+    {
       "id": "a72c457478a5dea15b22",
       "title": "Statement from Premier Dixon on Prime Minister Carney’s visit to the Yukon",
       "summary": "Statement from Premier Dixon on Prime Minister Carney’s visit to the Yukon Primary image zaburke November 27, 2026 - 10:07 am Premier Currie Dixon has issued the following statement: “On behalf of all Yukoners, I was pleased to welcome Prime Minister Mark Carney to the Yukon for his first official visit. It was an important opportunity to discuss our priorities, showcase our opportunities and strengthen our partnership with Canada. “Energy is the Yukon government's number one priority. Reliable, affordable electricity is essential to meeting today's needs, attracting investment, developing our natural resources, building homes and creating go",
@@ -158,17 +334,6 @@
       "category": "Public updates"
     },
     {
-      "id": "33b69e6e2de49bb98286",
-      "title": "Manitoba Government's Meth Sweep Results in 274 Per Cent Increase in Meth Seizures",
-      "summary": "Manitoba Government's Meth Sweep Results in 274 Per Cent Increase in Meth Seizures",
-      "url": "https://news.gov.mb.ca/news/index.html?item=76248",
-      "publishedAt": "2026-11-27T16:48:00+00:00",
-      "source": "Manitoba Government",
-      "jurisdiction": "Manitoba",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
       "id": "3209dc41eb5722c72833",
       "title": "Increasing electricity capacity to boost natural-gas growth in South Peace region",
       "summary": "Infrastructure upgrades will set stage for as much as $3 billion in industrial investment",
@@ -178,50 +343,6 @@
       "jurisdiction": "British Columbia",
       "language": "en",
       "category": "Public updates"
-    },
-    {
-      "id": "3cf56d88ad7e0713476b",
-      "title": "Attorney general’s statement on Supreme Court of Canada decision in English Montreal School Board case",
-      "summary": "Caroline Elliott, Attorney General, has released the following statement about the Supreme Court of Canada decision in the English Montreal School Board, et al. v. AG QC case:",
-      "url": "https://news.gov.bc.ca/releases/2026AG0069-001150",
-      "publishedAt": "2026-11-27T16:30:00+00:00",
-      "source": "BC Gov News",
-      "jurisdiction": "British Columbia",
-      "language": "en",
-      "category": "Education"
-    },
-    {
-      "id": "9d75058e4ab12027f453",
-      "title": "Alberta delivers in primary care: Minister Wright",
-      "summary": "Minister of Primary and Preventative Health Services Justin Wright issued the following statement on Alberta’s progress in connecting patients with primary care:",
-      "url": "https://www.alberta.ca/announcements.cfm?xID=9820928FD90FE-DE7C-16B9-5E2039397DC7BA22",
-      "publishedAt": "2026-11-27T16:30:00+00:00",
-      "source": "Government of Alberta",
-      "jurisdiction": "Alberta",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "3f94bd668b93f85400e5",
-      "title": "Ontario Launching New Motor Coach Service Between Thunder Bay, Hearst and Timmins",
-      "summary": "New route will connect riders to Northlander passenger rail service",
-      "url": "https://news.ontario.ca/en/release/1008335/ontario_launching_new_motor_coach_service_between_thunder_bay_hearst_and_timmins",
-      "publishedAt": "2026-11-27T16:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "d2d68ceb191ec79cec18",
-      "title": "Ontario Training More Francophone Staff in Long-Term Care",
-      "summary": "New funding will train nearly 90 new personal support workers in French-language homes and allow students to work in their local communities",
-      "url": "https://news.ontario.ca/en/release/1008334/ontario_training_more_francophone_staff_in_long_term_care",
-      "publishedAt": "2026-11-27T15:30:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Health"
     },
     {
       "id": "6b5c2f3eb47671e4b611",
@@ -235,124 +356,14 @@
       "category": "Education"
     },
     {
-      "id": "4a9767d68729fa8573ae",
-      "title": "Ontario Investing Over $16 Million to Support Local Community Programs",
-      "summary": "Funding will help 246 local organizations deliver new programs, create good-paying jobs and build stronger communities",
-      "url": "https://news.ontario.ca/en/release/1008331/ontario_investing_over_16_million_to_support_local_community_programs",
-      "publishedAt": "2026-11-27T15:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
+      "id": "58ad7612574ffb0881e8",
+      "title": "Intergovernmental Meeting between Tłı̨chǫ Government and Government of the Northwest Territories",
+      "summary": "Intergovernmental Meeting between Tłı̨chǫ Government and Government of the Northwest Territories",
+      "url": "https://gnwt.ca/newsroom/intergovernmental-meeting-between-tlicho-government-and-government-northwest-territories-6",
+      "publishedAt": "2026-11-27T00:00:00+00:00",
+      "source": "Government of the Northwest Territories",
+      "jurisdiction": "Northwest Territories",
       "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "29fd6eb96523c6ba7b92",
-      "title": "Prime Minister Carney lists the Mackenzie Valley Highway as a project of national interest to connect and transform Canada’s North",
-      "summary": "Prime Minister Carney lists the Mackenzie Valley Highway as a project of national interest to connect and transform Canada’s North",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/27/prime-minister-carney-lists-mackenzie-valley-highway-project-national",
-      "publishedAt": "2026-11-27T14:27:51+00:00",
-      "source": "Prime Minister of Canada",
-      "jurisdiction": "Federal",
-      "language": "en",
-      "category": "Transport"
-    },
-    {
-      "id": "841ed77087410e82edb0",
-      "title": "Ontario Investing $2 Million to Improve Local Infrastructure in Timmins",
-      "summary": "Provincial funding will help keep workers on the job and boost economic growth in Timmins",
-      "url": "https://news.ontario.ca/en/release/1008330/ontario_investing_2_million_to_improve_local_infrastructure_in_timmins",
-      "publishedAt": "2026-11-27T14:00:00+00:00",
-      "source": "Government of Ontario",
-      "jurisdiction": "Ontario",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "625df5d9a06c3efdba0c",
-      "title": "Public Advisory: Province-Wide Consultations on Red Tape Reduction Extended to December 20",
-      "summary": "The Provincial Government has extended its province-wide consultations on red tape reduction to December 20, 2026, providing additional time for businesses, communities, organizations and residents to share their ideas. The public can participate by completing an online questionnaire through engageNL.... Read More about Public Advisory: Province-Wide Consultations on Red Tape Reduction Extended to December 20 The post Public Advisory: Province-Wide Consultations on Red Tape Reduction Extended to December 20 appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/government-services/1127n02/",
-      "publishedAt": "2026-11-27T13:55:33+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "b290d6e3373817da1ccd",
-      "title": "Déclaration - La Commission des droits encourage le législateur québécois à mieux baliser le recours à la clause de dérogation",
-      "summary": "MONTRÉAL , le 27 nov. 2026 /CNW/ -- À titre de gardienne de la Charte québecoise des droits et libertés de la personne, la Commission des droits prend acte du jugement rendu ce matin par la Cour suprême dans le cadre de la contestation de la Loi sur la laïcité de l'État. À la lumière de ce jugement,",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/declaration-la-commission-des-droits-encourage-le-legislateur-quebecois-a-mieux-baliser-le-recours-a-la-clause-de-derogation-73236",
-      "publishedAt": "2026-11-27T13:39:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "858836f9bbbc0bf272df",
-      "title": "Nouveau pont de l'Île-aux-Tourtes : une première structure mise en service",
-      "summary": "SENNEVILLE, QC , le 27 nov. 2026 /CNW/ -- La construction du nouveau pont de l'Île-aux-Tourtes franchit une étape déterminante alors que la première des deux structures sera ouverte à la circulation le 7 décembre. Le ministre des Transports et de la Mobilité durable, M. Nicolas Girard, en a fait l'a",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/nouveau-pont-de-lile-aux-tourtes-une-premiere-structure-mise-en-service-73235",
-      "publishedAt": "2026-11-27T13:30:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Transport"
-    },
-    {
-      "id": "343bd1ae254a26ebfc3f",
-      "title": "Media Advisory: Minister Parrott to participate in London Mining Week Conferences",
-      "summary": "The Honourable Lloyd Parrott, Minister of Energy and Mines will travel to London, U.K., next week to participate in two conferences taking place during London Mining Week 2026. On November 29, Minister Parrott will participate in a panel discussion titled... Read More about Media Advisory: Minister Parrott to participate in London Mining Week Conferences The post Media Advisory: Minister Parrott to participate in London Mining Week Conferences appeared first on News Releases .",
-      "url": "https://www.gov.nl.ca/releases/2026/minesen/1127n01/",
-      "publishedAt": "2026-11-27T13:25:45+00:00",
-      "source": "Government of Newfoundland and Labrador",
-      "jurisdiction": "Newfoundland and Labrador",
-      "language": "en",
-      "category": "Public updates"
-    },
-    {
-      "id": "1b89212b1a6220b4570f",
-      "title": "La Cour suprême confirme qu'il appartient aux Québécois de décider",
-      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- L'opposition officielle libérale réagit à la décision de la Cour suprême au sujet de la Loi sur la Laïcité de l'État rendue ce matin. Nous nous réjouissons que la Cour suprême confirme que l'Assemblée nationale du Québec peut utiliser, sans balises, l'usage de la di",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/la-cour-supreme-confirme-quil-appartient-aux-quebecois-de-decider-73234",
-      "publishedAt": "2026-11-27T13:13:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "0add682af31dc164a4d5",
-      "title": "Réaction de Québec solidaire au jugement de la Cour suprême sur la Loi 21",
-      "summary": "VILLE DE QUÉBEC , le 27 nov. 2026 /CNW/ -- Voici la réaction de Roxane Milot, responsable solidaire en matière d'éducation, de laïcité et de justice , au jugement de la Cour suprême sur la Loi 21 : « Nous sommes très déçus de ce jugement. Cette loi est injuste et discriminatoire. On empêche des ense",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/reaction-de-quebec-solidaire-au-jugement-de-la-cour-supreme-sur-la-loi-21-73233",
-      "publishedAt": "2026-11-27T13:11:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Public updates"
-    },
-    {
-      "id": "6184d7eea36130d46248",
-      "title": "Prix d'excellence de l'Institut d'administration publique (IAPQ) - Santé Québec récompensé pour son projet d'alternatives à l'hospitalisation en santé mentale",
-      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- Santé Québec a remporté un Prix d'excellence de l'Institut d'administration publique du Québec (IAPQ) pour son projet Vers des alternatives à l'hospitalisation en santé mentale . Décernée le 26 novembre dans la catégorie « Santé et services sociaux », cette distinct",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/prix-dexcellence-de-linstitut-dadministration-publique-iapq-sante-quebec-recompense-pour-son-projet-dalternatives-a-lhospitalisation-en-sante-mentale-73229",
-      "publishedAt": "2026-11-27T12:00:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
-      "category": "Health"
-    },
-    {
-      "id": "1c855d06d811f75c2e0f",
-      "title": "Enquête publique concernant plusieurs décès de personnes en situation d'itinérance à Montréal - Début des audiences le 30 novembre 2026",
-      "summary": "QUÉBEC , le 27 nov. 2026 /CNW/ -- Le Bureau du coroner annonce le début des audiences publiques concernant plusieurs décès de personnes en situation d'itinérance survenus à Montréal au cours des dernières années. Celles-ci se tiendront au palais de justice de Montréal à compter du 30 novembre 2026.",
-      "url": "https://www.quebec.ca/nouvelles/actualites/details/enquete-publique-concernant-plusieurs-deces-de-personnes-en-situation-ditinerance-a-montreal-debut-des-audiences-le-30-novembre-2026-73230",
-      "publishedAt": "2026-11-27T11:55:00+00:00",
-      "source": "Gouvernement du Québec",
-      "jurisdiction": "Quebec",
-      "language": "fr",
       "category": "Public updates"
     },
     {
@@ -365,17 +376,6 @@
       "jurisdiction": "Nova Scotia",
       "language": "en",
       "category": "Environment"
-    },
-    {
-      "id": "09a62f9dee8cf6983dd8",
-      "title": "Minister Rodgers announces leadership change at the Northwest Territories Health and Social Services Authority",
-      "summary": "Minister Rodgers announces leadership change at the Northwest Territories Health and Social Services Authority",
-      "url": "https://gnwt.ca/newsroom/minister-rodgers-announces-leadership-change-northwest-territories-health-and-social-services-authority",
-      "publishedAt": "2026-11-26T00:00:00+00:00",
-      "source": "Government of the Northwest Territories",
-      "jurisdiction": "Northwest Territories",
-      "language": "en",
-      "category": "Health"
     },
     {
       "id": "202611-alberta-opens-its-budget-2027-survey",
